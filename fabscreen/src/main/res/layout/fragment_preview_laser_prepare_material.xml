@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_theme_background"
+    android:clickable="true"
+    android:focusable="true">
+
+    <include layout="@layout/widget_top_bar" />
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/margin_layout_5"
+        android:layout_marginBottom="@dimen/margin_layout_5"
+        android:background="@color/default_theme_primary"
+        app:layout_constraintBottom_toTopOf="@id/view_preview_laser_prepare_material_buttons"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/top_bar">
+
+        <include
+            layout="@layout/widget_set_value_ruler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </FrameLayout>
+
+    <!-- buttons -->
+    <FrameLayout
+        android:id="@+id/view_preview_laser_prepare_material_buttons"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/default_theme_primary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/btn_preview_laser_prepare_material_next"
+            style="@style/AppTheme.Button.BlueButton"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_button_45"
+            android:layout_marginStart="@dimen/margin_layout_20"
+            android:layout_marginTop="@dimen/margin_layout_10"
+            android:layout_marginEnd="@dimen/margin_layout_20"
+            android:layout_marginBottom="@dimen/margin_layout_10"
+            android:text="@string/all_next" />
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_theme_background"
+    android:clickable="true"
+    android:focusable="true">
+
+    <include layout="@layout/widget_top_bar" />
+
+    <Button
+        android:id="@+id/btn_preview_40w_settings"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/ic_top_bar_settings_51x51"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/top_bar"
+        app:layout_constraintBottom_toBottomOf="@id/top_bar" />
+
+    <include
+        layout="@layout/widget_coordinate_gemini_panel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_layout_5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/top_bar" />
+
+    <include
+        layout="@layout/widget_control_panel_xyz_axes_mini"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/margin_layout_5"
+        app:layout_constraintBottom_toTopOf="@id/widget_set_origin_pager"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/widget_coordinate_panel" />
+
+    <include
+        layout="@layout/widget_set_origin_pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_layout_5"
+        android:layout_marginBottom="@dimen/margin_layout_5"
+        app:layout_constraintBottom_toTopOf="@id/view_preview_laser_prepare_set_origin_buttons"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- buttons -->
+    <FrameLayout
+        android:id="@+id/view_preview_laser_prepare_set_origin_buttons"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/default_theme_primary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/btn_preview_laser_prepare_set_origin_next"
+            style="@style/AppTheme.Button.BlueButton"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_button_45"
+            android:layout_marginStart="@dimen/margin_layout_20"
+            android:layout_marginTop="@dimen/margin_layout_10"
+            android:layout_marginEnd="@dimen/margin_layout_20"
+            android:layout_marginBottom="@dimen/margin_layout_10"
+            android:text="@string/all_start" />
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

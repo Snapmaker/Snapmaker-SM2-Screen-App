@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_theme_background"
+    android:clickable="true"
+    android:focusable="true">
+
+    <!--  TODO: refactor this instead of image view  -->
+    <ImageView
+        android:id="@+id/iv_calibration_dual_extruder_print_check_confirm"
+        android:layout_width="260dp"
+        android:layout_height="142dp"
+        android:layout_marginTop="90dp"
+        android:contentDescription="@string/placeholder"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_calibration_dual_extruder_print_check_confirm_complete_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_layout_50"
+        android:layout_marginStart="@dimen/margin_layout_50"
+        android:layout_marginEnd="@dimen/margin_layout_50"
+        android:text="@string/calibration_dual_extruder_print_check_confirm_complete_title_all_failed"
+        android:textAlignment="center"
+        android:textColor="@color/custom_grey_200"
+        android:textSize="@dimen/font_size_h3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iv_calibration_dual_extruder_print_check_confirm" />
+
+    <TextView
+        android:id="@+id/tv_calibration_dual_extruder_print_check_confirm_complete_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_layout_10"
+        android:layout_marginStart="@dimen/margin_layout_50"
+        android:layout_marginEnd="@dimen/margin_layout_50"
+        android:text="@string/calibration_dual_extruder_print_check_confirm_complete_desc_failed"
+        android:textAlignment="center"
+        android:textColor="@color/custom_grey_200"
+        android:textSize="@dimen/font_size_h5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_calibration_dual_extruder_print_check_confirm_complete_title" />
+
+    <!--  Change parent group if child buttons more than one.  -->
+    <FrameLayout
+        android:id="@+id/view_calibration_dual_extruder_print_check_confirm_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="90dp"
+        android:layout_marginStart="@dimen/margin_layout_40"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="@dimen/margin_layout_40"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/btn_calibration_dual_extruder_print_check_confirm_complete"
+            style="@style/AppTheme.Button.BlueButton"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_button_45"
+            android:text="@string/all_complete" />
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

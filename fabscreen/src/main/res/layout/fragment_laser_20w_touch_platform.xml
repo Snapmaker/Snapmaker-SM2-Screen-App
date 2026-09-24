@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_theme_background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_laser_20w_touch_platform_desc"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageView
+            android:id="@+id/iv_laser_20w_touch_platform"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/pic_laser_40w_3axis_prepare_platform_height_360x320" />
+
+        <TextView
+            android:id="@+id/tv_toolhead_mask_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="@dimen/margin_layout_20"
+            android:layout_marginTop="@dimen/margin_layout_10"
+            android:layout_marginEnd="@dimen/margin_layout_20"
+            android:layout_marginBottom="@dimen/margin_layout_16"
+            android:gravity="center"
+            android:text="@string/preview_laser_40w_prepare_low_lever_and_touch_platform_desc" />
+    </RelativeLayout>
+
+    <include layout="@layout/widget_top_bar_back_only" />
+
+    <com.snapmaker.fabscreen.view.XYZControlPanel
+        android:id="@+id/xyz_panel_touch_platform"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:layout_constraintTop_toBottomOf="@id/rl_laser_20w_touch_platform_desc"
+        app:layout_constraintBottom_toTopOf="@id/fl_touch_platform_buttons"/>
+
+    <FrameLayout
+        android:id="@+id/fl_touch_platform_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_button_70"
+        android:background="@color/custom_grey_800"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <Button
+            android:id="@+id/btn_laser_20w_touch_platform_complete"
+            style="@style/AppTheme.Button.BlueButton"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_button_45"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/margin_layout_20"
+            android:layout_marginEnd="@dimen/margin_layout_20"
+            android:text="@string/all_complete" />
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

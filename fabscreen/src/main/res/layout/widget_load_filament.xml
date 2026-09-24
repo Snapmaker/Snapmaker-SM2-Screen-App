@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <fabscreen.libraries.legacy.view.ActionButton
+        android:id="@+id/btn_widget_load_filament_unload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/margin_layout_40"
+        app:ab_foreground="@drawable/control_btn_unload_filament"
+        app:ab_title="@string/all_unload" />
+
+    <fabscreen.libraries.legacy.view.ActionButton
+        android:id="@+id/btn_widget_load_filament_load"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/margin_layout_40"
+        app:ab_foreground="@drawable/control_btn_load_filament"
+        app:ab_title="@string/all_load" />
+
+    <TextView
+        android:id="@+id/tv_widget_load_filament_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_layout_40"
+        android:text="@string/control_filament"
+        android:textAllCaps="false"
+        android:textColor="@color/default_theme_desc2"
+        android:textSize="@dimen/font_size_h6" />
+
+</RelativeLayout>

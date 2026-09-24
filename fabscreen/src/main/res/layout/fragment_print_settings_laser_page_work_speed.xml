@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/view_print_settings_laser_page_work_speed"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_theme_primary">
+
+    <include layout="@layout/widget_set_value_ruler" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

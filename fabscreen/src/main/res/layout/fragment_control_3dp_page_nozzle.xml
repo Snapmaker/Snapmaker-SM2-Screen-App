@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?><!-- widget: setting nozzle temperature && change filament -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/view_control_3dp_page_nozzle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_theme_primary">
+
+    <include
+        android:id="@+id/view_control_3dp_page_nozzle_set_value_ruler"
+        layout="@layout/widget_set_value_ruler"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <include
+        layout="@layout/widget_load_filament"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_layout_40"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/view_control_3dp_page_nozzle_set_value_ruler" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

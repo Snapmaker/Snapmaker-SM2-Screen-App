@@ -1,0 +1,211 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="BaseTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="AppTheme" parent="BaseTheme" />
+
+    <style name="AppTheme.Activity" parent="BaseTheme" />
+
+    <style name="AppTheme.SegmentedButtonGroup">
+        <item name="sbg_borderColor">@color/default_theme_desc2</item>
+        <item name="sbg_borderSize">1px</item>
+        <item name="sbg_radius">4dp</item>
+        <item name="sbg_backgroundColor">@color/default_theme_primary</item>
+        <item name="sbg_selectorColor">@color/custom_grey_700</item>
+        <item name="sbg_selectorTextColor">@color/custom_blue_400</item>
+        <!--        <item name="sbg_selectorTextColor">@color/default_theme_secondary</item>-->
+    </style>
+
+    <style name="AppTheme.Dialog.Fullscreen" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+    <style name="AppTheme.Dialog" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:windowMinWidthMajor">70%</item>
+        <item name="android:windowMinWidthMinor">70%</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@null</item>
+    </style>
+
+    <!-- basic button theme -->
+    <style name="AppTheme.Button" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+
+    <!-- default button: blue border rounded button -->
+    <style name="AppTheme.Button.DefaultButton" parent="AppTheme.Button">
+        <item name="android:background">@drawable/all_button_round_default</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/custom_grey_0</item>
+        <item name="android:textSize">@dimen/font_size_h4</item>
+    </style>
+
+    <!-- blue button: blue gradient rounded button -->
+    <style name="AppTheme.Button.BlueButton" parent="AppTheme.Button">
+        <item name="android:background">@drawable/all_button_round_blue</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/custom_grey_0</item>
+        <item name="android:textSize">@dimen/font_size_h4</item>
+    </style>
+
+    <!-- stop button: grey rounded button with red text -->
+    <style name="AppTheme.Button.StopButton" parent="AppTheme.Button">
+        <item name="android:background">@drawable/all_stop_button</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/custom_red_700</item>
+        <item name="android:textSize">@dimen/font_size_h4</item>
+    </style>
+
+    <!-- Square Blue -->
+    <style name="AppTheme.Button.SquareBlue" parent="AppTheme.Button">
+        <item name="android:background">@drawable/all_button_square_blue</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/custom_grey_0</item>
+        <item name="android:textSize">@dimen/font_size_h4</item>
+    </style>
+
+    <!-- Square Grey -->
+    <style name="AppTheme.Button.SquareGrey" parent="AppTheme.Button">
+        <item name="android:background">@drawable/all_button_square_grey</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/custom_grey_0</item>
+        <item name="android:textSize">@dimen/font_size_h4</item>
+    </style>
+
+    <!-- Square Red -->
+    <style name="AppTheme.Button.SquareRed" parent="AppTheme.Button">
+        <item name="android:background">@drawable/all_button_square_red</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/custom_grey_0</item>
+        <item name="android:textSize">@dimen/font_size_h4</item>
+    </style>
+
+    <!-- default editText: blue bottom line editText-->
+    <style name="AppTheme.EditText.DefaultEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/all_edit_text</item>
+        <item name="android:colorAccent">@color/default_theme_secondary</item>
+        <item name="android:textCursorDrawable">@drawable/all_edit_text_cursor</item>
+        <item name="android:textColorHighlight">@color/default_theme_secondary</item>
+        <!-- TODO : need to identify select handle shape-->
+        <item name="android:textSelectHandle">@color/default_theme_secondary</item>
+        <item name="android:textSelectHandleLeft">@color/default_theme_secondary</item>
+        <item name="android:textSelectHandleRight">@color/default_theme_secondary</item>
+        <item name="android:textSize">@dimen/font_size_h4</item>
+        <item name="android:textColor">@color/default_theme_title</item>
+        <item name="android:textAlignment">textStart</item>
+    </style>
+
+    <!-- default switch: blue switch -->
+    <style name="AppTheme.Switch.BlueSwitch" parent="Widget.AppCompat.CompoundButton.Switch">
+        <item name="colorAccent">@color/default_theme_secondary</item>
+
+        <item name="colorPrimary">@color/default_theme_secondary</item>
+
+        <item name="colorControlActivated">@color/default_theme_secondary</item>
+
+        <item name="colorSwitchThumbNormal">@color/default_theme_desc2</item>
+
+        <item name="android:colorForeground">@color/default_theme_desc2</item>
+    </style>
+
+    <style name="AppTheme.CheckBox.DefaultCheckBox" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:colorControlActivated">@color/default_theme_secondary</item>
+        <item name="android:colorControlNormal">@color/default_theme_desc2</item>
+    </style>
+
+    <style name="AppTheme.TextView.WarningTextView" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_marginStart">@dimen/margin_layout_40</item>
+        <item name="android:layout_marginEnd">@dimen/margin_layout_40</item>
+        <item name="android:background">@drawable/all_text_view_warning_default</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/grey_500</item>
+        <item name="android:textSize">@dimen/font_size_h6</item>
+        <item name="android:padding">@dimen/padding_5</item>
+    </style>
+
+    <style name="AppTheme.ContentLoadingProgressBar">
+        <item name="colorAccent">@color/white</item>
+    </style>
+
+    <style name="AppTheme.RulerView">
+        <item name="rv_backgroundColor">@color/transparent</item>
+        <item name="rv_indicatorColor">@color/default_theme_secondary</item>
+        <item name="rv_longScaleColor">@color/custom_grey_400</item>
+        <item name="rv_longScaleHeight">80dp</item>
+        <item name="rv_longScaleWidth">3dp</item>
+        <item name="rv_markerTextColor">@color/custom_grey_400</item>
+        <item name="rv_markerTextMargin">@dimen/margin_layout_5</item>
+        <item name="rv_markerTextSize">14sp</item>
+        <item name="rv_shortScaleColor">@color/custom_grey_400</item>
+        <item name="rv_shortScaleHeight">50dp</item>
+        <item name="rv_shortScaleWidth">3dp</item>
+        <item name="rv_unitSpacing">10dp</item>
+    </style>
+
+    <style name="AppTheme.VerticalRulerView">
+        <item name="rv_backgroundColor">@color/transparent</item>
+        <item name="rv_indicatorColor">@color/default_theme_secondary</item>
+        <item name="rv_longScaleColor">@color/custom_grey_400</item>
+        <item name="rv_longScaleHeight">3dp</item>
+        <item name="rv_longScaleWidth">80dp</item>
+        <item name="rv_markerTextColor">@color/custom_grey_400</item>
+        <item name="rv_markerTextMargin">@dimen/margin_layout_5</item>
+        <item name="rv_markerTextSize">14sp</item>
+        <item name="rv_shortScaleColor">@color/custom_grey_400</item>
+        <item name="rv_shortScaleHeight">3dp</item>
+        <item name="rv_shortScaleWidth">50dp</item>
+        <item name="rv_unitSpacing">10dp</item>
+    </style>
+
+
+    <style name="AppTheme.DefaultProgressButton">
+        <item name="android:textSize">@dimen/font_size_h4</item>
+        <item name="android:textColor">@color/custom_grey_0</item>
+        <item name="textAllCaps">false</item>
+        <item name="pb_progressBackground">@drawable/all_button_round_default_normal</item>
+        <item name="pb_progressMargin">1dp</item>
+        <item name="pb_radius">@dimen/radius_button_45</item>
+    </style>
+
+    <style name="AppTheme.DefaultPageIndicator">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="tabBackground">@drawable/all_page_indicator</item>
+        <item name="tabGravity">center</item>
+        <item name="tabIndicatorHeight">0dp</item>
+        <item name="tabRippleColor">@color/transparent</item>
+    </style>
+
+
+    <style name="DialogTheme" parent="Theme.AppCompat.DayNight.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <declare-styleable name="SlidingRulerView">
+        <attr name="srv_longScaleHeight" format="reference|dimension" />
+        <attr name="srv_shortScaleHeight" format="reference|dimension" />
+        <attr name="srv_strokeWidth" format="reference|dimension" />
+        <attr name="srv_scaleWidth" format="reference|dimension" />
+        <attr name="srv_scaleColor" format="reference|color" />
+        <attr name="srv_unitSpacing" format="reference|dimension" />
+        <attr name="srv_unitCountPerDivision" format="integer" />
+        <attr name="srv_minValue" format="integer" />
+        <attr name="srv_maxValue" format="integer" />
+        <attr name="sRulerv_textSize" format="reference|dimension" />
+        <attr name="sRulerv_textColor" format="reference|color" />
+    </declare-styleable>
+
+</resources>

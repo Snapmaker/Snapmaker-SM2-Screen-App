@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/view_print_settings_add_on_enclosure"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_theme_primary">
+
+    <RelativeLayout
+        android:id="@+id/view_enclosure_control"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/margin_layout_5"
+        android:layout_marginBottom="@dimen/margin_layout_5"
+        android:background="@color/default_theme_primary">
+
+        <ImageView
+            android:id="@+id/iv_enclosure_cover"
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/pic_enclosure_cover_360x320" />
+
+        <include layout="@layout/widget_enclosure_control"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_layout_40"
+            android:layout_below="@id/iv_enclosure_cover"/>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

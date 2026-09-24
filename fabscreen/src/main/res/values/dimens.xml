@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- definition of all standard ui components -->
+    <dimen name="size_button_45">45dp</dimen>
+    <dimen name="height_button_45">45dp</dimen>
+    <dimen name="radius_button_45">22.5dp</dimen>
+
+    <dimen name="size_button_64">64dp</dimen>
+    <dimen name="height_button_64">64dp</dimen>
+    <dimen name="radius_button_64">32dp</dimen>
+
+    <dimen name="size_button_70">70dp</dimen>
+    <dimen name="height_button_70">70dp</dimen>
+    <dimen name="radius_button_70">7dp</dimen>
+
+    <dimen name="size_button_80">80dp</dimen>
+    <dimen name="height_button_80">80dp</dimen>
+
+    <dimen name="size_button_86">86dp</dimen>
+    <dimen name="height_button_86">86dp</dimen>
+
+    <dimen name="height_edit_text_45">45dp</dimen>
+
+    <dimen name="margin_layout_16">16dp</dimen>
+    <dimen name="margin_layout_32">32dp</dimen>
+
+    <dimen name="margin_layout_2h">2.5dp</dimen>
+    <dimen name="margin_layout_5">5dp</dimen>
+    <dimen name="margin_layout_10">10dp</dimen>
+    <dimen name="margin_layout_14">14dp</dimen>
+    <dimen name="margin_layout_20">20dp</dimen>
+    <dimen name="margin_layout_40">40dp</dimen>
+    <dimen name="margin_layout_50">50dp</dimen>
+    <dimen name="margin_layout_60">60dp</dimen>
+    <dimen name="margin_layout_130">130dp</dimen>
+
+    <dimen name="padding_5">5dp</dimen>
+
+    <dimen name="radius_4">4dp</dimen>
+    <dimen name="radius_8">8dp</dimen>
+
+    <dimen name="separator">1dp</dimen>
+
+    <!-- font size -->
+    <dimen name="font_size_h0">70sp</dimen>
+    <dimen name="font_size_h1">50sp</dimen>
+    <dimen name="font_size_h2">32sp</dimen>
+    <dimen name="font_size_h3">20sp</dimen>
+    <dimen name="font_size_h4">18sp</dimen>
+    <dimen name="font_size_h5">16sp</dimen>
+    <dimen name="font_size_h6">12sp</dimen>
+    <dimen name="font_size_h7">9sp</dimen>
+
+    <!-- buttons -->
+    <dimen name="radius_blue_button">@dimen/radius_button_45</dimen>
+    <dimen name="height_segmented_button">36dp</dimen>
+
+    <!-- APP specific -->
+    <dimen name="height_top_bar">50dp</dimen>
+    <dimen name="height_bottom_bar">70dp</dimen>
+
+    <!-- list item -->
+    <dimen name="height_list_60">60dp</dimen>
+    <dimen name="height_list_40">40dp</dimen>
+    <dimen name="height_list_divider">5dp</dimen>
+
+</resources>

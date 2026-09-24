@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/view_control_10w_laser_page_power"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_theme_primary">
+
+    <TextView
+        android:id="@+id/view_control_laser_page_power_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/height_button_70"
+        android:text="@string/print_laser_power"
+        android:textColor="@color/custom_grey_300"
+        android:textSize="@dimen/font_size_h3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/iv_control_laser_page_power"
+        android:layout_width="100dp"
+        android:layout_height="154dp"
+        android:layout_marginTop="@dimen/margin_layout_50"
+        android:src="@drawable/ic_control_10w_laser_page_power_off"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view_control_laser_page_power_title" />
+
+
+    <RelativeLayout
+        android:id="@+id/rl_controller_laser_safety_goggles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="77dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iv_control_laser_page_power">
+
+        <TextView
+            android:id="@+id/tv_controller_laser_safety_goggles_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/margin_layout_40"
+            android:text="@string/control_laser_status"
+            android:textColor="@color/default_theme_title"
+            android:textSize="@dimen/font_size_h4" />
+
+        <Button
+            android:id="@+id/btn_control_10w_laser_page_power_switch"
+            style="@style/AppTheme.Button"
+            android:layout_width="75dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/margin_layout_40"
+            android:background="@drawable/all_btn_switch" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/view_control_laser_page_power_tips"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_layout_32"
+        android:layout_marginEnd="@dimen/margin_layout_32"
+        android:layout_marginTop="@dimen/margin_layout_130"
+        android:text="@string/controller_laser_power_tip"
+        android:textColor="@color/custom_grey_500"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@+id/iv_control_laser_page_power" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

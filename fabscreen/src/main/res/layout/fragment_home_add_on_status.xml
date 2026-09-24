@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/view_home_add_on_status"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true">
+
+    <!-- add-on status -->
+    <LinearLayout
+        android:id="@+id/view_home_add_on_module_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/margin_layout_20"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:id="@+id/view_home_add_on_enclosure"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_layout_5"
+            android:layout_marginEnd="@dimen/margin_layout_20">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/all_enclosure"
+                android:textColor="@color/custom_grey_300"
+                android:textSize="@dimen/font_size_h6"
+                android:maxLines="2"
+                android:layout_alignParentStart="true"
+                android:layout_toStartOf="@id/iv_home_enclosure_status"/>
+
+            <ImageView
+                android:id="@+id/iv_home_enclosure_status"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/ic_home_status_normal_10x10" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/view_home_add_on_rotary"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_layout_5"
+            android:layout_marginEnd="@dimen/margin_layout_20">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_toStartOf="@id/iv_home_rotary_status"
+                android:maxLines="2"
+                android:text="@string/all_rotary_module"
+                android:textColor="@color/custom_grey_300"
+                android:textSize="@dimen/font_size_h6" />
+
+            <ImageView
+                android:id="@+id/iv_home_rotary_status"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/ic_home_status_normal_10x10" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/view_home_add_on_emergency_stop"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_layout_5"
+            android:layout_marginEnd="@dimen/margin_layout_20">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/all_emergency_stop"
+                android:textColor="@color/custom_grey_300"
+                android:textSize="@dimen/font_size_h6"
+                android:maxLines="2"
+                android:layout_alignParentStart="true"
+                android:layout_toStartOf="@id/iv_home_emergency_stop_status"/>
+
+            <ImageView
+                android:id="@+id/iv_home_emergency_stop_status"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/ic_home_status_normal_10x10" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/view_home_add_on_air_purifier"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_layout_5"
+            android:layout_marginEnd="@dimen/margin_layout_20">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_toStartOf="@id/iv_home_air_purifier_status"
+                android:maxLines="2"
+                android:text="@string/all_air_purifier"
+                android:textColor="@color/custom_grey_300"
+                android:textSize="@dimen/font_size_h6" />
+
+            <ImageView
+                android:id="@+id/iv_home_air_purifier_status"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/ic_home_status_normal_10x10" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/view_home_add_on_quick_swap_kit"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_layout_5"
+            android:layout_marginEnd="@dimen/margin_layout_20">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_toStartOf="@id/iv_home_quick_swap_status"
+                android:maxLines="2"
+                android:text="@string/all_quick_swap_kit"
+                android:textColor="@color/custom_grey_300"
+                android:textSize="@dimen/font_size_h6" />
+
+            <ImageView
+                android:id="@+id/iv_home_quick_swap_status"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/ic_home_status_normal_10x10" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/view_home_add_on_bracing_kit"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_layout_5"
+            android:layout_marginEnd="@dimen/margin_layout_20">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_toStartOf="@id/iv_home_bracing_kit_status"
+                android:maxLines="2"
+                android:text="@string/all_bracing_kit"
+                android:textColor="@color/custom_grey_300"
+                android:textSize="@dimen/font_size_h6" />
+
+            <ImageView
+                android:id="@+id/iv_home_bracing_kit_status"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/ic_home_status_normal_10x10" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

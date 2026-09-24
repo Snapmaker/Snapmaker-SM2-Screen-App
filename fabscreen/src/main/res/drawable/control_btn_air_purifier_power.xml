@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/btn_control_power_disabled_50x50" android:state_enabled="false" />
+    <item android:drawable="@drawable/btn_control_power_normal_50x50" />
+</selector>

@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.snapmaker.fabscreen">
+
+    <uses-permission android:name="android.permission.ACCESS_SUPERUSER" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!--WIFI permission-->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- Bluetooth permission   -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission
+        android:name="android.permission.BLUETOOTH_PRIVILEGED"
+        tools:ignore="ProtectedPermissions" />
+
+    <!--Scan Network need location permission in Android 6.0 or upper-->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <!--u disk permission-->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.hardware.usb.host"
+        android:required="false" />
+
+    <uses-feature
+        android:name="android.hardware.usb.host"
+        android:required="true" />
+
+    <!--Install package permission-->
+    <uses-permission
+        android:name="android.permission.INSTALL_PACKAGES"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission
+        android:name="android.permission.DELETE_PACKAGES"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission
+        android:name="android.permission.INTERACT_ACROSS_USERS_FULL"
+        tools:ignore="ProtectedPermissions" />
+
+    <!--Factory permission-->
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        tools:ignore="ProtectedPermissions" />
+
+    <application
+        android:name=".FabScreenApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:sharedUserId="android.uid.system"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".modules.home.MainActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme.Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".modules.home.HomeActivity"
+            android:theme="@style/AppTheme.Activity" />
+
+        <!-- Guide -->
+        <activity
+            android:name=".modules.welcome.WelcomeActivity"
+            android:theme="@style/AppTheme.Activity" />
+        <activity
+            android:name=".modules.guide3dp.Guide3DPActivity"
+            android:theme="@style/AppTheme.Activity" />
+        <activity
+            android:name=".modules.guidelaser.GuideLaserActivity"
+            android:theme="@style/AppTheme.Activity" />
+        <activity
+            android:name=".modules.guidecnc.GuideCNCActivity"
+            android:theme="@style/AppTheme.Activity" />
+
+        <activity
+            android:name=".modules.guide10wlaser.Guide10wLaserActivity"
+            android:theme="@style/AppTheme.Activity" />
+
+        <activity
+            android:name=".modules.guiderotary.laser.GuideRotaryLaserActivity"
+            android:theme="@style/AppTheme.Activity" />
+
+        <activity
+            android:name=".modules.guiderotary.cnc.GuideRotaryCNCActivity"
+            android:theme="@style/AppTheme.Activity" />
+
+        <!-- File & Print -->
+        <activity
+            android:name=".modules.browse.BrowseActivity"
+            android:theme="@style/AppTheme.Activity" />
+        <activity
+            android:name=".modules.preview.PreviewActivity"
+            android:launchMode="singleInstance"
+            android:theme="@style/AppTheme.Activity" />
+        <activity
+            android:name=".modules.printsettings.PrintSettingsActivity"
+            android:theme="@style/AppTheme.Activity" />
+
+        <!-- 3DP -->
+        <activity
+            android:name=".modules.calibration.CalibrationActivity"
+            android:theme="@style/AppTheme.Activity" />
+
+        <!-- Laser -->
+        <activity
+            android:name=".modules.lasercalibration.LaserCalibrationActivity"
+            android:theme="@style/AppTheme.Activity" />
+
+        <!-- CNC -->
+        <activity
+            android:name=".modules.cncoriginassistant.CNCOriginAssistantActivity"
+            android:theme="@style/AppTheme.Activity" />
+
+        <activity
+            android:name=".modules.cncbitassistant.CNCBitAssistantActivity"
+            android:theme="@style/AppTheme.Activity" />
+
+        <!-- Control -->
+        <activity
+            android:name=".modules.control.ControlActivity"
+            android:theme="@style/AppTheme.Activity" />
+
+        <!--  Settings -->
+        <activity
+            android:name=".modules.about.AboutActivity"
+            android:theme="@style/AppTheme.Activity" />
+        <activity
+            android:name=".modules.settings.SettingsActivity"
+            android:theme="@style/AppTheme.Activity" />
+        <activity
+            android:name=".modules.settings.firmware.SettingsFirmwareActivity"
+            android:theme="@style/AppTheme.Activity" />
+        <activity
+            android:name=".modules.print.PrintActivity"
+            android:launchMode="singleInstance"
+            android:theme="@style/AppTheme.Activity" />
+        <activity
+            android:name=".modules.remote.RemoteActivity"
+            android:launchMode="singleInstance"
+            android:theme="@style/AppTheme.Activity" />
+        <activity
+            android:name=".modules.emergencystop.EmergencyStopActivity"
+            android:theme="@style/AppTheme.Activity" />
+        <activity
+            android:name=".modules.factory.FactoryToolsActivity"
+            android:theme="@style/AppTheme.Activity" />
+        <activity
+            android:name=".modules.experiment.ExperimentActivity"
+            android:theme="@style/AppTheme.Activity" />
+        <activity
+            android:name=".modules.update.UpdateActivity"
+            android:theme="@style/AppTheme.Activity" />
+
+        <!--    Add-on    -->
+        <activity
+            android:name=".modules.enclosure.EnclosureActivity"
+            android:theme="@style/AppTheme.Activity" />
+        <activity
+            android:name=".modules.airpurifier.AirPurifierActivity"
+            android:theme="@style/AppTheme.Activity" />
+
+        <activity
+            android:name=".modules.laser10wcamera.Laser10wCameraCalibrationActivity"
+            android:theme="@style/AppTheme.Activity" />
+        <activity
+            android:name="fabscreen.libraries.legacy.view.ToastActivity"
+            android:launchMode="singleInstance"
+            android:theme="@style/DialogTheme" />
+        <activity
+            android:name=".modules.settings.advancedlaser.laser10wthicknesscalibration.Laser10wThicknessMeasureCalibrationActivity"
+            android:theme="@style/AppTheme.Activity" />
+        <activity
+            android:name=".modules.dualextrudercalibration.entries.DualExtruderCalibrationEntriesActivity"
+            android:theme="@style/AppTheme.Activity" />
+        <activity
+            android:name=".modules.dualextrudercalibration.bedleveling.DualExtruderBedLevellingActivity"
+            android:theme="@style/AppTheme.Activity" />
+        <activity
+            android:name=".modules.dualextrudercalibration.zheight.DualExtruderZHeightCalibrationActivity"
+            android:theme="@style/AppTheme.Activity" />
+
+        <activity
+            android:name=".modules.dualextrudercalibration.xycalibration.DualExtruderXYCalibrationActivity"
+            android:theme="@style/AppTheme.Activity" />
+
+        <activity
+            android:name=".modules.dualextrudercalibration.sensor.DualExtruderSensorCalibrationActivity"
+            android:theme="@style/AppTheme.Activity" />
+        <activity
+            android:name=".modules.dualextrudercalibration.printcheck.CalibrationDualExtruderPrintCheckActivity"
+            android:theme="@style/AppTheme.Activity" />
+
+        <activity
+            android:name=".modules.loadfilament.DualExtruderLoadFilamentActivity"
+            android:theme="@style/AppTheme.Activity" />
+
+        <activity
+            android:name=".modules.guidedualextruder.Guide3DPDualExtruderActivity"
+            android:theme="@style/AppTheme.Activity" />
+
+        <activity
+            android:name=".modules.guidedualextruder.verticalleveling.GuideDualExtruderVerticalLevellingActivity"
+            android:theme="@style/AppTheme.Activity" />
+
+        <activity
+            android:name=".modules.guidedualextruder.xycalibration.GuideDualExtruderXYCalibrationActivity"
+            android:theme="@style/AppTheme.Activity" />
+
+        <activity
+            android:name=".modules.guidedualextruder.printcheck.Guide3DPDualExtruderPrintCheckActivity"
+            android:theme="@style/AppTheme.Activity" />
+
+        <activity
+            android:name=".modules.guidedualextruder.complete.Guide3DPDualExtruderCompleteActivity"
+            android:theme="@style/AppTheme.Activity" />
+
+        <activity
+            android:name=".modules.settings.extendkit.SettingsExtendKitActivity"
+            android:theme="@style/AppTheme.Activity" />
+
+        <activity
+            android:name=".modules.settings.extendkit.SettingsQuickSwapParkingPositionActivity"
+            android:theme="@style/AppTheme.Activity" />
+
+        <activity
+            android:name=".modules.guide40wlaser.Guide40wLaserActivity"
+            android:theme="@style/AppTheme.Activity" />
+
+        <activity
+            android:name=".modules.guide20wlaser.Guide20wLaserActivity"
+            android:theme="@style/AppTheme.Activity" />
+
+        <activity android:name=".modules.guide2wlaser.Guide2wLaserActivity"
+            android:theme="@style/AppTheme.Activity" />
+
+        <receiver
+            android:name="fabscreen.libraries.legacy.receiver.DeviceOwnerReceiver"
+            android:label="@string/app_name"
+            android:permission="android.permission.BIND_DEVICE_ADMIN">
+            <intent-filter>
+                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.device_admin"
+                android:resource="@xml/device_admin" />
+        </receiver>
+        <receiver
+            android:name="fabscreen.libraries.legacy.receiver.InstallProcessReceiver"
+            android:permission="@string/app_name">
+            <intent-filter>
+                <action android:name="com.snapmaker.updateApkBroadcast" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="fabscreen.libraries.legacy.service.SerialPortService" />
+    </application>
+</manifest>

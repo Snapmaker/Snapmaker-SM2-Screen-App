@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_theme_background">
+
+    <!-- progress view -->
+    <RelativeLayout
+        android:id="@+id/rl_print_progress_view"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <fabscreen.libraries.legacy.view.CircularProgressView
+            android:id="@+id/cpv_print_progress"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_centerInParent="true"
+            app:cpv_backgroundColor="@color/default_theme_primary"
+            app:cpv_percentage="0"
+            app:cpv_progressColor="@color/default_theme_secondary"
+            app:cpv_strokeWidth="24dp" />
+
+        <RelativeLayout
+            android:id="@+id/view_print_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="110dp">
+
+            <TextView
+                android:id="@+id/tv_print_progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:text="@string/all_0"
+                android:textColor="@color/default_theme_title"
+                android:textSize="@dimen/font_size_h0" />
+
+            <TextView
+                android:id="@+id/tv_print_percent_unit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/tv_print_progress"
+                android:layout_toEndOf="@id/tv_print_progress"
+                android:text="@string/all_unit_percentage"
+                android:textAlignment="textEnd"
+                android:textColor="@color/default_theme_title"
+                android:textSize="@dimen/font_size_h2" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <!-- basic info -->
+    <RelativeLayout
+        android:id="@+id/view_print_basic_info"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rl_print_progress_view">
+
+        <TextView
+            android:id="@+id/tv_print_file_name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="@dimen/margin_layout_10"
+            android:layout_marginEnd="32dp"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:textColor="@color/default_theme_title"
+            android:textSize="@dimen/font_size_h4"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <!-- detail info -->
+    <RelativeLayout
+        android:id="@+id/view_print_detail_info"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/view_print_buttons"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/view_print_basic_info">
+
+        <!-- progress view -->
+        <include
+            android:id="@+id/widget_detail_panel_3dp"
+            layout="@layout/widget_detail_panel_3dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/margin_layout_20"
+            android:layout_marginEnd="@dimen/margin_layout_20"
+            android:visibility="invisible" />
+
+        <include
+            android:id="@+id/widget_detail_panel_laser"
+            layout="@layout/widget_detail_panel_laser"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/margin_layout_20"
+            android:layout_marginEnd="@dimen/margin_layout_20"
+            android:visibility="invisible" />
+
+        <include
+            android:id="@+id/widget_detail_print_cnc"
+            layout="@layout/widget_detail_panel_cnc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/margin_layout_20"
+            android:layout_marginEnd="@dimen/margin_layout_20"
+            android:visibility="invisible" />
+
+        <include
+            android:id="@+id/widget_detail_panel_3dp_dual_extruder"
+            layout="@layout/widget_detail_panel_3dp_dual_extruder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/margin_layout_20"
+            android:layout_marginEnd="@dimen/margin_layout_20" />
+    </RelativeLayout>
+
+    <!-- buttons -->
+    <RelativeLayout
+        android:id="@+id/view_print_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginBottom="@dimen/margin_layout_32"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/btn_print_stop_old"
+            style="@style/AppTheme.Button.StopButton"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_button_45"
+            android:layout_marginTop="@dimen/margin_layout_32"
+            android:layout_marginStart="@dimen/margin_layout_40"
+            android:layout_marginEnd="@dimen/margin_layout_40"
+            android:text="@string/all_stop" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="32dp"
+        android:layout_height="28dp"
+        android:src="@drawable/ic_all_left_arrow_32x28"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

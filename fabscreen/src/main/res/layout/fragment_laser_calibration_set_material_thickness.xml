@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_theme_background"
+    android:clickable="true"
+    android:focusable="true">
+
+    <include layout="@layout/widget_top_bar" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/margin_layout_5"
+        android:layout_marginBottom="@dimen/margin_layout_5"
+        android:background="@color/default_theme_primary"
+        app:layout_constraintBottom_toTopOf="@id/view_laser_calibration_next"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/top_bar">
+
+        <TextView
+            android:id="@+id/tv_laser_calibration_material_offset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_layout_40"
+            android:text="@string/laser_calibration_set_material_thickness"
+            android:textAlignment="center"
+            android:textColor="@color/default_theme_desc1"
+            android:textSize="@dimen/font_size_h3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/ll_laser_calibration_material_offset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_layout_20"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_laser_calibration_material_offset">
+
+            <TextView
+                android:id="@+id/tv_laser_calibration_material_offset_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/default_theme_title"
+                android:textSize="@dimen/font_size_h1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/all_unit_mm"
+                android:textSize="@dimen/font_size_h3" />
+
+        </LinearLayout>
+
+        <fabscreen.libraries.legacy.view.RulerView
+            android:id="@+id/rv_laser_calibration_material_thickness_ruler"
+            style="@style/AppTheme.RulerView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_layout_40"
+            android:layout_marginTop="@dimen/margin_layout_20"
+            android:layout_marginEnd="@dimen/margin_layout_40"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ll_laser_calibration_material_offset"
+            app:rv_longScaleWidth="2dp"
+            app:rv_maxValue="150"
+            app:rv_minValue="0"
+            app:rv_shortScaleWidth="2dp"
+            app:rv_unit="0.1" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- next button -->
+    <FrameLayout
+        android:id="@+id/view_laser_calibration_next"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/default_theme_primary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/btn_laser_calibration_next"
+            style="@style/AppTheme.Button.BlueButton"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_button_45"
+            android:layout_marginStart="@dimen/margin_layout_20"
+            android:layout_marginTop="@dimen/margin_layout_10"
+            android:layout_marginEnd="@dimen/margin_layout_20"
+            android:layout_marginBottom="@dimen/margin_layout_10"
+            android:text="@string/all_next" />
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

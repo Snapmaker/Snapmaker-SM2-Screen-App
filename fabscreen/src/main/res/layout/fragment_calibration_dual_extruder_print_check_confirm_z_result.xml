@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_theme_background"
+    android:clickable="true"
+    android:focusable="true">
+
+    <include layout="@layout/widget_top_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/margin_layout_5"
+        android:layout_marginBottom="@dimen/margin_layout_5"
+        android:background="@color/default_theme_primary"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@id/rl_calibration_dual_extruder_confirm_z_result_buttons"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/top_bar">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_calibration_dual_extruder_print_check_confirm_z_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_layout_20"
+                android:layout_marginTop="@dimen/margin_layout_40"
+                android:layout_marginEnd="@dimen/margin_layout_20"
+                android:text="@string/calibration_dual_extruder_print_check_print_confirm_z_desc"
+                android:textAlignment="center"
+                android:textColor="@color/default_theme_desc1"
+                android:textSize="@dimen/font_size_h5" />
+
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_layout_5"
+            android:background="@color/default_theme_background" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <RadioGroup
+                android:id="@+id/rg_calibration_dual_extruder_print_check_confirm_z"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_layout_40"
+                android:layout_marginTop="@dimen/margin_layout_60"
+                android:layout_marginEnd="@dimen/margin_layout_40"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rb_calibration_dual_extruder_print_check_confirm_z_success"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:layout_gravity="end"
+                    android:button="@null"
+                    android:background="@drawable/calibration_dual_extruder_print_check_button_z_confirm_success" />
+
+                <RadioButton
+                    android:id="@+id/rb_calibration_dual_extruder_print_check_confirm_z_failed"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:layout_marginStart="@dimen/margin_layout_20"
+                    android:layout_gravity="end"
+                    android:button="@null"
+                    android:background="@drawable/calibration_dual_extruder_print_check_button_z_confirm_failed" />
+
+            </RadioGroup>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_below="@id/rg_calibration_dual_extruder_print_check_confirm_z" >
+
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="40dp"
+                    android:text="@string/calibration_dual_extruder_print_check_print_confirm_z_flush"
+                    android:textAlignment="center"
+                    android:textColor="@color/default_theme_desc2"
+                    android:textSize="@dimen/font_size_h5" />
+
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="@dimen/margin_layout_40"
+                    android:text="@string/calibration_dual_extruder_print_check_print_confirm_z_not_flush"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/font_size_h5"
+                    android:textColor="@color/default_theme_desc2" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_calibration_dual_extruder_confirm_z_result_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/default_theme_primary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/btn_calibration_dual_extruder_print_check_confirm_z_next"
+            style="@style/AppTheme.Button.BlueButton"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_button_45"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="@dimen/margin_layout_20"
+            android:layout_marginEnd="@dimen/margin_layout_20"
+            android:text="@string/all_next" />
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

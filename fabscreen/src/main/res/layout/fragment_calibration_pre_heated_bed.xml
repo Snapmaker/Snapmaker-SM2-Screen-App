@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_theme_background"
+    android:clickable="true"
+    android:focusable="true">
+
+    <include layout="@layout/widget_top_bar" />
+
+    <RelativeLayout
+        android:id="@+id/view_calibration_pre_heated_bed_control"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/margin_layout_5"
+        android:layout_marginBottom="@dimen/margin_layout_5"
+        android:background="@color/default_theme_primary"
+        app:layout_constraintBottom_toTopOf="@id/view_calibration_pre_heated_bed_buttons"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/top_bar">
+
+        <TextView
+            android:id="@+id/tv_calibration_pre_heated_bed_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/widget_set_value_panel"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin_layout_20"
+            android:text="@string/calibration_pre_heated_bed_tip"
+            android:textAlignment="center"
+            android:textColor="@color/custom_orange_300"
+            android:textSize="@dimen/font_size_h6" />
+
+        <TextView
+            android:id="@+id/tv_calibration_pre_heated_bed_suggestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_calibration_pre_heated_bed_tip"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin_layout_20"
+            android:text="@string/calibration_pre_heated_bed_suggestion"
+            android:textAlignment="center"
+            android:textColor="@color/custom_grey_200"
+            android:textSize="@dimen/font_size_h6" />
+
+        <include
+            layout="@layout/widget_set_value_ruler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/view_calibration_pre_heated_bed_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_layout_5"
+        android:background="@color/default_theme_primary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/btn_calibration_pre_heated_bed_calibrate"
+            style="@style/AppTheme.Button.BlueButton"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_button_45"
+            android:layout_marginStart="@dimen/margin_layout_20"
+            android:layout_marginTop="@dimen/margin_layout_10"
+            android:layout_marginEnd="@dimen/margin_layout_20"
+            android:layout_marginBottom="@dimen/margin_layout_10"
+            android:text="@string/all_calibrate" />
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

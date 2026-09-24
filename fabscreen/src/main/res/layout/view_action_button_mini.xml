@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/view_action_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true">
+
+    <Button
+        android:id="@+id/btn_view_action_button_background"
+        android:layout_width="@dimen/size_button_64"
+        android:layout_height="@dimen/size_button_64"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/all_action_button_background" />
+
+    <Button
+        android:id="@+id/btn_view_action_button_foreground"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        android:background="@color/transparent"
+        android:elevation="10dp"
+        android:textColor="@color/default_theme_desc1"
+        android:textSize="@dimen/font_size_h3" />
+
+    <TextView
+        android:id="@+id/tv_view_action_button_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_view_action_button_background"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_layout_5"
+        android:layout_marginBottom="@dimen/margin_layout_5"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/default_theme_desc2"
+        android:textSize="@dimen/font_size_h6"
+        android:visibility="gone" />
+
+</RelativeLayout>

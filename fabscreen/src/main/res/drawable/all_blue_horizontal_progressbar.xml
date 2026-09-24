@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--  background color  -->
+    <item android:id="@android:id/background"
+        android:drawable="@color/custom_grey_700">
+    </item>
+
+    <!--  progressbar color  -->
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape android:shape="rectangle">
+                <solid android:color="@color/default_theme_secondary" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>

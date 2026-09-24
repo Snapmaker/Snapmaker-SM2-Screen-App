@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Neutral Colors -->
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFF</color>
+    <color name="black">#000</color>
+
+    <!-- Color System -->
+    <color name="grey_50">#fafafa</color>
+    <color name="grey_100">#f5f5f5</color>
+    <color name="grey_200">#eeeeee</color>
+    <color name="grey_300">#e0e0e0</color>
+    <color name="grey_400">#bdbdbd</color>
+    <color name="grey_500">#9e9e9e</color>
+    <color name="grey_600">#757575</color>
+    <color name="grey_700">#616161</color>
+    <color name="grey_800">#424242</color>
+    <color name="grey_900">#212121</color>
+
+    <color name="light_blue_50">#eaf5fe</color>
+    <color name="light_blue_100">#b3e5fc</color>
+    <color name="light_blue_200">#81d4fa</color>
+    <color name="light_blue_300">#4fc3f7</color>
+    <color name="light_blue_400">#29b6f6</color>
+    <color name="light_blue_500">#03a9f4</color>
+    <color name="light_blue_600">#039be5</color>
+    <color name="light_blue_700">#0288d1</color>
+    <color name="light_blue_800">#0277bd</color>
+    <color name="light_blue_900">#01579b</color>
+
+    <!-- TODO: use standard color system -->
+    <color name="custom_grey_0">#FFFFFF</color>
+    <color name="custom_grey_200">#e9e9e9</color>
+    <color name="custom_grey_300">#ABBAD0</color>
+    <color name="custom_grey_400">#c3c4c6</color>
+    <color name="custom_grey_500">#9B9B9B</color>
+    <color name="custom_grey_600">#656A6E</color>
+    <color name="custom_grey_700">#434242</color>
+    <color name="custom_grey_800">#323232</color>
+    <color name="custom_grey_900">#10111c</color>
+
+    <color name="custom_blue_200">#89DDFF</color>
+    <color name="custom_blue_400">#40CBFF</color>
+    <color name="custom_blue_600">#29b3f2</color>
+
+    <color name="custom_red_300">#F85A98</color>
+    <color name="custom_red_700">#C62262</color>
+    
+    <color name="custom_orange_100">#F5853D</color>
+    <color name="custom_orange_300">#F5853D</color>
+
+    <!-- App Theme -->
+    <color name="default_theme_background">@color/custom_grey_900</color>
+    <color name="default_theme_primary">@color/custom_grey_800</color>
+    <color name="default_theme_title">@color/custom_grey_0</color>
+    <color name="default_theme_desc1">@color/custom_grey_400</color>
+    <color name="default_theme_desc2">@color/grey_500</color>
+    <color name="default_theme_secondary">@color/custom_blue_400</color>
+    <color name="default_theme_dark_mask">#A0000000</color>
+    <color name="default_theme_click_mask">#50000000</color>
+    <color name="default_theme_separator">@color/custom_grey_600</color>
+    <color name="default_theme_text_warning">@color/custom_red_700</color>
+
+    <!-- Gradient   -->
+    <color name="gradient_blue_start">#3cc1ea</color>
+    <color name="gradient_blue_end">#2f83ff</color>
+
+    <color name="gradient_blue_start_pressed">#78EDFD</color>
+    <color name="gradient_blue_end_pressed">#3396FF</color>
+
+    <color name="gradient_green_start">#00e234</color>
+    <color name="gradient_green_end">#44d7f6</color>
+
+    <color name="gradient_yellow_start">#f1903d</color>
+    <color name="gradient_yellow_end">#f7d000</color>
+
+    <color name="gradient_orange_start">#ee843c</color>
+    <color name="gradient_orange_end">#f9c500</color>
+
+    <color name="gradient_red_start">#f2155b</color>
+    <color name="gradient_red_end">#863df5</color>
+
+    <color name="gradient_purple_start">#a25aff</color>
+    <color name="gradient_purple_end">#6060ff</color>
+
+    <!-- All -->
+    <color name="item_title">@color/custom_grey_200</color>
+    <color name="item_desc">@color/custom_grey_500</color>
+
+    <color name="top_bar_background">@color/default_theme_primary</color>
+    <color name="top_bar_title">@color/custom_grey_0</color>
+
+    <color name="bottom_bar_background">@color/default_theme_primary</color>
+    <color name="switch_background">@color/default_theme_primary</color>
+
+    <!-- Page -->
+    <color name="control_normal">@color/default_theme_primary</color>
+    <color name="control_selected">@color/grey_900</color>
+    <color name="control_activated">@color/default_theme_secondary</color>
+    <color name="control_pressed">@color/grey_900</color>
+
+    <!-- TODO: refactor -->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+</resources>

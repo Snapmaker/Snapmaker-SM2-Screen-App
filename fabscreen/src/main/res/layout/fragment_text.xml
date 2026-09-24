@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:layout="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true">
+
+    <include layout="@layout/widget_top_bar" />
+
+    <TextView
+        android:id="@+id/tv_center_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/default_theme_desc1"
+        android:textSize="@dimen/font_size_h4"
+        layout:layout_constraintBottom_toBottomOf="parent"
+        layout:layout_constraintEnd_toEndOf="parent"
+        layout:layout_constraintStart_toStartOf="parent"
+        layout:layout_constraintTop_toBottomOf="@id/top_bar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,713 @@
+<resources>
+    <string name="font_roboto_condensed">sans-serif-black</string>
+    <string name="font_roboto_condensed_light">sans-serif-light</string>
+    <string name="all_about">Acerca de</string>
+    <string name="all_agree">Aceptar</string>
+    <string name="all_calculating">Calculando</string>
+    <string name="all_calibrate">Calibrar</string>
+    <string name="all_calibration">Calibración</string>
+    <string name="all_camera">Cámara</string>
+    <string name="all_cancel">Cancelar</string>
+    <string name="all_complete">Finalizar</string>
+    <string name="all_confirm">Confirmar</string>
+    <string name="all_congratulations">Enhorabuena</string>
+    <string name="all_connect">Conectar</string>
+    <string name="all_continue">Continuar</string>
+    <string name="all_control">Controlar</string>
+    <string name="all_delete">Borrar</string>
+    <string name="all_disconnect">Desconectar</string>
+    <string name="all_done">Hecho</string>
+    <string name="all_down">Abajo</string>
+    <string name="all_edit">Editar</string>
+    <string name="all_enclosure">Caja</string>
+    <string name="all_experiment">Experimento</string>
+    <string name="all_factory">Fábrica</string>
+    <string name="all_failed">Error</string>
+    <string name="all_finish">Finalizar</string>
+    <string name="all_general">General</string>
+    <string name="all_guides">Guía</string>
+    <string name="all_hello">Hola</string>
+    <string name="all_language">Idioma</string>
+    <string name="all_load">Cargar</string>
+    <string name="all_move">Mover</string>
+    <string name="all_next">Siguiente</string>
+    <string name="all_no">No</string>
+    <string name="all_notification">Notificación</string>
+    <string name="all_on">Encendido</string>
+    <string name="all_off">Apagado</string>
+    <string name="all_ok">Aceptar</string>
+    <string name="all_pause">Pausar</string>
+    <string name="all_preview">Vista previa</string>
+    <string name="all_print">Imprimir</string>
+    <string name="all_ready">Listo</string>
+    <string name="all_reconnect">Volver a conectar</string>
+    <string name="all_recover">Recuperar</string>
+    <string name="all_rename">Renombrar</string>
+    <string name="all_resume">Reanudar</string>
+    <string name="all_return">Volver</string>
+    <string name="all_offset">Compensación</string>
+    <string name="all_save">Guardar</string>
+    <string name="all_settings">Configuración</string>
+    <string name="all_skip">Saltar</string>
+    <string name="all_start">Iniciar</string>
+    <string name="all_stop">Parar</string>
+    <string name="all_unload">Descargar</string>
+    <string name="all_up">Arriba</string>
+    <string name="all_update">Actualizar</string>
+    <string name="all_warning">Atención</string>
+    <string name="all_wifi">Wi-Fi</string>
+    <string name="all_yes">Sí</string>
+    <string name="all_retry">Volver a intentar</string>
+    <string name="all_quit">Salir</string>
+    <string name="all_capture">Capturar</string>
+    <string name="all_measure">Medir</string>
+    <string name="all_3d_printing">Impresión 3D</string>
+    <string name="all_cnc">CNC</string>
+    <string name="all_laser">Láser</string>
+    <string name="all_10w_laser">Láser 10W</string>
+    <string name="all_laser_height">Altura del láser</string>
+    <string name="all_rotary_module">Módulo giratorio</string>
+    <string name="all_emergency_stop">Parada de emergencia</string>
+    <string name="all_safety_goggles">Gafas de seguridad</string>
+    <string name="all_air_purifier">Purificador de aire</string>
+    <string name="all_manual_mode">Modo manual</string>
+    <string name="all_touch_material_title">Material de mantenimiento</string>
+    <string name="number_0_1">0,1</string>
+    <string name="number_0_3">0,3</string>
+    <string name="number_1">1</string>
+    <string name="number_3">3</string>
+    <string name="number_10">10</string>
+    <string name="app_name">FabScreen</string>
+    <string name="todo">TODO</string>
+    <string name="debug">debug</string>
+    <string name="placeholder">placeholder</string>
+    <string name="placeholder_long">Placeholder-Placeholder-Placeholder-123</string>
+    <string name="placeholder_multiline">Placeholder\nPlaceholder\nPlaceholder</string>
+    <string name="all_0">0</string>
+    <string name="all_0_00">0,00</string>
+    <string name="all_0_000">0,000</string>
+    <string name="all_1">1</string>
+    <string name="all_2">2</string>
+    <string name="all_3">3</string>
+    <string name="all_4">4</string>
+    <string name="all_5">5</string>
+    <string name="all_6">6</string>
+    <string name="all_7">7</string>
+    <string name="all_8">8</string>
+    <string name="all_9">9</string>
+    <string name="all_0_05mm">0,05 mm</string>
+    <string name="all_0_1mm">0,1 mm</string>
+    <string name="all_0_2mm">0,2 mm</string>
+    <string name="all_0_3mm">0,3 mm</string>
+    <string name="all_0_5mm">0,5 mm</string>
+    <string name="all_1mm">1 mm</string>
+    <string name="all_5mm">5 mm</string>
+    <string name="all_10mm">10 mm</string>
+    <string name="all_0_2degree">0,2°</string>
+    <string name="all_1degree">1°</string>
+    <string name="all_5degree">5°</string>
+    <string name="all_unit_mm">mm</string>
+    <string name="all_unit_mm_with_space"> mm</string>
+    <string name="all_feedrate_unit">mm/min</string>
+    <string name="all_unit_temperature">°C</string>
+    <string name="all_unit_percentage">%</string>
+    <string name="all_unit_rpm">RPM</string>
+    <string name="all_slash">/</string>
+    <string name="all_format_float">%.1f</string>
+    <string name="all_format_int">%d</string>
+    <string name="all_unit_degree">°</string>
+    <string name="error_configuration">Configure su puerto serie primero.</string>
+    <string name="error_security">Usted no dispone de permiso de lectura/escritura para el puerto serie.</string>
+    <string name="error_unknown">No se puede abrir el puerto serie por una razón desconocida.</string>
+    <string name="exception_receiving_file">Se ha producido un error durante la recepción del archivo.</string>
+    <string name="all_homing_content">Para continuar, la máquina debe volver a su posición inicial. El autoguiado trabaja moviendo el cabezal de la herramienta en las orientaciones X, Y y Z hacia la posición previamente establecida, cuyas coordenadas sirven de punto de referencia.</string>
+    <string name="all_homing_title_going_home">Ir a Inicio</string>
+    <string name="all_homing_title_homing">Autoguiado</string>
+    <string name="warning_machine_not_responding">La máquina no responde. ¿Quiere volver a conectarse?</string>
+    <string name="all_receiving_file_title">Se ha detectado una transferencia de archivo</string>
+    <string name="firmware_already_newest_version">Última versión instalada.</string>
+    <string name="dialog_warning_moving">El cabezal de la herramienta está en movimiento...</string>
+    <string name="dialog_file_transfer_successful">¡Archivo transferido!</string>
+    <string name="dialog_warning_outdated_module_version_detected_notifiy">Se ha detectado un firmware de módulo (%s) obsoleto. Visite nuestra página web, descargue la versión más reciente y actualice antes de usar.</string>
+    <string name="dialog_warning_outdated_module_version_detected_update">Se ha detectado un firmware de módulo (%s) obsoleto. Actualice, por favor.</string>
+    <string name="home_slogan">Haga\nAlgo\nIncreíble</string>
+    <string name="home_dialog_update_successful">Actualización realizada correctamente</string>
+    <string name="home_dialog_update_successful_desc">Última versión instalada </string>
+    <string name="welcome_language_desc">Empecemos seleccionando el idioma.</string>
+    <string name="welcome_hello_sentence">Hagamos algo increíble.</string>
+    <string name="welcome_hello_start">Iniciar</string>
+    <string name="welcome_terms_accept">He leído y aceptado la Política de privacidad, los Términos y condiciones y la Cláusula de exención de responsabilidad de Snapmaker.</string>
+    <string name="welcome_name_title">Renombre su Snapmaker</string>
+    <string name="welcome_name_placeholder">Introduzca el nombre aquí.</string>
+    <string name="welcome_name_tip_empty">Debe introducir el nombre.</string>
+    <string name="welcome_wifi_subtitle">Conéctese a su red local.</string>
+    <string name="welcome_wifi_searching">Buscando...</string>
+    <string name="welcome_wifi_no_found">No se ha encontrado ninguna red. Compruebe que la máquina está dentro del alcance de su red.</string>
+    <string name="welcome_wifi_dialog_connecting">Conectándose a la red Wi-Fi...</string>
+    <string name="welcome_wifi_dialog_connected">¡Conectado a Wi-Fi!</string>
+    <string name="welcome_wifi_enter_password">Introduzca contraseña</string>
+    <string name="welcome_wifi_password_tip_empty">Debe introducir la contraseña.</string>
+    <string name="welcome_wifi_password_tip_too_short">La contraseña debe contener 8 caracteres como mínimo.</string>
+    <string name="welcome_wifi_skip_notice">Si no hay conexión a Internet, es posible que algunas funciones no funcionen. ¿Quiere saltarse este paso?</string>
+    <string name="all_wifi_dialog_connect_failed">Error de conexión</string>
+    <string name="all_wifi_dialog_connect_failed_wrong_password">Contraseña incorrecta</string>
+    <string name="guide_got_it">Entendido</string>
+    <string name="guide_complete_title">¡Increíble!</string>
+    <string name="laser_warning_desc">El siguiente paso encenderá el láser. Póngase las gafas de seguridad o coloque la máquina dentro de una caja de filtrado láser antes de proceder.</string>
+    <string name="guide_3dp_safety_instructions_content">
+      ● No toque la boquilla ni la cama caliente mientras la máquina esté imprimiendo o se esté calentando.
+    \n● Antes de realizar el mantenimiento o modificaciones en la máquina, recuerde que siempre debe desconectarla.
+    </string>
+    <string name="guide_3dp_calibration_content">
+    El Módulo de impresión 3D automáticamente probará y obtendrá datos para puntos específicos en la cama caliente. Solo debe calibrar manualmente el último punto ajustando la compensación Z.
+    </string>
+    <string name="guide_3dp_load_filament_content">
+        Hemos preestablecido una temperatura de boquilla para el filamento PLA incluido. La boquilla se calentará a la temperatura objetivo. Cuando el proceso de calentamiento finalice, siga la <b>Guía de inicio rápido</b> para cargar el filamento.
+    </string>
+    <string name="guide_3dp_complete_content">Configuración inicial de la impresora 3D finalizada. Ahora, prepare un archivo de código G con Snapmaker Luban para empezar a imprimir.</string>
+    <string name="guide_laser_safety_instructions_content">
+        ● El Módulo láser de 1600mW es un producto de Tipo 4.
+\n● Los menores de edad únicamente pueden utilizar esta máquina bajo la supervisión de un adulto.
+\n● El Módulo láser de 1600mW debe utilizarse junto a la caja diseñada por Snapmaker.
+\n● Todos los usuarios y personas situadas cerca debe llevar las gafas de seguridad diseñadas por Snapmaker y nunca se debe mirar directamente al láser sin la debida protección.
+\n● Utilice un purificador de aire que puede ofrecer una protección eficaz, ya que ciertos materiales pueden generar humos y gases peligrosos durante el proceso láser.
+\n● Antes de realizar el mantenimiento o cualquier tipo de modificación en la máquina, recuerde que siempre debe desconectarla.
+\n● Snapmaker no se hace responsable de la pérdida, lesiones, daños o gastos derivados o relacionados en cierta manera con el uso incorrecto del Módulo láser de 1600mW.
+    </string>
+    <string name="guide_laser_prepare_material_title">Fijar material</string>
+    <string name="guide_laser_prepare_material_content">Mida el espesor del material. Seguidamente, fíjelo a la plataforma de grabado y corte láser con las clavijas de silicona incluidas.</string>
+    <string name="guide_laser_measure_height_title">Medir altura</string>
+    <string name="guide_laser_measure_height_content">Antes de iniciar el Enfoque automático, la máquina debe saber la altura de la plataforma de grabado y corte láser.</string>
+    <string name="guide_laser_set_origin_content">Ajuste las <b>Compensaciones X e Y</b> para establecer el origen del trabajo. Pulse siempre <b>Ejecutar límites</b> para comprobar el área de trabajo.</string>
+    <string name="guide_laser_complete_content">Configuración inicial del láser finalizada. Ahora, prepare un archivo de código G con Snapmaker Luban para empezar los trabajos láser.</string>
+    <string name="guide_laser_calibration_intro_title">Calibre la longitud focal manualmente.</string>
+    <string name="guide_laser_calibration_intro_content">Esta guía le acompañará durante la calibración de la longitud focal para conseguir los mejores resultados.</string>
+    <string name="guide_laser_calibration_intro_step_title">Pasos</string>
+    <string name="guide_laser_calibration_intro_step_content">
+      ● Introduzca dimensiones del material
+    \n● Fije el material
+    \n● Confirme la altura de la superficie superior del material
+    \n● La máquina graba unas cuantas líneas
+    \n● Elija la mejor línea grabada (la más fina) y confirme la longitud focal
+    </string>
+    <string name="guide_laser_4axis_set_origin_content">
+        Ajuste las <b>Compensaciones X, Y y B</b> para establecer el origen del trabajo.
+        Pulse siempre <b>Ejecutar límites</b> para comprobar el área de trabajo.
+    </string>
+    <string name="guide_cnc_get_started">Empezar</string>
+    <string name="guide_cnc_safety_instructions">Instrucciones de seguridad</string>
+    <string name="guide_cnc_safety_instructions_content">
+      ● Recomendación de edad: usuarios con experiencia y usuarios mayores de 18 años.
+    \n● Coloque la máquina en una caja o utilice las gafas de seguridad CNC.
+    \n● El material siempre debe estar bien fijado.
+    \n● No toque la broca o el mandril inmediatamente después de usar.
+    \n● Antes de realizar el mantenimiento o cualquier tipo de modificación en la máquina, recuerde que siempre debe desconectarla.
+    </string>
+    <string name="guide_cnc_safety_goggles">Gafas de seguridad CNC</string>
+    <string name="guide_cnc_safety_goggles_content">Antes de configurar el recortador CNC, recuerde colocarse las gafas de seguridad CNC y utilizarlas durante todo el proceso de tallado.</string>
+    <string name="guide_cnc_fix_the_material">Fijar el material</string>
+    <string name="guide_cnc_fix_the_material_content">Sujete el material a la plataforma de tallado CNC con los conjuntos de abrazaderas incluidos.</string>
+    <string name="guide_cnc_prepare_tool_head">Colocar la broca</string>
+    <string name="guide_cnc_prepare_tool_head_content">Incline el mandril en la tuerca, introduzca la fresa de acabado plano en el mandril hasta que la pata llegue al fondo del mandril, y seguidamente gire la tuerca en el tallador CNC con la llave inglesa provista.</string>
+    <string name="guide_cnc_complete_content">Configuración inicial del tallado CNC finalizada. Ahora, prepare un archivo de código G con Snapmaker Luban para empezar un tallado CNC.</string>
+    <string name="guide_cnc_rotary_origin_assistant_content">El Asistente de origen permite establecer rápidamente el origen del trabajo antes de trabajar con la máquina.</string>
+    <string name="guide_cnc_rotary_bit_assistant_content">El Asistente de broca permite cambiar una broca CNC después del desbaste.</string>
+    <string name="guide_cnc_rotary_complete_content">Configuración inicial finalizada. Ahora, prepare un archivo de código G con Snapmaker Luban para empezar un tallado CNC.</string>
+    <string name="guide_laser_rotary_measure_height_intro_content">La máquina debe saber la altura de la superficie superior del material.</string>
+    <string name="guide_laser_rotary_measure_height_content">Con cuidado, baje el Módulo láser hasta la superficie superior del material y haga clic en <b>Siguiente</b>. Con el diámetro del material introducido, la máquina automáticamente calculará la altura del eje B.</string>
+    <string name="guide_laser_rotary_complete_content">Configuración inicial finalizada. Ahora, prepare un archivo de código G con Snapmaker Luban para empezar los trabajos láser.</string>
+    <string name="module_entry_image_view_desc"></string>
+    <string name="browse_files">Archivos</string>
+    <string name="browse_local">Local</string>
+    <string name="browse_usb">USB</string>
+    <string name="browse_library"></string>
+    <string name="browse_file_is_empty">El archivo está vacío</string>
+    <string name="browse_delete_item_desc">¿Quiere borrar este elemento?</string>
+    <string name="browse_delete_items_desc">¿Quiere borrar estos elementos?</string>
+    <string name="desc_receiving_file">Recibiendo archivos. Por favor, espere...</string>
+    <string name="browse_menu_sort_name_ascending">Clasificar por Nombre ↑</string>
+    <string name="browse_menu_sort_date_descending">Clasificar por fecha ↓</string>
+    <string name="browse_space_usage_desc">Almacenamiento: %d MB libre(s) de %d MB</string>
+    <string name="browse_rename_dialog_title">Introduzca otro nombre</string>
+    <string name="browse_alert_rename_failed">No se ha podido renombrar %s.</string>
+    <string name="browse_alert_delete_failed">No se ha podido borrar %s.</string>
+    <string name="browse_alert_file_not_support">Archivo no compatible.</string>
+    <string name="browse_usb_file_unable_to_identify">No se reconoce el dispositivo USB</string>
+    <string name="browse_usb_file_unable_to_identify_desc">El sistema no reconoce el dispositivo USB.\nVuelva a conectarlo o substituya el dispositivo USB.\n\nPosibles causas:\n1. El sistema de archivo del dispositivo USB no es FAT32.\n2. El dispositivo USB da error.</string>
+    <string name="toast_usb_device_unpuggled">Dispositivo USB desconectado</string>
+    <string name="toast_usb_device_detected">Dispositivo USB detectado</string>
+    <string name="preview_auto_mode">Modo automático</string>
+    <string name="preview_auto_mode_desc">En modo automático, la máquina calcula la altura del Módulo láser automáticamente.</string>
+    <string name="preview_auto_mode_desc_10w">La máquina mide el espesor del material y realiza el enfoque automático.</string>
+    <string name="preview_manual_mode">Modo manual</string>
+    <string name="preview_manual_mode_desc">En el modo manual, la altura del Módulo láser se establece observando y ajustando el punto láser.</string>
+    <string name="preview_manual_mode_desc_10w">El cabezal de la herramienta se debe bajar manualmente. Seguidamente, la máquina realiza el enfoque automático.</string>
+    <string name="preview_auto_mode_note_title">Nota para el modo automático</string>
+    <string name="preview_auto_mode_note_desc">
+        Condiciones que pueden provocar un error en la medición del espesor:
+        \n1. El espesor del material es superior a 50 mm
+        \n2. La textura del material es transparente o la superficie del material es brillante o especular
+        \n3. El color del material es rojo o negro
+    </string>
+    <string name="preview_auto_mode_note_a150_desc">
+        Condiciones que pueden provocar un error en la medición del espesor:
+        \n1. El espesor del material es superior a 35 mm
+        \n2. La textura del material es transparente o la superficie del material es brillante o especular
+        \n3. El color del material es rojo o negro
+    </string>
+    <string name="preview_manual_mode_note_title">Nota para el modo manual</string>
+    <string name="preview_manual_mode_note_desc">Haga clic en <b>Iniciar</b> y baje el cabezal de la herramienta manualmente contra la superficie del material. Seguidamente, haga clic en <b>Siguiente</b> y la máquina realizará el enfoque automático.</string>
+    <string name="preview_auto_place_material">Fije el material en el <b>centro</b> de la plataforma, compruebe que el punto rojo está sobre la superficie del material y haga clic en <b>Siguiente</b>.</string>
+    <string name="preview_auto_measure_material_thickness_title">Medición del espesor del material</string>
+    <string name="preview_auto_measure_loading_msg">Resultado de la medición en curso...</string>
+    <string name="preview_auto_measure_thickness_succeed_title">Se ha realizado correctamente</string>
+    <string name="preview_auto_measure_thickness_succeed_desc">
+        El espesor del material es <b>%s</b> mm. La máquina realizará el enfoque automático.
+    </string>
+    <string name="preview_auto_measure_thickness_fail_dialog_desc">
+        Vuelva a intentarlo o seleccione <b>Modo manual</b>.
+    </string>
+    <string name="preview_manual_touch_material_desc">Baje el cabezal de la herramienta manualmente contra la superficie del material con la Tarjeta de calibración.</string>
+    <string name="preview_laser_prepare_4axis_measure_height">Medir altura</string>
+    <string name="preview_laser_prepare_4axis_measure_height_intro_content">Para que la máquina realice el enfoque automático, debe medir la altura de la superficie superior del material.</string>
+    <string name="preview_laser_preview_4axis_measure_height_desc">Con cuidado, baje el cabezal de la herramienta manualmente contra la superficie del material. Haga clic en <b>Siguiente</b> y la máquina realizará el enfoque automático.</string>
+    <string name="preview_set_work_origin">Set Work Origin</string>
+    <string name="preview_work_speed">Velocidad de trabajo</string>
+    <string name="preview_preparing_workspace">Transferencia del archivo a la pantalla táctil. Por favor, espere...</string>
+    <string name="preview_parsing_file_desc">Analizando el archivo… %d%%</string>
+    <string name="preview_alert_failed_to_parse_file">Error durante el análisis del archivo.</string>
+    <string name="preview_alert_failed_to_open_file">No se ha podido abrir el archivo.</string>
+    <string name="preview_alert_file_type_not_match">Este tipo de archivo no es compatible con el cabezal de la herramienta.</string>
+    <string name="preview_warning_not_calibrated">
+        La máquina no ha detectado ningún datos de calibración, lo cual puede afectar a la impresión. ¿Quiere continuar con la impresión o primero calibrar la cama caliente?
+        \nNota: La máquina empezará a imprimir inmediatamente después de finalizar la calibración.
+    </string>
+    <string name="preview_laser_rotary_set_origin_dialog_run_boundary_warning">Atención: Si no se establece bien el origen del trabajo, el Módulo láser puede chocar con el material cuando se procede a <b>Ejecutar límites</b>.</string>
+    <string name="preview_laser_10w_rotary_set_origin_dialog_run_boundary_warning">Atención: Con cuidado, establezca el origen del trabajo, ya que el Módulo láser de 10W puede chocar con el material cuando se procede a ejecutar los límites.</string>
+    <string name="preview_cnc_rotary_origin_remind_desc">
+        Alinear el origen del trabajo en el material con el origen de coordenadas en Luban\n
+        \nEl origen del trabajo se puede establecer en <b>Caja de herramientas</b> > <b>Asistente de origen</b>. También se puede establecer manualmente más tarde.\n
+        \nDespués de establecer el origen del trabajo con el Asistente de origen, siempre que las dimensiones del material no se modifiquen, se puede utilizar para futuras sesiones de tallado.
+    </string>
+    <string name="preview_cnc_rotary_set_origin_dialog_run_boundary_warning">Atención: Si el origen del trabajo no se establece correctamente, la broca CNC puede chocar con el material cuando se procede a <b>Ejecutar límites</b>.</string>
+    <string name="preview_cnc_rotary_install_tailstock">Instalar Posicionador</string>
+    <string name="preview_cnc_rotary_install_tailstock_content">Puede instalar el Posicionador según el material que utilice.</string>
+    <string name="preview_bounding_box_format_x_y_z">%.1f × %.1f × %.1f mm</string>
+    <string name="preview_bounding_box_format_x_y">%.1f × %.1f mm</string>
+    <string name="preview_bounding_box_format_d_l">D: %.1f mm L: %.1f mm</string>
+    <string name="print_settings_adjust_settings">Ajustar configuración</string>
+    <string name="print_receive_file_start">¿Quiere iniciar el trabajo ahora?</string>
+    <string name="print_warning_pause">¿Quiere pausar el trabajo?</string>
+    <string name="print_warning_stop">Esta acción no se puede deshacer. ¿Quiere detener el trabajo?</string>
+    <string name="print_warning_power_outage_title">Recuperación de pérdida de potencia</string>
+    <string name="print_warning_power_outage_content">Se ha producido un apagón eléctrico. ¿Quiere reanudar el trabajo?</string>
+    <string name="print_warning_filament_run_out_title">Recuperación de filamento agotado</string>
+    <string name="print_warning_filament_run_out_content">El filamento se ha agotado. Cargue el filamento para reanudar la impresión.</string>
+    <string name="print_warning_enclosure_door_detection_title">Detección de puerta</string>
+    <string name="print_warning_enclosure_door_detection_content">Una o las dos puertas de la caja está/n abierta/s. Por favor, cierre la/s puerta/s y espere un segundo para reanudar la impresión.</string>
+    <string name="print_warning_open_unable">No se puede abrir el archivo de código G. Saliendo...</string>
+    <string name="print_warning_start_unable">No se puede iniciar el trabajo. Revise la configuración de la máquina y vuelva a intentarlo.</string>
+    <string name="print_warning_pause_unable">No se puede pausar el trabajo.</string>
+    <string name="print_warning_resume_unable">No se puede reanudar el trabajo. Revise la configuración de la máquina y vuelva a intentarlo.</string>
+    <string name="print_warning_stop_unable">No se puede detener el trabajo.</string>
+    <string name="print_warning_finish_unable">No se puede finalizar el trabajo.</string>
+    <string name="print_change_filament">Cambiar filamento</string>
+    <string name="enclosure_led_strip">Tiras LED</string>
+    <string name="enclosure_cooling_fan">Ventilador de escape</string>
+    <string name="enclosure_settings">Configuración de la caja</string>
+    <string name="enclosure_settings_door_detection">Detección de puerta</string>
+    <string name="enclosure_settings_door_detection_desc">Si desactiva la función <b>Detección de puerta</b>, el trabajo no se pausará si una o las dos puertas de la caja está/n abierta/s.</string>
+    <string name="enclosure_settings_auto_lighting">Iluminación automática</string>
+    <string name="enclosure_settings_auto_lighting_desc">Si se activa la <b>Iluminación automática</b>, las tiras LED se encenderán automáticamente al encender la máquina.</string>
+    <string name="enclosure_settings_auto_lighting_dialog_desc">Para que la nueva configuración funcione, debe reiniciar la máquina.</string>
+    <string name="emergency_stop_warning_desc">Antes de manipular la emergencia, por favor desconecte la alimentación eléctrica.
+Seguidamente, una vez pasado el riesgo, suelte el botón de parada de emergencia para encender la máquina.</string>
+    <string name="emergency_stop">Parada de emergencia</string>
+    <string name="machine_unavailable">Máquina no disponible</string>
+    <string name="emergency_stop_warning_desc2">Suelte el botón de parada de emergencia antes de encenderla.</string>
+    <string name="air_purifier_fan_power">Alimentación eléctrica</string>
+    <string name="air_purifier_fan_speed">Velocidad del ventilador</string>
+    <string name="air_purifier_filter_life">Vida del filtro</string>
+    <string name="all_low">Bajo</string>
+    <string name="all_medium">Medio</string>
+    <string name="all_High">Alto</string>
+    <string name="air_purifier_tip_power_off">Conecta la alimentación primero.</string>
+    <string name="air_purifier_tip_filter_life_low">Debe cambiarse el cartucho de filtro.</string>
+    <string name="warning_air_purifier_not_properly_closed">Purificador de aire mal cerrado.</string>
+    <string name="warning_air_purifier_not_properly_closed_desc">El Purificador de aire no está bien cerrado. Para utilizarlo, cierre la tapa y el tapón correctamente.</string>
+    <string name="warning_air_purifier_cartridge_not_properly_seated_title">Cartucho mal colocado</string>
+    <string name="warning_air_purifier_cartridge_not_properly_seated_desc">El cartucho de filtro no está bien colocado. Para utilizar el Purificador de aire, coloque el cartucho correctamente.</string>
+    <string name="warning_air_purifier_turn_on_during_print_3dp">Atención: Encenderlo afectará a la temperatura.</string>
+    <string name="warning_air_purifier_turn_on_during_print_cnc">Atención: Encenderlo afectará a la vida del filtro.</string>
+    <string name="print_nozzle_temp">Temp. de la boquilla</string>
+    <string name="print_heated_bed">Cama caliente</string>
+    <string name="print_heated_bed_temp">Temp. de cama cálida</string>
+    <string name="print_estimated_time">Tiempo estimado</string>
+    <string name="print_remaining_time">Tiempo restante</string>
+    <string name="print_elapsed_time">Tiempo transcurrido</string>
+    <string name="print_laser_power">Potencia del láser</string>
+    <string name="print_feed_rate">Velocidad de trabajo</string>
+    <string name="print_spindle_spend">Velocidad del eje</string>
+    <string name="print_z_offset">Compensación Z</string>
+    <string name="print_ready_to_load">Listo para cargar</string>
+    <string name="date_helper_format_split_by_colon">%02d:%02d:%02d</string>
+    <string name="date_helper_format_time_hour_minute">%d h %d min</string>
+    <string name="date_helper_format_time_minute_second">%d min %d sec</string>
+    <string name="calibration_intro_calibrate_the_bed">Calibrar la cama</string>
+    <string name="calibration_intro_auto_leveling_calibrate_the_bed_desc">
+        El Módulo de impresión 3D automáticamente probará y obtendrá datos para puntos específicos en la cama caliente. Cuando finalice la <b>Nivelación automática</b>, siga la <b>Guía de inicio rápido</b> para establecer una compensación Z adecuada y guardar los ajustes.
+    </string>
+    <string name="calibration_intro_manual_leveling_calibrate_the_bed_desc">
+        El Módulo de impresión 3D se moverá a puntos específicos por encima de la cama caliente. Se debe calibrar cada punto manualmente ajustando la compensación Z.
+    </string>
+    <string name="calibration_intro_heated_leveling_first_step_title">1. Calentar la cama</string>
+    <string name="calibration_intro_heated_the_bed_desc">La máquina calentará la cama caliente a la temperatura introducida.</string>
+    <string name="calibration_intro_heated_leveling_second_step_title">2. Calibrar la cama</string>
+    <string name="calibration_exit_manual_leveling_confirm_desc">¿Seguro que quiere abandonar la <b>Nivelación manual</b>?</string>
+    <string name="calibration_exit_auto_leveling_confirm_desc">¿Seguro que quiere abandonar la <b>Nivelación automática</b>?</string>
+    <string name="calibration_failed">Error en <b>Calibración rápida</b>. Póngase en contacto con nuestro Servicio técnico.</string>
+    <string name="calibration_missing_notice">Su Snapmaker no se ha calibrado. ¿Quiere imprimir?</string>
+    <string name="calibration_mode_indicator">Seleccione un método</string>
+    <string name="calibration_auto_leveling">Nivelación automática</string>
+    <string name="calibration_manual_leveling">Nivelación manual</string>
+    <string name="calibration_heated_auto_leveling">Nivelación de calentamiento automática</string>
+    <string name="calibration_heated_manual_leveling">Nivelación de calentamiento manual</string>
+    <string name="calibration_fast_calibration">Calibración rápida</string>
+    <string name="calibration_next_point">Siguiente</string>
+    <string name="calibration_dialog_z_offset_leveling_desc">Nivele el punto de referencia manualmente.</string>
+    <string name="calibration_dialog_z_offset_heated_bed_warning_desc">
+        Atención: La cama caliente está muy caliente. ¡Cuidado con sus manos!\n
+        Calibre la cama caliente con guantes.
+    </string>
+    <string name="calibration_dialog_guide_auto_calibration_fail_desc">Se ha producido un error durante la calibración. Vuelva a intentarlo o salte este paso.\nSi necesita ayuda, póngase en contacto con nuestro Servicio técnico.</string>
+    <string name="calibration_dialog_auto_calibration_fail_desc">Se ha producido un error durante la calibración. Vuelva a intentarlo o salga.\nSi necesita ayuda, póngase en contacto con nuestro Servicio técnico.</string>
+    <string name="calibration_pre_heated_bed_title">Calentando la cama</string>
+    <string name="calibration_pre_heated_bed_tip">Atención: La cama se está calentando. Cuidado con sus manos.</string>
+    <string name="calibration_pre_heated_bed_suggestion">
+        La temperatura de referencia de la cama caliente es:\n
+        PLA—70°C    ABS—80°C
+    </string>
+    <string name="calibration_tool_head_not_detected">No se ha detectado ningún cabezal de la herramienta.</string>
+    <string name="cnc_calibration_description">No es necesario realizar la calibración para CNC.</string>
+    <string name="laser_choose_mode">Seleccionar Modo</string>
+    <string name="laser_safety_goggles">Gafas de seguridad láser</string>
+    <string name="laser_safety_goggles_message">Antes de utilizar el Módulo láser, colóquese las gafas de seguridad láser y utilícelas durante todo el proceso.</string>
+    <string name="laser_10w_safety_goggles_message">Colóquese siempre las gafas de seguridad láser cuando utilice el Módulo láser de 10W.</string>
+    <string name="laser_set_material_thickness">Establecer el espesor del material</string>
+    <string name="laser_alert_failed_to_get_focal_length">Error en ajuste de longitud focal.</string>
+    <string name="laser_calibration_select_mode">Seleccione un método</string>
+    <string name="laser_calibration_auto_focus">Enfoque automático</string>
+    <string name="laser_calibration_auto_focus_switch_desc">Después de desactivar, ir a <b>Calibración</b> para utilizar el <b>Enfoque manual</b>.</string>
+    <string name="laser_calibration_auto_focus_desc">
+        La máquina grabará unas cuantas líneas a diferentes alturas. Reconocerá la línea más fina y guardará la altura del correspondiente eje Z.\n
+        \nColóquese las gafas de seguridad láser antes de hacer clic en <b>Iniciar</b>.
+    </string>
+    <string name="laser_calibration_auto_focus_notice">No mueva el material durante el proceso de <b>Enfoque automático</b>.</string>
+    <string name="laser_calibration_manual_focus">Enfoque manual</string>
+    <string name="laser_calibration_manual_focus_desc">
+        La máquina grabará unas cuantas líneas a diferentes alturas. Debe seleccionar la línea grabada más fina y guardará la altura del correspondiente eje Z.\n
+        \nColóquese las gafas de seguridad láser antes de hacer clic en <b>Iniciar</b>.
+    </string>
+    <string name="laser_calibration_engraving">Grabado</string>
+    <string name="laser_calibration_engraving_notice">No mueva el material durante el proceso.</string>
+    <string name="laser_calibration_manual_focus_notice">No mueva el material durante el proceso de <b>Enfoque manual</b>.</string>
+    <string name="laser_calibration_processing">Procesando</string>
+    <string name="laser_calibration_failed">Error</string>
+    <string name="laser_calibration_fine_tune">Afinación fina</string>
+    <string name="laser_calibration_auto_focus_failed">Lo sentimos. La cámara no reconoce la línea grabada más fina. Haga clic en <b>Error</b> para seleccionar la línea más fina manualmente.</string>
+    <string name="laser_calibration_auto_focus_complete">El proceso de <b>Enfoque automático</b> se ha realizado correctamente.</string>
+    <string name="laser_calibration_auto_focus_complete_1">El proceso de <b>Enfoque automático</b> se ha realizado correctamente. Si la compensación Z final es demasiado baja, le recomendamos retirar la cubierta de la lente y volver a hacer el <b>Enfoque automático</b>.</string>
+    <string name="laser_calibration_auto_focus_complete_2">La mejor línea grabada está a la derecha, así que la longitud focal del láser puede estar fuera del alcance óptimo. Le recomendamos volver a hacer el <b>Enfoque automático</b>.</string>
+    <string name="laser_calibration_fine_tune_detection_failed">Error en <b>Calibración automática</b>.</string>
+    <string name="laser_calibration_fine_tune_pick_desc">Desplace para seleccionar la mejor línea grabada.</string>
+    <string name="laser_calibration_measure_height">Mida la altura</string>
+    <string name="laser_calibration_measure_height_desc">Con cuidado, baje el Módulo láser hasta la superficie de su material y haga clic en <b>Siguiente</b>. Con el espesor del material, la máquina automáticamente calculará la altura de la Plataforma de grabado/corte láser.</string>
+    <string name="laser_calibration_coarse_tuning">Afinación gruesa</string>
+    <string name="laser_calibration_coarse_tuning_desc">Ajuste la compensación Z del Módulo láser hasta que el rayo láser se enfoque en el punto más pequeño posible. Seguidamente, mueva el Módulo láser al origen del trabajo.</string>
+    <string name="laser_calibration_4axis_install_material_content">
+        Fije el material en al mandril y no deje ni un espacio entre sus superficies de contacto.
+    </string>
+    <string name="laser_calibration_4axis_install_material_tailstock_warning">Atención: Aún no instale el Contrapunto, ya que la broca puede chocar con este.</string>
+    <string name="laser_calibration_set_reference_points">Establezca los puntos de referencia</string>
+    <string name="laser_calibration_4axis_coarse_turning_desc">
+        Coloque un trozo de papel blanco encima de la superficie del material. Ajuste la altura del módulo láser hasta que el rayo láser se enfoque en el punto más pequeño. \n
+        \nEn el siguiente paso, ajuste las <b>Compensaciones X, Y y B</b> para establecer el origen del trabajo.
+    </string>
+    <string name="laser_calibration_4axis_measure_height">Con cuidado, baje el Módulo láser hasta la superficie superior del material y haga clic en <b>Siguiente</b>. Con el diámetro del material introducido, la máquina automáticamente calculará la altura del eje B.</string>
+    <string name="laser_calibration_material_thickness">Espesor del material</string>
+    <string name="laser_calibration_set_material_thickness">Establecer el espesor del material</string>
+    <string name="laser_calibration_set_laser_focal_length">Establecer la longitud focal del láser</string>
+    <string name="laser_calibration_modify">Ajustar la altura del láser</string>
+    <string name="laser_camera_calibration">Calibración de la cámara</string>
+    <string name="laser_camera_calibration_intro">La calibración de la cámara garantiza que las funciones de la cámara funcionen correctamente.</string>
+    <string name="laser_camera_calibration_step1_desc">
+        Coloque un trozo de papel blanco (no más grande de 150 × 150 mm) en el centro de la Plataforma de corte/grabado láser con las clavijas de silicona incluidas. La máquina cortará un cuadrado en el papel para calibrar los parámetros de la cámara.
+    </string>
+    <string name="laser_10w_camera_calibnration_step1_desc">Coloque un trozo de papel A4 blanco en el centro de la Plataforma. La máquina cortará un cuadrado en el papel para calibrar la cámara. Colóquese las gafas de seguridad láser antes de hacer clic en <b>Iniciar</b>.</string>
+    <string name="laser_camera_calibration_step2_desc">No mueva el papel durante este proceso.</string>
+    <string name="laser_camera_calibration_step2_desc2">Procesando foto… %d/4</string>
+    <string name="laser_camera_light">Luz de calibración</string>
+    <string name="laser_camera_light_desc">Cuando esté activada, la máquina encenderá la luz de la cámara automáticamente durante la <b>Calibración del láser</b> o la <b>Calibración de la cámara</b>.</string>
+    <string name="laser_10w_camera_light_desc">Cuando esté activada, la máquina encenderá la luz de la cámara automáticamente durante la <b>Calibración de la cámara</b>.</string>
+    <string name="laser_camera_alert_camera_not_connected">La cámara no está conectada.</string>
+    <string name="cnc_safety_goggles">Gafas de seguridad CNC</string>
+    <string name="cnc_tool_box">Caja de herramientas</string>
+    <string name="cnc_origin_assistant">Asistente de origen</string>
+    <string name="cnc_origin_assistant_get_started">
+        Antes de proceder con el tallado, se puede utilizar el Asistente de origen para establecer el origen del trabajo, que se guardará en el sistema.
+        En futuras sesiones de tallado, siempre que las dimensiones del material no se modifiquen, podrá seleccionar los archivos y empezar rápidamente.
+    </string>
+    <string name="cnc_origin_assistant_material_settings">Configuración del material</string>
+    <string name="cnc_origin_assistant_material_settings_length_desc">Longitud (mm)</string>
+    <string name="cnc_origin_assistant_material_settings_diameter_desc">Diámetro (mm)</string>
+    <string name="cnc_origin_assistant_input_tip_empty">Debe introducir este valor.</string>
+    <string name="cnc_origin_assistant_input_tip_not_positive">El valor debe ser positivo.</string>
+    <string name="cnc_origin_assistant_install_material_title">Fije el material</string>
+    <string name="cnc_origin_assistant_install_material_content">
+        Sujete el material en el mandril y no deje ni un espacio entre sus superficies de contacto. \n
+        \nAún no instale el Contrapunto.
+    </string>
+    <string name="cnc_origin_assistant_carving_tool">Herramienta de tallado</string>
+    <string name="cnc_origin_assistant_carving_v_bit">Broca en V de tallado</string>
+    <string name="cnc_origin_assistant_flat_end_mill">Fresa de acabado plano</string>
+    <string name="cnc_origin_assistant_ball_end_mill">Fresa de acabado circular</string>
+    <string name="cnc_origin_assistant_straight_groove_v_bit">Broca en V de ranura recta</string>
+    <string name="cnc_origin_assistant_custom_bit">Personalizar broca </string>
+    <string name="cnc_origin_assistant_set_carving_tool_desc">Seleccione entre las cuatro brocas o elija una broca a medida. Seguidamente, colóquela en el mandril.</string>
+    <string name="cnc_origin_assistant_custom_bit_total_length_desc">Longitud total (mm)</string>
+    <string name="cnc_origin_assistant_custom_bit_shank_diameter_desc">Diámetro del mango (mm)</string>
+    <string name="cnc_origin_assistant_set_origin_intro_content">
+        El cabezal de la herramienta se aproximará al material.
+        Siga las instrucciones para mover la broca a las posiciones mostradas en la pantalla.
+        Seguidamente, haga clic en <b>Establecer</b> para confirmar cada una de las coordenadas.
+    </string>
+    <string name="cnc_origin_assistant_set_x1">Establecer X1</string>
+    <string name="cnc_origin_assistant_set_x2">Establecer X2</string>
+    <string name="cnc_origin_assistant_set_y">Establecer Y</string>
+    <string name="cnc_origin_assistant_set_z">Establecer Z</string>
+    <string name="cnc_origin_assistant_set_b">Establecer B</string>
+    <string name="cnc_origin_assistant_set_origin_back_notice">Si sale de esta página, perderá los datos de origen de trabajo que no se han guardado. ¿Seguro que quiere salir?</string>
+    <string name="cnc_origin_assistant_set_origin_complete">La configuración inicial del tallado giratorio se ha realizado correctamente. Ya puede seleccionar un archivo y empezar a trabajar.</string>
+    <string name="cnc_bit_assistant">Asistente de broca</string>
+    <string name="cnc_bit_assistant_intro_desc">
+        El Asistente de broca es parecido a un preconfigurador de herramientas. Le guía para trabajar con las brocas para tocar el mismo punto elegido, y el sistema elaborará la compensación Z.
+        Después de cambiar la broca, puede utilizar el origen de trabajo configurado anteriormente y empezar a tallar rápidamente. \n
+        \nNota: Cuando finalice el desbaste, mantenga la broca en su sitio hasta que el sistema le avise de que puede cambiarla.
+    </string>
+    <string name="cnc_bit_assistant_bit_change_title">Cambio de broca</string>
+    <string name="cnc_bit_assistant_step2_intro_desc">
+        Cambie la broca CNC por otra nueva.\n
+        \n
+        Manipule la nueva broca CNC para que ligeramente toque el mismo punto elegido ajustando la compensación Z. Haga clic en <b>Establecer</b>.
+    </string>
+    <string name="cnc_bit_assistant_complete_desc">¡Enhorabuena! La configuración de origen de trabajo para el trabajo de acabado se ha realizado correctamente. Seleccione el archivo en la pantalla y empiece a trabajar.</string>
+    <string name="control_jog_mode">Modo jog</string>
+    <string name="control_nozzle">Boquilla</string>
+    <string name="control_laser">Láser</string>
+    <string name="control_spindle">Eje</string>
+    <string name="control_x">X</string>
+    <string name="control_y">Y</string>
+    <string name="control_z">Z</string>
+    <string name="control_b">B</string>
+    <string name="control_height">Altura</string>
+    <string name="control_home">Inicio</string>
+    <string name="control_homing">Autoguiado</string>
+    <string name="control_current_target_placeholder"></string>
+    <string name="control_goto_origin">Go To Work Origin</string>
+    <string name="control_target_nozzle_temperature">Temp. de la boquilla final</string>
+    <string name="control_heated_bed_temperature">Temp. de cama cálida</string>
+    <string name="control_filament">Filamento</string>
+    <string name="control_load_filament">Cargar filamento</string>
+    <string name="control_load_filament_failed">Error al cargar filamento.</string>
+    <string name="control_heat_warning">Por favor, ajuste la temperatura de la boquilla antes de cambiar el filamento. Por defecto, la boquilla se calentará a 200℃.</string>
+    <string name="control_coordinate_panel_absolute_position">Coordenadas de la máquina</string>
+    <string name="control_coordinate_panel_work_position">Coordenadas de trabajo</string>
+    <string name="control_coordinate_panel_unit">mm</string>
+    <string name="control_coordinate_panel_position_placeholder">0,00</string>
+    <string name="control_set_origin_panel_set">Establecer</string>
+    <string name="control_set_origin_panel_origin">Origen</string>
+    <string name="control_set_origin">Set Work Origin</string>
+    <string name="control_set_origin_x">Origen de X</string>
+    <string name="control_set_origin_y">Origen de Y</string>
+    <string name="control_set_origin_z">Origen de Z</string>
+    <string name="control_set_origin_b">Origen de B</string>
+    <string name="control_run_boundary">Ejecutar límites</string>
+    <string name="control_laser_status">Estado del láser</string>
+    <string name="control_spindle_speed">Velocidad</string>
+    <string name="control_spindle_status">Estado del eje</string>
+    <string name="password_hint">Contraseña</string>
+    <string name="settings_about_machine">Acerca de la máquina</string>
+    <string name="settings_terms_and_conditions">Términos y condiciones</string>
+    <string name="settings_user_preference">Preferencias de usuario</string>
+    <string name="settings_firmware_update">Actualización de firmware</string>
+    <string name="settings_export_log">Exportar registro</string>
+    <string name="settings_snapmaker2_a150">Snapmaker 2.0 A150</string>
+    <string name="settings_snapmaker2_a250">Snapmaker 2.0 A250/A250T/F250</string>
+    <string name="settings_snapmaker2_a350">Snapmaker 2.0 A350/A350T/F350</string>
+    <string name="settings_product_name">Nombre del producto</string>
+    <string name="settings_work_are">Área de trabajo</string>
+    <string name="settings_firmware_version">Versión de firmware</string>
+    <string name="settings_screen_version">Versión de pantalla táctil</string>
+    <string name="settings_controller_version">Versión del control</string>
+    <string name="settings_ip_address">Dirección IP</string>
+    <string name="settings_network_not_connected">No conectado</string>
+    <string name="settings_touchscreen">Pantalla táctil</string>
+    <string name="settings_resolution">Resolución</string>
+    <string name="settings_resolution_value">1280 × 720</string>
+    <string name="settings_display">Pantalla</string>
+    <string name="settings_display_value">Pantalla táctil IPS de 5 pulgadas</string>
+    <string name="settings_core">Procesador</string>
+    <string name="settings_core_value">Quad Core A7 CPU @1.1 GHz</string>
+    <string name="settings_os">OS</string>
+    <string name="settings_os_value">Android 7.1</string>
+    <string name="settings_advanced_settings">Configuración avanzada</string>
+    <string name="settings_print_settings_3dp">Configuración de impresión 3D</string>
+    <string name="settings_auto_calibration_desc">Cuando la <b>Nivelación automática</b> esté desactiva, vaya a <b>Calibración</b> para utilizar la <b>Calibración manual</b>.</string>
+    <string name="settings_fast_calibration_desc">Cuando la <b>Calibración rápida</b> esté desactiva, la máquina empezará a imprimir inmediatamente en lugar de iniciar <b>Calibración rápida</b> antes de cada impresión.</string>
+    <string name="settings_3dp_calibration_grid">Rejilla de calibración</string>
+    <string name="settings_3dp_calibration_points">Puntos de calibración</string>
+    <string name="settings_3dp_heated_leveling">Nivelación de calentamiento</string>
+    <string name="settings_3dp_heated_leveling_desc">Cuando se active la <b>Nivelación de calentamiento</b>, la máquina calentará la Cama caliente antes de la calibración.</string>
+    <string name="settings_advance_laser">Configuración del láser</string>
+    <string name="settings_camera_calibration">Calibración de la cámara</string>
+    <string name="settings_advance_laser_10w">Configuración del láser 10W</string>
+    <string name="settings_laser_thickness_measure_calibration_title">Calibración de medición del espesor</string>
+    <string name="settings_laser_thickness_measure_calibration_desc">Si en el Modo automático, considera que la medición del espesor del material no es precisa, vaya a Calibración de la medición.</string>
+    <string name="settings_laser_thickness_measure_calibration_page_desc">
+        Fije el blanco de calibración en el <b>centro</b> de la plataforma. La máquina realizará la calibración y medirá el espesor del blanco de calibración para confirmar si la calibración es correcta.
+    </string>
+    <string name="settings_laser_thickness_measure_calibration_capturing">Capturando...</string>
+    <string name="settings_laser_thickness_measure_calibration_measuring">Midiendo...</string>
+    <string name="settings_laser_measure_a4_thickness">Medir el espesor del papel A4</string>
+    <string name="settings_laser_measure_thickness">Medir el espesor</string>
+    <string name="settings_laser_confirm_red_dot_on_calibration_plate">Compruebe que el punto rojo está sobre la superficie del blanco de calibración.</string>
+    <string name="settings_laser_processing_result">Resultado de la medición en curso...</string>
+    <string name="settings_laser_measure_thickness_fail_desc">
+Vuelva a intentarlo o salga de la calibración.\n
+\n
+Posibles causas:
+\n1. El punto rojo no se ha capturado durante la calibración
+\n2. La luz ambiental es demasiado fuerte
+    </string>
+    <string name="guide_laser_measure_thickness_fail_desc">
+Vuelva a intentarlo.\n
+\n
+Posibles causas:
+\n1. El punto rojo no se ha capturado durante la calibración
+\n2. La luz ambiental es demasiado fuerte
+    </string>
+    <string name="settings_laser_toolhead_focus_calibration_title">Calibración del foco del cabezal de la herramienta</string>
+    <string name="settings_laser_toolhead_focus_calibration_desc">Si ha cambiado el cabezal de la herramienta, le recomendamos que vuelva a realizar la calibración del foco del cabezal de la herramienta.</string>
+    <string name="settings_laser_toolhead_focus_calibration_page_desc">
+        Haga clic en <b>Iniciar</b> y baje el cabezal de la herramienta manualmente hasta la superficie de la plataforma. Seguidamente, haga clic en <b>Finalizar</b> y la máquina realizará el enfoque automático.
+    </string>
+    <string name="guide_laser_toolhead_focus_calibration_page_desc">
+        Haga clic en <b>Iniciar</b> y baje el cabezal de la herramienta manualmente hasta la superficie de la plataforma. Seguidamente, haga clic en <b>Siguiente</b> y la máquina realizará el enfoque automático.
+    </string>
+    <string name="settings_laser_1st_calibration_point">El primer punto de calibración</string>
+    <string name="settings_laser_2nd_calibration_point">El segundo punto de calibración</string>
+    <string name="settings_laser_calibration_point_desc">Compruebe que el punto rojo está sobre la superficie del blanco de calibración.</string>
+    <string name="settings_laser_process_capture_result">Procesando el resultado de la captura...</string>
+    <string name="settings_laser_process_capture_result_success">¡Correcto!</string>
+    <string name="settings_laser_process_capture_result_guide_success">La calibración de medición del espesor ha finalizado. </string>
+    <string name="settings_laser_process_capture_result_fail">Vuelva a intentarlo o salga.</string>
+    <string name="guide_10w_laser_process_capture_result_fail">Vuelva a intentarlo.</string>
+    <string name="settings_laser_thickness_calibration_complete">La calibración de medición del espesor ha finalizado. Puede utilizar el Modo automático.</string>
+    <string name="settings_laser_touch_platform_title">Plataforma táctil</string>
+    <string name="settings_laser_10w_camera_light_desc">Cuando se encienda la máquina, está encenderá la luz de la cámara automáticamente durante la calibración de la cámara.</string>
+    <string name="settings_laser_10w_camera_touch_platform_desc">Baje el cabezal de la herramienta manualmente hasta la superficie de la plataforma con la Tarjeta de calibración. </string>
+    <string name="settings_export_log_done">Exportación correcta.</string>
+    <string name="settings_export_log_failed">No se ha podido exportar el registro. Compruebe que ha introducido un dispositivo USB reconocible.</string>
+    <string name="settings_choose_network">Seleccione la red</string>
+    <string name="settings_firmware_check_for_update">Comprobar actualizaciones</string>
+    <string name="settings_firmware_download_firmware">Descargar firmware</string>
+    <string name="settings_firmware_update_now">Actualizar ahora</string>
+    <string name="settings_firmware_factory_reset">Restablecer a los ajustes de fábrica</string>
+    <string name="settings_firmware_dialog_checking_update">Comprobando actualizaciones...</string>
+    <string name="settings_firmware_dialog_new_version_available">Nueva versión disponible</string>
+    <string name="settings_firmware_dialog_new_version_available_desc">La última versión es %s (%.1f MB)\n</string>
+    <string name="settings_firmware_dialog_later">Más tarde</string>
+    <string name="settings_firmware_btn_download_firmware_desc">Descargar actualización %.1f MB</string>
+    <string name="settings_firmware_warning_cancel_download">¿Seguro que quiere cancelar la actualización?</string>
+    <string name="settings_firmware_cancel_update">Cancelar actualización</string>
+    <string name="settings_firmware_unstable_network_connection">Conexión de red inestable</string>
+    <string name="settings_firmware_change_logs_desc">Para realizar cambios en el registro de las actualizaciones de firmware de Snapmaker, visite la siguiente página web:
+        https://forum.snapmaker.com/t/snapmaker-2-0-firmware-updates-and-downloads</string>
+    <string name="settings_firmware_change_logs_new_feature">Nueva función</string>
+    <string name="settings_firmware_change_logs_bug_fixed">Corrección de errores de programación</string>
+    <string name="settings_firmware_change_logs_improvements">Mejoras</string>
+    <string name="settings_update_success">Actualización finalizada.</string>
+    <string name="settings_update_failed_file_not_found">No se ha podido abrir el archivo de actualización.</string>
+    <string name="settings_update_failed_file_parse_error">No se ha podido reconocer la información actualizada del archivo.</string>
+    <string name="settings_update_failed">Error en actualización.</string>
+    <string name="settings_update_open_file_failed">Se ha producido un error al abrir el archivo de actualización.</string>
+    <string name="settings_update_loading_update_file">Cargando archivo de actualización...</string>
+    <string name="settings_update_msg_updating_modules">Actualizando módulos...</string>
+    <string name="settings_update_msg_updating_controller">Actualizando control...</string>
+    <string name="settings_update_msg_updating_screen">Actualizando pantalla táctil...</string>
+    <string name="settings_update_msg_finishing_up_controller_update">Finalizando actualización de firmware del control...</string>
+    <string name="settings_terms_content"><b>¡Bienvenido a Snapmaker!</b>\n
+\nAntes de utilizar este producto, lea detenidamente los Términos y condiciones. El acceso y el uso de este producto se basa en la aceptación y el cumplimiento de estos términos. Dichos términos se aplican a todos los usuarios que acceden o utilizan este producto.\n
+\nAl hacer uso de este producto, usted acepta regirse por estos términos. En caso de no estar conforme con alguna parte de ellos, se recomienda no hacer uso de este producto.\n
+\nNos reservamos el derecho, bajo nuestro propio criterio, de modificar y substituir estos términos en cualquier momento.\n
+        \n<b>Política de privacidad</b>\n
+\nGracias por utilizar nuestros productos y servicios. Snapmaker considera que su privacidad es importantes y la respeta. Por ello, hemos elaborado una Política de privacidad que trata la manera como obtenemos, utilizamos, revelamos y guardamos sus datos.\n
+\nUtilizamos sus datos con el fin de mejorar y ofrecer nuestros servicios. Al hacer uso de nuestros servicios, usted acepta la obtención y el uso de sus datos conforme a esta Política.\n
+        \n<b>Obtención de datos personales</b>\n
+\nCuando usted utiliza este dispositivo, automáticamente obtenemos ciertos datos del mismo, como la dirección IP, el tiempo de uso del dispositivo y las preferencias de usuario.\n
+\nObtenemos los datos del dispositivo mediante la siguiente tecnología:\n
+\nAcciones de seguimiento de «Archivos de registro» en el dispositivo, obteniendo datos como el tiempo de uso, los ajustes de impresión, los modelos de impresión y la fecha y hora de las impresiones.\n
+\nLa aplicación de pantalla táctil de Snapmaker utiliza los datos obtenidos con varias finalidades:\n
+1. Para ofrecer y mantener nuestros servicios\n
+2. Para notificarle cambios en nuestros servicios\n
+3. Para que usted pueda participar de funciones interactivas de nuestros servicios cuando así lo decida so\n
+4. Para ofrecer soporte al cliente y soporte técnico\n
+5. Para ofrecer análisis e información valiosa para mejorar nuestros servicios\n
+6. Para controlar el uso de nuestros servicios\n
+7. Para detectar, evitar y gestionar problemas técnicos\n
+        \n<b>Seguridad</b>\n
+\nUtilizamos medidas de protección físicas, organizativas y técnicas diseñadas para mejorar la integridad y seguridad de la información que obtenemos y conservamos. Recuerde que ninguna medida de seguridad es perfecta o impenetrable, por lo que no podemos garantizar que accedan, vean, revelen, alteren o destruyan sus datos debido a la violación de dichas medidas de protección físicas, organizativas y técnicas.\n
+        \n<b>Cambios en la Política de privacidad</b>\n
+\nPodemos actualizar esta Política de privacidad con cierta frecuencia. En esta página le informaremos sobre cualquier cambio realizado en nuestra Política de privacidad.\n
+        \n<b>Contacto</b>\n
+\nSi tiene cualquier duda sobre nuestra Política de privacidad, por favor póngase en contacto con nosotros enviando un correo a support@snapmaker.com.\n
+        \n<b>Declaración de exención de responsabilidad</b>\n
+\nLea detenidamente y entienda el manual de usuario antes de utilizar este producto. El incumplimiento a la hora de seguir las instrucciones uso puede comportar daños personales, resultados inferiores o daños en el producto. Siempre debe garantizar que la persona que utilice este producto conoce y entiende el manual de usuario y sigue las instrucciones de uso.\n
+\nLas condiciones y método de montaje, manipulación, almacenaje, uso y eliminación de este producto están fuera de nuestro control. Por ello, no nos hacemos responsable y expresamente negamos responsabilidad por cualquier pérdida, daños, lesiones o gastos derivados o relacionados con el montaje, manipulación, almacenaje, uso y eliminación de este producto.\n
+\n</string>
+    <string name="settings_preference_analysis">Permitir compartir datos anónimos</string>
+    <string name="settings_preference_analysis_desc">Por defecto, Snapmaker obtiene usos anónimos de la máquina.</string>
+    <string name="settings_air_purifier">Configuración del purificador de aire</string>
+    <string name="settings_advance_air_purifier_auto_turn_on">Encendido automático</string>
+    <string name="settings_advance_air_purifier_auto_turn_on_desc">Cuando se enciende, el Purificador de aire empezará a funcionar automáticamente al iniciar una nueva sesión.</string>
+    <string name="settings_advance_air_purifier_auto_turn_off">Apagado automático</string>
+    <string name="settings_advance_air_purifier_auto_turn_off_desc">Cuando se apague, el Purificador de aire seguirá funcionando durante 5 minutos hasta finalizar la sesión y se apagará automáticamente.</string>
+    <string name="experiment_export_log">Exportar registro</string>
+    <string name="experiment_developer_mode_notice">Entrar en modo desarrollador</string>
+    <string name="remote_connect_request">Solicitud de conexión Wi-Fi</string>
+    <string name="remote_connect_request_desc">Snapmaker Luban se está intentando conectar a esta máquina. ¿Quiere conectarse?</string>
+    <string name="remote_disconnect_confirm">El trabajo de impresión aún no ha finalizado. Si desconecta, el trabajo de impresión se detendrá.</string>
+    <string name="remote_print_job_not_finish_confirm">Se ha perdido a la máquina la conexión con Luban. Se terminará el trabajo actual solo cuando toque <b>Parar</b>.</string>
+    <string name="controller_laser_10w_safety_goggles_message">Colóquese siempre las gafas de seguridad láser cuando utilice el Módulo láser de 10W.</string>
+    <string name="controller_laser_power_tip">Cuando se enciende el láser, la potencia del láser está establecida a un mínimo.</string>
+    <string name="guide_10w_laser_safety_instructions">Notas de seguridad</string>
+    <string name="guide_10w_laser_safety_instructions_content">        ● El Módulo de láser 10W es un producto Tipo 4.
+\n● Los menores de edad únicamente pueden utilizar esta máquina bajo la supervisión de un adulto.
+\n● El Módulo de láser 10W debe utilizarse únicamente junto con la caja diseñada por Snapmaker.
+\n● Todos los usuarios y personas situadas cerca debe llevar las gafas de seguridad diseñadas por Snapmaker y nunca se debe mirar directamente al láser sin la debida protección.
+\n● El uso de un purificador de aire que puede ofrecer protección, con ciertos materiales puede generar humos y gases peligrosos durante el proceso láser.
+\n● Antes de realizar el mantenimiento o cualquier tipo de modificación en la máquina, recuerde que siempre debe desconectarla.
+\n● Snapmaker no se hace responsable de la pérdida, lesiones, daños o gastos derivados o relacionados en cierta manera con el uso incorrecto del Módulo láser de 10W.
+    </string>
+    <string name="guide_10w_laser_safety_instructions_confirm_desc">He leído y entiendo las notas de seguridad incluidas más arriba.</string>
+    <string name="guide_10w_laser_focus_calibration_content">Haga clic en <b>Iniciar</b> y baje el cabezal de la herramienta manualmente hasta la superficie de la plataforma. Seguidamente, haga clic en <b>Siguiente</b> y la máquina realizará el enfoque automático.</string>
+    <string name="all_successful">Se ha realizado correctamente</string>
+    <string name="guide_10w_laser_thickness_measurement_calibration_successful">La calibración de medición de espesor ha finalizado. </string>
+    <string name="laser_10W_dialog_not_placed_correctly">El cabezal de la herramienta no está bien instalado.</string>
+    <string name="laser_10W_dialog_not_placed_correctly_desc">El cabezal de la herramienta no está hacia abajo verticalmente. Ajuste el cabezal de la herramienta.</string>
+    <string name="laser_10W_dialog_temperature_too_high">Sobrecalentamiento del láser</string>
+    <string name="laser_10W_dialog_temperature_too_high_desc">La vida útil y el rendimiento del láser pueden verse afectados. Póngase en contacto con el Servicio técnico.</string>
+    <string name="laser_10W_dialog_changer_header">El cabezal de la herramienta se ha cambiado. Con el fin de garantizar el resultado de la Captura de cámara, le recomendamos volver a calibrar la cámara.
+¿Quiere volver a calibrarla ahora?</string>
+
+</resources>

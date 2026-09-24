@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_theme_background"
+    android:clickable="true"
+    android:focusable="true">
+
+    <include layout="@layout/widget_top_bar" />
+
+    <!-- preview -->
+    <RelativeLayout
+        android:id="@+id/rl_preview_picture"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_marginTop="@dimen/margin_layout_5"
+        android:layout_marginBottom="@dimen/margin_layout_5"
+        android:background="@color/default_theme_primary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/top_bar">
+
+        <ImageView
+            android:id="@+id/iv_preview_picture_icon"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:layout_marginTop="@dimen/margin_layout_5"
+            android:layout_marginBottom="@dimen/margin_layout_5"
+            android:contentDescription="@string/placeholder"
+            android:padding="@dimen/margin_layout_5"
+            android:src="@drawable/ic_file_preview_3d_120x120" />
+
+        <ImageView
+            android:id="@+id/iv_preview_picture"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:visibility="gone"
+            android:layout_marginTop="@dimen/margin_layout_5"
+            android:layout_marginBottom="@dimen/margin_layout_5"
+            android:contentDescription="@string/placeholder"
+            android:padding="@dimen/margin_layout_5"
+            android:src="@drawable/ic_file_preview_3d_120x120" />
+
+    </RelativeLayout>
+
+    <!-- file basic info -->
+    <RelativeLayout
+        android:id="@+id/view_preview_basic_info"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="@dimen/margin_layout_5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rl_preview_picture">
+
+        <!-- file name -->
+        <TextView
+            android:id="@+id/tv_preview_file_name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="@dimen/margin_layout_10"
+            android:layout_marginTop="@dimen/margin_layout_5"
+            android:layout_marginEnd="@dimen/margin_layout_10"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:textColor="@color/default_theme_title"
+            android:textSize="@dimen/font_size_h4"
+            android:textStyle="bold" />
+
+        <!-- boundary -->
+        <TextView
+            android:id="@+id/tv_preview_bounding_box"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/margin_layout_5"
+            android:textAlignment="center"
+            android:textColor="@color/default_theme_desc2"
+            android:textSize="@dimen/font_size_h6" />
+
+    </RelativeLayout>
+
+    <!-- file detail info -->
+    <RelativeLayout
+        android:id="@+id/view_preview_detail_info"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/view_preview_buttons"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/view_preview_basic_info">
+
+        <TextView
+            android:id="@+id/tv_preview_detail_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:lines="2"
+            android:textAlignment="center"
+            android:textColor="@color/default_theme_desc1"
+            android:textSize="@dimen/font_size_h5" />
+
+        <include
+            android:id="@+id/widget_detail_panel_3dp"
+            layout="@layout/widget_detail_panel_3dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/margin_layout_20"
+            android:layout_marginEnd="@dimen/margin_layout_20"
+            android:visibility="invisible" />
+
+        <include
+            android:id="@+id/widget_detail_panel_3dp_dual_extruder"
+            layout="@layout/widget_detail_panel_3dp_dual_extruder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/margin_layout_20"
+            android:layout_marginEnd="@dimen/margin_layout_20"
+            android:visibility="invisible" />
+
+        <include
+            android:id="@+id/widget_detail_panel_laser"
+            layout="@layout/widget_detail_panel_laser"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/margin_layout_20"
+            android:layout_marginEnd="@dimen/margin_layout_20"
+            android:visibility="invisible" />
+
+        <include
+            android:id="@+id/widget_detail_panel_cnc"
+            layout="@layout/widget_detail_panel_cnc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/margin_layout_20"
+            android:layout_marginEnd="@dimen/margin_layout_20"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+    <!-- buttons -->
+    <RelativeLayout
+        android:id="@+id/view_preview_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginBottom="@dimen/margin_layout_32"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <!-- print / ready -->
+        <Button
+            android:id="@+id/btn_preview_start_print"
+            style="@style/AppTheme.Button.BlueButton"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_button_45"
+            android:layout_marginStart="@dimen/margin_layout_40"
+            android:layout_marginEnd="@dimen/margin_layout_40"
+            android:text="@string/all_ready" />
+
+        <!-- settings -->
+        <Button
+            android:id="@+id/btn_preview_change_settings"
+            style="@style/AppTheme.Button.DefaultButton"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_button_45"
+            android:layout_below="@id/btn_preview_start_print"
+            android:layout_marginStart="@dimen/margin_layout_40"
+            android:layout_marginTop="@dimen/margin_layout_10"
+            android:layout_marginEnd="@dimen/margin_layout_40"
+            android:text="@string/print_settings_adjust_settings" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

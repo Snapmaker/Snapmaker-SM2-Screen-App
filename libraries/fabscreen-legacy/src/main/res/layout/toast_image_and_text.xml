@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/all_toast_background">
+
+    <ImageView
+        android:id="@+id/iv_toast_top_horizontal"
+        android:layout_width="@dimen/height_button_80"
+        android:layout_height="@dimen/height_button_80"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/tv_toast_title_bottom_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_toast_top_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/default_theme_title"
+        android:textSize="@dimen/font_size_h4" />
+
+    <TextView
+        android:id="@+id/tv_toast_message_bottom_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_toast_title_bottom_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="@dimen/margin_layout_10"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="@dimen/margin_layout_10"
+        android:layout_marginBottom="@dimen/margin_layout_10"
+        android:textAlignment="center"
+        android:textColor="@color/default_theme_title"
+        android:textSize="@dimen/font_size_h4" />
+</RelativeLayout>

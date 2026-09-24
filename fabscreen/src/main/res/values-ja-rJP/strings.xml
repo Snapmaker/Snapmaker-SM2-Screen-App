@@ -1,0 +1,708 @@
+<resources>
+    <string name="font_roboto_condensed">sans-serif-black</string>
+    <string name="font_roboto_condensed_light">sans-serif-light</string>
+    <string name="all_about">情報</string>
+    <string name="all_agree">同意する</string>
+    <string name="all_calculating">算出中</string>
+    <string name="all_calibrate">キャリブレート</string>
+    <string name="all_calibration">キャリブレーション</string>
+    <string name="all_camera">カメラ</string>
+    <string name="all_cancel">キャンセル</string>
+    <string name="all_complete">完了</string>
+    <string name="all_confirm">確認</string>
+    <string name="all_congratulations">お疲れさまでした</string>
+    <string name="all_connect">接続</string>
+    <string name="all_continue">継続する</string>
+    <string name="all_control">コントロール</string>
+    <string name="all_delete">削除する</string>
+    <string name="all_disconnect">接続を切断する</string>
+    <string name="all_done">終了</string>
+    <string name="all_down">下</string>
+    <string name="all_edit">編集</string>
+    <string name="all_enclosure">エンクロージャ</string>
+    <string name="all_experiment">実験</string>
+    <string name="all_factory">工場</string>
+    <string name="all_failed">失敗</string>
+    <string name="all_finish">仕上げ</string>
+    <string name="all_general">一般</string>
+    <string name="all_guides">ガイド</string>
+    <string name="all_hello">こんにちは</string>
+    <string name="all_language">言語</string>
+    <string name="all_load">ロード</string>
+    <string name="all_move">移動</string>
+    <string name="all_next">次へ</string>
+    <string name="all_no">いいえ</string>
+    <string name="all_notification">通知</string>
+    <string name="all_on">オン</string>
+    <string name="all_off">オフ</string>
+    <string name="all_ok">OK</string>
+    <string name="all_pause">一時停止</string>
+    <string name="all_preview">プレビュー</string>
+    <string name="all_print">プリント</string>
+    <string name="all_ready">準備完了</string>
+    <string name="all_reconnect">再接続</string>
+    <string name="all_recover">回復</string>
+    <string name="all_rename">名前の変更</string>
+    <string name="all_resume">再開する</string>
+    <string name="all_return">戻る</string>
+    <string name="all_offset">オフセット</string>
+    <string name="all_save">保存</string>
+    <string name="all_settings">設定</string>
+    <string name="all_skip">スキップ</string>
+    <string name="all_start">開始</string>
+    <string name="all_stop">中止</string>
+    <string name="all_unload">アップロード</string>
+    <string name="all_up">上</string>
+    <string name="all_update">アップデート</string>
+    <string name="all_warning">警告</string>
+    <string name="all_wifi">Wi-Fi</string>
+    <string name="all_yes">はい</string>
+    <string name="all_retry">リトライ</string>
+    <string name="all_quit">終了</string>
+    <string name="all_capture">キャプチャー</string>
+    <string name="all_measure">測定</string>
+    <string name="all_3d_printing">3Dプリンティング</string>
+    <string name="all_cnc">CNC</string>
+    <string name="all_laser">レーザー</string>
+    <string name="all_10w_laser">10Wレーザー</string>
+    <string name="all_laser_height">レーザーの高さ</string>
+    <string name="all_rotary_module">ロータリーモジュール</string>
+    <string name="all_emergency_stop">緊急停止</string>
+    <string name="all_safety_goggles">保護メガネ</string>
+    <string name="all_air_purifier">空気浄化装置</string>
+    <string name="all_manual_mode">マニュアルモード</string>
+    <string name="all_touch_material_title">材料にタッチ</string>
+    <string name="number_0_1">0.1</string>
+    <string name="number_0_3">0.3</string>
+    <string name="number_1">1</string>
+    <string name="number_3">3</string>
+    <string name="number_10">10</string>
+    <string name="app_name">FabScreen</string>
+    <string name="todo">TODO</string>
+    <string name="debug">debug</string>
+    <string name="placeholder">placeholder</string>
+    <string name="placeholder_long">Placeholder-Placeholder-Placeholder-123</string>
+    <string name="placeholder_multiline">Placeholder\nPlaceholder\nPlaceholder</string>
+    <string name="all_0">0</string>
+    <string name="all_0_00">0.00</string>
+    <string name="all_0_000">0.000</string>
+    <string name="all_1">1</string>
+    <string name="all_2">2</string>
+    <string name="all_3">3</string>
+    <string name="all_4">4</string>
+    <string name="all_5">5</string>
+    <string name="all_6">6</string>
+    <string name="all_7">7</string>
+    <string name="all_8">8</string>
+    <string name="all_9">9</string>
+    <string name="all_0_05mm">0.05 mm</string>
+    <string name="all_0_1mm">0.1 mm</string>
+    <string name="all_0_2mm">0.2 mm</string>
+    <string name="all_0_3mm">0.3 mm</string>
+    <string name="all_0_5mm">0.5 mm</string>
+    <string name="all_1mm">1 mm</string>
+    <string name="all_5mm">5 mm</string>
+    <string name="all_10mm">10 mm</string>
+    <string name="all_0_2degree">0.2°</string>
+    <string name="all_1degree">1°</string>
+    <string name="all_5degree">5°</string>
+    <string name="all_unit_mm">mm</string>
+    <string name="all_unit_mm_with_space"> mm</string>
+    <string name="all_feedrate_unit">mm/min</string>
+    <string name="all_unit_temperature">°C</string>
+    <string name="all_unit_percentage">%</string>
+    <string name="all_unit_rpm">RPM</string>
+    <string name="all_slash">/</string>
+    <string name="all_format_float">%.1f</string>
+    <string name="all_format_int">%d</string>
+    <string name="all_unit_degree">°</string>
+    <string name="error_configuration">最初にシリアルポートを設定してください。</string>
+    <string name="error_security">シリアルポートへの読み取り/書き込み権限がありません。</string>
+    <string name="error_unknown">何かの原因で、シリアルポートを開くことができません。</string>
+    <string name="exception_receiving_file">ファイルの受信中にエラーが発生しました。</string>
+    <string name="all_homing_content">続行するには、機器の原点復帰プロセスを実行する必要があります。
+原点復帰プロセスでは、事前定義されたX、Y、Z位置を基準点として設定します。　</string>
+    <string name="all_homing_title_going_home">ホームに進む</string>
+    <string name="all_homing_title_homing">ホーミング</string>
+    <string name="warning_machine_not_responding">機器が応答しません。再接続しますか？</string>
+    <string name="all_receiving_file_title">ファイルの転送が検出されました</string>
+    <string name="firmware_already_newest_version">最新バージョンが既にインストールされています。</string>
+    <string name="dialog_warning_moving">ツールヘッドが移動中...</string>
+    <string name="dialog_file_transfer_successful">ファイルが転送されました！</string>
+    <string name="dialog_warning_outdated_module_version_detected_notifiy">古いモジュール (%s) ファームウェアが検出されました。使用の前に、ウェブサイトにアクセスし、最新バージョンをダウンロードし、更新してください。</string>
+    <string name="dialog_warning_outdated_module_version_detected_update">古いモジュール (%s) ファームウェアが検出されました。更新してください。</string>
+    <string name="home_slogan">素晴らしい\nものを\n創作する</string>
+    <string name="home_dialog_update_successful">アップデートに成功しました</string>
+    <string name="home_dialog_update_successful_desc">最新バージョンが既にインストールされています </string>
+    <string name="welcome_language_desc">まず始めに、使用する言語を選択してください。</string>
+    <string name="welcome_hello_sentence">素晴らしいものを作りましょう。</string>
+    <string name="welcome_hello_start">開始</string>
+    <string name="welcome_terms_accept">私は、機器の個人情報保護方針、利用規約、免責事項を読み、内容に同意します。</string>
+    <string name="welcome_name_title">Snapmakerの名前を変更する</string>
+    <string name="welcome_name_placeholder">ここに名前を入力してください。</string>
+    <string name="welcome_name_tip_empty">名前は空白にできません。</string>
+    <string name="welcome_wifi_subtitle">ローカルネットワークに接続します。</string>
+    <string name="welcome_wifi_searching">検索しています…</string>
+    <string name="welcome_wifi_no_found">
+        ネットワークが見つかりませんでした。
+        設備がネットワークの範囲内にあることを確認してください。</string>
+    <string name="welcome_wifi_dialog_connecting">Wi-Fiに接続中…</string>
+    <string name="welcome_wifi_dialog_connected">Wi-Fi接続済み！</string>
+    <string name="welcome_wifi_enter_password">パスワードを入力する</string>
+    <string name="welcome_wifi_password_tip_empty">パスワードは空欄にできません。</string>
+    <string name="welcome_wifi_password_tip_too_short">パスワードは8文字以上にする必要があります。</string>
+    <string name="welcome_wifi_skip_notice">インターネット接続がない場合、一部の機能が動作しない可能性があります。この手順をスキップしますか？</string>
+    <string name="all_wifi_dialog_connect_failed">接続に失敗しました</string>
+    <string name="all_wifi_dialog_connect_failed_wrong_password">パスワードが間違っています</string>
+    <string name="guide_got_it">OKです</string>
+    <string name="guide_complete_title">素晴らしい！</string>
+    <string name="laser_warning_desc">次の手順でレーザーがオンになります。
+        先に進む前に、レーザー用保護メガネを着用するか、
+      　機器をレーザーフィルタリングエンクロージャー内に置いてください。</string>
+    <string name="guide_3dp_safety_instructions_content">    ● プリント中または加熱中は、ノズルや加熱ベッドに触らないでください。
+  \n● メンテナンスや変更を行う前に、必ず機器のプラグを抜いてください。</string>
+    <string name="guide_3dp_calibration_content">
+        3Dプリンティングモジュールはベッドを検出し、ベッドの中央に移動します。
+        自動レベル調整のプロセスが完了したら、<b>クイックスタートガイド</b>に従って適切なZ軸オフセットを設定し、設定値を保存します。
+    </string>
+    <string name="guide_3dp_load_filament_content">提供されたPLAフィラメントの目標ノズル温度は事前に設定されています。
+        ノズルが目標温度に加熱されます。加熱プロセスが完了した後、<b>クイックスタートガイド</b>に従ってフィラメントをロードしてください。</string>
+    <string name="guide_3dp_complete_content">3Dプリントの初期設定が完了しました。これで、プリントを開始するためにSnapmaker Lubanを使用してGコードファイルを準備できます。</string>
+    <string name="guide_laser_safety_instructions_content">
+        ● この1600mWレーザーモジュールはクラス4製品です。
+\n●お子様がこのマシンを使用する場合は大人がいる環境下で行う必要があります。
+\n● 1600mWレーザーモジュールはSnapmakerが開発したエンクロージャと共に使用する必要があります。
+\n● ユーザーや周囲の人は全員Snapmakerが開発したレーザー用保護メガネを装着する必要があり、保護なしにレーザーを直接見てはいけません。
+\n● レーザー処理中に、材料によっては有毒な煙やガスを発生させることがあるため、保護効果のある空気浄化装置を使用してください。
+\n● メンテナンスや変更を実施する前には必ずマシンの電源をオフにしてください。
+\n● Snapmakerは、1600mWレーザーモジュールの不適切な使用に起因するまたはそれによって生じるいかなる損失、怪我、損傷、費用の責任を負いません。</string>
+    <string name="guide_laser_prepare_material_title">材料をプラットフォームに固定する</string>
+    <string name="guide_laser_prepare_material_content">材料の厚さを測定します。次に、付属のシリコーンプラグを使用して材料をプラットフォームに固定します。</string>
+    <string name="guide_laser_measure_height_title">プラットフォームの高さ</string>
+    <string name="guide_laser_measure_height_content">オートフォーカスの手順を実行する前に、機器はプラットフォームの高さを計測する必要があります。</string>
+    <string name="guide_laser_set_origin_content">レーザーモジュールをジョグ運転して、ジョブを開始します。次に、このポイントを作業の起点として設定します。常に境界確認を実行して、最大ワークパスをプレビューします。</string>
+    <string name="guide_laser_complete_content">レーザーの初期設定が完了しました。これで、レーザー作業を開始するためにSnapmaker Lubanを使用してGコードファイルを準備できます。</string>
+    <string name="guide_laser_calibration_intro_title">手動で焦点距離をキャリブレートする</string>
+    <string name="guide_laser_calibration_intro_content">このガイドは、最良の結果を生むための焦点距離のキャリブレートをご説明します。</string>
+    <string name="guide_laser_calibration_intro_step_title">手順</string>
+    <string name="guide_laser_calibration_intro_step_content">
+      ● 入力材料の寸法
+    \n● 材料を固定
+    \n● 材料の上表面の高さを確認
+    \n● マシンが数本の溝を加工
+    \n● 最良のエングレービングライン (再細) を選択し、焦点距離を確認
+    </string>
+    <string name="guide_laser_4axis_set_origin_content">
+        作業原点の設定のために<b>X、Y、Bオフセット</b>を使用します。
+        作業エリアを確認するために常に<b>境界を走査</b>をタップします。
+    </string>
+    <string name="guide_cnc_get_started">はじめに</string>
+    <string name="guide_cnc_safety_instructions">安全に関する指示</string>
+    <string name="guide_cnc_safety_instructions_content">        ● 推奨年齢：経験を積んだユーザーおよび18歳以上のユーザー向け。
+        \n● 機器をエンクロージャー内に置くか、CNC用保護メガネを着用してください。
+        \n● 工作物を常にしっかりと固定してください。
+        \n● 作業中または作業直後に、ビットやコレットに触らないでください。
+        \n● メンテナンスや変更を行う前に、必ず機器のプラグを抜いてください。</string>
+    <string name="guide_cnc_safety_goggles">CNC用保護メガネ</string>
+    <string name="guide_cnc_safety_goggles_content">CNCカーバーをセットアップする前に、CNC用保護メガネを着用し、CNCカービングプロセス中、必ず着用し続けてください。</string>
+    <string name="guide_cnc_fix_the_material">材料を捨て板に固定する</string>
+    <string name="guide_cnc_fix_the_material_content">付属のクランプキットを使用して、材料をMDF廃棄板に固定します。</string>
+    <string name="guide_cnc_prepare_tool_head">ビットを取り付ける</string>
+    <string name="guide_cnc_prepare_tool_head_content">フラットエンドミルを挿入し、付属の2つのスパナを使用して締めます。大きい方のスパナはコレットの下部用に使用します。</string>
+    <string name="guide_cnc_complete_content">CNC加工の初期設定が完了しました。これで、CNC加工を開始するためにSnapmaker Lubanを使用してGコードファイルを準備できます。</string>
+    <string name="guide_cnc_rotary_origin_assistant_content">原点アシスタントにより、加工前に作業原点の設定が素早くできます。</string>
+    <string name="guide_cnc_rotary_bit_assistant_content">ビットアシスタントは、荒削りの後にCNCビットを変更しやすくします。</string>
+    <string name="guide_cnc_rotary_complete_content">初期設定が完了しました。これで、CNC加工を開始するためにSnapmaker Lubanを使用してGコードファイルを準備できます。</string>
+    <string name="guide_laser_rotary_measure_height_intro_content">マシンは材料の上面の高さを知っている必要があります。</string>
+    <string name="guide_laser_rotary_measure_height_content">レーザーモジュールを慎重に材料の上面に下げ、<b>次へ</b>をタップします。入力された材料径で、マシンは自動的にB軸の高さを計算します。</string>
+    <string name="guide_laser_rotary_complete_content">初期セットアップが完了しました。ここで、レーザージョブを開始するためにSnapmaker Lubanを使用してGコードファイルを準備できます。</string>
+    <string name="module_entry_image_view_desc">Module Entry</string>
+    <string name="browse_files">ファイル</string>
+    <string name="browse_local">ローカル</string>
+    <string name="browse_usb">USB</string>
+    <string name="browse_library">ライブラリ</string>
+    <string name="browse_file_is_empty">ファイルが空です。</string>
+    <string name="browse_delete_item_desc">このアイテムを削除しますか？</string>
+    <string name="browse_delete_items_desc">これらのアイテムを削除しますか？</string>
+    <string name="desc_receiving_file">ファイルを受信しています。お待ちください…</string>
+    <string name="browse_menu_sort_name_ascending">名前で並べ替え ↑</string>
+    <string name="browse_menu_sort_date_descending">日付で並べ替え ↓</string>
+    <string name="browse_space_usage_desc">容量:%d MB 空き容量:%d MB</string>
+    <string name="browse_rename_dialog_title">新しい名前を入力してください。</string>
+    <string name="browse_alert_rename_failed">%s への変更に失敗しました。</string>
+    <string name="browse_alert_delete_failed">%s の削除に失敗しました。</string>
+    <string name="browse_alert_file_not_support">このファイル形式は対応してません。</string>
+    <string name="browse_usb_file_unable_to_identify">USBデバイスが認識されません</string>
+    <string name="browse_usb_file_unable_to_identify_desc">システムはUSBデバイスを認識できません。\nUSBデバイスを再接続または交換してください。\n\n想定される原因：\n1.お使いのUSBデバイスのファイルシステムがFAT32ではありません。\n2.USBデバイスが誤動作しました。</string>
+    <string name="toast_usb_device_unpuggled">USBデバイスが引き抜かれました</string>
+    <string name="toast_usb_device_detected">USBデバイスが検出されました</string>
+    <string name="preview_auto_mode">自動モード</string>
+    <string name="preview_auto_mode_desc">自動モードでは、最適な焦点がタッチスクリーン上で自動的に計算されます。</string>
+    <string name="preview_auto_mode_desc_10w"></string>
+    <string name="preview_manual_mode">手動モード</string>
+    <string name="preview_manual_mode_desc">手動モードでは、レーザースポットを手動で見ながら最適な焦点を決定します。</string>
+    <string name="preview_manual_mode_desc_10w">ツールヘッドを手動で下げる必要があります。次にマシンがオートフォーカスを実施します。</string>
+    <string name="preview_auto_mode_note_title">自動モードの注意事項</string>
+    <string name="preview_auto_mode_note_desc">
+        厚さ測定不良を生じる可能性のある条件：
+        \n1.材料厚は50mm超です
+        \n2.材料表面は透明、または材料表面は光沢または鏡面です
+        \n3.材料色は赤または黒です
+    </string>
+    <string name="preview_auto_mode_note_a150_desc">
+        厚さ測定不良を生じる可能性のある条件：
+        \n1.材料厚は35mm超です
+        \n2.材料表面は透明、または材料表面は光沢または鏡面です
+        \n3.材料色は赤または黒です
+    </string>
+    <string name="preview_manual_mode_note_title">手動モードの注意事項</string>
+    <string name="preview_manual_mode_note_desc"><b>開始</b>をタップし、材料表面に対しツールヘッドを手動で下げます。次に<b>次へ</b>をタップすることでマシンがオートフォーカスを実施します。</string>
+    <string name="preview_auto_place_material">プラットフォームの<b>中央</b>に材料を固定し、材料表面に赤いドットがあることを確認してから、<b>次へ</b>をタップします。</string>
+    <string name="preview_auto_measure_material_thickness_title">材料の厚さを測定</string>
+    <string name="preview_auto_measure_loading_msg">測定結果を処理中…</string>
+    <string name="preview_auto_measure_thickness_succeed_title">成功しました</string>
+    <string name="preview_auto_measure_thickness_succeed_desc">
+        材料厚は<b>%s</b>mmです。マシンはオートフォーカスを実施します。
+    </string>
+    <string name="preview_auto_measure_thickness_fail_dialog_desc">
+        再試行するかまたは<b>マニュアルモード</b>を選択してください。
+    </string>
+    <string name="preview_manual_touch_material_desc">キャリブレーションカードでツールヘッドを材料表面に対して手動で下げてください。</string>
+    <string name="preview_laser_prepare_4axis_measure_height">測定高さ</string>
+    <string name="preview_laser_prepare_4axis_measure_height_intro_content">オートフォーカスを実施するには、マシンが材料の上面の高さを測定する必要があります。</string>
+    <string name="preview_laser_preview_4axis_measure_height_desc">ツールヘッドを材料表面に対して手動で慎重に下げてください。<b>次へ</b>をタップし、マシンがオートフォーカスを実施します。</string>
+    <string name="preview_set_work_origin">原点の設定</string>
+    <string name="preview_work_speed">作業速度</string>
+    <string name="preview_preparing_workspace">ファイルをタッチスクリーンに転送しています。お待ちください…</string>
+    <string name="preview_parsing_file_desc">ファイル解析中… %d%%</string>
+    <string name="preview_alert_failed_to_parse_file">ファイルの解析に失敗しました。</string>
+    <string name="preview_alert_failed_to_open_file">ファイルの展開に失敗しました。</string>
+    <string name="preview_alert_file_type_not_match">このファイル形式はツールヘッドとの互換性がありません。</string>
+    <string name="preview_warning_not_calibrated">
+        マシンがキャリブレーションデータを検出していないため、プリントに影響が出る場合があります。このままプリントを開始しますか、あるいはヒートベッドをまずキャリブレートしますか？
+        \n注：キャリブレーションが完了すると、マシンがすぐにプリントを開始します。
+    </string>
+    <string name="preview_laser_rotary_set_origin_dialog_run_boundary_warning">警告：作業原点が適切に設定されていない場合、<b>境界を走査</b>を実施した時にレーザーモジュールが材料にぶつかる可能性があります。</string>
+    <string name="preview_laser_10w_rotary_set_origin_dialog_run_boundary_warning">注意：慎重に作業原点の位置を設定します。そうでないと境界を走行中に10Wレーザーモジュールが材料に当たってしまいます。</string>
+    <string name="preview_cnc_rotary_origin_remind_desc">
+        材料の作業原点をLuban内の座標原点に一致させます\n
+        \n作業原点は<b>ツールボックス</b> > <b>原点アシスタント</b>で設定できます。あるいは、後で手動設定できます。\n
+        \n原点アシスタントを使って作業原点を設定したら、材料の寸法が変わらない限り、それ以後の加工セッションでも使用できます。
+    </string>
+    <string name="preview_cnc_rotary_set_origin_dialog_run_boundary_warning">警告：作業原点が適切に設定されていない場合、<b>境界を走査</b>を実施した時にCNCビットが材料にぶつかる可能性があります。</string>
+    <string name="preview_cnc_rotary_install_tailstock">テールストックの取り付け</string>
+    <string name="preview_cnc_rotary_install_tailstock_content">使用する材料によってはテールストックの取り付けを行うことができます。</string>
+    <string name="preview_bounding_box_format_x_y_z">&quot;%.1f × %.1f × %.1f &quot;</string>
+    <string name="preview_bounding_box_format_x_y">%.1f × %.1f mm</string>
+    <string name="preview_bounding_box_format_d_l">D:%.1f mm L:%.1f mm</string>
+    <string name="print_settings_adjust_settings">設定の調整</string>
+    <string name="print_receive_file_start">今すぐジョブを開始しますか？</string>
+    <string name="print_warning_pause">ジョブを一時停止しますか？</string>
+    <string name="print_warning_stop">この操作は元に戻せません。ジョブを停止しますか？</string>
+    <string name="print_warning_power_outage_title">電力損失のリカバリー</string>
+    <string name="print_warning_power_outage_content">稼働中に設備がシャットダウンしました。ジョブを回復しますか？</string>
+    <string name="print_warning_filament_run_out_title">フィラメント切れリカバリー</string>
+    <string name="print_warning_filament_run_out_content">フィラメントがなくなりました。プリントを続行するには、新しいフィラメントをロードしてください。</string>
+    <string name="print_warning_enclosure_door_detection_title">ドア検出</string>
+    <string name="print_warning_enclosure_door_detection_content">エンクロージャードアのいずれかまたは両方が開いています。プリントを続行するには、パネルを閉じてから1秒待ってください。</string>
+    <string name="print_warning_open_unable">Gコードファイルを開くことができません。終了中…</string>
+    <string name="print_warning_start_unable">ジョブを開始できません。設備の設定を確認して、再試行してください。</string>
+    <string name="print_warning_pause_unable">ジョブを一時停止できません。</string>
+    <string name="print_warning_resume_unable">ジョブを再開できません。設備の設定を確認して再試行してください。</string>
+    <string name="print_warning_stop_unable">ジョブを停止できません。</string>
+    <string name="print_warning_finish_unable">ジョブを終了できません。</string>
+    <string name="print_change_filament">フィラメントの交換</string>
+    <string name="enclosure_led_strip">LEDストリップ</string>
+    <string name="enclosure_cooling_fan">冷却ファン</string>
+    <string name="enclosure_settings">エンクロージャーの設定</string>
+    <string name="enclosure_settings_door_detection">ドア検出</string>
+    <string name="enclosure_settings_door_detection_desc">ドア検出機能を無効インした場合、いずれのエンクロージャーのパネルを開いてもジョブは一時停止することはありません。</string>
+    <string name="enclosure_settings_auto_lighting">自動照明</string>
+    <string name="enclosure_settings_auto_lighting_desc"><b>自動照明</b>を有効にした場合、LEDストリップはマシンの電源を入れた後に自動的に点灯します。</string>
+    <string name="enclosure_settings_auto_lighting_dialog_desc">新しい設定を有効にするにはマシンを再起動する必要があります。</string>
+    <string name="emergency_stop_warning_desc">緊急対応をする際には事前に電源を切ってください。
+それから、マシンを起動する際のリスクがなくなってから緊急停止ボタンを解除します。</string>
+    <string name="emergency_stop">緊急停止</string>
+    <string name="machine_unavailable">機器使用不可</string>
+    <string name="emergency_stop_warning_desc2">起動する前に緊急停止ボタンを解除してください。</string>
+    <string name="air_purifier_fan_power">電源</string>
+    <string name="air_purifier_fan_speed">ファンスピード</string>
+    <string name="air_purifier_filter_life">フィルター寿命</string>
+    <string name="all_low">低</string>
+    <string name="all_medium">中間</string>
+    <string name="all_High">高</string>
+    <string name="air_purifier_tip_power_off">まず電源をオンにしてください。</string>
+    <string name="air_purifier_tip_filter_life_low">フィルターカートリッジの交換が必要です。</string>
+    <string name="warning_air_purifier_not_properly_closed">空気浄化装置が正しく閉じられていません</string>
+    <string name="warning_air_purifier_not_properly_closed_desc">この空気浄化装置が正しく閉じられていません。それを使用し続けるには、カバーと蓋を正しくを閉じてください。</string>
+    <string name="warning_air_purifier_cartridge_not_properly_seated_title">カートリッジが正しく装着されていません</string>
+    <string name="warning_air_purifier_cartridge_not_properly_seated_desc">フィルターカートリッジが正しく装着されていません。空気浄化装置の使用を続けるには、カートリッジを正しい位置にしてください。</string>
+    <string name="warning_air_purifier_turn_on_during_print_3dp">注意：それをオンにすると温度に影響します。</string>
+    <string name="warning_air_purifier_turn_on_during_print_cnc">注意：それをオンにするとフィルター寿命に影響します。</string>
+    <string name="print_nozzle_temp">ノズル温度</string>
+    <string name="print_heated_bed">ヒートベッド</string>
+    <string name="print_heated_bed_temp">ヒートベッド温度</string>
+    <string name="print_estimated_time">予定時間</string>
+    <string name="print_remaining_time">残り時間</string>
+    <string name="print_elapsed_time">経過時間</string>
+    <string name="print_laser_power">レーザー出力</string>
+    <string name="print_feed_rate">作業速度</string>
+    <string name="print_spindle_spend">スピンドル速度</string>
+    <string name="print_z_offset">Z軸オフセット</string>
+    <string name="print_ready_to_load">ロードする準備ができました</string>
+    <string name="date_helper_format_split_by_colon">%02d:%02d:%02d</string>
+    <string name="date_helper_format_time_hour_minute">%d h %d min</string>
+    <string name="date_helper_format_time_minute_second">%d min %d sec</string>
+    <string name="calibration_intro_calibrate_the_bed">ベッドのキャリブレーション</string>
+    <string name="calibration_intro_auto_leveling_calibrate_the_bed_desc">
+        3Dプリンティングモジュールはベッドを検出し、ベッドの中央に移動します。
+        自動レベル調整のプロセスが完了したら、<b>クイックスタートガイド</b>に従って適切なZ軸オフセットを設定し、設定値を保存します。</string>
+    <string name="calibration_intro_manual_leveling_calibrate_the_bed_desc">
+        3Dプリントモジュールはヒートベッド上方の指定位置に移動します。Zオフセットを調整して各ポイントを手動でキャリブレートする必要があります。
+    </string>
+    <string name="calibration_intro_heated_leveling_first_step_title">1.ベッドを加熱</string>
+    <string name="calibration_intro_heated_the_bed_desc">マシンは指定温度までヒートベッドを加熱します。</string>
+    <string name="calibration_intro_heated_leveling_second_step_title">2.ベッドのキャリブレーション</string>
+    <string name="calibration_exit_manual_leveling_confirm_desc"><b>マニュアルレベリング</b>を止めてもよろしいですか？</string>
+    <string name="calibration_exit_auto_leveling_confirm_desc"><b>オートレベリング</b>を停止してもよろしいですか？</string>
+    <string name="calibration_failed">高速キャリブレーションに失敗しました。サポートチームにお問い合わせください。</string>
+    <string name="calibration_missing_notice">設備がキャリブレ―トされていません。キャリブレーションをしないでプリントしますか？</string>
+    <string name="calibration_mode_indicator">方法を選択する</string>
+    <string name="calibration_auto_leveling">自動レベル調整</string>
+    <string name="calibration_manual_leveling">手動レベル調整</string>
+    <string name="calibration_heated_auto_leveling">ヒートオートレベリング</string>
+    <string name="calibration_heated_manual_leveling">ヒートマニュアルレベリング</string>
+    <string name="calibration_fast_calibration">高速キャリブレーション</string>
+    <string name="calibration_next_point">次へ</string>
+    <string name="calibration_dialog_z_offset_leveling_desc">最後に上下ボタンで調整してください。</string>
+    <string name="calibration_dialog_z_offset_heated_bed_warning_desc">
+        注意：ヒートベッドは熱くなっています。手を触れないようご注意ください！\n
+        ヒートベッドをキャリブレートする際はグローブをすることをお勧めします。
+    </string>
+    <string name="calibration_dialog_guide_auto_calibration_fail_desc">キャリブレーション中に不具合が生じました。再試行するかスキップしてください。\n支援が必要な場合は、サポートにご連絡ください。</string>
+    <string name="calibration_dialog_auto_calibration_fail_desc">キャリブレーション中に不具合が生じました。再試行するか停止してください。\n支援が必要な場合は、サポートにご連絡ください。</string>
+    <string name="calibration_pre_heated_bed_title">ベッドを加熱中</string>
+    <string name="calibration_pre_heated_bed_tip">注意：ベッドは熱くなっています。手を触れないようご注意ください。</string>
+    <string name="calibration_pre_heated_bed_suggestion">
+        ヒートベッドの参考温度:\n
+        PLA—70°C    ABS—80°C
+    </string>
+    <string name="calibration_tool_head_not_detected">ツールヘッドが見つかりません。</string>
+    <string name="cnc_calibration_description">CNCはキャリブレーションは不要です。</string>
+    <string name="laser_choose_mode">方法を選択する</string>
+    <string name="laser_safety_goggles">レーザー用保護メガネ</string>
+    <string name="laser_safety_goggles_message">レーザーモジュールをセットアップする前に、レーザー用保護メガネを着用して、レーザー彫刻および切断プロセス中、必ず着用し続けてください。</string>
+    <string name="laser_10w_safety_goggles_message">10Wレーザーモジュール使用時は、必ずレーザー保護メガネを装着してください。</string>
+    <string name="laser_set_material_thickness">材料厚みをの設定</string>
+    <string name="laser_alert_failed_to_get_focal_length">焦点距離の設定に失敗しました。</string>
+    <string name="laser_calibration_select_mode">方法を選択する</string>
+    <string name="laser_calibration_auto_focus">オートフォーカス</string>
+    <string name="laser_calibration_auto_focus_switch_desc"><b>オートフォーカス</b>がオフの時は、「キャリブレーション」に移動して<b>マニュアルフォーカス</b>を使用することができます。</string>
+    <string name="laser_calibration_auto_focus_desc"> 機器は、わずかに異なるZ軸オフセットで数本のラインをレーザー彫刻します。
+        最適な彫刻線を認識し、対応する焦点距離を保存します。\n
+        \n<b>[開始]</b> をタップする前に、必ず<b>レーザー用保護メガネ</b>を着用してください。</string>
+    <string name="laser_calibration_auto_focus_notice"><b>オートフォーカス</b>の手順中は、材料を動かさないでください。</string>
+    <string name="laser_calibration_manual_focus">手動フォーカス</string>
+    <string name="laser_calibration_manual_focus_desc">        機器は、わずかに異なるZ軸オフセットで数行を彫刻します。
+        どの彫刻線が最適かを設備に伝えることができます。その後、対応する焦点距離が保存されます。\n
+        \n<b>[開始]</b> をタップする前に、必ずレーザー用保護メガネを着用してください。</string>
+    <string name="laser_calibration_engraving">エングレービング</string>
+    <string name="laser_calibration_engraving_notice">処理中は材料を動かさないでください。</string>
+    <string name="laser_calibration_manual_focus_notice"><b>マニュアルフォーカス</b>の手順中は、材料を動かさないでください。</string>
+    <string name="laser_calibration_processing">処理</string>
+    <string name="laser_calibration_failed">失敗</string>
+    <string name="laser_calibration_fine_tune">微調整</string>
+    <string name="laser_calibration_auto_focus_failed">申し訳ありません。カメラは最適な彫刻線を認識できません。<b>[失敗]</b> をタップして、最適な彫刻線を手動で選択してください。</string>
+    <string name="laser_calibration_auto_focus_complete"><b>オートフォーカス</b>手順が正常に完了しました。</string>
+    <string name="laser_calibration_auto_focus_complete_1"><b>オートフォーカス</b>手順が正常に完了しました。最終的なZ軸オフセットが低すぎる場合は、<b>レンズフード</b>を取り外し、<b>オートフォーカス</b>をやり直すことをお勧めします。</string>
+    <string name="laser_calibration_auto_focus_complete_2">最適に彫刻された線は右側にあるため、レーザーの焦点距離が最適な範囲から外れる可能性があります。<b>オートフォーカス</b> をやり直すことをお勧めします。</string>
+    <string name="laser_calibration_fine_tune_detection_failed">自動キャリブレーションに失敗しました。</string>
+    <string name="laser_calibration_fine_tune_pick_desc">最適な彫刻線を選択します。</string>
+    <string name="laser_calibration_measure_height">プラットフォームの高さ</string>
+    <string name="laser_calibration_measure_height_desc">慎重にレーザーモジュールを材料の表面まで下げ、<b>[次へ]</b> をタップします。既知の材料の厚さを考慮に入れ、機器はプラットフォームの正確な高さを自動的に計算します。</string>
+    <string name="laser_calibration_coarse_tuning">粗調整</string>
+    <string name="laser_calibration_coarse_tuning_desc">レーザーモジュールのZ軸オフセットを調整して、レーザービームが出来る限り小さい箇所に集束するようにします。レーザーモジュールをジョグ運転して、ジョブを開始します。</string>
+    <string name="laser_calibration_4axis_install_material_content">
+        材料をチャックに固定し、接触面に隙間がないようにしてください。
+    </string>
+    <string name="laser_calibration_4axis_install_material_tailstock_warning">警告：テールストックはまだ取り付けないでください。ビットがテールストックに当たってしまいます。</string>
+    <string name="laser_calibration_set_reference_points">参照ポイントを設定</string>
+    <string name="laser_calibration_4axis_coarse_turning_desc">
+        材料の上表面に白い紙を置いてください。レーザービームがもっとも小さいスポットに焦点が当たるようになるまでレーザーモジュールの高さを調節します。\n
+        \n次のステップでは、作業原点を設定するために<b>X、Y、Bオフセット</b>を使用します。
+    </string>
+    <string name="laser_calibration_4axis_measure_height">レーザーモジュールを慎重に材料の上面に下げ、<b>次へ</b>をタップします。入力された材料径で、マシンは自動的にB軸の高さを計算します。</string>
+    <string name="laser_calibration_material_thickness">材料の厚さ</string>
+    <string name="laser_calibration_set_material_thickness">材料厚みをの設定</string>
+    <string name="laser_calibration_set_laser_focal_length">レーザー焦点距離の設定</string>
+    <string name="laser_calibration_modify">レーザーの高さを調整する</string>
+    <string name="laser_camera_calibration">カメラのキャリブレーション</string>
+    <string name="laser_camera_calibration_intro">レーザーモジュールを再インストールする時は常に、カメラが正しく機能することを確認するために、カメラのキャリブレーション手順を実行する必要があります。</string>
+    <string name="laser_camera_calibration_step1_desc">付属のシリコーンプラグを使用して、白色で何も書かれていない紙（150mm x 150mm以上）をプラットフォームの中央に固定します。設備は紙を四角形に切り取り、カメラのパラメーターを調整します。</string>
+    <string name="laser_10w_camera_calibnration_step1_desc">プラットフォームの中央にA4の白紙を固定します。装置は紙を四角に切り取り、カメラのキャリブレーションを行います。<b>開始</b>をタップする前に、<b>レーザー保護メガネ</b>を装着していることを確認してください。</string>
+    <string name="laser_camera_calibration_step2_desc">キャリブレーション中は用紙を動かさないでください。</string>
+    <string name="laser_camera_calibration_step2_desc2">写真を処理しています… %d/4</string>
+    <string name="laser_camera_light">カメラライト</string>
+    <string name="laser_camera_light_desc">機器が<b>レーザーキャリブレーション</b>または <b>カメラキャリブレーション</b>を実行しているときは、<b>カメラのライト</b>を自動的にオンになります。</string>
+    <string name="laser_10w_camera_light_desc">トグルされると、マシンはカメラキャリブレーション中は自動的に装置のカメラライトがオンにします。</string>
+    <string name="laser_camera_alert_camera_not_connected">カメラが接続されていません。</string>
+    <string name="cnc_safety_goggles">CNC用保護メガネ</string>
+    <string name="cnc_tool_box">ツールボックス</string>
+    <string name="cnc_origin_assistant">原点アシスタント</string>
+    <string name="cnc_origin_assistant_get_started">
+        カービングに進む前に、原点アシスタントを使用して作業原点を設定できます。これはシステムに保存されます。
+        それによりその後のカービングセッションにおいて、材料の寸法が変わらない限りはファイルを選んですぐに開始できます。
+    </string>
+    <string name="cnc_origin_assistant_material_settings">材料設定</string>
+    <string name="cnc_origin_assistant_material_settings_length_desc">長さ (mm)</string>
+    <string name="cnc_origin_assistant_material_settings_diameter_desc">直径 (mm)</string>
+    <string name="cnc_origin_assistant_input_tip_empty">値は空白にできません。</string>
+    <string name="cnc_origin_assistant_input_tip_not_positive">値は正の値である必要があります。</string>
+    <string name="cnc_origin_assistant_install_material_title">固定材料</string>
+    <string name="cnc_origin_assistant_install_material_content">
+        材料をチャックに固定し、接触面に隙間がないようにしてください。\n
+        \nまだテールストックを取り付けないでください。
+    </string>
+    <string name="cnc_origin_assistant_carving_tool">加工ツール</string>
+    <string name="cnc_origin_assistant_carving_v_bit">カービング V ビット</string>
+    <string name="cnc_origin_assistant_flat_end_mill">フラットエンドミル</string>
+    <string name="cnc_origin_assistant_ball_end_mill">ボールエンドミル</string>
+    <string name="cnc_origin_assistant_straight_groove_v_bit">直溝 V ビット</string>
+    <string name="cnc_origin_assistant_custom_bit">カスタムビット</string>
+    <string name="cnc_origin_assistant_set_carving_tool_desc">4つのビットから選ぶ、または、カスタムビットを選択します。その後、それをコレットに取り付けます。</string>
+    <string name="cnc_origin_assistant_custom_bit_total_length_desc">全長 (mm)</string>
+    <string name="cnc_origin_assistant_custom_bit_shank_diameter_desc">シャンク直径 (mm)</string>
+    <string name="cnc_origin_assistant_set_origin_intro_content">
+        ツールヘッドは材料付近に移動します。
+        指示に従いビットを画面に示されている位置に移動します。
+        <b>設定</b>をタップして各座標を確認します。
+    </string>
+    <string name="cnc_origin_assistant_set_x1">X1を設定</string>
+    <string name="cnc_origin_assistant_set_x2">X2を設定</string>
+    <string name="cnc_origin_assistant_set_y">Yを設定</string>
+    <string name="cnc_origin_assistant_set_z">Zを設定</string>
+    <string name="cnc_origin_assistant_set_b">Bを設定</string>
+    <string name="cnc_origin_assistant_set_origin_back_notice">このページを抜けると、保存していない作業原点データが失われます。抜けてもよろしいですか？</string>
+    <string name="cnc_origin_assistant_set_origin_complete">ロータリーカービング用の初期セットアップが終了しました。これでファイルを選んで作成を開始できます。</string>
+    <string name="cnc_bit_assistant">ビットアシスタント</string>
+    <string name="cnc_bit_assistant_intro_desc">
+        ビットアシスタントはツールプリセッターと同様なものです。これはビットがお好みの同じスポットに接触するよう操作をガイドし、システムはZオフセット作ります。
+        ビットを変更すると、以前に設定した作業原点が使用でき、すぐにカービングを開始できます。\n
+        \n注：荒削りが終了したら、システムが変更を求めるまでビットをそのままの場所に保持します。
+    </string>
+    <string name="cnc_bit_assistant_bit_change_title">ビット変更</string>
+    <string name="cnc_bit_assistant_step2_intro_desc">
+        すぐにCNCビットを新しいものに換えてください。\n
+        \n
+        Zオフセットを調整して新しいCNCビットを同じ選択済スポットにわずかに接触するよう操作します。<b>設定</b>をタップします。
+    </string>
+    <string name="cnc_bit_assistant_complete_desc">おめでとうございます。仕上げ加工のための作業原点設定が完了しました。タッチスクリーンでファイルを選択すれば準備完了です。</string>
+    <string name="control_jog_mode">ジョグモード</string>
+    <string name="control_nozzle">ノズル</string>
+    <string name="control_laser">レーザー</string>
+    <string name="control_spindle">スピンドル</string>
+    <string name="control_x">X</string>
+    <string name="control_y">Y</string>
+    <string name="control_z">Z</string>
+    <string name="control_b">B</string>
+    <string name="control_height">高さ</string>
+    <string name="control_home">ホーム</string>
+    <string name="control_homing">原点復帰</string>
+    <string name="control_current_target_placeholder">0 / 0</string>
+    <string name="control_goto_origin">原点に移動</string>
+    <string name="control_target_nozzle_temperature">目標ノズル温度</string>
+    <string name="control_heated_bed_temperature">ヒートベッド温度</string>
+    <string name="control_filament">フィラメント</string>
+    <string name="control_load_filament">フィラメントのロード</string>
+    <string name="control_load_filament_failed">フィラメントのロードに失敗しました。</string>
+    <string name="control_heat_warning">フィラメントを交換する前に、ノズル温度を設定してください。ノズルはデフォルトにより、200 °Cに加熱されます。</string>
+    <string name="control_coordinate_panel_absolute_position">マシン座標</string>
+    <string name="control_coordinate_panel_work_position">ワーク座標</string>
+    <string name="control_coordinate_panel_unit">mm</string>
+    <string name="control_coordinate_panel_position_placeholder">0.00</string>
+    <string name="control_set_origin_panel_set">設定</string>
+    <string name="control_set_origin_panel_origin">原点</string>
+    <string name="control_set_origin">原点の設定</string>
+    <string name="control_set_origin_x">X原点の設定</string>
+    <string name="control_set_origin_y">Y原点の設定</string>
+    <string name="control_set_origin_z">Z原点の設定</string>
+    <string name="control_set_origin_b">B原点の設定</string>
+    <string name="control_run_boundary">境界確認</string>
+    <string name="control_laser_status">レーザー ステータス</string>
+    <string name="control_spindle_speed">速度</string>
+    <string name="control_spindle_status">スピンドルのステータス</string>
+    <string name="password_hint">パスワード</string>
+    <string name="settings_about_machine">設備について</string>
+    <string name="settings_terms_and_conditions">利用規約</string>
+    <string name="settings_user_preference">ユーザー設定</string>
+    <string name="settings_firmware_update">ファームウェアのアップデート</string>
+    <string name="settings_export_log">ログのエクスポート</string>
+    <string name="settings_snapmaker2_a150">Snapmaker 2.0 A150</string>
+    <string name="settings_snapmaker2_a250">Snapmaker 2.0 A250/A250T/F250</string>
+    <string name="settings_snapmaker2_a350">Snapmaker 2.0 A350/A350T/F350</string>
+    <string name="settings_product_name">製品名</string>
+    <string name="settings_work_are">ワークエリア</string>
+    <string name="settings_firmware_version">ファームウェアバージョン</string>
+    <string name="settings_screen_version">タッチスクリーンバージョン</string>
+    <string name="settings_controller_version">コントローラーのバージョン</string>
+    <string name="settings_ip_address">IPアドレス</string>
+    <string name="settings_network_not_connected">接続されていません</string>
+    <string name="settings_touchscreen">タッチスクリーン</string>
+    <string name="settings_resolution">解決</string>
+    <string name="settings_resolution_value">1280 × 720</string>
+    <string name="settings_display">ディスプレイ</string>
+    <string name="settings_display_value">5インチIPSタッチスクリーン</string>
+    <string name="settings_core">プロセッサー</string>
+    <string name="settings_core_value">Quad Core A7 CPU @1.1 GHz</string>
+    <string name="settings_os">OS</string>
+    <string name="settings_os_value">Android 7.1</string>
+    <string name="settings_advanced_settings">高度な設定</string>
+    <string name="settings_print_settings_3dp">3Dプリンティングの設定</string>
+    <string name="settings_auto_calibration_desc">自動レベル調整がオフの時は、「キャリブレーション」に移動して手動レベル調整を使用することができます。</string>
+    <string name="settings_fast_calibration_desc">高速キャリブレーションがオフの時は、設備はそれぞれのプリントの前に高速キャリブレーションを実行するのではなく、すぐにプリントを開始します。</string>
+    <string name="settings_3dp_calibration_grid">キャリブレーショングリッド</string>
+    <string name="settings_3dp_calibration_points">キャリブレーションポイント</string>
+    <string name="settings_3dp_heated_leveling">ヒートレベリング</string>
+    <string name="settings_3dp_heated_leveling_desc"><b>ヒートレベリング</b>を有効にすると、マシンはキャリブレーションの前にヒートベッドを加熱します。</string>
+    <string name="settings_advance_laser">レーザー設定</string>
+    <string name="settings_camera_calibration">カメラのキャリブレーション</string>
+    <string name="settings_advance_laser_10w">10Wレーザー設定</string>
+    <string name="settings_laser_thickness_measure_calibration_title">厚さ測定のキャリブレーション</string>
+    <string name="settings_laser_thickness_measure_calibration_desc">自動モードにおいて、材料の厚さ測定が正確でないと思われる場合には、厚さ測定のキャリブレーションを再度実施できます。</string>
+    <string name="settings_laser_thickness_measure_calibration_page_desc">
+        プラットフォームの<b>中央</b>にキャリブレーション対象を固定します。マシンは、キャリブレーション対象の厚さのキャリブレーションと測定を行い、キャリブレーションが成功したかどうかを確認します。
+    </string>
+    <string name="settings_laser_thickness_measure_calibration_capturing">キャプチャー中…</string>
+    <string name="settings_laser_thickness_measure_calibration_measuring">測定中…</string>
+    <string name="settings_laser_measure_a4_thickness">A4紙の厚さを測定</string>
+    <string name="settings_laser_measure_thickness">厚さを測定</string>
+    <string name="settings_laser_confirm_red_dot_on_calibration_plate">キャリブレーション対象の表面に赤いドットがあることを確認します。</string>
+    <string name="settings_laser_processing_result">測定結果を処理中…</string>
+    <string name="settings_laser_measure_thickness_fail_desc">
+キャリブレーションを再試行するか終了してください。\n
+\n
+考えられる原因：
+\n1.キャリブレーション中に赤いドットが捕捉されない
+\n2.周囲の光が強すぎる
+    </string>
+    <string name="guide_laser_measure_thickness_fail_desc">
+もう一度お試しください。\n
+\n
+考えられる原因：
+\n1.キャリブレーション中に赤いドットが捕捉されない
+\n2.周囲の光が強すぎる
+    </string>
+    <string name="settings_laser_toolhead_focus_calibration_title">ツールヘッドフォーカスのキャリブレーション</string>
+    <string name="settings_laser_toolhead_focus_calibration_desc">ツールヘッドを交換した場合は、ツールヘッドフォーカスのキャリブレーションを再度行うことをお勧めします。</string>
+    <string name="settings_laser_toolhead_focus_calibration_page_desc">
+        <b>開始</b>をタップし、プラットフォーム表面に対しツールヘッドを手動で下げます。次に<b>完了</b>をタップすることでマシンがオートフォーカスを実施します。
+    </string>
+    <string name="guide_laser_toolhead_focus_calibration_page_desc">
+        <b>開始</b>をタップし、プラットフォーム表面に対しツールヘッドを手動で下げます。次に<b>次へ</b>をタップすることでマシンがオートフォーカスを実施します。
+    </string>
+    <string name="settings_laser_1st_calibration_point">1回目のキャリブレーションポイント</string>
+    <string name="settings_laser_2nd_calibration_point">2回目のキャリブレーションポイント</string>
+    <string name="settings_laser_calibration_point_desc">キャリブレーション対象の表面に赤いドットがあることを確認します。</string>
+    <string name="settings_laser_process_capture_result">キャプチャー結果を処理中…</string>
+    <string name="settings_laser_process_capture_result_success">成功しました！</string>
+    <string name="settings_laser_process_capture_result_guide_success">厚さ測定キャリブレーションが完了しました。 </string>
+    <string name="settings_laser_process_capture_result_fail">再度行うか終了してください。</string>
+    <string name="guide_10w_laser_process_capture_result_fail">もう一度お試しください。</string>
+    <string name="settings_laser_thickness_calibration_complete">厚さ測定キャリブレーションが完了しました。これで自動モードを使用できます。</string>
+    <string name="settings_laser_touch_platform_title">プラットフォームをタッチ</string>
+    <string name="settings_laser_10w_camera_light_desc">トグルされると、マシンはカメラキャリブレーション中は自動的に装置のカメラライトがオンにします。</string>
+    <string name="settings_laser_10w_camera_touch_platform_desc">キャリブレーションカードでツールヘッドをプラットフォーム表面に対して手動で下げてください。 </string>
+    <string name="settings_export_log_done">エクスポートに成功しました。</string>
+    <string name="settings_export_log_failed">エクスポートに失敗しました。USBデバイスが装着されていることを確認してください。</string>
+    <string name="settings_choose_network">ネットワークの選択</string>
+    <string name="settings_firmware_check_for_update">アップデートを確認する</string>
+    <string name="settings_firmware_download_firmware">ファームウェアをダウンロードする</string>
+    <string name="settings_firmware_update_now">今すぐアップデート</string>
+    <string name="settings_firmware_factory_reset">工場設定値にリセット</string>
+    <string name="settings_firmware_dialog_checking_update">アップデートを確認中…</string>
+    <string name="settings_firmware_dialog_new_version_available">新しいバージョンがご利用いただけます</string>
+    <string name="settings_firmware_dialog_new_version_available_desc">最新バージョンは %s（%.1f MB）\n</string>
+    <string name="settings_firmware_dialog_later">後で</string>
+    <string name="settings_firmware_btn_download_firmware_desc">アップデートのダウンロード %.1f MB</string>
+    <string name="settings_firmware_warning_cancel_download">アップデートをキャンセルしてもよろしいですか？</string>
+    <string name="settings_firmware_cancel_update">アップデートのキャンセル</string>
+    <string name="settings_firmware_unstable_network_connection">ネットワーク接続が不安定です</string>
+    <string name="settings_firmware_change_logs_desc">Snapmakerファームウェアアップデートの完全な変更ログについては、次のウェブサイトをご覧ください。
+        https://forum.snapmaker.com/t/snapmaker-2-0-firmware-updates-and-downloads</string>
+    <string name="settings_firmware_change_logs_new_feature">新機能</string>
+    <string name="settings_firmware_change_logs_bug_fixed">バグフィックス</string>
+    <string name="settings_firmware_change_logs_improvements">改善</string>
+    <string name="settings_update_success">アップデートが完了しました。</string>
+    <string name="settings_update_failed_file_not_found">更新ファイルを開けませんでした。</string>
+    <string name="settings_update_failed_file_parse_error">ファイルから更新情報を認識できませんでした。</string>
+    <string name="settings_update_failed">アップデートに失敗しました</string>
+    <string name="settings_update_open_file_failed">更新ファイル展開中にエラーが発生しました。</string>
+    <string name="settings_update_loading_update_file">アップデートファイルをロード中…</string>
+    <string name="settings_update_msg_updating_modules">モジュールの更新をしています…</string>
+    <string name="settings_update_msg_updating_controller">メインコントローラーを更新しています…</string>
+    <string name="settings_update_msg_updating_screen">タッチスクリーンを更新しています…</string>
+    <string name="settings_update_msg_finishing_up_controller_update">コントローラーのファームウェアの更新を終了しています…</string>
+    <string name="settings_terms_content"><b>Snapmakerへようこそ！</b>\n
+\n本製品を使用する前に、これらの利用規約を注意深くお読みください。本製品へのアクセスと使用は、これらの利用規約に同意し遵守することを条件とします。これらの規約は、本製品にアクセスまたは使用するすべてのユーザーに適用されます。\n
+\n本製品を使用すると、これらの利用規約に同意したものと見なされます。利用規約に同意できない場合は、本製品を使用しないでください。\n
+\n弊社は、独自の裁量により、これらの規約をいつでも変更または置き換える権利を留保します。\n
+        \n<b>個人情報保護方針</b>\n
+\n弊社の製品とサービスをご利用いただきありがとうございます。Snapmakerは、お客様のプライバシーを重要視し、尊重します。この目的のために、お客様の情報を収集、使用、開示、転送、および保存する方法について個人情報保護方針を策定しました。\n
+\n弊社では、お客様のデータを使用して、サービスを提供および改善します。弊社のサービスを使用することにより、お客様は、弊社がこの方針に従って情報を収集および使用することに同意したことになります。\n
+        \n<b>個人情報の収集</b>\n
+\n本デバイスを使用すると、IPアドレス、デバイスの稼働時間、ユーザー設定などといった特定のデバイス情報が自動的に収集されます。\n
+\nデバイス情報の収集には、次のテクノロジーを使用します。\n
+\n「ログファイル」は、デバイスで発生する事象を追跡し、使用時間、プリンター設定、プリントモデル、日付/タイムスタンプなどのデータを収集します。\n
+\nSnapmaker Touchscreenアプリは、収集したデータをさまざまな目的で使用します。\n
+1.弊社のサービスを提供および維持するため\n
+2.サービスの変更について通知するため\n
+3.お客様の意思により、弊社のサービスのインタラクティブ機能に参加できるようにするため\n
+4.カスタマーケアとサポートを提供するため\n
+5.サービスを改善できるように分析または貴重な情報を提供するため\n
+6.サービスの使用状況をモニタリングするため\n
+7.技術的な問題を検出、防止、対処するため\n
+        \n<b>セキュリティ</b>\n
+\n弊社は、収集および維持する情報の完全性とセキュリティを向上させる目的で設計された特定の物理的、組織的、および技術的な保護手段を使用します。すべてのセキュリティ対策は完全ではなく、また隅々まで浸透させることができないため、物理的、技術的、または組織的な保護手段の侵害によってお客様の情報がアクセス、表示、開示、変更、または破壊されることを保証できません。\n
+        \n<b>個人情報保護方針の変更</b>\n
+\n個人情報保護方針は随時更新されることがあります。このページに新しい個人情報保護方針を掲載して、変更を通知します。\n
+        \n<b>お問い合わせ</b>\n
+\nこの個人情報保護方針についてご質問がある場合は、support@snapmaker.com宛てに電子メールでお問い合わせください。\n
+        \n<b>免責事項</b>\n
+\n本製品を使用する前に、取扱説明書を読んで理解してください。取扱説明書に従わないと、人身傷害、製品の品質低下、製品の損傷を引き起こす可能性があります。本製品を使用するユーザーは、必ず取扱説明書を理解し、操作手順に従ってください。\n
+\n本製品の組み立て、取り扱い、保管、使用、廃棄の条件または方法については、弊社では一切の保証をいたしません。このため、この製品の組み立て、取り扱い、保管、使用、廃棄に起因または関連して発生した損失、怪我、損傷、または費用に関して弊社は、いかなる責任も負うものではなく、責任を明示的に否認します。\n
+\n</string>
+    <string name="settings_preference_analysis">匿名のデータ共有</string>
+    <string name="settings_preference_analysis_desc">デフォルトにより、Snapmakerはマシンの匿名データを収集します。</string>
+    <string name="settings_air_purifier">空気浄化装置設定</string>
+    <string name="settings_advance_air_purifier_auto_turn_on">自動電源オン</string>
+    <string name="settings_advance_air_purifier_auto_turn_on_desc">トグルされると、新しいセッションを開始した時に空気浄化装置が自動的に動作を開始します。</string>
+    <string name="settings_advance_air_purifier_auto_turn_off">自動電源オフ</string>
+    <string name="settings_advance_air_purifier_auto_turn_off_desc">トグルされると、空気浄化装置は各セッション終了時に5分間動作し続けてから自動的に停止します。</string>
+    <string name="experiment_export_log">ログのエクスポート</string>
+    <string name="experiment_developer_mode_notice">デベロッパ―モードを入力する</string>
+    <string name="remote_connect_request">Wi-Fi接続リクエスト</string>
+    <string name="remote_connect_request_desc">Snapmaker Lubanがこの機器に接続しようとしています。接続しますか？</string>
+    <string name="remote_disconnect_confirm">プリントジョブはまだ完了していません。切断すると、現在のプリントジョブが停止します。</string>
+    <string name="remote_print_job_not_finish_confirm">マシンとLubanの接続は切断されました。現在のジョブを停止するには、<b>中止</b>をタップしてください。</string>
+    <string name="controller_laser_10w_safety_goggles_message">10Wレーザーモジュール使用時は、必ずレーザー保護メガネを装着してください。</string>
+    <string name="controller_laser_power_tip">レーザーをオンにすると、レーザー出力は最小に設定されます。</string>
+    <string name="guide_10w_laser_safety_instructions">安全上の注意</string>
+    <string name="guide_10w_laser_safety_instructions_content">        ● 10Wレーザーモジュールは、クラス4製品です。
+\n● お子様がこのマシンを使用する場合は大人がいる環境下で行う必要があります。
+\n● 10WレーザーモジュールはSnapmakerが開発したエンクロージャと共に使用する必要があります。
+\n● ユーザーや周囲の人は全員Snapmakerが開発したレーザー用保護メガネを装着し、保護なしにレーザーを直接見てはいけません。
+\n● レーザー処理中に、材料によっては有毒な煙やガスを発生させることがあるため、保護効果のある空気浄化装置を使用してください。
+\n● メンテナンスや変更を実施する前には必ずマシンの電源をオフにしてください。
+\n● Snapmakerは、10Wレーザーモジュールの不適切な使用に起因するまたはそれによって生じるいかなる損失、怪我、損傷、費用の責任を負いません。
+    </string>
+    <string name="guide_10w_laser_safety_instructions_confirm_desc">私は上記の安全上の注意を読み、同意します。</string>
+    <string name="guide_10w_laser_focus_calibration_content"><b>開始</b>をタップし、プラットフォーム表面に対しツールヘッドを手動で下げます。次に<b>次へ</b>をタップすることでマシンがオートフォーカスを実施します。</string>
+    <string name="all_successful">成功しました</string>
+    <string name="guide_10w_laser_thickness_measurement_calibration_successful">厚さ測定キャリブレーションが完了しました。 </string>
+    <string name="laser_10W_dialog_not_placed_correctly">ツールヘッドが正しくインストールされていません</string>
+    <string name="laser_10W_dialog_not_placed_correctly_desc">ツールヘッドは垂直に下がっていません。ツールヘッドを調整してください。</string>
+    <string name="laser_10W_dialog_temperature_too_high">レーザー過熱</string>
+    <string name="laser_10W_dialog_temperature_too_high_desc">レーザーの寿命と性能に影響が出る可能性があります。サポートにご連絡ください。</string>
+    <string name="laser_10W_dialog_changer_header">ツールヘッドが交換されました。カメラキャプチャーの結果を保証するには、カメラを再度キャリブレートすることをお勧めします。
+今すぐ再キャリブレートしますか？</string>
+</resources>

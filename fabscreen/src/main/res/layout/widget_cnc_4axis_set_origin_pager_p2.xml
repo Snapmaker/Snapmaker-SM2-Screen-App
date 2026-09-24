@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fabscreen.libraries.legacy.view.ActionButton
+        android:id="@+id/btn_widget_set_origin_set_origin"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_layout_20"
+        app:ab_foreground="@drawable/control_btn_set_origin"
+        app:ab_size="mini"
+        app:ab_title="@string/control_set_origin"
+        app:ab_titleScaleX="0.9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <fabscreen.libraries.legacy.view.ActionButton
+        android:id="@+id/btn_widget_set_origin_run_boundary"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        app:ab_foreground="@drawable/control_btn_run_boundary"
+        app:ab_size="mini"
+        app:ab_title="@string/control_run_boundary"
+        app:ab_titleScaleX="0.9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/btn_widget_set_origin_set_origin"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <fabscreen.libraries.legacy.view.ActionButton
+        android:id="@+id/btn_widget_set_origin_goto_origin"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        app:ab_foreground="@drawable/control_btn_goto_origin"
+        app:ab_size="mini"
+        app:ab_title="@string/control_goto_origin"
+        app:ab_titleScaleX="0.9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/btn_widget_set_origin_run_boundary"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <fabscreen.libraries.legacy.view.ActionButton
+        android:id="@+id/btn_widget_set_origin_home"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        app:ab_foreground="@drawable/control_btn_home"
+        app:ab_size="mini"
+        app:ab_title="@string/control_home"
+        app:ab_titleScaleX="0.9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/btn_widget_set_origin_goto_origin"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_widget_set_origin_indicator"
+        android:layout_width="32dp"
+        android:layout_height="28dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/ic_all_left_arrow_32x28"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

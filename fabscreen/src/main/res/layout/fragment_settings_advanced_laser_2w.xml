@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/widget_top_bar" />
+
+    <LinearLayout
+        android:id="@+id/ll_settings_laser_2w_cross_line_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_button_45"
+        android:layout_marginStart="@dimen/margin_layout_5"
+        android:layout_marginTop="@dimen/margin_layout_16"
+        android:layout_marginEnd="@dimen/margin_layout_5"
+        android:background="@drawable/all_list_item_btn_background"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/margin_layout_10"
+        android:paddingEnd="@dimen/margin_layout_10">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginEnd="@dimen/margin_layout_10"
+            android:src="@drawable/ic_settings_laser_20x20"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/settings_advance_laser_40w_crossline_indicator_offset"
+            android:textColor="@color/default_theme_title"
+            android:textSize="@dimen/font_size_h5" />
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:src="@drawable/ic_all_right_arrow_18x18" />
+    </LinearLayout>
+
+</LinearLayout>

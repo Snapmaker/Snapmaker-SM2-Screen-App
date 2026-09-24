@@ -1,0 +1,10 @@
+plugins {
+    id 'com.android.library'
+}
+
+dependencies {
+    implementation project(':libraries:fabscreen-legacy')
+    implementation Libs.INSTANCE.junit
+    implementation Libs.INSTANCE.ARouter
+    annotationProcessor Libs.INSTANCE.ARouterAnnotation
+}

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_theme_background"
+    android:clickable="true"
+    android:focusable="true">
+
+    <include layout="@layout/widget_top_bar" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/margin_layout_5"
+        android:layout_marginBottom="@dimen/margin_layout_5"
+        android:background="@color/default_theme_primary"
+        app:layout_constraintBottom_toTopOf="@id/fl_laser_calibration_save"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/top_bar">
+
+        <TextView
+            android:id="@+id/tv_laser_calibration_focal_length"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_layout_40"
+            android:text="@string/laser_calibration_set_laser_focal_length"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/default_theme_desc1"
+            android:textSize="@dimen/font_size_h3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/ll_laser_calibration_focal_length"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_layout_20"
+            android:orientation="horizontal"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_laser_calibration_focal_length">
+
+            <TextView
+                android:id="@+id/tv_laser_calibration_focal_length_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/default_theme_title"
+                android:textSize="@dimen/font_size_h1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/all_unit_mm_with_space"
+                android:textSize="@dimen/font_size_h3" />
+
+        </LinearLayout>
+
+        <co.ceryle.segmentedbutton.SegmentedButtonGroup
+            android:id="@+id/sbg_laser_calibration_steps"
+            style="@style/AppTheme.SegmentedButtonGroup"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/height_segmented_button"
+            android:layout_marginStart="@dimen/margin_layout_20"
+            android:layout_marginTop="@dimen/margin_layout_40"
+            android:layout_marginEnd="@dimen/margin_layout_20"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ll_laser_calibration_focal_length"
+            app:sbg_position="1">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/all_0_1mm"
+                android:paddingTop="8dp"
+                android:textColor="@color/default_theme_desc1" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/all_1mm"
+                android:paddingTop="8dp"
+                android:textColor="@color/default_theme_desc1" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/all_10mm"
+                android:paddingTop="8dp"
+                android:textColor="@color/default_theme_desc1" />
+
+        </co.ceryle.segmentedbutton.SegmentedButtonGroup>
+
+        <RelativeLayout
+            android:id="@+id/rl_laser_calibration_focal_length_adjustment"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/sbg_laser_calibration_steps">
+
+            <Button
+                android:id="@+id/btn_control_up"
+                android:layout_width="@dimen/size_button_80"
+                android:layout_height="@dimen/size_button_80"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/margin_layout_40"
+                android:background="@drawable/control_btn_up_background" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btn_control_up"
+                android:layout_alignStart="@id/btn_control_up"
+                android:layout_alignEnd="@id/btn_control_up"
+                android:layout_marginTop="@dimen/margin_layout_5"
+                android:text="@string/all_up"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/default_theme_desc1"
+                android:textSize="@dimen/font_size_h4" />
+
+            <Button
+                android:id="@+id/btn_control_down"
+                style="@style/AppTheme.Button"
+                android:layout_width="@dimen/size_button_80"
+                android:layout_height="@dimen/size_button_80"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/margin_layout_40"
+                android:background="@drawable/control_btn_down_background" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btn_control_down"
+                android:layout_alignStart="@id/btn_control_down"
+                android:layout_alignEnd="@id/btn_control_down"
+                android:layout_marginTop="@dimen/margin_layout_5"
+                android:text="@string/all_down"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/default_theme_desc1"
+                android:textSize="@dimen/font_size_h4" />
+
+        </RelativeLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_laser_calibration_save"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/default_theme_primary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/btn_laser_calibration_save"
+            style="@style/AppTheme.Button.BlueButton"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_button_45"
+            android:layout_marginStart="@dimen/margin_layout_20"
+            android:layout_marginTop="@dimen/margin_layout_10"
+            android:layout_marginEnd="@dimen/margin_layout_20"
+            android:layout_marginBottom="@dimen/margin_layout_10"
+            android:text="@string/all_save" />
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/view_print_settings_3dp_dual_extruder_page_flow_rate"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_theme_primary">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/view_print_settings_3dp_left_flow_rate"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/view_print_settings_3dp_right_flow_rate"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tv_print_settings_3dp_flow_rate_left_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_layout_10"
+            android:text="@string/placeholder"
+            android:textColor="@color/default_theme_desc1"
+            android:textSize="@dimen/font_size_h3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/view_print_settings_3dp_flow_rate_left_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_layout_10"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_print_settings_3dp_flow_rate_left_title">
+
+            <TextView
+                android:id="@+id/tv_print_settings_3dp_flow_rate_left_value_current"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:text="@string/all_0"
+                android:textColor="@color/default_theme_desc1"
+                android:textSize="@dimen/font_size_h1" />
+
+            <TextView
+                android:id="@+id/tv_print_settings_3dp_flow_rate_left_value_slash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/all_slash"
+                android:visibility="gone"
+                android:textColor="@color/default_theme_desc1"
+                android:textSize="@dimen/font_size_h1" />
+
+            <TextView
+                android:id="@+id/tv_print_settings_3dp_flow_rate_left_value_target"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/all_0"
+                android:textColor="@color/default_theme_title"
+                android:textSize="@dimen/font_size_h1" />
+
+            <TextView
+                android:id="@+id/tv_print_settings_3dp_flow_rate_left_value_unit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/all_unit_percentage"
+                android:textColor="@color/default_theme_title"
+                android:textSize="@dimen/font_size_h2" />
+
+        </LinearLayout>
+
+        <fabscreen.libraries.legacy.view.RulerView
+            android:id="@+id/rv_print_settings_3dp_flow_rate_left_ruler"
+            style="@style/AppTheme.RulerView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_layout_40"
+            android:layout_marginTop="@dimen/margin_layout_20"
+            android:layout_marginEnd="@dimen/margin_layout_40"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/view_print_settings_3dp_flow_rate_left_value"
+            app:rv_currentValue="100"
+            app:rv_maxValue="150"
+            app:rv_minValue="50" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/view_print_settings_3dp_right_flow_rate"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/margin_layout_10"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/view_print_settings_3dp_left_flow_rate">
+
+        <TextView
+            android:id="@+id/tv_print_settings_3dp_flow_rate_right_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_layout_10"
+            android:text="@string/placeholder"
+            android:textColor="@color/default_theme_desc1"
+            android:textSize="@dimen/font_size_h3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/view_print_settings_3dp_flow_rate_right_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_layout_10"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_print_settings_3dp_flow_rate_right_title">
+
+            <TextView
+                android:id="@+id/tv_print_settings_3dp_flow_rate_right_value_current"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/all_0"
+                android:visibility="gone"
+                android:textColor="@color/default_theme_desc1"
+                android:textSize="@dimen/font_size_h1" />
+
+            <TextView
+                android:id="@+id/tv_print_settings_3dp_flow_rate_right_value_slash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/all_slash"
+                android:visibility="gone"
+                android:textColor="@color/default_theme_desc1"
+                android:textSize="@dimen/font_size_h1" />
+
+            <TextView
+                android:id="@+id/tv_print_settings_3dp_flow_rate_right_value_target"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/all_0"
+                android:textColor="@color/default_theme_title"
+                android:textSize="@dimen/font_size_h1" />
+
+            <TextView
+                android:id="@+id/tv_print_settings_3dp_flow_rate_right_value_unit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/all_unit_percentage"
+                android:textColor="@color/default_theme_title"
+                android:textSize="@dimen/font_size_h2" />
+
+        </LinearLayout>
+
+        <fabscreen.libraries.legacy.view.RulerView
+            android:id="@+id/rv_print_settings_3dp_flow_rate_right_ruler"
+            style="@style/AppTheme.RulerView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_layout_40"
+            android:layout_marginTop="@dimen/margin_layout_20"
+            android:layout_marginEnd="@dimen/margin_layout_40"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/view_print_settings_3dp_flow_rate_right_value"
+            app:rv_currentValue="100"
+            app:rv_maxValue="150"
+            app:rv_minValue="50" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

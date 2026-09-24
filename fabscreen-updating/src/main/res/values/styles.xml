@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="FullscreenTheme" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+    </style>
+
+    <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+    <!-- blue button: blue gradient rounded button -->
+    <style name="AppTheme.Button.BlueButton" parent="AppTheme.Button">
+        <item name="android:background">@drawable/all_button_round_blue</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/custom_grey_0</item>
+        <item name="android:textSize">@dimen/font_size_h4</item>
+    </style>
+
+    <!-- basic button theme -->
+    <style name="AppTheme.Button" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+
+    <dimen name="font_size_h4">18sp</dimen>
+    <dimen name="height_button_45">45dp</dimen>
+    <dimen name="margin_layout_40">40dp</dimen>
+</resources>

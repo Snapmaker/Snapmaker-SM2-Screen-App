@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/view_home_cnc_status"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true">
+
+    <!-- modules status -->
+    <LinearLayout
+        android:id="@+id/view_home_cnc_status_module_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_layout_20"
+        android:layout_marginTop="@dimen/margin_layout_10"
+        android:layout_marginEnd="@dimen/margin_layout_20"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_layout_20">
+
+            <TextView
+                android:id="@+id/tv_cnc_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/all_cnc"
+                android:textColor="@color/custom_grey_300"
+                android:textSize="@dimen/font_size_h6" />
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/ic_home_status_normal_10x10" />
+
+        </RelativeLayout>
+
+        <!--    add-on status    -->
+        <include
+            android:id="@+id/view_home_cnc_add_on"
+            layout="@layout/fragment_home_add_on_status"
+            android:visibility="gone"/>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

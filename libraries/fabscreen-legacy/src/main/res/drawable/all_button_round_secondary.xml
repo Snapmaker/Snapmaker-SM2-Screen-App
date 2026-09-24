@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- secondary button: gradient grey rounded button. -->
+    <item android:drawable="@drawable/all_button_round_secondary_disabled" android:state_enabled="false" />
+    <item android:drawable="@drawable/all_button_round_secondary_pressed" android:state_pressed="true" />
+    <item android:drawable="@drawable/all_button_round_secondary_normal" />
+</selector>

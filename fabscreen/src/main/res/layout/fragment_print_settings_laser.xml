@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_theme_background"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/widget_top_bar" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vp_print_settings_view_pager"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/margin_layout_5"
+        android:layout_marginBottom="@dimen/margin_layout_5"
+        app:layout_constraintBottom_toTopOf="@id/bb_print_settings_bottom_bar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/top_bar">
+
+        <include layout="@layout/fragment_print_settings_laser_page_power" />
+
+        <include layout="@layout/fragment_print_settings_laser_page_work_speed" />
+
+    </androidx.viewpager.widget.ViewPager>
+
+    <fabscreen.libraries.legacy.view.bottombar.BottomBar
+        android:id="@+id/bb_print_settings_bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_bottom_bar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_theme_background"
+    android:clickable="true"
+    android:focusable="true">
+
+    <include layout="@layout/widget_top_bar" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/rl_3dp_calibration_grid"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/margin_layout_10"
+        android:layout_marginBottom="@dimen/margin_layout_10"
+        android:background="@color/default_theme_primary"
+        app:layout_constraintBottom_toTopOf="@id/fl_3dp_calibration_grid_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/top_bar">
+
+        <TextView
+            android:id="@+id/tv_set_calibration_grid_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_layout_40"
+            android:text="@string/settings_3dp_calibration_points"
+            android:textColor="@color/default_theme_desc1"
+            android:textSize="@dimen/font_size_h3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_set_calibration_grid_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/all_0"
+            android:textColor="@color/default_theme_desc1"
+            android:textSize="@dimen/font_size_h1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_set_calibration_grid_title" />
+
+        <co.ceryle.segmentedbutton.SegmentedButtonGroup
+            android:id="@+id/sbg_calibration_grid"
+            style="@style/AppTheme.SegmentedButtonGroup"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_segmented_button"
+            android:layout_marginStart="@dimen/margin_layout_10"
+            android:layout_marginTop="@dimen/margin_layout_40"
+            android:layout_marginEnd="@dimen/margin_layout_10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_set_calibration_grid_value"
+            app:sbg_position="0">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingTop="8dp"
+                android:text="@string/all_3"
+                android:textAllCaps="false"
+                android:textColor="@color/default_theme_desc1" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingTop="8dp"
+                android:text="@string/all_4"
+                android:textAllCaps="false"
+                android:textColor="@color/default_theme_desc1" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingTop="8dp"
+                android:text="@string/all_5"
+                android:textAllCaps="false"
+                android:textColor="@color/default_theme_desc1" />
+        </co.ceryle.segmentedbutton.SegmentedButtonGroup>
+
+        <ImageView
+            android:id="@+id/iv_calibration_grid"
+            android:layout_width="280dp"
+            android:layout_height="280dp"
+            android:layout_marginTop="@dimen/margin_layout_10"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/sbg_calibration_grid" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_3dp_calibration_grid_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_layout_5"
+        android:background="@color/default_theme_primary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/btn_3dp_calibration_grid_save"
+            style="@style/AppTheme.Button.BlueButton"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_button_45"
+            android:layout_marginStart="@dimen/margin_layout_20"
+            android:layout_marginTop="@dimen/margin_layout_10"
+            android:layout_marginEnd="@dimen/margin_layout_20"
+            android:layout_marginBottom="@dimen/margin_layout_10"
+            android:text="@string/all_save" />
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

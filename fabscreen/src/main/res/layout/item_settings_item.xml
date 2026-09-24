@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/height_button_45">
+
+    <Button
+        android:id="@+id/btn_settings_item_name"
+        style="@style/AppTheme.Button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/margin_layout_5"
+        android:layout_marginEnd="@dimen/margin_layout_5"
+        android:background="@drawable/all_list_item_btn_background"
+        android:padding="@dimen/padding_5"
+        android:paddingStart="40dp"
+        android:paddingEnd="0dp"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="@color/default_theme_title"
+        android:textSize="@dimen/font_size_h5" />
+
+    <ImageView
+        android:id="@+id/iv_settings_item_icon"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignStart="@id/btn_settings_item_name"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/margin_layout_10"
+        android:layout_marginEnd="@dimen/margin_layout_5"
+        android:clickable="false"
+        android:contentDescription="@string/placeholder"
+        android:src="@drawable/ic_settings_wifi_20x20" />
+
+    <TextView
+        android:id="@+id/tv_settings_item_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/iv_settings_item_icon"
+        android:layout_marginStart="@dimen/margin_layout_5"
+        android:layout_marginEnd="@dimen/margin_layout_5"
+        android:layout_centerVertical="true"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="@color/default_theme_title"
+        android:textSize="@dimen/font_size_h5" />
+
+    <ImageView
+        android:id="@+id/iv_settings_item_label"
+        android:layout_width="38dp"
+        android:layout_height="20dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/margin_layout_5"
+        android:layout_marginEnd="@dimen/margin_layout_5"
+        android:layout_toEndOf="@id/tv_settings_item_title"
+        android:contentDescription="@string/placeholder"/>
+
+    <ImageView
+        android:id="@+id/iv_settings_item_next"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_alignEnd="@id/btn_settings_item_name"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/margin_layout_10"
+        android:clickable="false"
+        android:contentDescription="@string/placeholder"
+        android:src="@drawable/ic_all_right_arrow_18x18" />
+
+    <TextView
+        android:id="@+id/tv_settings_item_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/margin_layout_5"
+        android:layout_toStartOf="@id/iv_settings_item_next"
+        android:ellipsize="end"
+        android:maxWidth="180dp"
+        android:maxLines="1"
+        android:text="@string/placeholder"
+        android:textAlignment="textEnd"
+        android:textColor="@color/default_theme_desc2"
+        android:textSize="@dimen/font_size_h6" />
+
+</RelativeLayout>

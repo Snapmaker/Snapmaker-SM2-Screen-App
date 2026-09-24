@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_theme_background">
+
+    <include layout="@layout/widget_top_bar" />
+
+    <RelativeLayout
+        android:id="@+id/rl_settings_wifi_section_1"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/height_button_45"
+        android:layout_marginStart="@dimen/margin_layout_5"
+        android:layout_marginTop="@dimen/margin_layout_10"
+        android:layout_marginEnd="@dimen/margin_layout_5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/top_bar">
+
+        <Button
+            android:id="@+id/view_settings_wifi_connection_background"
+            style="@style/AppTheme.Button"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_button_45"
+            android:background="@drawable/all_list_item_btn_background"
+            android:enabled="false"
+            android:paddingStart="@dimen/margin_layout_40"
+            android:paddingEnd="0dp"
+            android:text="@string/all_wifi"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor="@color/default_theme_title"
+            android:textSize="@dimen/font_size_h5" />
+
+        <Button
+            android:id="@+id/btn_settings_wifi_switch"
+            android:layout_width="75dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/margin_layout_10"
+            android:background="@drawable/all_btn_switch" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lv_settings_wifi_connected_access_point_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_layout_5"
+        android:layout_marginTop="@dimen/margin_layout_5"
+        android:layout_marginEnd="@dimen/margin_layout_5"
+        android:listSelector="@android:color/transparent"
+        app:layout_constraintTop_toBottomOf="@id/rl_settings_wifi_section_1" />
+
+    <TextView
+        android:id="@+id/tv_settings_wifi_choose_network"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_layout_20"
+        android:layout_marginTop="@dimen/margin_layout_20"
+        android:layout_marginEnd="@dimen/margin_layout_20"
+        android:text="@string/settings_choose_network"
+        android:textColor="@color/default_theme_desc2"
+        android:textSize="@dimen/font_size_h6"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/lv_settings_wifi_connected_access_point_list" />
+
+    <ListView
+        android:id="@+id/lv_settings_wifi_access_point_list"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/margin_layout_5"
+        android:layout_marginTop="@dimen/margin_layout_5"
+        android:layout_marginEnd="@dimen/margin_layout_5"
+        android:divider="@drawable/all_list_view_divider"
+        android:dividerHeight="@dimen/margin_layout_5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_settings_wifi_choose_network" />
+
+    <!-- Wi-Fi Searching, copied and modified from view_welcome_wifi_searching -->
+    <RelativeLayout
+        android:id="@+id/view_settings_wifi_searching"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_layout_20"
+        android:layout_marginEnd="@dimen/margin_layout_20"
+        android:layout_marginBottom="80dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_settings_wifi_choose_network">
+
+        <ImageView
+            android:id="@+id/iv_welcome_wifi_searching"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/ic_settings_wifi_searching_72x72" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_welcome_wifi_searching"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin_layout_5"
+            android:text="@string/welcome_wifi_searching"
+            android:textColor="@color/default_theme_desc1"
+            android:textSize="@dimen/font_size_h4" />
+
+    </RelativeLayout>
+
+    <!-- Wi-Fi No Found, copied and modified from view_welcome_wifi_no_found -->
+    <RelativeLayout
+        android:id="@+id/view_settings_wifi_no_found"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_layout_20"
+        android:layout_marginEnd="@dimen/margin_layout_20"
+        android:layout_marginBottom="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_settings_wifi_choose_network">
+
+        <ImageView
+            android:id="@+id/iv_welcome_wifi_no_found"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/ic_settings_wifi_no_found_72x72" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_welcome_wifi_no_found"
+            android:layout_marginTop="@dimen/margin_layout_5"
+            android:text="@string/welcome_wifi_no_found"
+            android:textAlignment="center"
+            android:textColor="@color/default_theme_desc1"
+            android:textSize="@dimen/font_size_h4" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

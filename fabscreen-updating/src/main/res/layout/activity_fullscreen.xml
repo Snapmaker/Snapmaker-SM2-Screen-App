@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="placeholder"
+        android:src="@drawable/pic_loading_background_000_360x640" />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:keepScreenOn="true"
+        android:textColor="#c3c4c6"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_home_start"
+        style="@style/AppTheme.Button.BlueButton"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_button_45"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginStart="@dimen/margin_layout_40"
+        android:layout_marginEnd="@dimen/margin_layout_40"
+        android:layout_marginBottom="80dp"
+        android:visibility="invisible" />
+
+
+</FrameLayout>

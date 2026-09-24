@@ -1,0 +1,1001 @@
+<resources>
+    <string name="font_roboto_condensed">sans-serif-black</string>
+    <string name="font_roboto_condensed_light">sans-serif-light</string>
+    <string name="all_about">关于</string>
+    <string name="all_agree">同意</string>
+    <string name="all_calculating">计算中</string>
+    <string name="all_calibrate">调平</string>
+    <string name="all_calibration">校准</string>
+    <string name="all_camera">摄像头</string>
+    <string name="all_cancel">取消</string>
+    <string name="all_close">关闭</string>
+    <string name="all_complete">完成</string>
+    <string name="all_confirm">确认</string>
+    <string name="all_congratulations">恭喜</string>
+    <string name="all_connect">连接</string>
+    <string name="all_continue">继续</string>
+    <string name="all_control">控制</string>
+    <string name="all_delete">删除</string>
+    <string name="all_disconnect">断开连接</string>
+    <string name="all_done">完成</string>
+    <string name="all_down">下降</string>
+    <string name="all_edit">编辑</string>
+    <string name="all_enclosure">外罩</string>
+    <string name="all_experiment">实验</string>
+    <string name="all_factory">工厂</string>
+    <string name="all_failed">失败</string>
+    <string name="all_finish">完成</string>
+    <string name="all_general">通用</string>
+    <string name="all_guides">向导</string>
+    <string name="all_hello">你好</string>
+    <string name="all_language">语言</string>
+    <string name="all_load">进料</string>
+    <string name="all_move">移动</string>
+    <string name="all_next">下一步</string>
+    <string name="all_no">否</string>
+    <string name="all_notification">通知</string>
+    <string name="all_on">开</string>
+    <string name="all_off">关</string>
+    <string name="all_ok">好的</string>
+    <string name="all_pause">暂停</string>
+    <string name="all_preview">预览</string>
+    <string name="all_print">打印</string>
+    <string name="all_ready">准备</string>
+    <string name="all_reconnect">重新连接</string>
+    <string name="all_recover">恢复</string>
+    <string name="all_rename">重命名</string>
+    <string name="all_resume">恢复</string>
+    <string name="all_return">返回</string>
+    <string name="all_offset">偏移量</string>
+    <string name="all_save">保存</string>
+    <string name="all_settings">设置</string>
+    <string name="all_skip">跳过</string>
+    <string name="all_start">开始</string>
+    <string name="all_stop">停止</string>
+    <string name="all_unload">退料</string>
+    <string name="all_up">上升</string>
+    <string name="all_update">更新</string>
+    <string name="all_warning">警告</string>
+    <string name="all_wifi">Wi-Fi</string>
+    <string name="all_yes">是</string>
+    <string name="all_retry">重试</string>
+    <string name="all_quit">退出</string>
+    <string name="all_capture">拍摄</string>
+    <string name="all_measure">测量</string>
+    <string name="all_3d_printing">3D 打印</string>
+    <string name="all_cnc">CNC</string>
+    <string name="all_laser">激光</string>
+    <string name="all_10w_laser">10W 激光</string>
+    <string name="all_20w_laser">20W 激光</string>
+    <string name="all_40w_laser">40W 激光</string>
+    <string name="all_2w_laser">2W 激光</string>
+    <string name="all_laser_height">激光高度</string>
+    <string name="all_rotary_module">旋转模组</string>
+    <string name="all_emergency_stop">急停开关</string>
+    <string name="all_safety_goggles">护目镜</string>
+    <string name="all_air_purifier">空气净化器</string>
+    <string name="all_manual_mode">手动模式</string>
+    <string name="all_touch_material_title">贴合材料表面</string>
+    <string name="all_quick_swap_kit">快换套件</string>
+    <string name="all_bracing_kit">加固组件</string>
+    <string name="all_dual_extrusion_module">双喷头模组</string>
+    <string name="all_cnc_200w">200W CNC</string>
+    <string name="number_0_1">0.1</string>
+    <string name="number_0_3">0.3</string>
+    <string name="number_1">1</string>
+    <string name="number_3">3</string>
+    <string name="number_10">10</string>
+    <string name="app_name">FabScreen</string>
+    <string name="todo">TODO</string>
+    <string name="debug">调试</string>
+    <string name="placeholder">placeholder</string>
+    <string name="placeholder_long">Placeholder-Placeholder-Placeholder-123</string>
+    <string name="placeholder_multiline">Placeholder\nPlaceholder\nPlaceholder</string>
+    <string name="all_0">0</string>
+    <string name="all_0_00">0.00</string>
+    <string name="all_0_000">0.000</string>
+    <string name="all_1">1</string>
+    <string name="all_2">2</string>
+    <string name="all_3">3</string>
+    <string name="all_4">4</string>
+    <string name="all_5">5</string>
+    <string name="all_6">6</string>
+    <string name="all_7">7</string>
+    <string name="all_8">8</string>
+    <string name="all_9">9</string>
+    <string name="all_0_05mm">0.05 mm</string>
+    <string name="all_0_1mm">0.1 mm</string>
+    <string name="all_0_2mm">0.2 mm</string>
+    <string name="all_0_3mm">0.3 mm</string>
+    <string name="all_0_5mm">0.5 mm</string>
+    <string name="all_1mm">1 mm</string>
+    <string name="all_5mm">5 mm</string>
+    <string name="all_10mm">10 mm</string>
+    <string name="all_0_2degree">0.2°</string>
+    <string name="all_1degree">1°</string>
+    <string name="all_5degree">5°</string>
+    <string name="all_unit_mm">mm</string>
+    <string name="all_unit_mm_with_space"> mm</string>
+    <string name="all_feedrate_unit">mm/min</string>
+    <string name="all_unit_temperature">°C</string>
+    <string name="all_unit_percentage">%</string>
+    <string name="all_unit_rpm">RPM</string>
+    <string name="all_slash">/</string>
+    <string name="all_format_float">%.1f</string>
+    <string name="all_format_int">%d</string>
+    <string name="all_unit_degree">°</string>
+    <string name="error_configuration">请先设置串行端口。</string>
+    <string name="error_security">没有串行端口读写权限。</string>
+    <string name="error_unknown">由于某个未知原因，串行端口未能打开。</string>
+    <string name="exception_receiving_file">接收文件过程出错。</string>
+    <string name="all_homing_content">如要继续，机器需要返回原位，即 X、Y、Z 轴的初始位置。</string>
+    <string name="all_homing_title_going_home">返回原位</string>
+    <string name="all_homing_title_homing">返回原位</string>
+    <string name="warning_machine_not_responding">机器无响应，需要重新连接吗？</string>
+    <string name="all_receiving_file_title">检测到文件传输</string>
+    <string name="firmware_already_newest_version">已安装最新版本。</string>
+    <string name="dialog_warning_moving">执行头移动中...</string>
+    <string name="dialog_file_transfer_successful">文件传输成功！</string>
+    <string name="dialog_warning_outdated_module_version_detected_notifiy">检测到过期模组(%s)固件。请前往官网下载最新固件进行升级。 </string>
+    <string name="dialog_warning_outdated_module_version_detected_update">检测到过期模组(%s)固件。请升级固件。 </string>
+    <string name="dialog_warning_invalid_status_detected">检测到固件数据不合法，建议重新升级最新的固件。点击<b>继续</b>将跳转至首页。</string>
+    <string name="dialog_dual_extruder_hotend_abnormal_content">执行头已自动断电。请先关机，然后检查热端是否正确安装。若问题仍存在，请联系技术支持。</string>
+    <string name="dialog_dual_extruder_hotend_abnormal_title"><b>热端异常</b></string>
+    <string name="dialog_dual_extruder_heated_bed_leveling_data_invalid_content">检测到执行头高度异常。请先关机，然后对照《<b>快速入门指南</b>》检查安装执行头所用的螺丝孔位是否正确。</string>
+    <string name="dialog_dual_extruder_heated_bed_leveling_probe_sensor_not_trigger_format">探测点触发异常，返回 %d\n如需帮助，请联系客服。</string>
+    <string name="dialog_dual_extruder_heated_bed_leveling_params_invalid_format">探测点参数错误，返回 %d\n如需帮助，请联系客服。</string>
+    <string name="dialog_dual_extruder_heated_bed_leveling_hardware_abnormal_format">检测到硬件异常，返回 %d\n如需帮助，请联系客服。</string>
+    <string name="dialog_dual_extruder_heated_bed_leveling_default_format">热床自动调平探测错误，返回 %d\n如需帮助，请联系客服。</string>
+
+    <string name="dialog_dual_extruder_gcode_retraction_exceed_warning">
+        本次打印设置的回抽距离超出了推荐范围（0&#8211;2 毫米），可能会在打印过程中导致喷嘴堵塞。
+        我们建议你在切片软件中调整此参数，再开始打印。
+    </string>
+
+    <string name="dialog_add_file_into_workspace_low_system_storage_title">存储空间预警</string>
+    <string name="dialog_add_file_into_workspace_low_system_storage_desc">当前的系统存储空间余量低。建议尽快整理本地文件，释放部分存储空间，否则可能会影响系统的正常运行。</string>
+    <string name="dialog_add_file_into_workspace_insufficient_system_storage_title">存储空间不足</string>
+    <string name="dialog_add_file_into_workspace_insufficient_system_storage_desc">当前的系统存储空间不足，无法打印此文件。你需要移除部分本地文件以释放足够的存储空间。</string>
+
+    <string name="home_slogan">Make\nSomething\nWonderful</string>
+    <string name="home_dialog_update_successful">更新完毕</string>
+    <string name="home_dialog_update_successful_desc">已是最新版本</string>
+    <string name="welcome_language_desc">请选择你的语言。</string>
+    <string name="welcome_hello_sentence">让我们一起开始创造吧！</string>
+    <string name="welcome_hello_start">开始</string>
+    <string name="welcome_terms_accept">我已阅读并同意 Snapmaker 的隐私政策、条款和免责声明。</string>
+    <string name="welcome_name_title">重命名你的 Snapmaker</string>
+    <string name="welcome_name_placeholder">请在这里输入名字。</string>
+    <string name="welcome_name_tip_empty">名字不能为空白。</string>
+    <string name="welcome_wifi_subtitle">连接当地网络。</string>
+    <string name="welcome_wifi_searching">搜索中……</string>
+    <string name="welcome_wifi_no_found">未能检测到网络。请确保机器在网络覆盖范围之内。</string>
+    <string name="welcome_wifi_dialog_connecting">连接 Wi-Fi 中……</string>
+    <string name="welcome_wifi_dialog_connected">已连接 Wi-Fi ！</string>
+    <string name="welcome_wifi_enter_password">输入密码</string>
+    <string name="welcome_wifi_password_tip_empty">密码不能为空白。</string>
+    <string name="welcome_wifi_password_tip_too_short">密码至少要有8个字符。</string>
+    <string name="welcome_wifi_skip_notice">未连接上网络，有些功能将无法使用。你确定要跳过此步骤吗？</string>
+    <string name="all_wifi_dialog_connect_failed">连接失败</string>
+    <string name="all_wifi_dialog_connect_failed_wrong_password">密码错误</string>
+    <string name="guide_got_it">知道了</string>
+    <string name="guide_complete_title">棒极了！</string>
+    <string name="laser_warning_desc">下一步激光将会开启。请先佩戴上激光护目镜或把机器放到外罩里面。</string>
+    <string name="guide_3dp_safety_instructions_content">● 当机器正在打印或加热时，请勿触碰喷嘴或者热床。
+\n● 确保在执行维修或改装前已断开机器电源。</string>
+    <string name="guide_3dp_calibration_content">3D 打印模组会侦测并移动到热床中心位置。在<b>自动调平</b>结束后，请按照<b>快速使用指南</b>设置一个合适的 Z 轴偏移量并保存设置。</string>
+    <string name="guide_3dp_load_filament_content">我们已为提供的耗材预设了一个喷嘴目标温度。喷嘴会加热到目标温度。当加热完毕时，请阅读<b>快速入门指南</b>进行装料。</string>
+    <string name="guide_3dp_complete_content">你已顺利完成 3D 打印初始设置。现在可以使用 Snapmaker Luban 生成的 G 代码文件开始打印了。</string>
+    <string name="guide_laser_safety_instructions_content">
+● 1600mW 激光模组为四类激光产品。
+    \n● 未成年人必须在成年人监管下使用机器。
+    \n● 1600mW 激光模组须搭配 Snapmaker 研发的外罩进行使用。
+    \n● 所有使用者与旁观者均须佩戴 Snapmaker 研发的激光护目镜，切忌在无防护的情况下直视激光。
+    \n● 部分材料在激光加工过程中可能会产生有毒烟雾或气体，请根据需要选择空气净化器进行防护。
+    \n● 请确保在维修或改装前断开机器电源。
+    \n● 因用户个人操作不当而引起的或以任何方式与之相关的损失、人身伤害、设备损坏或费用，Snapmaker 均不负责。
+    </string>
+    <string name="guide_laser_prepare_material_title">固定材料</string>
+    <string name="guide_laser_prepare_material_content">测量材料厚度。然后使用夹具在平台上固定好材料。</string>
+    <string name="guide_laser_measure_height_title">测量平台高度</string>
+    <string name="guide_laser_measure_height_content">在开始<b>自动对焦</b>前，机器需要知道平台的工作高度。</string>
+    <string name="guide_laser_set_origin_content">移动激光模组并设定工作原点，即软件里坐标为（0，0）的位置。请用<b>跑边框</b>去预览最大的工作路径。</string>
+    <string name="guide_laser_complete_content">你已顺利完成激光雕刻和切割初始设置。现在你可以使用 Snapmaker Luban 生成的 G 代码文件开始激光作业了。</string>
+    <string name="guide_laser_calibration_intro_title">手动校准焦距</string>
+    <string name="guide_laser_calibration_intro_content">本向导将指引你完成焦距校准，实现最佳聚焦效果。</string>
+    <string name="guide_laser_calibration_intro_step_title">步骤</string>
+    <string name="guide_laser_calibration_intro_step_content">
+      ● 输入材料尺寸
+    \n● 固定材料
+    \n● 确定材料上表面高度
+    \n● 机器雕刻一组刻线
+    \n● 选择最佳刻线（最细），确认焦距</string>
+    <string name="guide_laser_4axis_set_origin_content">点击 <b>X</b>/<b>Y</b>/<b>B 偏移量</b> 来设置工作原点。
+点击<b>跑边框</b>预览工作区域。</string>
+    <string name="guide_cnc_get_started">开始吧</string>
+    <string name="guide_cnc_safety_instructions">安全须知</string>
+    <string name="guide_cnc_safety_instructions_content">
+     ● 推荐年龄：有使用经验且年纪为18岁或以上的用户。
+    \n● 把机器放入到外罩里或佩戴上 CNC 护目镜。
+    \n● 固定好工件。
+    \n● 在机器运作时不要触碰刀头或夹头。
+    \n● 确保在执行维修或改装前已断开机器电源。</string>
+    <string name="guide_cnc_safety_goggles">CNC 护目镜</string>
+    <string name="guide_cnc_safety_goggles_content">请在设置 CNC 功能前和使用机器的过程中佩戴 CNC 护目镜。</string>
+    <string name="guide_cnc_fix_the_material">固定材料</string>
+    <string name="guide_cnc_fix_the_material_content">使用提供的夹具固定材料至雕刻平台上。</string>
+    <string name="guide_cnc_prepare_tool_head">安装刀头</string>
+    <string name="guide_cnc_prepare_tool_head_content">插入平头铣刀并使用提供的扳手拧紧。较大的扳手用于匹配夹头底部。</string>
+    <string name="guide_cnc_complete_content">你已顺利完成 CNC 初始设置。现在可以使用 Snapmaker Luban 生成的 G 代码文件开始 CNC 雕刻了。</string>
+    <string name="guide_cnc_rotary_origin_assistant_content">在开始作业前，对刀助手可以辅助你设置合适的工作原点。</string>
+    <string name="guide_cnc_rotary_bit_assistant_content">在粗加工完成后，换刀助手可以辅助你更换刀头。</string>
+    <string name="guide_cnc_rotary_complete_content">你已顺利完成初始设置。现在可以使用 Snapmaker Luban 生成的 G 代码文件开始 CNC 雕刻了。</string>
+    <string name="guide_laser_rotary_measure_height_intro_content">机器需要知道材料上表面的高度。</string>
+    <string name="guide_laser_rotary_measure_height_content">小心地下降执行头，使其遮光罩贴合材料上表面，然后点击<b>下一步</b>。结合已输入的材料直径，机器将自动计算 B 轴高度。</string>
+    <string name="guide_laser_rotary_complete_content">你已顺利完成初始设置。现在可以使用 Snapmaker Luban 生成的 G 代码文件开始激光作业了。</string>
+    <string name="module_entry_image_view_desc">Module Entry</string>
+    <string name="browse_files">文件</string>
+    <string name="browse_local">本地</string>
+    <string name="browse_usb">USB</string>
+    <string name="browse_library">Library</string>
+    <string name="browse_file_is_empty">此文件夹为空</string>
+    <string name="browse_delete_item_desc">确定要删除此文件吗？</string>
+    <string name="browse_delete_items_desc">确定要删除文件吗？</string>
+    <string name="desc_receiving_file">接收文件中，请稍等……</string>
+    <string name="browse_menu_sort_name_ascending">按名字排序 ↑</string>
+    <string name="browse_menu_sort_date_descending">按日期排序 ↓</string>
+    <string name="browse_space_usage_desc">存储空间： %d MB 剩余 （共 %d MB）</string>
+    <string name="browse_rename_dialog_title">请输入一个新名字</string>
+    <string name="browse_alert_rename_failed">重命名 %s 失败！</string>
+    <string name="browse_alert_delete_failed">删除 %s 失败！</string>
+    <string name="browse_alert_file_not_support">不支持该文件。</string>
+    <string name="browse_usb_file_unable_to_identify">无法识别USB设备</string>
+    <string name="browse_usb_file_unable_to_identify_desc">系统无法识别您的USB设备\n请重新连接或更换USB设备。\n可能原因：\n1. USB设备的文件系统不是FAT32。\n2. USB设备异常。</string>
+    <string name="dialog_browse_file_update_confirm_desc">你想要更新固件吗？</string>
+
+    <string name="toast_usb_device_unpuggled">USB设备已拔出</string>
+    <string name="toast_usb_device_detected">检测到USB设备</string>
+    <string name="preview_auto_mode">自动模式</string>
+    <string name="preview_auto_mode_desc"><b>自动模式</b>下，机器会自动计算最佳焦点。</string>
+    <string name="preview_auto_mode_desc_10w">机器将测量材料厚度并自动对焦。</string>
+    <string name="preview_manual_mode">手动模式</string>
+    <string name="preview_manual_mode_desc">在<b>手动模式</b>中，需要观察激光点以确认最佳焦点。</string>
+    <string name="preview_manual_mode_desc_10w">您需手动控制执行头下降，之后机器将自动对焦。</string>
+    <string name="preview_auto_mode_note_title">自动模式须知</string>
+    <string name="preview_auto_mode_note_desc">
+        以下情况可能会导致自动测量厚度失败：
+       \n1. 材料的厚度超过50 mm
+       \n2. 材料的材质为透明、亮面或镜面
+       \n3. 材料的颜色为红色或黑色
+    </string>
+    <string name="preview_auto_mode_note_a150_desc">
+        以下情况可能会导致自动测量厚度失败：
+       \n1. 材料的厚度超过35 mm
+       \n2. 材料的材质为透明、亮面或镜面
+       \n3. 材料的颜色为红色或黑色
+    </string>
+    <string name="preview_manual_mode_note_title">手动模式须知</string>
+    <string name="preview_manual_mode_note_desc">
+        点击<b>开始</b>，然后手动控制执行头下降，直至其贴合材料表面。之后点击<b>下一步</b>，机器将自动对焦。
+    </string>
+    <string name="preview_auto_place_material">请将材料固定在<b>平台中央</b>，并确保红点位于材料表面，然后点击<b>下一步</b>。</string>
+    <string name="preview_auto_measure_material_thickness_title">测量材料厚度</string>
+    <string name="preview_auto_measure_loading_msg">测量结果处理中…</string>
+    <string name="preview_auto_measure_thickness_succeed_title">材料厚度测量成功！</string>
+    <string name="preview_auto_measure_thickness_succeed_desc">
+        测量材料厚度为 <b>%s</b> mm，机器将自动对焦。
+    </string>
+    <string name="preview_auto_measure_thickness_fail_dialog_desc">
+        材料厚度测量失败，请重试或选择<b>手动模式</b>。
+    </string>
+    <string name="preview_manual_touch_material_desc">请手动控制执行头下降，并使用校准卡片辅助其贴合材料表面。</string>
+    <string name="preview_laser_prepare_4axis_measure_height">测量高度</string>
+    <string name="preview_laser_prepare_4axis_measure_height_intro_content">为了进行自动对焦，机器需要测量平台和材料上表面之间的高度。</string>
+    <string name="preview_laser_preview_4axis_measure_height_desc">请缓慢手动下降执行头直至贴合材料表面。点击<b>下一步</b>，机器将自动完成对焦。</string>
+    <string name="preview_set_work_origin">设置工作原点</string>
+    <string name="preview_work_speed">工作速度</string>
+    <string name="preview_preparing_workspace">正在传输文件到屏幕，请稍等……</string>
+    <string name="preview_parsing_file_desc">解析文件中…… %d%%</string>
+    <string name="preview_alert_failed_to_parse_file">解析文件失败。</string>
+    <string name="preview_alert_failed_to_open_file">打开文件失败。</string>
+    <string name="preview_alert_file_type_not_match">执行头不支持此文件类型。</string>
+    <string name="preview_warning_not_calibrated">
+        未检测到调平数据，或将影响打印效果。请问您要选择继续开启打印还是先进行调平？
+        \n注意：调平完成后，机器将直接开始打印。
+    </string>
+    <string name="preview_laser_rotary_set_origin_dialog_run_boundary_warning">警告：若工作原点设置不当，<b>跑边框</b>时激光模组可能会撞到材料。</string>
+    <string name="preview_laser_10w_rotary_set_origin_dialog_run_boundary_warning">警示：请谨慎设置工作原点的位置，否则10W激光模组可能会在跑边框时撞到材料。</string>
+    <string name="preview_cnc_rotary_origin_remind_desc">
+        材料上的工作原点与 Luban 中的坐标原点匹配中\n
+        \n你可以使用 <b>工具箱</b> >中的 <b>对刀助手</b>来设置工作原点，或者在后面的流程中手动设置工作原点\n
+        \n使用对刀助手完成工作原点的设置后，只要材料尺寸不变，你可以在后续雕刻中都使用此设置。
+    </string>
+    <string name="preview_cnc_rotary_set_origin_dialog_run_boundary_warning">警告：若工作原点设置不当，<b>跑边框</b>时 CNC 刀头可能会撞到材料。</string>
+    <string name="preview_cnc_rotary_install_tailstock">安装尾座</string>
+    <string name="preview_cnc_rotary_install_tailstock_content">你可以根据材料特点决定是否安装尾座。</string>
+    <string name="preview_bounding_box_format_x_y_z">%.1f × %.1f × %.1f mm</string>
+    <string name="preview_bounding_box_format_x_y">%.1f × %.1f mm</string>
+    <string name="preview_bounding_box_format_d_l">D:%.1f mm L:%.1f mm</string>
+    <string name="preview_40w_input_material_thickness">输入材料厚度</string>
+    <string name="preview_40w_input_material_thickness_desc">机器将会依据输入的材料厚度自动调整激光高度。</string>
+    <string name="preview_40w_focus_lever_assisted">对焦杆辅助</string>
+    <string name="preview_40w_focus_lever_assisted_desc">你需要控制对焦杆触碰材料表面，机器将自动调整激光高度。</string>
+
+    <string name="preview_2w_input_material_thickness">输入材料厚度</string>
+    <string name="preview_2w_input_material_thickness_desc">机器将会依据输入的材料厚度自动调整激光高度。</string>
+    <string name="preview_2w_focus_lever_assisted">对焦杆辅助</string>
+    <string name="preview_2w_focus_lever_assisted_desc">你需要控制对焦杆触碰材料表面，机器将自动调整激光高度。</string>
+
+    <string name="print_settings_adjust_settings">调整设置</string>
+    <string name="print_receive_file_start">你想要开始工作吗？</string>
+    <string name="print_warning_pause">你想要暂停工作吗？</string>
+    <string name="print_warning_stop">此操作无法被撤销。你希望停止工作吗？</string>
+    <string name="print_warning_power_outage_title">断电续打</string>
+    <string name="print_warning_power_outage_content">机器在打印过程中被关闭了。你希望恢复工作吗？</string>
+    <string name="print_warning_filament_run_out_title">断料续打</string>
+    <string name="print_warning_filament_run_out_content">耗材已消耗完毕。请添加耗材继续打印。</string>
+    <string name="print_warning_enclosure_door_detection_title">开关门检测</string>
+    <string name="print_warning_enclosure_door_detection_content">外罩正门或侧门被打开了。请关门并等待 1 秒钟再恢复工作。</string>
+    <string name="print_warning_open_unable">无法打开 G 代码文件，退出中……</string>
+    <string name="print_warning_start_unable">无法开始工作。请检查你的机器设置并再次尝试。</string>
+    <string name="print_warning_pause_unable">无法暂停工作。</string>
+    <string name="print_warning_resume_unable">无法恢复工作。请检查你的机器设置并再次尝试。</string>
+    <string name="print_warning_stop_unable">无法停止工作。</string>
+    <string name="print_warning_finish_unable">无法完成工作。</string>
+    <string name="print_change_filament">更换耗材</string>
+    <string name="print_operation_print_again">再次打印</string>
+    <string name="enclosure_led_strip">LED 灯条</string>
+    <string name="enclosure_cooling_fan">排气扇</string>
+    <string name="enclosure_settings">外罩设置</string>
+    <string name="enclosure_settings_door_detection">开关门检测</string>
+    <string name="enclosure_settings_door_detection_desc">若关闭<b>开关门检测</b>功能，机器将不会因外罩门打开而暂停工作。</string>
+    <string name="enclosure_settings_auto_lighting">自动开灯</string>
+    <string name="enclosure_settings_auto_lighting_desc">若启用<b>自动开灯</b>，LED 灯条将在机器开机后自动亮起。</string>
+    <string name="enclosure_settings_auto_lighting_dialog_desc">你需要重启机器，才能使新的设置生效。</string>
+    <string name="emergency_stop_warning_desc">请先切断电源，再处理紧急状况。危险解除后，复原急停开关按钮的位置，再重启机器。</string>
+    <string name="emergency_stop">一键急停</string>
+    <string name="machine_unavailable">机器不可用</string>
+    <string name="emergency_stop_warning_desc2">请先复原急停开关按钮的位置，再重启机器。</string>
+    <string name="air_purifier_fan_power">电源</string>
+    <string name="air_purifier_fan_speed">风速</string>
+    <string name="air_purifier_filter_life">滤芯寿命</string>
+    <string name="all_low">低</string>
+    <string name="all_medium">中</string>
+    <string name="all_High">高</string>
+    <string name="air_purifier_tip_power_off">请先打开空气净化器的开关。</string>
+    <string name="air_purifier_tip_filter_life_low">请替换滤芯。</string>
+    <string name="warning_air_purifier_not_properly_closed">空气净化器未正确闭合</string>
+    <string name="warning_air_purifier_not_properly_closed_desc">空气净化器未正确闭合。请正确关闭内盖与顶盖，再使用空气净化器。</string>
+    <string name="warning_air_purifier_cartridge_not_properly_seated_title">滤芯未正确放置</string>
+    <string name="warning_air_purifier_cartridge_not_properly_seated_desc">滤芯未正确放置。请正确放置滤芯，再使用空气净化器。</string>
+    <string name="warning_air_purifier_turn_on_during_print_3dp">警示：开启后，打印温度将受到影响。</string>
+    <string name="warning_air_purifier_turn_on_during_print_cnc">警示：开启后，滤芯寿命将受到影响。</string>
+    <string name="print_nozzle_temp">喷嘴温度</string>
+    <string name="print_heated_bed">热床</string>
+    <string name="print_heated_bed_temp">热床温度</string>
+    <string name="print_estimated_time">预估时间</string>
+    <string name="print_remaining_time">剩余时间</string>
+    <string name="print_elapsed_time">实耗时间</string>
+    <string name="print_laser_power">激光功率</string>
+    <string name="print_feed_rate">工作速度</string>
+    <string name="print_spindle_spend">主轴转速</string>
+    <string name="print_left_z_offset">左 Z 轴偏移量</string>
+    <string name="print_left_z_offset_with_crlf">左 Z 轴\n偏移量</string>
+    <string name="print_right_z_offset">右 Z 轴偏移量</string>
+    <string name="print_right_z_offset_with_crlf">右 Z 轴\n偏移量</string>
+    <string name="print_z_offset">Z 轴偏移量</string>
+    <string name="print_flow_rate">打印流量</string>
+    <string name="print_left_extruder_flow_rate">左喷嘴流量</string>
+    <string name="print_right_extruder_flow_rate">右喷嘴流量</string>
+    <string name="print_ready_to_load">可进料</string>
+    <string name="date_helper_format_split_by_colon">%02d:%02d:%02d</string>
+    <string name="date_helper_format_time_hour_minute">%d h %d min</string>
+    <string name="date_helper_format_time_minute_second">%d min %d sec</string>
+    <string name="calibration_intro_calibrate_the_bed">调平热床</string>
+    <string name="calibration_intro_auto_leveling_calibrate_the_bed_desc">3D 打印模组将自动探测并获取热床特定调平点的数据。 <b>自动调平</b>后，请按照<b>快速入门指南</b>设置一个合适的 Z 轴偏移量并保存设置。</string>
+    <string name="calibration_intro_manual_leveling_calibrate_the_bed_desc">
+        3D 打印模组将移动至热床的特定调平点。您需通过调整 Z 轴偏移量，手动校准每一个调平点。
+    </string>
+    <string name="calibration_intro_heated_leveling_first_step_title">1. 加热热床</string>
+    <string name="calibration_intro_heated_the_bed_desc">机器会先将热床加热至指定温度。</string>
+    <string name="calibration_intro_heated_leveling_second_step_title">2. 调平热床</string>
+    <string name="calibration_exit_manual_leveling_confirm_desc">确定要取消<b>手动调平</b>吗？</string>
+    <string name="calibration_exit_auto_leveling_confirm_desc">确定要取消<b>自动调平</b>吗？</string>
+    <string name="calibration_failed"><b>快速调平</b>失败，请联系技术支持。</string>
+    <string name="calibration_missing_notice">你的 Snapmaker 还没有调平。确定要打印吗？</string>
+    <string name="calibration_mode_indicator">选择方式</string>
+    <string name="calibration_auto_leveling">自动调平</string>
+    <string name="calibration_manual_leveling">手动调平</string>
+    <string name="calibration_heated_auto_leveling">加热自动调平</string>
+    <string name="calibration_heated_manual_leveling">加热手动调平</string>
+    <string name="calibration_fast_calibration">快速调平</string>
+    <string name="calibration_next_point">下一步</string>
+    <string name="calibration_dialog_z_offset_leveling_desc">请手动调平最后一个点。</string>
+    <string name="calibration_dialog_z_offset_heated_bed_warning_desc">
+        警示：热床温度高，请小心烫手！\n
+        建议戴上手套进行调平。
+    </string>
+    <string name="calibration_dialog_guide_auto_calibration_fail_desc">调平过程发生错误，请重试或者跳过。\n如需帮助，请联系客服。</string>
+    <string name="calibration_dialog_auto_calibration_fail_desc">调平过程发生错误，请重试或者退出。\n如需帮助，请联系客服。</string>
+    <string name="calibration_pre_heated_bed_title">热床加热</string>
+    <string name="calibration_pre_heated_bed_tip">警示：热床正在加热，请小心烫手。</string>
+    <string name="calibration_pre_heated_bed_suggestion">
+        热床温度的参考值：\n
+        PLA—70°C    ABS—80°C
+    </string>
+    <string name="calibration_tool_head_not_detected">未检测到执行头。</string>
+    <string name="cnc_calibration_description">CNC 无需校准。</string>
+    <!-- Calibration 3DP Dual Extruder  -->
+    <string name="calibration_dual_extruder_print_check_get_started_title">偏移校准验证</string>
+    <string name="calibration_dual_extruder_print_check_get_started_desc">机器将打印一个内置的验证模型（约15 分钟）。你可以根据触控屏上的提示，观察验证模型，从而判断各项校准是否成功。</string>
+    <string name="calibration_dual_extruder_print_check_get_started_content_sub_title">步骤</string>
+    <string name="calibration_dual_extruder_print_check_get_started_content_steps">
+        ● 打印验证模型
+        \n
+        \n● 验证各项校准结果</string>
+    <string name="calibration_dual_extruder_print_check_get_started_skip_confirm_content">你确定要跳过偏移校准验证吗？</string>
+    <string name="calibration_dual_extruder_print_check_load_fragment_or_not_load_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+    <string name="calibration_dual_extruder_print_check_load_fragment_or_not_load">Lorem ipsum</string>
+    <string name="calibration_dual_extruder_print_check_load_fragment_or_not_print_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <string name="calibration_dual_extruder_print_check_load_fragment_or_not_start_print">Lorem ipsum</string>
+    <string name="calibration_dual_extruder_print_check_print_model_name">打印验证模型</string>
+    <string name="calibration_dual_extruder_print_check_print_complete_title">打印完毕</string>
+    <string name="calibration_dual_extruder_print_check_print_complete_desc">若打印成功（模型完整且无形变），点击下一步。</string>
+    <string name="calibration_dual_extruder_print_check_print_complete_tip">请小心热床高温表面！</string>
+    <string name="calibration_dual_extruder_print_check_print_complete_restart_print">重新打印</string>
+    <string name="calibration_dual_extruder_print_check_confirm_sub_title">Lorem ipsum</string>
+    <string name="calibration_dual_extruder_print_check_print_confirm_z_title">验证 Z 轴偏移校准结果</string>
+    <string name="calibration_dual_extruder_print_check_print_confirm_z_desc">请观察校准模型，确认颜色不同的区域表面是否互相齐平。</string>
+    <string name="calibration_dual_extruder_print_check_print_confirm_z_flush">齐平</string>
+    <string name="calibration_dual_extruder_print_check_print_confirm_z_not_flush">不齐平</string>
+    <string name="calibration_dual_extruder_print_check_print_confirm_xy_title">验证 XY 轴偏移校准结果</string>
+    <string name="calibration_dual_extruder_print_check_print_confirm_xy_desc">从打印板上取下模型，并确认模型外侧的四个方块是否可被掰动。</string>
+    <string name="calibration_dual_extruder_print_check_print_confirm_xy_all_broken">全部可掰动</string>
+    <string name="calibration_dual_extruder_print_check_print_confirm_xy_not_all_broken">部分可掰动</string>
+    <string name="calibration_dual_extruder_print_check_confirm_complete_title_z_failed">Z 轴偏移校准不理想</string>
+    <string name="calibration_dual_extruder_print_check_confirm_complete_title_xy_failed">XY 轴偏移校准不理想</string>
+    <string name="calibration_dual_extruder_print_check_confirm_complete_title_all_failed"><![CDATA[Z 轴 & XY 轴偏移校准不理想]]></string>
+    <string name="calibration_dual_extruder_print_check_confirm_complete_title_all_successful">各项偏移校准均成功</string>
+    <string name="calibration_dual_extruder_print_check_confirm_complete_desc_failed">请前往<b>校准</b>界面，点击有红点标记的流程，重新进行校准。</string>
+
+
+    <string name="laser_choose_mode">选择模式</string>
+    <string name="laser_safety_goggles">激光护目镜</string>
+    <string name="laser_safety_goggles_message">请在设置激光功能前和机器使用过程中佩戴激光护目镜。</string>
+    <string name="laser_10w_safety_goggles_message">请在使用10W 激光模组期间保持佩戴激光护目镜。</string>
+    <string name="laser_set_material_thickness">设置材料厚度</string>
+    <string name="laser_alert_failed_to_get_focal_length">设置焦距失败。</string>
+    <string name="laser_calibration_select_mode">选择方式</string>
+    <string name="laser_calibration_auto_focus">自动对焦</string>
+    <string name="laser_calibration_auto_focus_switch_desc">当<b>自动对焦</b>为关闭时，你可以在<b>校准</b>菜单里选择<b>手动对焦</b>。</string>
+    <string name="laser_calibration_auto_focus_desc">机器会激光雕刻数条 Z 轴偏移量不同的刻线，然后识别最佳的刻线并保存其对应的焦距。\n
+\n请确保你在点击<b>开始</b>前已佩戴上激光护目镜。</string>
+    <string name="laser_calibration_auto_focus_notice">请勿在<b>自动对焦</b>的过程中移动材料。</string>
+    <string name="laser_calibration_manual_focus">手动对焦</string>
+    <string name="laser_calibration_manual_focus_desc">机器会激光雕刻数条 Z 轴偏移量不同的刻线。你需要告诉机器最佳刻线的位置，机器将保存其对应的焦距。\n
+\n请确保你在点击<b>开始</b>前已佩戴上激光护目镜。</string>
+    <string name="laser_calibration_engraving">雕刻中</string>
+    <string name="laser_calibration_engraving_notice">请勿在雕刻过程中移动材料。</string>
+    <string name="laser_calibration_manual_focus_notice">请勿在<b>手动对焦</b>的过程中移动材料。</string>
+    <string name="laser_calibration_processing">处理中</string>
+    <string name="laser_calibration_failed">失败</string>
+    <string name="laser_calibration_fine_tune">微调</string>
+    <string name="laser_calibration_auto_focus_failed">抱歉。摄像头未能识别最佳刻线。请点击<b>失败</b>并手动选择最佳刻线。</string>
+    <string name="laser_calibration_auto_focus_complete">你已顺利完成<b>自动对焦</b>。</string>
+    <string name="laser_calibration_auto_focus_complete_1">你已顺利完成<b>自动对焦</b>。如果最终 Z 轴偏移量过低，推荐你把遮光罩取下并重新进行<b>自动对焦</b>。</string>
+    <string name="laser_calibration_auto_focus_complete_2">因为最佳刻线在右边，激光焦距可能在最佳范围外。推荐你重新<b>自动对焦</b>。</string>
+    <string name="laser_calibration_fine_tune_detection_failed"><b>自动校准</b>失败。</string>
+    <string name="laser_calibration_fine_tune_pick_desc">选择最佳刻线。</string>
+    <string name="laser_calibration_measure_height">平台高度</string>
+    <string name="laser_calibration_measure_height_desc">请缓慢地移动激光模组至材料表面并点击<b>下一步</b>。基于已知的材料厚度，机器会自动计算精准的平台高度。</string>
+    <string name="laser_calibration_coarse_tuning">粗调</string>
+    <string name="laser_calibration_coarse_tuning_desc">调整激光模组的 Z 轴偏移量直至激光光束聚焦成最小的光斑。然后，移动激光模组到工作原点。</string>
+    <string name="laser_calibration_4axis_install_material_content">
+       将材料固定到卡盘中，并确保材料和卡盘的接触面之间不留缝隙。
+    </string>
+    <string name="laser_calibration_4axis_install_material_tailstock_warning">警告：此时请勿安装尾座，否则刀头可能会撞到尾座。</string>
+    <string name="laser_calibration_set_reference_points">设置参考点</string>
+    <string name="laser_calibration_4axis_coarse_turning_desc">
+        在材料上表面放一张白纸。调整激光模组的高度，直至激光束聚焦形成最小的光斑。\n
+        \n接下来，使用 <b>X、Y 和 B 轴偏移量</b>来设置工作原点。
+    </string>
+    <string name="laser_calibration_4axis_measure_height">小心地降低激光模组，直至其轻触材料上表面，然后点击<b>下一步</b>。根据您输入的材料直径，机器会自动计算 B 轴的高度。</string>
+    <string name="laser_calibration_material_thickness">材料厚度</string>
+    <string name="laser_calibration_set_material_thickness">设置材料厚度</string>
+    <string name="laser_calibration_set_laser_focal_length">设置激光焦距</string>
+    <string name="laser_calibration_modify">调整激光高度</string>
+    <string name="laser_camera_calibration">摄像头校准</string>
+    <string name="laser_camera_calibration_intro">进行<b>摄像头校准</b>可确保摄像头正常工作。</string>
+    <string name="laser_camera_calibration_step1_desc">在平台中间用夹具固定一张不小于150 x 150 mm 的白纸。机器会在纸上面切割一个正方形去调节摄像头参数。</string>
+    <string name="laser_10w_camera_calibnration_step1_desc">将一张空白 A4 纸固定于平台中央。机器会在纸上切割出一个正方形以校准摄像头。点击<b>开始</b>前，请确保您已佩戴<b>激光护目镜</b>。</string>
+    <string name="laser_camera_calibration_step2_desc">在校准过程中请不要移动白纸。</string>
+    <string name="laser_camera_calibration_step2_desc2">处理图片中… %d/4</string>
+    <string name="laser_camera_light">校准辅助照明</string>
+    <string name="laser_camera_light_desc">当机器运行<b>自动对焦</b>或<b>摄像头校准</b>的时候，自动打开摄像照明灯。</string>
+    <string name="laser_10w_camera_light_desc">进行<b>摄像头校准</b>时，机器将自动打开摄像照明灯。</string>
+    <string name="laser_camera_alert_camera_not_connected">未连接摄像头！</string>
+    <string name="cnc_safety_goggles">CNC 护目镜</string>
+    <string name="cnc_tool_box">工具箱</string>
+    <string name="cnc_origin_assistant">对刀助手</string>
+    <string name="cnc_origin_assistant_get_started">        在开始雕刻之前，你可以使用对刀助手来设置工作原点，该设置会保存在系统中。
+        只要材料尺寸不变，你可以在后续雕刻中都使用此设置。</string>
+    <string name="cnc_origin_assistant_material_settings">材料设置</string>
+    <string name="cnc_origin_assistant_material_settings_length_desc">长度 (mm)</string>
+    <string name="cnc_origin_assistant_material_settings_diameter_desc">直径 (mm)</string>
+    <string name="cnc_origin_assistant_input_tip_empty">数值不能为空。</string>
+    <string name="cnc_origin_assistant_input_tip_not_positive">数值必须为正。</string>
+    <string name="cnc_origin_assistant_install_material_title">固定材料</string>
+    <string name="cnc_origin_assistant_install_material_content">  将材料固定到卡盘中，并确保材料和卡盘的接触面之间不留缝隙。 \n
+        \n此时请勿安装尾座。</string>
+    <string name="cnc_origin_assistant_carving_tool">刀具</string>
+    <string name="cnc_origin_assistant_carving_v_bit">三棱雕刻刀</string>
+    <string name="cnc_origin_assistant_flat_end_mill">平头铣刀</string>
+    <string name="cnc_origin_assistant_ball_end_mill">球头铣刀</string>
+    <string name="cnc_origin_assistant_straight_groove_v_bit">直槽尖刀</string>
+    <string name="cnc_origin_assistant_custom_bit">定制刀头</string>
+    <string name="cnc_origin_assistant_set_carving_tool_desc">除了这四种刀头外，您也可以选择定制刀头。然后将其固定到夹头上。</string>
+    <string name="cnc_origin_assistant_custom_bit_total_length_desc">总长度 (mm)</string>
+    <string name="cnc_origin_assistant_custom_bit_shank_diameter_desc">刀柄直径 (mm)</string>
+    <string name="cnc_origin_assistant_set_origin_intro_content">
+        执行头将移动到材料附近。
+        按照屏幕指示，将刀头移动到相应的位置。
+        然后点击<b>设置</b>，确认每个坐标。
+    </string>
+    <string name="cnc_origin_assistant_set_x1">设置 X1</string>
+    <string name="cnc_origin_assistant_set_x2">设置 X2</string>
+    <string name="cnc_origin_assistant_set_y">设置 Y</string>
+    <string name="cnc_origin_assistant_set_z">设置 Z</string>
+    <string name="cnc_origin_assistant_set_b">设置 B</string>
+    <string name="cnc_origin_assistant_set_origin_back_notice">离开此页将导致尚未保存的工作原点数据丢失。您确定要离开吗？</string>
+    <string name="cnc_origin_assistant_set_origin_complete">您已成功完成旋转雕刻的初始设置。现在您可以选择一个文件开始制作。</string>
+    <string name="cnc_bit_assistant">换刀助手</string>
+    <string name="cnc_bit_assistant_intro_desc">
+        换刀助手的作用类似于对刀仪。它会指导您操纵刀头来触碰您所选的那个点，然后系统会计算出 Z 轴偏移量。
+        更换刀头后，您可以使用之前设置的工作原点并立即开始雕刻。\n
+        \n注意：完成粗加工后，暂时不要更换刀头，直到系统提示您更换。
+    </string>
+    <string name="cnc_bit_assistant_bit_change_title">更换刀头</string>
+    <string name="cnc_bit_assistant_step2_intro_desc">
+        现在开始更换新 CNC 刀头。\n
+        \n
+        通过调整 Z 轴偏移量，操纵新 CNC 刀头轻轻触碰您所选的那个点。点击<b>设置</b>。
+    </string>
+    <string name="cnc_bit_assistant_complete_desc">恭喜！您已完成精加工的工作原点设置。在触控屏上选择文件，然后即可开始。</string>
+    <string name="control_jog_mode">点动模式</string>
+    <string name="control_nozzle">喷嘴</string>
+    <string name="control_laser">激光</string>
+    <string name="control_spindle">主轴</string>
+    <string name="control_x">X</string>
+    <string name="control_y">Y</string>
+    <string name="control_z">Z</string>
+    <string name="control_b">B</string>
+    <string name="control_height">高度</string>
+    <string name="control_home">返回原位</string>
+    <string name="control_homing">返回原位</string>
+    <string name="control_current_target_placeholder">0 / 0</string>
+    <string name="control_goto_origin">前往工作原点</string>
+    <string name="control_target_nozzle_temperature">目标喷嘴温度</string>
+    <string name="control_heated_bed_temperature">热床温度</string>
+    <string name="control_filament">耗材</string>
+    <string name="control_load_filament">装料</string>
+    <string name="control_load_filament_failed">装料失败。</string>
+    <string name="control_heat_warning">请在换料前设定好喷嘴温度，默认状态下喷嘴会升温到 200°C。</string>
+    <string name="control_coordinate_panel_absolute_position">机械坐标</string>
+    <string name="control_coordinate_panel_work_position">工件坐标</string>
+    <string name="control_coordinate_panel_unit">mm</string>
+    <string name="control_coordinate_panel_position_placeholder">0.00</string>
+    <string name="control_set_origin_panel_set">设置</string>
+    <string name="control_set_origin_panel_origin">原点</string>
+    <string name="control_set_origin">设置工作原点</string>
+    <string name="control_set_origin_x">设置 X 轴原点</string>
+    <string name="control_set_origin_y">设置 Y 轴原点</string>
+    <string name="control_set_origin_z">设置 Z 轴原点</string>
+    <string name="control_set_origin_b">设置 B 轴原点</string>
+    <string name="control_run_boundary">跑边框</string>
+    <string name="control_laser_status">激光状态</string>
+    <string name="control_spindle_speed">速度</string>
+    <string name="control_spindle_status">主轴状态</string>
+    <string name="password_hint">密码</string>
+    <string name="settings_about_machine">关于本机</string>
+    <string name="settings_terms_and_conditions">使用条款</string>
+    <string name="settings_user_preference">用户偏好</string>
+    <string name="settings_firmware_update">固件更新</string>
+    <string name="settings_export_log">导出日志</string>
+    <string name="settings_snapmaker2_a150">Snapmaker 2.0 A150</string>
+    <string name="settings_snapmaker2_a250">Snapmaker 2.0 A250/A250T/F250</string>
+    <string name="settings_snapmaker2_a350">Snapmaker 2.0 A350/A350T/F350</string>
+    <string name="settings_product_name">产品名字</string>
+    <string name="settings_work_are">工作区域</string>
+    <string name="settings_firmware_version">固件版本</string>
+    <string name="settings_screen_version">触屏版本</string>
+    <string name="settings_controller_version">控制器版本</string>
+    <string name="settings_ip_address">IP 地址</string>
+    <string name="settings_network_not_connected">未连接</string>
+    <string name="settings_touchscreen">触屏</string>
+    <string name="settings_resolution">分辨率</string>
+    <string name="settings_resolution_value">1280 × 720</string>
+    <string name="settings_display">显示屏</string>
+    <string name="settings_display_value">5英寸 IPS 触屏</string>
+    <string name="settings_core">处理器</string>
+    <string name="settings_core_value">四核处理器 A7 CPU @1.1 GHz</string>
+    <string name="settings_os">系统</string>
+    <string name="settings_os_value">安卓 7.1</string>
+    <string name="settings_advanced_settings">高级设置</string>
+    <string name="settings_print_settings_3dp">3D 打印设置</string>
+    <string name="settings_auto_calibration_desc">当<b>自动调平</b>关闭时，你可以使用<b>校准</b>中的<b>手动调平</b>。</string>
+    <string name="settings_fast_calibration_desc">当<b>快速校准</b>关闭时，机器不再会在打印前校准。</string>
+    <string name="settings_3dp_calibration_grid">调平网格</string>
+    <string name="settings_3dp_calibration_points">调平点</string>
+    <string name="settings_3dp_heated_leveling">加热调平</string>
+    <string name="settings_3dp_heated_leveling_desc">启用该功能后，机器会在调平前先进行热床加热。</string>
+    <string name="settings_advance_laser">激光设置</string>
+    <string name="settings_camera_calibration">摄像头校准</string>
+    <string name="settings_advance_laser_10w">10W 激光设置</string>
+    <string name="settings_laser_thickness_measure_calibration_title">材料厚度测量校准</string>
+    <string name="settings_laser_thickness_measure_calibration_desc">在自动模式下，若您发现材料厚度测量不准确，可重新进行材料厚度测量校准。</string>
+    <string name="settings_laser_thickness_measure_calibration_page_desc">
+        请将标定板固定在<b>平台中央</b>。机器将进行自动校准，并测量标定板的厚度，从而验证校准是否成功。
+    </string>
+    <string name="settings_laser_thickness_measure_calibration_capturing">拍摄中...</string>
+    <string name="settings_laser_thickness_measure_calibration_measuring">测量中...</string>
+    <string name="settings_laser_measure_a4_thickness">测量 A4 纸的厚度</string>
+    <string name="settings_laser_measure_thickness">测量厚度</string>
+    <string name="settings_laser_confirm_red_dot_on_calibration_plate">请确保红点位于标定板表面</string>
+    <string name="settings_laser_processing_result">测量结果处理中…</string>
+    <string name="settings_laser_measure_thickness_fail_desc">
+        测量失败，请重试或退出校准。\n\n
+        可能原因：
+        \n1. 未拍摄到红点
+        \n2. 环境光线过强
+    </string>
+    <string name="guide_laser_measure_thickness_fail_desc">
+        测量失败，请重试。\n\n
+        可能原因：
+        \n1. 未拍摄到红点
+        \n2. 环境光线过强
+    </string>
+    <string name="settings_laser_toolhead_focus_calibration_title">执行头焦距校准</string>
+    <string name="settings_laser_toolhead_focus_calibration_desc">若您更换过执行头，建议重新进行执行头焦距校准。</string>
+    <string name="settings_laser_toolhead_focus_calibration_page_desc">
+        点击<b>开始</b>，然后手动控制执行头下降，直至其贴合平台表面。之后点击<b>完成</b>，机器将进行自动对焦。
+    </string>
+    <string name="guide_laser_toolhead_focus_calibration_page_desc">
+        点击<b>开始</b>，然后手动控制执行头下降，直至其贴合平台表面。之后点击<b>下一步</b>，机器将进行自动对焦。
+    </string>
+    <string name="settings_laser_1st_calibration_point">拍摄第一个校准点</string>
+    <string name="settings_laser_2nd_calibration_point">拍摄第二个校准点</string>
+    <string name="settings_laser_calibration_point_desc">请确保红点位于标定板表面。</string>
+    <string name="settings_laser_process_capture_result">拍摄结果处理中…</string>
+    <string name="settings_laser_process_capture_result_success">拍摄结果处理成功！</string>
+    <string name="settings_laser_process_capture_result_guide_success">您已成功完成材料厚度测量校准。</string>
+    <string name="settings_laser_process_capture_result_fail">拍摄结果处理失败，请重试或退出。</string>
+    <string name="guide_10w_laser_process_capture_result_fail">拍摄结果处理失败，请重试。</string>
+    <string name="settings_laser_thickness_calibration_complete">您已经完成材料厚度测量校准，现在可以使用自动模式。</string>
+    <string name="settings_laser_touch_platform_title">贴合平台表面</string>
+    <string name="settings_laser_10w_camera_light_desc">当机器运行摄像头校准时，自动打开摄像照明灯。</string>
+    <string name="settings_laser_10w_camera_touch_platform_desc">请手动控制执行头下降，并使用校准卡片辅助其贴合平台表面。</string>
+
+    <string name="settings_laser_low_intensity_laser_power">弱光出光功率</string>
+
+    <string name="settings_export_log_done">导出日志成功。</string>
+    <string name="settings_export_log_failed">导出日志失败，请确保你已插入可被识别的USB设备。</string>
+    <string name="settings_quick_swap_status">快换套件安装状态</string>
+    <string name="settings_quick_swap_and_bracing_kit_status">快换套件/加固组件安装状态</string>
+    <string name="settings_quick_swap_setup_title">执行头与平台的安装方式为？</string>
+    <string name="settings_quick_swap_setup_desc">严格按照实际有无安装快换套件来选择对应的安装方式。否则将导致运行异常。</string>
+    <string name="settings_quick_swap_setup_sub_title">请确认机器是否已安装快换套件：</string>
+    <string name="settings_quick_swap_setup_quick_swap_kit">快换套件</string>
+    <string name="settings_quick_swap_setup_screws">螺丝</string>
+    <string name="settings_quick_swap_setup_dont_ask_again_check_desc">保存选择，不再询问</string>
+    <string name="settings_quick_swap_setup_never_lets_create">开始创造吧！</string>
+
+    <string name="settings_bracing_kit_setup_title">直线模组的安装状态为？</string>
+    <string name="settings_bracing_kit_setup_desc">严格按照实际有无安装加固件来选择安装对应的安装方式。否则将导致运行异常。</string>
+    <string name="settings_bracing_kit_setup_installed_with_bracing_kit">已安装加固组件</string>
+    <string name="settings_bracing_kit_setup_installed_without_bracing_kit">未安装加固组件</string>
+
+    <string name="settings_quick_swap_park_for_easy_swap">易换停靠</string>
+    <string name="settings_quick_swap_park_for_easy_swap_title">易换停靠</string>
+    <string name="settings_quick_swap_park_for_easy_swap_desc">
+        点击<b>停靠</b>后，执行头和工作平台将移动至易于更换的位置。
+        \n
+        \n<b>注意</b>：点击前，请确保当前工作区域内无障碍物。
+    </string>
+    <string name="settings_quick_swap_park">停靠</string>
+    <string name="settings_quick_swap_park_completed_title">停靠完毕</string>
+    <string name="settings_quick_swap_park_completed_desc">现在，你可以关闭机器并更换执行头和工作平台。</string>
+    <string name="settings_choose_network">选择网络</string>
+    <string name="settings_firmware_check_for_update">检查更新</string>
+    <string name="settings_firmware_download_firmware">下载固件</string>
+    <string name="settings_firmware_update_now">现在更新</string>
+    <string name="settings_firmware_factory_reset">恢复出厂设置</string>
+    <string name="settings_firmware_dialog_checking_update">检查更新…</string>
+    <string name="settings_firmware_dialog_new_version_available">检测到新版本</string>
+    <string name="settings_firmware_dialog_new_version_available_desc">最新版本是 %s （%.1f MB)\n</string>
+    <string name="settings_firmware_dialog_later">稍后</string>
+    <string name="settings_firmware_btn_download_firmware_desc">下载更新 %.1f MB</string>
+    <string name="settings_firmware_warning_cancel_download">你确定要取消更新吗？</string>
+    <string name="settings_firmware_cancel_update">取消更新</string>
+    <string name="settings_firmware_unstable_network_connection">网络连接不稳定</string>
+    <string name="settings_firmware_change_logs_desc">请去以下网址查看完整的 Snapmaker 固件改动信息：https://forum.snapmaker.com/t/snapmaker-2-0-firmware-updates-and-downloads</string>
+    <string name="settings_firmware_change_logs_new_feature">新功能</string>
+    <string name="settings_firmware_change_logs_bug_fixed">Bug 修正</string>
+    <string name="settings_firmware_change_logs_improvements">优化项</string>
+    <string name="settings_update_success">更新完毕。</string>
+    <string name="settings_update_failed_file_not_found">无法打开更新文件。</string>
+    <string name="settings_update_failed_file_parse_error">无法识别文件更新信息。</string>
+    <string name="settings_update_failed">更新失败。</string>
+    <string name="settings_update_open_file_failed">打开更新文件失败，停止更新。</string>
+    <string name="settings_update_loading_update_file">更新文件加载中……</string>
+    <string name="settings_update_msg_updating_modules">模组更新中……</string>
+    <string name="settings_update_msg_updating_controller">控制器更新中……</string>
+    <string name="settings_update_msg_updating_screen">触控屏更新中……</string>
+    <string name="settings_update_msg_finishing_up_controller_update">控制器固件更新即将完成……</string>
+    <string name="settings_terms_content"><b>欢迎使用 Snapmaker </b>\n
+\n在使用本机器前，请务必仔细阅读并理解 Snapmaker 的条款。能否访问和使用本产品取决于你是否接受并遵守 Snapmaker 的条款。本条款适用于所有接触或使用此产品的用户。\n
+\n一旦使用此产品，即视为你已同意并遵守 Snapmaker 的条款。若你对 Snapmaker 的条款有任何异议，你可以选择不使用此产品。\n
+\n我们保留在任何时候修改本条款的变更权。\n
+\n<b>隐私政策</b>\n
+\n本隐私政策更新于 2022 年 6 月 20 日。\n
+\n感谢使用深圳快造科技有限公司（以下简称“我们”）的产品和服务，我们一向很注重并尊重你的隐私，为此，我们制定了以下隐私政策来列举如何收集、使用和保护你的个人信息。\n
+\n<b>个人信息收集</b>\n
+\n<b>在取得你的同意之后，我们仅收集我们需要的个人信息，</b>包括：\n
+\n 1. 机器名称、型号、操作系统状态和固件版本信息。目的是建立远程通信及对固件进行更新等。\n
+\n 2. 连接状态：硬件通讯连接状态、与 Snapmaker Luban 的远程连接状态。目的是检查机器连机状态，如出现异常状态将及时进行反馈。\n
+\n 3. 屏幕页面的操作信息。目的是记录当前的页面位置及状态，便于出现异常时帮助你快速重新恢复到正常状态。\n
+\n 4. 固件的日志及其报错信息，该项仅在你主动提供的前提下我们才能获取。如你有需要，你可在获取机器的 log 文件后，通过电子邮件将 log 文件发送给我们，将由我们为你检查机器状态。\n
+\n 5. 你选择并明确同意加入用户体验改进计划后我们收集的信息，详细内容请见《用户体验改进计划》。\n
+\n 6. 我们使用 Google Analytics （Google Analytics 遵守《通用数据保护条例》）。受制于 IP 匿名化限制，我们不会且无法单独获取或者跟踪你的 IP 地址、数据等。\n
+\n<b>你也可以选择不提供我们请求你提供的个人信息。但如果你选择不提供，我们将无法向你提供我们的产品或服务。</b>\n
+\n<b>个人信息的使用</b>\n
+\n我们仅在有合法依据的情况下才会使用你的个人信息，主要目的如下：\n
+\n 1. <b>了解用户需求，提升我们的服务。</b>收集必要的个人信息为我们的服务提供支持，可能用于产品或者服务的改进、故障分析、问题诊断、通知关于服务更改等。\n
+\n 2. <b>参与服务的互动功能</b>\n
+\n 3. <b>遵守法律</b>\n
+\n我们也可能在经你同意后将你的个人信息用于其他用途。我们保留个人信息的时间仅限于满足以上目的的时间，同时符合相关法律法规的要求。\n
+\n<b>个人信息的共享</b>\n
+\n我们不会与其他公司、组织和个人分享你的个人信息，除非获得你的明确同意。我们可能会对外共享你的个人信息以满足法律法规的要求，以响应监管机构、法院或政府机构的要求，或保护我们的合法权利。\n
+\n<b>个人信息的保护</b>\n
+\n我们使用管理性、技术性和物理性保护措施来保护你的个⼈信息，但请你理解，由于技术的限制以及可能存在的各种恶意手段，即便竭尽所能加强安全措施，也可能存在意想不到的信息安全风险，我们将持续改进这些保护措施，尽力确保你的个⼈信息始终安全。\n
+\n<b>隐私政策的修改和更新</b>\n
+\n我们有权随时更新、修改本隐私政策，也会通过本界面告知你关于隐私政策的改动。\n
+\n<b>如何联系我们</b>\n
+\n若你对本隐私政策有任何疑问，请通过以下邮箱联系我们：support@snapmaker.com\n
+          \n<b>免责声明</b>\n
+\n请务必仔细阅读并理解此产品随附提供的说明书与安全须知。违反说明书或安全须知里的使用提示可能造成人身伤害，产出结果欠佳，或者损坏产品。请确保使用产品的人员知道和理解说明书里的所有信息。\n
+\n产品安装，处理，存储，和使用不在我们的可控范围之内。因此，我们将不承担由以上操作造成的人身伤害，产品丢失，损坏，组装，使用和遗弃所产生的附加费用及连带责任。对于违反安全须知所提示的使用行为或不可抗因素导致的一切人身伤害、事故、财产损失、法律纠纷，及其他一切造成利益冲突的不利事件，均由用户自己承担相关责任和损失，Snapmaker 将不承担任何责任。\n
+\n</string>
+    <string name="settings_preference_analysis">启用匿名数据发送</string>
+    <string name="settings_preference_analysis_desc">Snapmaker 默认收集机器匿名使用信息。</string>
+    <string name="settings_air_purifier">空气净化器设置</string>
+    <string name="settings_advance_air_purifier_auto_turn_on">自动开启</string>
+    <string name="settings_advance_air_purifier_auto_turn_on_desc">启用后，空气净化器将在机器执行下次作业时自动启动。</string>
+    <string name="settings_advance_air_purifier_auto_turn_off">自动关闭</string>
+    <string name="settings_advance_air_purifier_auto_turn_off_desc">启用后，空气净化器将在每次作业完成的 5 分钟之后自动关闭。</string>
+    <string name="experiment_export_log">导出日志</string>
+    <string name="experiment_developer_mode_notice">进入开发者模式</string>
+    <string name="remote_connect_request">Wi-Fi 连接申请</string>
+    <string name="remote_connect_request_desc">Snapmaker Luban 正在尝试连接机器。你确认要连接吗？</string>
+    <string name="remote_disconnect_confirm">打印工作未完成。断开连接会停止打印工作。</string>
+    <string name="remote_print_job_not_finish_confirm">机器已与 Luban 断开连接。只有当你点击<b>停止</b>时，机器才会终止作业。</string>
+    <string name="controller_laser_10w_safety_goggles_message">请在使用10W 激光模组期间保持佩戴激光护目镜。</string>
+    <string name="controller_laser_power_tip">开启激光后，激光功率为最小值。</string>
+    <string name="guide_10w_laser_safety_instructions">安全须知</string>
+    <string name="guide_10w_laser_safety_instructions_content">
+● 10W 激光模组为四类激光产品。
+    \n● 未成年人必须在成年人监管下使用机器。
+    \n● 10W 激光模组须搭配 Snapmaker 研发的外罩进行使用。
+    \n● 所有使用者与旁观者均须佩戴 Snapmaker 研发的激光护目镜，切忌在无防护的情况下直视激光。
+    \n● 部分材料在激光加工过程中可能会产生有毒烟雾或气体，请根据需要选择空气净化器进行防护。
+    \n● 请确保在维修或改装前断开机器电源。
+    \n● 因用户个人操作不当而引起的或以任何方式与之相关的损失、人身伤害、设备损坏或费用，Snapmaker 均不负责。
+    </string>
+    <string name="guide_10w_laser_safety_instructions_confirm_desc">我已阅读并知晓以上全部内容。</string>
+    <string name="guide_10w_laser_focus_calibration_content">点击<b>开始</b>，然后手动控制执行头下降，直至其贴合平台表面。之后点击<b>下一步</b>，机器将进行自动对焦。</string>
+    <string name="all_successful">测量成功！</string>
+    <string name="guide_10w_laser_thickness_measurement_calibration_successful">您已成功完成材料厚度测量校准。 </string>
+    <string name="laser_10W_dialog_not_placed_correctly">执行头未正确安装</string>
+    <string name="laser_10W_dialog_not_placed_correctly_desc">检测到执行头未竖直朝下。请重新调整执行头的位置。</string>
+    <string name="laser_10W_dialog_temperature_too_high">激光器温度过高</string>
+    <string name="laser_10W_dialog_temperature_too_high_desc">这可能会影响激光器的寿命和性能。请联系我们的技术支持反馈问题。</string>
+    <string name="laser_10W_dialog_changer_header">检测到更换了执行头。建议重新进行<b>摄像头校准</b>。\n
+        若您新增或移除了快换套件 / 加固组件等套件，建议到<b>设置</b>重新进行所有激光校准。
+    </string>
+
+    <string name="guide_20w_laser_safety_instructions_content">
+● 20W 激光模组为四类激光产品。
+    \n● 未成年人必须在成年人监管下使用机器。
+    \n● 20W 激光模组须搭配 Snapmaker 研发的外罩进行使用。
+    \n● 所有使用者与旁观者均须佩戴 Snapmaker 研发的激光护目镜，切忌在无防护的情况下直视激光。
+    \n● 部分材料在激光加工过程中可能会产生有毒烟雾或气体，请根据需要选择空气净化器进行防护。
+    \n● 请确保在维修或改装前断开机器电源。
+    \n● 因用户个人操作不当而引起的或以任何方式与之相关的损失、人身伤害、设备损坏或费用，Snapmaker 均不负责。
+    </string>
+
+    <string name="guide_40w_laser_safety_instructions_content">
+● 40W 激光模组为四类激光产品。
+    \n● 未成年人必须在成年人监管下使用机器。
+    \n● 40W 激光模组须搭配 Snapmaker 研发的外罩进行使用。
+    \n● 所有使用者与旁观者均须佩戴 Snapmaker 研发的激光护目镜，切忌在无防护的情况下直视激光。
+    \n● 部分材料在激光加工过程中可能会产生有毒烟雾或气体，请根据需要选择空气净化器进行防护。
+    \n● 请确保在维修或改装前断开机器电源。
+    \n● 因用户个人操作不当而引起的或以任何方式与之相关的损失、人身伤害、设备损坏或费用，Snapmaker 均不负责。
+    </string>
+
+    <string name="guide_2w_laser_safety_instructions_content">
+● 2W 激光模组为四类激光产品。
+    \n● 未成年人必须在成年人监管下使用机器。
+    \n● 2W 激光模组须搭配 Snapmaker 研发的外罩进行使用。
+    \n● 所有使用者与旁观者均须佩戴 Snapmaker 研发的激光护目镜，切忌在无防护的情况下直视激光。
+    \n● 部分材料在激光加工过程中可能会产生有毒烟雾或气体，请根据需要选择空气净化器进行防护。
+    \n● 请确保在维修或改装前断开机器电源。
+    \n● 因用户个人操作不当而引起的或以任何方式与之相关的损失、人身伤害、设备损坏或费用，Snapmaker 均不负责。
+    </string>
+
+    <string name="dual_extruder_load_filament_nozzle_l">左喷嘴</string>
+    <string name="dual_extruder_load_filament_nozzle_r">右喷嘴</string>
+    <string name="dual_extruder_load_filament_pre_heated_dialog_desc">请在换料前设定好喷嘴温度，默认状态下喷嘴会升温到 200°C。</string>
+    <string name="dual_extruder_load_filament_loading_preparing">准备中…</string>
+    <string name="dual_extruder_load_filament_loading_left">左喷嘴进料中…</string>
+    <string name="dual_extruder_load_filament_unloading_left">左喷嘴退料中…</string>
+    <string name="dual_extruder_load_filament_loading_right">右喷嘴进料中…</string>
+    <string name="dual_extruder_load_filament_unloading_right">右喷嘴退料中…</string>
+
+    <string name="calibration_heated_bed_leveling">热床调平</string>
+    <string name="calibration_z_height">Z轴高度校准</string>
+    <string name="calibration_xy_offset">XY轴偏移校准</string>
+    <string name="calibration_sensor">传感器校准</string>
+    <string name="calibration_model_check">打印校验模型</string>
+    <string name="alert_bed_start_heating">热床将默认加热至 60℃。你可以滑动刻度线以调整目标温度。</string>
+    <string name="leveling_heat_bed_title">加热热床</string>
+    <string name="all_heating">加热中...</string>
+    <string name="dual_extruder_auto_bed_leveling_title">自动调平中...</string>
+    <string name="leveling_heat_bed_caution_msg">热床正在加热，请小心高温表面！</string>
+    <string name="leveling_heat_bed_temp_tips">热床温度参考值：\nPLA—60°C    ABS—100°C</string>
+    <string name="leveling_bed_hot_caution_msg">请小心热床高温表面！</string>
+    <string name="leveling_bed_clean_nozzle_content">请清理喷嘴的外表面并确认表面无残留物。</string>
+    <string name="leveling_progress_desc">进度: %1$d/%2$d</string>
+    <string name="dual_extruder_bed_leveling_complete">自动调平成功</string>
+    <string name="all_leveling">调平中...</string>
+    <string name="leveling_stop_resetting_dialog_msg">已停止调平，机器正在复位...</string>
+    <string name="leveling_stop_leveling_dialog_msg">你确定要退出校准吗？</string>
+    <string name="leveling_manual_title">Z 轴偏移校准</string>
+    <string name="dual_extruder_bed_leveling_start_desc">通过校准左喷嘴和平台之间在特定调平点处的距离，机器可在打印过程中实时调整模组的运动进行补偿，从而达到调平的效果。</string>
+    <string name="all_leveling_mode">调平类型</string>
+    <string name="dual_extruder_leveling_heat_or_not_title">是否加热热床</string>
+    <string name="all_leveling_point_count">调平点数</string>
+    <string name="z_height_calibration_title">Z 轴高度校准</string>
+    <string name="z_height_calibration_start_desc">左右喷嘴将轮流探测热床以获得合适的工作高度</string>
+    <string name="all_calibration_mode">模式</string>
+    <string name="all_calibration_auto_title">自动</string>
+    <string name="all_calibration_manual_title">手动</string>
+    <string name="all_calibrating">校准中...</string>
+    <string name="calibration_auto_z_height_title">自动 Z 轴偏移校准中...</string>
+    <string name="calibration_z_height_complete">Z 轴高度校准完成</string>
+    <string name="calibration_z_height_failed">Z 轴高度校准失敗</string>
+
+    <string name="calibration_z_height_manual_instruction_left_extruder">使用校准卡片辅助校准左喷嘴在该点处的 Z 轴偏移量。</string>
+    <string name="calibration_z_height_manual_instruction_right_extruder">使用校准卡片辅助校准右喷嘴在该点处的 Z 轴偏移量。</string>
+    <string name="calibration_z_height_manual_left_nozzle_title">校准 Z 轴偏移量—左喷嘴</string>
+    <string name="calibration_z_height_manual_right_nozzle_title">校准 Z 轴偏移量—右喷嘴</string>
+    <string name="calibration_manual_z_height_successful_title">校准成功</string>
+    <string name="calibration_manual_z_height_successful_left_desc">点击<b>下一步</b>，校准右喷嘴的 Z 轴偏移量。</string>
+
+    <string name="calibration_dual_extruder_sensor_calibration_start_title">传感器校准</string>
+    <string name="calibration_dual_extruder_sensor_calibration_start_desc">自动调平依赖于机器内置的智能传感器。若自动调平的结果不理想，你可以校准传感器。</string>
+    <string name="calibration_dual_extruder_sensor_calibration_sensor_probe_title">获取传感器数据</string>
+    <string name="calibration_dual_extruder_sensor_calibration_sensor_probe_desc">自动获取中…</string>
+    <string name="calibration_dual_extruder_sensor_calibration_right_fine_tune_complete_title">校准成功</string>
+    <string name="calibration_dual_extruder_sensor_calibration_right_fine_tune_complete_desc">点击<b>下一步</b>，校准左喷嘴的传感器。</string>
+    <string name="calibration_dual_extruder_sensor_calibration_dialog_exit_calibration_desc">你确认要退出<b>传感器校准</b>吗?</string>
+    <string name="calibration_dual_extruder_sensor_calibration_dialog_process_failed_desc">传感器校准流程失败, 点击<b>确认</b>退出<b>传感器校准</b>。</string>
+
+    <string name="calibration_dual_extruder_sensor_calibration_left_probe_title">校准传感器—左喷嘴</string>
+    <string name="calibration_dual_extruder_sensor_calibration_right_probe_title">校准传感器—右喷嘴</string>
+
+
+    <string name="guide_3dp_dual_extruder_safety_notes_title">安全须知</string>
+    <string name="guide_3dp_dual_extruder_safety_instructions_content">
+        ● 当机器正在打印或加热时，请勿触碰喷嘴或者热床。
+        \n● 在执行维修或改装前，务必断开机器电源。
+    </string>
+    <string name="guide_3dp_dual_extruder_get_started_title">双喷头模组校准向导</string>
+    <string name="guide_3dp_dual_extruder_get_started_content">本向导将指引你完成基本的校准流程，以确保之后机器可正常打印。</string>
+    <string name="guide_3dp_dual_extruder_get_started_steps_title">步骤</string>
+    <string name="guide_3dp_dual_extruder_get_started_im_ready">我准备好了！</string>
+    <string name="guide_3dp_dual_extruder_get_started_steps_content"><![CDATA[● 调平 & Z 轴偏移校准]]>
+        \n
+        \n● XY 轴偏移校准
+        \n
+        \n● 偏移校准验证（可跳过）
+    </string>
+    <string name="guide_3dp_dual_extruder_heated_leveling_clean_nozzle_content">请清理喷嘴的外表面并确认表面无残留物。</string>
+    <string name="guide_3dp_dual_extruder_Bed_leveling_heating_title">加热热床</string>
+    <string name="guide_3dp_dual_extruder_xy_calibration_start_title">XY 轴偏移校准</string>
+    <string name="guide_3dp_dual_extruder_xy_calibration_start_desc">机器将打印两个内置的校准模型（约10 分钟）。
+        根据触控屏上的指引，你可以校准两个喷嘴在 X 轴和 Y 轴方向的偏移量。
+        为保证校准的成功率，你需要在两侧喷嘴中装载颜色对比明显的 PLA 耗材。
+    </string>
+    <string name="guide_3dp_dual_extruder_xy_calibration_print_model_name">XY 轴偏移校准模型</string>
+    <string name="guide_3dp_dual_extruder_xy_calibration_print_dialog_filament_runout_desc">耗材已消耗完毕，请确保耗材已装载完毕并重新进行 XY 轴偏移校准。</string>
+    <string name="guide_3dp_dual_extruder_xy_calibration_print_complete_title">打印完毕</string>
+    <string name="guide_3dp_dual_extruder_xy_calibration_print_complete_desc">若打印成功（模型完整且线条清晰），点击<b>下一步</b>。</string>
+    <string name="guide_3dp_dual_extruder_xy_calibration_print_complete_warn_tip">请小心热床高温表面！</string>
+    <string name="guide_3dp_dual_extruder_xy_calibration_print_complete_print_again">重新打印</string>
+    <string name="guide_3dp_dual_extruder_xy_calibration_check_result_intro_title">选择最佳线组</string>
+    <string name="guide_3dp_dual_extruder_xy_calibration_check_result_intro_sub_title">观察校准模型</string>
+    <string name="guide_3dp_dual_extruder_xy_calibration_check_result_intro_desc">
+1. 分别找到两个模型中的最佳线组（顶部线条最靠近底部线条的正中央）；
+\n2. 点击<b>下一步</b>，在触控屏上进行选择。
+    </string>
+    <string name="guide_3dp_dual_extruder_xy_calibration_check_result_title">选择最佳线组</string>
+    <string name="guide_3dp_dual_extruder_xy_calibration_check_result_x_sub_title">X 轴偏移校准模型</string>
+    <string name="guide_3dp_dual_extruder_xy_calibration_check_result_x_desc">（顶部线条应最靠近底部线条的正中央）</string>
+    <string name="guide_3dp_dual_extruder_xy_calibration_check_result_y_sub_title">Y 轴偏移校准模型</string>
+    <string name="guide_3dp_dual_extruder_xy_calibration_check_result_y_desc">（顶部线条应最靠近底部线条的正中央）</string>
+    <string name="guide_3dp_dual_extruder_xy_calibration_set_value_failed_desc">设置 XY 校准偏移失败。\n请通过 support@snapmaker.com 联系技术支持。</string>
+    <string name="guide_3dp_dual_extruder_complete_content">你已顺利完成双喷头模组校准向导，即刻开始创造吧！</string>
+
+    <string name="settings_wifi_connected_ap_info_ip_address">ip: </string>
+    <string name="settings_wifi_connected_ap_info_gateway">网关: </string>
+    <string name="settings_wifi_connected_ap_info_netmask">子网掩码: </string>
+    <string name="settings_wifi_connected_ap_info_dns1">dns1: </string>
+    <string name="settings_wifi_connected_ap_info_dns2">dns2: </string>
+    <string name="settings_wifi_connected_ap_info_bandwidth_format">下行带宽: %d Mbps \n上行带宽: %d Mbps</string>
+    <string name="settings_wifi_connected_ap_info_internet_access">网络访问: </string>
+    <string name="settings_wifi_connected_ap_info_signal_strength">RSSI:</string>
+
+    <string name="guide_40w_laser_pull_focus_lever_title">对焦杆</string>
+    <string name="guide_40w_laser_pull_out_focus_lever_desc">拉出并锁定对焦杆。</string>
+    <string name="guide_40w_laser_pull_in_focus_lever_desc">收起并锁定对焦杆。</string>
+    <string name="laser_40w_safety_goggles_message">请在使用40W 激光模组期间保持佩戴激光护目镜。</string>
+    <string name="laser_20w_safety_goggles_message">请在使用20W 激光模组期间保持佩戴激光护目镜。</string>
+    <string name="laser_2w_safety_goggles_message">请在使用2W 激光模组期间保持佩戴激光护目镜。</string>
+
+    <string name="preview_laser_40w_prepare_print_safety_notice_title">激光即将开启
+        \n加工全程中须有专人值守！</string>
+    <string name="preview_laser_40w_prepare_print_safety_notice_desc">请确保材料已正确固定，且已装配激光雕刻和切割平台。
+        \n请确保加工全程中，佩戴眼镜或保持外罩门关闭。</string>
+
+    <string name="laser_calibration_40w_laser_touch_platform_complete_desc">你已顺利完成激光平台高度校准设置。 现在你可以通过输入材料厚度来进行激光作业。</string>
+    <string name="settings_laser_platform_height_calibration_title">平台高度校准</string>
+    <string name="settings_laser_platorm_height_calibration_desc">测量后，机器即可凭借输入的材料厚度，在之后的作业中自动调整激光高度。</string>
+
+    <string name="preview_laser_40w_prepare_low_lever_and_touch_platform_desc">使对焦杆触碰校准卡片，直到拉动卡片时可感受到轻微阻力。</string>
+    <string name="preview_laser_2w_prepare_low_lever_and_touch_platform_desc">使对焦杆触碰校准卡片，直到拉动卡片时可感受到轻微阻力。</string>
+
+    <string name="settings_advance_laser_20w">20W 激光设置</string>
+    <string name="settings_advance_laser_40w">40W 激光设置</string>
+    <string name="settings_advance_laser_40w_fire_sensor_sensitivity">火焰传感器</string>
+    <string name="settings_advance_laser_40w_fire_sensor_sensitivity_set_to_disable">关闭火焰传感器</string>
+    <string name="dialog_laser_40w_fire_sensor_sensitivity_set_to_disable_desc">关闭火焰传感器将重置火焰传感器灵敏度。\n此操作无法被撤销，你希望继续吗?</string>
+    <string name="dialog_laser_40w_fire_sensor_sensitivity_set_to_disable_success">关闭火焰传感器成功</string>
+    <string name="dialog_laser_40w_fire_sensor_sensitivity_set_to_disable_failed">关闭火焰传感器失败</string>
+    <string name="settings_advance_laser_40w_crossline_indicator_offset">十字指示器偏移</string>
+
+    <string name="settings_advance_laser_40w_crossline_indicator_x_offset">X 方向偏移</string>
+    <string name="settings_advance_laser_40w_crossline_indicator_y_offset">Y 方向偏移</string>
+
+    <string name="controller_laser_20w_safety_goggles_message">请在使用20W 激光模组期间保持佩戴激光护目镜。</string>
+    <string name="controller_laser_40w_safety_goggles_message">请在使用40W 激光模组期间保持佩戴激光护目镜。</string>
+
+    <string name="dialog_40w_run_bounary_lift_up_warning_desc">跑边框时机器将会抬升 10mm 以避免干涉，请注意观察跑边框结果是否符合预期</string>
+
+    <string name="preview_laser_40w_settings_laser_indicator_title">跑边框模式</string>
+
+    <string name="settings_laser_40w_laser_indicator_mode_crossline">十字激光</string>
+    <string name="settings_laser_40w_laser_indicator_mode_laser_spot">工作激光</string>
+
+    <string name="preview_laser_40w_settings_laser_indicator_desc">在不同模式下，机器将使用十字激光或者工作激光来指示边框的位置。</string>
+
+    <string name="laser_40w_dialog_visible_frames_detected_title">检测到明火</string>
+    <string name="laser_40w_dialog_visible_frames_detected_desc">激光作业中出现明火，请马上处理！若误触发警报持续出现，你可以在<b>设置</b>中关闭火焰传感器。</string>
+
+
+    <string name="settings_advance_laser_2w">2W 激光设置</string>
+
+    <string name="settings_advance_laser_2w_crossline_indicator_offset">十字指示器偏移</string>
+
+    <string name="settings_advance_laser_2w_crossline_indicator_x_offset">X 方向偏移</string>
+    <string name="settings_advance_laser_2w_crossline_indicator_y_offset">Y 方向偏移</string>
+</resources>

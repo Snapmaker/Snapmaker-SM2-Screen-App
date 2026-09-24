@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/default_theme_background"
+    android:clickable="true"
+    android:focusable="true">
+
+    <include layout="@layout/widget_top_bar_back_only" />
+
+    <ImageView
+        android:id="@+id/iv_preview_laser_prepare_print_safety_notice"
+        android:layout_width="240dp"
+        android:layout_height="160dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/pic_laser_40w_goggles_print_notice_240x160"
+        android:contentDescription="@string/todo"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/tv_preview_laser_prepare_print_safety_notice_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_preview_laser_prepare_print_safety_notice"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_layout_20"
+        android:text="@string/preview_laser_40w_prepare_print_safety_notice_title"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/default_theme_title"
+        android:textSize="@dimen/font_size_h3"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_preview_laser_prepare_print_safety_notice_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_preview_laser_prepare_print_safety_notice_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="@dimen/margin_layout_40"
+        android:layout_marginTop="@dimen/margin_layout_20"
+        android:layout_marginEnd="@dimen/margin_layout_40"
+        android:layout_marginBottom="@dimen/margin_layout_20"
+        android:singleLine="false"
+        android:text="@string/preview_laser_40w_prepare_print_safety_notice_desc"
+        android:textAlignment="center"
+        android:textColor="@color/default_theme_desc1"
+        android:textSize="@dimen/font_size_h5" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="135dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_preview_laser_prepare_print_safety_notice_next"
+            style="@style/AppTheme.Button.BlueButton"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_button_45"
+            android:layout_marginStart="@dimen/margin_layout_40"
+            android:layout_marginEnd="@dimen/margin_layout_40"
+            android:text="@string/all_next" />
+
+    </LinearLayout>
+
+</RelativeLayout>

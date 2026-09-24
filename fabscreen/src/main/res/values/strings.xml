@@ -1,0 +1,1163 @@
+<resources>
+    <!-- font -->
+    <string name="font_roboto_condensed">sans-serif-black</string>
+    <string name="font_roboto_condensed_light">sans-serif-light</string>
+
+    <!-- Vocabulary -->
+    <string name="all_about">About</string>
+    <string name="all_agree">Agree</string>
+    <string name="all_calculating">Calculating</string>
+    <string name="all_calibrate">Calibrate</string>
+    <string name="all_calibration">Calibration</string>
+    <string name="all_camera">Camera</string>
+    <string name="all_cancel">Cancel</string>
+    <string name="all_close">Close</string>
+    <string name="all_complete">Complete</string>
+    <string name="all_confirm">Confirm</string>
+    <string name="all_congratulations">Congratulations</string>
+    <string name="all_connect">Connect</string>
+    <string name="all_continue">Continue</string>
+    <string name="all_control">Control</string>
+    <string name="all_delete">Delete</string>
+    <string name="all_disconnect">Disconnect</string>
+    <string name="all_done">Done</string>
+    <string name="all_down">Down</string>
+    <string name="all_edit">Edit</string>
+    <string name="all_enclosure">Enclosure</string>
+    <string name="all_experiment">Experiment</string>
+    <string name="all_factory">Factory</string>
+    <string name="all_failed">Failed</string>
+    <string name="all_finish">Finish</string>
+    <string name="all_general">General</string>
+    <string name="all_guides">Guide</string>
+    <string name="all_hello">Hello</string>
+    <string name="all_language">Language</string>
+    <string name="all_load">Load</string>
+    <string name="all_move">Move</string>
+    <string name="all_next">Next</string>
+    <string name="all_no">No</string>
+    <string name="all_notification">Notification</string>
+    <string name="all_on">On</string>
+    <string name="all_off">Off</string>
+    <string name="all_ok">OK</string>
+    <string name="all_pause">Pause</string>
+    <string name="all_preview">Preview</string>
+    <string name="all_print">Print</string>
+    <string name="all_ready">Ready</string>
+    <string name="all_reconnect">Reconnect</string>
+    <string name="all_recover">Recover</string>
+    <string name="all_rename">Rename</string>
+    <string name="all_resume">Resume</string>
+    <string name="all_return">Return</string>
+    <string name="all_offset">Offset</string>
+    <string name="all_save">Save</string>
+    <string name="all_settings">Settings</string>
+    <string name="all_skip">Skip</string>
+    <string name="all_start">Start</string>
+    <string name="all_stop">Stop</string>
+    <string name="all_unload">Unload</string>
+    <string name="all_up">Up</string>
+    <string name="all_update">Update</string>
+    <string name="all_warning">Warning</string>
+    <string name="all_wifi">Wi-Fi</string>
+    <string name="all_yes">Yes</string>
+    <string name="all_retry">Retry</string>
+    <string name="all_quit">Quit</string>
+    <string name="all_capture">Capture</string>
+    <string name="all_measure">Measure</string>
+
+    <!-- Terminology -->
+    <string name="all_3d_printing">3D Printing</string>
+    <string name="all_cnc">CNC</string>
+    <string name="all_laser">Laser</string>
+    <string name="all_10w_laser">10W Laser</string>
+    <string name="all_20w_laser">20W Laser</string>
+    <string name="all_40w_laser">40W Laser</string>
+    <string name="all_2w_laser">2W Laser</string>
+    <string name="all_laser_height">Laser Height</string>
+    <string name="all_rotary_module">Rotary Module</string>
+    <string name="all_emergency_stop">Emergency Stop</string>
+    <string name="all_safety_goggles">Safety Goggles</string>
+    <string name="all_air_purifier">Air Purifier</string>
+    <string name="all_manual_mode">Manual Mode</string>
+    <string name="all_touch_material_title">Touch Material</string>
+    <string name="all_quick_swap_kit">Quick Swap Kit</string>
+    <string name="all_bracing_kit">Bracing Kit</string>
+    <string name="all_dual_extrusion_module">Dual Extrusion Module</string>
+    <string name="all_cnc_200w">200W CNC</string>
+
+
+
+    <!-- Numbers-->
+    <string name="number_0_1">0.1</string>
+    <string name="number_0_3">0.3</string>
+    <string name="number_1">1</string>
+    <string name="number_3">3</string>
+    <string name="number_10">10</string>
+
+    <!-- Terminology -->
+    <string name="app_name">FabScreen</string>
+
+    <!-- Global -->
+    <string name="todo">TODO</string>
+    <string name="debug">debug</string>
+    <string name="placeholder">placeholder</string>
+    <string name="placeholder_long">Placeholder-Placeholder-Placeholder-123</string>
+    <string name="placeholder_multiline">Placeholder\nPlaceholder\nPlaceholder</string>
+
+    <!-- number & unit -->
+    <string name="all_0">0</string>
+    <string name="all_0_00">0.00</string>
+    <string name="all_0_000">0.000</string>
+    <string name="all_1">1</string>
+    <string name="all_2">2</string>
+    <string name="all_3">3</string>
+    <string name="all_4">4</string>
+    <string name="all_5">5</string>
+    <string name="all_6">6</string>
+    <string name="all_7">7</string>
+    <string name="all_8">8</string>
+    <string name="all_9">9</string>
+    <string name="all_0_05mm">0.05 mm</string>
+    <string name="all_0_1mm">0.1 mm</string>
+    <string name="all_0_2mm">0.2 mm</string>
+    <string name="all_0_3mm">0.3 mm</string>
+    <string name="all_0_5mm">0.5 mm</string>
+    <string name="all_1mm">1 mm</string>
+    <string name="all_5mm">5 mm</string>
+    <string name="all_10mm">10 mm</string>
+
+    <string name="all_0_2degree">0.2°</string>
+    <string name="all_1degree">1°</string>
+    <string name="all_5degree">5°</string>
+
+    <string name="all_unit_mm">mm</string>
+    <string name="all_unit_mm_with_space"> mm</string>
+    <string name="all_feedrate_unit">mm/min</string>
+    <string name="all_unit_temperature">°C</string>
+    <string name="all_unit_percentage">%</string>
+    <string name="all_unit_rpm">RPM</string>
+    <string name="all_slash">/</string>
+    <string name="all_format_float">%.1f</string>
+    <string name="all_format_int">%d</string>
+    <string name="all_unit_degree">°</string>
+
+    <!-- Helpers -->
+    <string name="error_configuration">Please configure your serial port first.</string>
+    <string name="error_security">You do not have read/write permission to the serial port.</string>
+    <string name="error_unknown">The serial port can not be opened for an unknown reason.</string>
+
+    <string name="exception_receiving_file">An error occurred while receiving the file.</string>
+    <string name="all_homing_content">To continue, the machine needs to go to its home position. Homing works by moving the toolhead in X, Y, and Z orientations to the pre-defined position, whose coordinates serve as reference points.</string>
+    <string name="all_homing_title_going_home">Go Home</string>
+    <string name="all_homing_title_homing">Homing</string>
+    <string name="warning_machine_not_responding">The machine is not responding. Would you like to reconnect?</string>
+    <string name="all_receiving_file_title">File Transfer Detected</string>
+
+    <string name="firmware_already_newest_version">Latest version already installed.</string>
+
+    <string name="dialog_warning_moving">Toolhead is moving...</string>
+    <string name="dialog_file_transfer_successful">File Transferred!</string>
+    <string name="dialog_warning_outdated_module_version_detected_notifiy">Outdated module (%s) firmware detected. Please visit our website, download the latest version, and update before use.</string>
+    <string name="dialog_warning_outdated_module_version_detected_update">Outdated module (%s) firmware detected. Please update.</string>
+
+    <string name="dialog_warning_invalid_status_detected">Invalid machine data detected, please update to the latest firmware. Click <b>Continue</b> will go to home page.</string>
+
+    <string name="dialog_dual_extruder_hotend_abnormal_content">The toolhead has been powered off. Please shut down the machine and check if both hot ends are properly installed. If the problem persists, please contact our Support.</string>
+    <string name="dialog_dual_extruder_hotend_abnormal_title"><b>Abnormal Hot End</b></string>
+
+    <string name="dialog_dual_extruder_heated_bed_leveling_data_invalid_content">Please shut down the machine and check if you\'ve attached the toolhead through the correct screw holes as instructed in the <b>Quick Start Guide</b>.</string>
+    <string name="dialog_dual_extruder_heated_bed_leveling_probe_sensor_not_trigger_format">Probe sensor not triggered, result %d\nIf you need any help, please contact our support.</string>
+    <string name="dialog_dual_extruder_heated_bed_leveling_params_invalid_format">Probe point params error, result %d\nIf you need any help, please contact our support.</string>
+    <string name="dialog_dual_extruder_heated_bed_leveling_hardware_abnormal_format">Hardware abnormal detected, result %d\nIf you need any help, please contact our support.</string>
+    <string name="dialog_dual_extruder_heated_bed_leveling_default_format">Auto Bed Leveling failed during probing, result %d\nIf you need any help, please contact our support.</string>
+
+    <string name="dialog_dual_extruder_gcode_retraction_exceed_warning">
+        The retraction distance set for this print exceeds the recommended range (0&#8211;2 mm), which might cause nozzle cloggings during printing.
+        We suggest that you adjust this parameter in the slicer before starting the print.
+    </string>
+    
+    <string name="dialog_add_file_into_workspace_low_system_storage_title">Low System Storage</string>
+    <string name="dialog_add_file_into_workspace_low_system_storage_desc">The current system storage space is running low. It is recommended to tidy up local files as soon as possible to free up some storage space, as it may affect the system operation.</string>
+    <string name="dialog_add_file_into_workspace_insufficient_system_storage_title">Insufficient System Storage</string>
+    <string name="dialog_add_file_into_workspace_insufficient_system_storage_desc">The current system storage space is insufficient to print this file. You need to remove some local files to free up enough storage.</string>
+
+
+    <!-- Home -->
+    <string name="home_slogan">Make\nSomething\nWonderful</string>
+    <string name="home_dialog_update_successful">Updated Successfully</string>
+    <string name="home_dialog_update_successful_desc">Already the Latest Version </string>
+
+    <!-- Welcome -->
+    <string name="welcome_language_desc">Let\'s start by selecting your language.</string>
+
+    <string name="welcome_hello_sentence">Let\'s make something wonderful.</string>
+    <string name="welcome_hello_start">Start</string>
+
+    <string name="welcome_terms_accept">I have read and agree to the Snapmaker\'s Privacy Policy, Terms and Conditions, and Disclaimer.</string>
+
+    <string name="welcome_name_title">Rename Your Snapmaker</string>
+    <string name="welcome_name_placeholder">Type name here.</string>
+    <string name="welcome_name_tip_empty">Name can not be empty.</string>
+
+    <string name="welcome_wifi_subtitle">Connect to your local network.</string>
+    <string name="welcome_wifi_searching">Searching......</string>
+    <string name="welcome_wifi_no_found">No networks were found. Make sure the machine is within the range of your network.</string>
+    <string name="welcome_wifi_dialog_connecting">Connecting to Wi-Fi…</string>
+    <string name="welcome_wifi_dialog_connected">Wi-Fi connected!</string>
+    <string name="welcome_wifi_enter_password">Enter password</string>
+    <string name="welcome_wifi_password_tip_empty">Password cannot be empty.</string>
+    <string name="welcome_wifi_password_tip_too_short">Password must be at least 8 characters long.</string>
+    <string name="welcome_wifi_skip_notice">If there\'s no Internet connection, some functions may not work. Do you want to skip this step?</string>
+    <string name="all_wifi_dialog_connect_failed">Connection Failed</string>
+    <string name="all_wifi_dialog_connect_failed_wrong_password">Wrong Password</string>
+
+    <!-- Guide-->
+    <string name="guide_got_it">Got It</string>
+    <string name="guide_complete_title">Awesome!</string>
+    <string name="laser_warning_desc">The following step will turn on the laser. Please put on laser safety goggles or put the machine inside a laser filtering enclosure before proceeding.</string>
+
+    <string name="guide_3dp_safety_instructions_content">
+      ● Do not touch the nozzle or heated bed while the machine is printing or heating.
+    \n● Always unplug the machine before performing maintenance or modifications.
+    </string>
+    <string name="guide_3dp_calibration_content">
+    The 3D Printing Module will automatically probe and obtain data for specific points on the Heated Bed. You only need to manually calibrate the last point by adjusting the Z Offset.
+    </string>
+    <string name="guide_3dp_load_filament_content">
+        We have preset a target nozzle temperature for our provided PLA filament. The nozzle will
+        be heated to the target temperature. After the heating process is complete, follow <b>Quick Start Guide</b>
+        to load filament.
+    </string>
+    <string name="guide_3dp_complete_content">You have completed the initial setup for 3D printing. Now you can prepare a G-code file using Snapmaker Luban to start printing.</string>
+
+    <string name="guide_laser_safety_instructions_content">
+        ● The 1600mW Laser Module is a Class 4 product.
+\n● Minors are only allowed to use the machine under adult supervision.
+\n● The 1600mW Laser Module must be used together with the Enclosure developed by Snapmaker.
+\n● All users and bystanders should wear the Laser Safety Goggles developed by Snapmaker and never look directly at the laser without protection.
+\n● Use an air purifier that can provide effective protection, for some materials can produce hazardous fumes or gases during laser processing.
+\n● Always power off the machine before performing maintenance or modifications.
+\n● Snapmaker does not assume responsibility for loss, injuries, damage, or expense arising from or in any way connected with the improper use of the 1600mW Laser Module.
+    </string>
+    <string name="guide_laser_prepare_material_title">Fix Material</string>
+    <string name="guide_laser_prepare_material_content">Measure the thickness of the material. Then fix it to the laser engraving and cutting platform with the provided silicone plugs.</string>
+    <string name="guide_laser_measure_height_title">Measure Height</string>
+    <string name="guide_laser_measure_height_content">Before running Auto Focus, the machine needs to know the height of the laser engraving and cutting platform.</string>
+    <string name="guide_laser_set_origin_content">Use <b>X and Y Offsets</b> to set work origin. Always tap <b>Run Boundary</b> to check the work area.</string>
+    <string name="guide_laser_complete_content">You have completed the initial setup for laser. Now you can prepare a G-code file using Snapmaker Luban to start laser jobs.</string>
+
+    <string name="guide_laser_calibration_intro_title">Manually Calibrate the Focal Length</string>
+    <string name="guide_laser_calibration_intro_content">This guide will walk you through calibrating focal length to produce the best results.</string>
+    <string name="guide_laser_calibration_intro_step_title">Steps</string>
+    <string name="guide_laser_calibration_intro_step_content">
+      ● Input material dimensions
+    \n● Fix material
+    \n● Confirm height of material\'s top surface
+    \n● Machine engraves a few lines
+    \n● Choose the best-engraved line (the thinnest) and confirm focal length
+    </string>
+    <string name="guide_laser_4axis_set_origin_content">
+        Use <b>X, Y, and B Offsets</b> to set work origin.
+        Always tap <b>Run Boundary</b> to check the work area.
+    </string>
+
+    <string name="guide_cnc_get_started">Get Started</string>
+    <string name="guide_cnc_safety_instructions">Safety Instructions</string>
+    <string name="guide_cnc_safety_instructions_content">
+      ● Age Recommendation: experienced users and users aged 18 and above.
+    \n● Put the machine into an enclosure or wear the CNC Safety Goggles.
+    \n● Always have the material securely clamped.
+    \n● Do not touch the bit or collet immediately after use.
+    \n● Always disconnect the machine from power before performing maintenance or modifications.
+    </string>
+
+    <string name="guide_cnc_safety_goggles">CNC Safety Goggles</string>
+    <string name="guide_cnc_safety_goggles_content">Make sure you have put on a pair of CNC safety goggles before you set up the CNC carver and wear them throughout the carving process.</string>
+    <string name="guide_cnc_fix_the_material">Fix Material</string>
+    <string name="guide_cnc_fix_the_material_content">Secure the material to the CNC Carving Platform with the provided clamp sets.</string>
+    <string name="guide_cnc_prepare_tool_head">Attach the Bit</string>
+    <string name="guide_cnc_prepare_tool_head_content">Tilt the collet into the nut, insert the Flat End Mill into the collet until the shank bottoms against the collet, and then twist the nut onto the CNC carver with the provided wrenches.</string>
+    <string name="guide_cnc_complete_content">You have completed the initial setup for CNC carving. Now you can prepare a G-code file using Snapmaker Luban to start CNC carving.</string>
+
+    <!--  Guide Rotary  -->
+    <string name="guide_cnc_rotary_origin_assistant_content">Origin Assistant helps you promptly set work origin before machining.</string>
+    <string name="guide_cnc_rotary_bit_assistant_content">Bit Assistant helps you change a CNC bit after rough machining.</string>
+    <string name="guide_cnc_rotary_complete_content">You have completed the initial setup. Now you can prepare a G-code file using Snapmaker Luban to start CNC carving.</string>
+    <string name="guide_laser_rotary_measure_height_intro_content">The machine needs to know the height of the material\'s top surface.</string>
+    <string name="guide_laser_rotary_measure_height_content">Carefully lower the Laser Module to material\'s top surface and tap <b>Next</b> . With the entered material diameter, the machine will automatically calculate the height of the B axis.</string>
+    <string name="guide_laser_rotary_complete_content">You have completed the initial setup. Now you can prepare a G-code file using Snapmaker Luban to start laser jobs.</string>
+
+
+    <!--  Guide Dual Extruder  -->
+    <string name="guide_dual_extruder_print_check_get_started_title">Lorem ipsum</string>
+    <string name="guide_dual_extruder_print_check_get_started_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <string name="guide_dual_extruder_print_check_get_started_content_sub_title">Lorem ipsum</string>
+    <string name="guide_dual_extruder_print_check_get_started_content_steps">
+        ● Lorem ipsum
+        \n● Lorem ipsum dolor sit amet</string>
+
+    <!-- Launcher -->
+    <string name="module_entry_image_view_desc">Module Entry</string>
+
+    <!-- Browse -->
+    <string name="browse_files">Files</string>
+    <string name="browse_local">Local</string>
+    <string name="browse_usb">USB</string>
+    <string name="browse_library">Library</string>
+    <string name="browse_file_is_empty">File is Empty</string>
+    <string name="browse_delete_item_desc">Delete this item?</string>
+    <string name="browse_delete_items_desc">Delete these items?</string>
+    <string name="desc_receiving_file">Receiving file. Please wait …</string>
+    <string name="browse_menu_sort_name_ascending">Sort by Name ↑</string>
+    <string name="browse_menu_sort_date_descending">Sort by Date ↓</string>
+    <string name="browse_space_usage_desc">Storage: %d MB free of %d MB</string>
+    <string name="browse_rename_dialog_title">Please enter a new name</string>
+    <string name="browse_alert_rename_failed">Failed to rename %s.</string>
+    <string name="browse_alert_delete_failed">Failed to delete %s.</string>
+    <string name="browse_alert_file_not_support">File is not supported.</string>
+    <string name="browse_usb_file_unable_to_identify">USB Device Not Recognized</string>
+    <string name="browse_usb_file_unable_to_identify_desc">The system cannot recognize your USB device.\nPlease reconnect or replace the USB device.\n\nPossible cause:\n1. The file system of your USB device is not FAT32.\n2. Your USB device has malfunctioned.</string>
+
+    <string name="dialog_browse_file_update_confirm_desc">Do you want to update the firmware?</string>
+
+    <!-- toast -->
+    <string name="toast_usb_device_unpuggled">USB Device Unplugged</string>
+    <string name="toast_usb_device_detected">USB Device Detected</string>
+
+
+    <!-- Preview -->
+    <string name="preview_auto_mode">Auto Mode</string>
+    <string name="preview_auto_mode_desc">In auto mode, the height of the Laser Module will be automatically calculated by the machine.</string>
+    <string name="preview_auto_mode_desc_10w">The machine measures the material thickness and does automatic focusing.</string>
+    <string name="preview_manual_mode">Manual Mode</string>
+    <string name="preview_manual_mode_desc">In manual mode, the height of the Laser Module will be determined by observing and adjusting the laser spot.</string>
+    <string name="preview_manual_mode_desc_10w">You need to manually lower the Toolhead. Then the machine does automatic focusing.</string>
+    <string name="preview_auto_mode_note_title">Note for Auto Mode</string>
+    <string name="preview_auto_mode_note_desc">
+        Conditions that might cause thickness measurement failure:
+        \n1. The material thickness is over 50 mm
+        \n2. The material texture is transparent, or the material surface is glossy or specular
+        \n3. The material color is red or black
+    </string>
+    <string name="preview_auto_mode_note_a150_desc">
+        Conditions that might cause thickness measurement failure:
+        \n1. The material thickness is over 35 mm
+        \n2. The material texture is transparent, or the material surface is glossy or specular
+        \n3. The material color is red or black
+    </string>
+    <string name="preview_manual_mode_note_title">Note for Manual Mode</string>
+    <string name="preview_manual_mode_note_desc">Tap <b>Start</b>, and manually lower the Toolhead against the material surface. Then tap <b>Next</b>, the machine will do automatic focusing.</string>
+    <string name="preview_auto_place_material">Fix the material on the <b>center</b> of the platform, make sure the red dot is on the material surface, and tap <b>Next</b>.</string>
+    <string name="preview_auto_measure_material_thickness_title">Measure Material Thickness</string>
+    <string name="preview_auto_measure_loading_msg">Processing the measurement result…</string>
+    <string name="preview_auto_measure_thickness_succeed_title">Successful</string>
+    <string name="preview_auto_measure_thickness_succeed_desc">
+        The material thickness is <b>%s</b> mm. The machine will do automatic focusing.
+    </string>
+    <string name="preview_auto_measure_thickness_fail_dialog_desc">
+        Please retry or select <b>Manual Mode</b>.
+    </string>
+
+    <string name="preview_manual_touch_material_desc">Manually lower the Toolhead against the material surface with the Calibration Card.</string>
+
+    <string name="preview_laser_prepare_4axis_measure_height">Measure Height</string>
+    <string name="preview_laser_prepare_4axis_measure_height_intro_content">To do automatic focusing, the machine needs to measure the height of the material\'s top surface.</string>
+    <string name="preview_laser_preview_4axis_measure_height_desc">Manually lower the Toolhead against the material surface with care. Tap <b>Next</b>, and the machine will do automatic focusing.</string>
+
+    <string name="preview_set_work_origin">Set Work Origin</string>
+    <string name="preview_work_speed">Work Speed</string>
+    <string name="preview_preparing_workspace">Transferring the file to touchscreen. Please wait…</string>
+    <string name="preview_parsing_file_desc">Parsing file… %d%%</string>
+    <string name="preview_alert_failed_to_parse_file">Failed to parse file.</string>
+    <string name="preview_alert_failed_to_open_file">Failed to open file.</string>
+    <string name="preview_alert_file_type_not_match">This file type is not compatible with the toolhead.</string>
+    <string name="preview_warning_not_calibrated">
+        The machine hasn\'t detected any calibration data, which might affect the printing. Do you want to continue to start printing or calibrate the Heated Bed first?
+        \nNote: The machine will start printing immediately after the calibration is completed.
+    </string>
+    <string name="preview_laser_rotary_set_origin_dialog_run_boundary_warning">Warning: If the work origin is improperly set, the Laser Module might crash into the material when you perform <b>Run Boundary</b>.</string>
+    <string name="preview_laser_10w_rotary_set_origin_dialog_run_boundary_warning">Caution: Carefully set the position of the work origin, or the 10W Laser Module might bump against the material when running the boundary.</string>
+
+    <string name="preview_cnc_rotary_origin_remind_desc">
+        Matching the work origin on the material with the coordinate origin in Luban\n
+        \nWork origin can be set through <b>Toolbox</b> > <b>Origin Assistant</b>. Alternatively, it can be set manually later.\n
+        \nOnce you\'ve set the work origin using Origin Assistant, as long as the dimensions of the material remain unchanged, it can be used in future carving sessions.
+    </string>
+    <string name="preview_cnc_rotary_set_origin_dialog_run_boundary_warning">Warning: If the work origin is improperly set, the CNC bit might crash into the material when you perform <b>Run Boundary</b>.</string>
+    <string name="preview_cnc_rotary_install_tailstock">Install Tailstock</string>
+    <string name="preview_cnc_rotary_install_tailstock_content">You can choose to install the Tailstock depending on the material you use.</string>
+
+    <string name="preview_bounding_box_format_x_y_z">%.1f × %.1f × %.1f mm</string>
+    <string name="preview_bounding_box_format_x_y">%.1f × %.1f mm</string>
+    <string name="preview_bounding_box_format_d_l">D:%.1f mm L:%.1f mm</string>
+    
+    <string name="preview_40w_input_material_thickness">Input Material Thickness</string>
+    <string name="preview_40w_input_material_thickness_desc">With this focus method, the optimal focus point is automatically calculated in the Touchscreen. </string>
+    <string name="preview_40w_focus_lever_assisted">Focus Lever - Assisted</string>
+    <string name="preview_40w_focus_lever_assisted_desc">Lower the focus lever to touch the material, then the machine will auto-focus.</string>
+
+    <string name="preview_2w_input_material_thickness">Input Material Thickness</string>
+    <string name="preview_2w_input_material_thickness_desc">With this focus method, the optimal focus point is automatically calculated in the Touchscreen. </string>
+    <string name="preview_2w_focus_lever_assisted">Focus Lever - Assisted</string>
+    <string name="preview_2w_focus_lever_assisted_desc">Lower the focus lever to touch the material, then the machine will auto-focus.</string>
+    
+    <!-- Print Settings -->
+    <string name="print_settings_adjust_settings">Adjust Settings</string>
+
+    <!-- Print -->
+    <string name="print_receive_file_start">Do you want to start the job now?</string>
+
+    <string name="print_warning_pause">Do you want to pause the job?</string>
+    <string name="print_warning_stop">This action cannot be undone. Do you want to stop the job?</string>
+    <string name="print_warning_power_outage_title">Power Loss Recovery</string>
+    <string name="print_warning_power_outage_content">There has been a power outage. Do you want to resume the job?</string>
+    <string name="print_warning_filament_run_out_title">Filament Runout Recovery</string>
+    <string name="print_warning_filament_run_out_content">Filament has run out. Please load filament to continue printing.</string>
+    <string name="print_warning_enclosure_door_detection_title">Door Detection</string>
+    <string name="print_warning_enclosure_door_detection_content">One or both of the Enclosure doors is/are opened. Please close the door(s) and wait one more second before you continue the printing.</string>
+
+    <string name="print_warning_open_unable">Unable to open the G-code file. Exiting…</string>
+    <string name="print_warning_start_unable">Unable to start the job. Please check your machine settings and try again.</string>
+    <string name="print_warning_pause_unable">Unable to pause the job.</string>
+    <string name="print_warning_resume_unable">Unable to resume the job. Please check your machine settings and try again.</string>
+    <string name="print_warning_stop_unable">Unable to stop the job.</string>
+    <string name="print_warning_finish_unable">Unable to finish the job.</string>
+
+    <string name="print_change_filament">Change Filament</string>
+
+    <string name="print_operation_print_again">Print Again</string>
+
+    <!--  Enclosure  -->
+    <string name="enclosure_led_strip">LED Strips</string>
+    <string name="enclosure_cooling_fan">Exhaust Fan</string>
+    <string name="enclosure_settings">Enclosure Settings</string>
+    <string name="enclosure_settings_door_detection">Door Detection</string>
+    <string name="enclosure_settings_door_detection_desc">If you disable the <b>Door Detection</b> feature, your job will not pause when one or both of the enclosure door(s) is/are opened.</string>
+    <string name="enclosure_settings_auto_lighting">Auto Lighting</string>
+    <string name="enclosure_settings_auto_lighting_desc">When you enable <b>Auto Lighting</b>, the LED strips will automatically light up after you turn on the machine.</string>
+    <string name="enclosure_settings_auto_lighting_dialog_desc">You need to reboot the machine for the new settings to take effect.</string>
+
+
+    <!--  Emergency Stop  -->
+    <string name="emergency_stop_warning_desc">Please cut off the power before handling the emergency.
+Then, release the emergency stop button after the risk is relieved and start the machine.</string>
+    <string name="emergency_stop">Emergency Stop</string>
+    <string name="machine_unavailable">Machine Unavailable</string>
+    <string name="emergency_stop_warning_desc2">Please release the emergency stop button before turning it on.</string>
+
+    <!--  Air Purifier  -->
+    <string name="air_purifier_fan_power">Power</string>
+    <string name="air_purifier_fan_speed">Fan Speed</string>
+    <string name="air_purifier_filter_life">Filter Life</string>
+    <string name="all_low">Low</string>
+    <string name="all_medium">Medium</string>
+    <string name="all_High">High</string>
+    <string name="air_purifier_tip_power_off">Please turn the power on first.</string>
+    <string name="air_purifier_tip_filter_life_low">The Filter Cartridge needs to be replaced.</string>
+    <string name="warning_air_purifier_not_properly_closed">Air Purifier Not Properly Closed</string>
+    <string name="warning_air_purifier_not_properly_closed_desc">The Air Purifier is not properly closed. To continue using it, close the cover and the lid correctly.</string>
+    <string name="warning_air_purifier_cartridge_not_properly_seated_title">Cartridge Not Properly Seated</string>
+    <string name="warning_air_purifier_cartridge_not_properly_seated_desc">The Filter Cartridge is not properly seated. To continue using the Air Purifier, position the cartridge correctly.</string>
+    <string name="warning_air_purifier_turn_on_during_print_3dp">Caution: Turning it on will affect temperature.</string>
+    <string name="warning_air_purifier_turn_on_during_print_cnc">Caution: Turning it on will affect filter life.</string>
+
+    <!-- 3DP -->
+    <string name="print_nozzle_temp">Nozzle Temp.</string>
+    <string name="print_heated_bed">Heated Bed</string>
+    <string name="print_heated_bed_temp">Heated Bed Temp.</string>
+    <string name="print_estimated_time">Estimated Time</string>
+    <string name="print_remaining_time">Time Remaining</string>
+    <string name="print_elapsed_time">Elapsed Time</string>
+    <string name="print_laser_power">Laser Power</string>
+    <string name="print_feed_rate">Work Speed</string>
+    <string name="print_spindle_spend">Spindle Speed</string>
+    <string name="print_z_offset">Z Offset</string>
+    <string name="print_left_z_offset_with_crlf">Left\nZ Offset</string>
+    <string name="print_left_z_offset">Left Z Offset</string>
+    <string name="print_right_z_offset_with_crlf">Right\nZ Offset</string>
+    <string name="print_right_z_offset">Right Z Offset</string>
+    <string name="print_ready_to_load">Ready to Load</string>
+    <string name="print_flow_rate">Flow Rate</string>
+    <string name="print_left_extruder_flow_rate">Left Flow Rate</string>
+    <string name="print_right_extruder_flow_rate">Right Flow Rate</string>
+
+
+    <string name="date_helper_format_split_by_colon">%02d:%02d:%02d</string>
+    <string name="date_helper_format_time_hour_minute">%d h %d min</string>
+    <string name="date_helper_format_time_minute_second">%d min %d sec</string>
+
+    <!-- 3DP Calibration -->
+    <string name="calibration_intro_calibrate_the_bed">Calibrate the Bed</string>
+    <string name="calibration_intro_auto_leveling_calibrate_the_bed_desc">
+        The 3D Printing Module will automatically probe and obtain data for specific points on the Heated Bed. After <b>Auto Leveling</b> is completed, follow the <b>Quick Start Guide</b> to set a proper Z Offset and save the settings.
+    </string>
+    <string name="calibration_intro_manual_leveling_calibrate_the_bed_desc">
+        The 3D Printing Module will move to specific points above the Heated Bed. You need to manually calibrate each point by adjusting the Z Offset.
+    </string>
+    <string name="calibration_intro_heated_leveling_first_step_title">1. Heat the Bed</string>
+    <string name="calibration_intro_heated_the_bed_desc">The machine will heat the Heated Bed to the specified temperature.</string>
+    <string name="calibration_intro_heated_leveling_second_step_title">2. Calibrate the Bed</string>
+    <string name="calibration_exit_manual_leveling_confirm_desc">Are you sure you want to quit <b>Manual Leveling</b>?</string>
+    <string name="calibration_exit_auto_leveling_confirm_desc">Are you sure you want to quit <b>Auto Leveling</b>?</string>
+    <string name="calibration_failed"><b>Fast Calibration</b> failed, please contact our support team.</string>
+    <string name="calibration_missing_notice">Your Snapmaker has not been calibrated. Do you still want to print?</string>
+    <string name="calibration_mode_indicator">Select a Method</string>
+    <string name="calibration_auto_leveling">Auto Leveling</string>
+    <string name="calibration_manual_leveling">Manual Leveling</string>
+    <string name="calibration_heated_auto_leveling">Heated Auto Leveling</string>
+    <string name="calibration_heated_manual_leveling">Heated Manual Leveling</string>
+    <string name="calibration_fast_calibration">Fast Calibration</string>
+    <string name="calibration_next_point">Next</string>
+    <string name="calibration_dialog_z_offset_leveling_desc">Please level the reference point manually.</string>
+    <string name="calibration_dialog_z_offset_heated_bed_warning_desc">
+        Caution: The Heated Bed is hot. Please mind your hand!\n
+        We recommend that you calibrate the Heated Bed with gloves.
+    </string>
+    <string name="calibration_dialog_guide_auto_calibration_fail_desc">Something went wrong during the calibration. Please retry or skip.\nIf you need any help, please contact our support.</string>
+    <string name="calibration_dialog_auto_calibration_fail_desc">Something went wrong during the calibration. Please retry or quit.\nIf you need any help, please contact our support.</string>
+    <string name="calibration_pre_heated_bed_title">Heating the Bed</string>
+    <string name="calibration_pre_heated_bed_tip">Caution: The Bed is being heated. Please mind your hand.</string>
+    <string name="calibration_pre_heated_bed_suggestion">
+        The reference temperature of the Heated Bed:\n
+        PLA—70°C    ABS—80°C
+    </string>
+    <string name="calibration_tool_head_not_detected">No toolhead is detected.</string>
+    <string name="cnc_calibration_description">No calibration is needed for CNC.</string>
+
+    <!-- Calibration 3DP Dual Extruder  -->
+    <string name="calibration_dual_extruder_print_check_get_started_title">Offset Calibration Check</string>
+    <string name="calibration_dual_extruder_print_check_get_started_desc">The machine will print a built-in model, with which and the instructions on the Touchscreen, you can check if the offset calibrations are successful.</string>
+    <string name="calibration_dual_extruder_print_check_get_started_content_sub_title">Steps</string>
+    <string name="calibration_dual_extruder_print_check_get_started_content_steps">
+        ● Print the Check Model
+        \n
+        \n● Check Calibration Results</string>
+    <string name="calibration_dual_extruder_print_check_get_started_skip_confirm_content">Are you sure to skip th Offset Calibration Check?</string>
+    <string name="calibration_dual_extruder_print_check_load_fragment_or_not_load_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+    <string name="calibration_dual_extruder_print_check_load_fragment_or_not_load">Lorem ipsum</string>
+    <string name="calibration_dual_extruder_print_check_load_fragment_or_not_print_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <string name="calibration_dual_extruder_print_check_load_fragment_or_not_start_print">Lorem ipsum</string>
+    <string name="calibration_dual_extruder_print_check_print_model_name">Print the Check Model</string>
+    <string name="calibration_dual_extruder_print_check_print_complete_title">Printing Completed</string>
+    <string name="calibration_dual_extruder_print_check_print_complete_desc">If the printing is successful (with the model complete and no deformation), tap Next.</string>
+    <string name="calibration_dual_extruder_print_check_print_complete_tip">Be careful of the hot surface!</string>
+    <string name="calibration_dual_extruder_print_check_print_complete_restart_print">Print Again</string>
+    <string name="calibration_dual_extruder_print_check_confirm_sub_title">Lorem ipsum</string>
+    <string name="calibration_dual_extruder_print_check_print_confirm_z_title">Check Z Offset Calibration</string>
+    <string name="calibration_dual_extruder_print_check_print_confirm_z_desc">Observe the model and check if the surfaces of differently colored areas are flush with each other.</string>
+    <string name="calibration_dual_extruder_print_check_print_confirm_z_flush">Flush</string>
+    <string name="calibration_dual_extruder_print_check_print_confirm_z_not_flush">Not Flush</string>
+    <string name="calibration_dual_extruder_print_check_print_confirm_xy_title">Check XY Offset Calibration</string>
+    <string name="calibration_dual_extruder_print_check_print_confirm_xy_desc">Remove the model from the print sheet, and check if the four outer squares can be broken off.</string>
+    <string name="calibration_dual_extruder_print_check_print_confirm_xy_all_broken">All Broken</string>
+    <string name="calibration_dual_extruder_print_check_print_confirm_xy_not_all_broken">Not All Broken</string>
+    <string name="calibration_dual_extruder_print_check_confirm_complete_title_z_failed">Z Offset Calibration Failed</string>
+    <string name="calibration_dual_extruder_print_check_confirm_complete_title_xy_failed">XY Offset Calibration Failed</string>
+    <string name="calibration_dual_extruder_print_check_confirm_complete_title_all_failed">Both Offset Calibration Failed</string>
+    <string name="calibration_dual_extruder_print_check_confirm_complete_title_all_successful">All Successful</string>
+    <string name="calibration_dual_extruder_print_check_confirm_complete_desc_failed">Please go to <b>Calibration</b> and redo the calibration marked with a red dot.</string>
+    <string name="calibration_dual_extruder_sensor_calibration_start_title">Sensor Calibration</string>
+    <string name="calibration_dual_extruder_sensor_calibration_start_desc"><b>Auto Leveling</b> relies on a built-in smart sensor. If the result of <b>Auto Leveling</b> doesn\'t turn out as expected, you can calibrate the sensor.</string>
+    <string name="calibration_dual_extruder_sensor_calibration_sensor_probe_title">Collect Sensor Data</string>
+    <string name="calibration_dual_extruder_sensor_calibration_sensor_probe_desc">Automatically Collecting…</string>
+    <string name="calibration_dual_extruder_sensor_calibration_right_fine_tune_complete_title">Calibrated Successfully</string>
+    <string name="calibration_dual_extruder_sensor_calibration_right_fine_tune_complete_desc">Tap <b>Next</b> to calibrate the sensor of the left nozzle.</string>
+    <string name="calibration_dual_extruder_sensor_calibration_dialog_exit_calibration_desc">Do you want to exit the <b>Sensor Calibration</b>?</string>
+    <string name="calibration_dual_extruder_sensor_calibration_dialog_process_failed_desc">Sensor Calibration process failed, Click <b>Confirm</b> to exit the <b>Sensor Calibration</b>.</string>
+
+    <string name="calibration_dual_extruder_sensor_calibration_left_probe_title">Calibrate Sensor—Nozzle L</string>
+    <string name="calibration_dual_extruder_sensor_calibration_right_probe_title">Calibrate Sensor—Nozzle R</string>
+    <!--  Dual Extruder Load Fragment  -->
+
+    <string name="dual_extruder_load_filament_nozzle_l">Nozzle L</string>
+    <string name="dual_extruder_load_filament_nozzle_r">Nozzle R</string>
+    <string name="dual_extruder_load_filament_pre_heated_dialog_desc">Please set the nozzle temperature before changing filament. The nozzle will be heated to 200℃ by default.</string>
+    <string name="dual_extruder_load_filament_loading_preparing">preparing…</string>
+    <string name="dual_extruder_load_filament_loading_left">Loading the filament into the left nozzle…</string>
+    <string name="dual_extruder_load_filament_unloading_left">Unloading the filament with the left nozzle…</string>
+    <string name="dual_extruder_load_filament_loading_right">Loading the filament into the right nozzle…</string>
+    <string name="dual_extruder_load_filament_unloading_right">Unloading the filament with the right nozzle…</string>
+    <!-- Laser -->
+    <string name="laser_choose_mode">Select Mode</string>
+    <string name="laser_safety_goggles">Laser Safety Goggles</string>
+    <string name="laser_safety_goggles_message">Put on the Laser Safety Goggles before you use the Laser Module and keep them on the whole time of using.</string>
+    <string name="laser_10w_safety_goggles_message">Ensure that you wear the Laser Safety Goggles while using the 10W Laser Module.</string>
+    <string name="laser_set_material_thickness">Set Material Thickness</string>
+    <string name="laser_alert_failed_to_get_focal_length">Failed to set focal length.</string>
+    <string name="laser_calibration_select_mode">Select a Method</string>
+    <string name="laser_calibration_auto_focus">Auto Focus</string>
+    <string name="laser_calibration_auto_focus_switch_desc">When toggled off, you can go to <b>Calibration</b> to use <b>Manual Focus</b>.</string>
+    <string name="laser_calibration_auto_focus_desc">
+        The machine will engrave a few lines at slightly different heights. It will recognize the thinnest line and save the corresponding Z-axis height.\n
+        \nPut on the Laser Safety Goggles before you tap <b>Start</b>.
+    </string>
+    <string name="laser_calibration_auto_focus_notice">Do not move the material during the <b>Auto Focus</b> process.</string>
+    <string name="laser_calibration_manual_focus">Manual Focus</string>
+    <string name="laser_calibration_manual_focus_desc">
+        The machine will engrave a few lines at slightly different heights. You need to select the thinnest line engraved and the machine will save the corresponding Z-axis height.\n
+        \nPut on the Laser Safety Goggles before you tap <b>Start</b>.
+    </string>
+    <string name="laser_calibration_engraving">Engraving</string>
+    <string name="laser_calibration_engraving_notice">Do not move the material during the process.</string>
+    <string name="laser_calibration_manual_focus_notice">Do not move the material during the <b>Manual Focus</b> process.</string>
+    <string name="laser_calibration_processing">Processing</string>
+    <string name="laser_calibration_failed">Failed</string>
+    <string name="laser_calibration_fine_tune">Fine Tuning</string>
+    <string name="laser_calibration_auto_focus_failed">Sorry. The camera could not recognize the thinnest line engraved. Please tap <b>Failed</b> to proceed to selecting the thinnest line manually.</string>
+    <string name="laser_calibration_auto_focus_complete">You have completed <b>Auto Focus</b> successfully.</string>
+    <string name="laser_calibration_auto_focus_complete_1">You have completed <b>Auto Focus</b> successfully. If the final Z offset is too low, we recommend you remove the lens hood and redo <b>Auto Focus</b>.</string>
+    <string name="laser_calibration_auto_focus_complete_2">The optimal engraved line is on the right, so the laser focal length could be outside the optimal range, we recommend you redo <b>Auto Focus</b></string>
+    <string name="laser_calibration_fine_tune_detection_failed"><b>Auto Calibration</b> failed.</string>
+    <string name="laser_calibration_fine_tune_pick_desc">Slide to choose the best engraved line.</string>
+    <string name="laser_calibration_measure_height">Measure Height</string>
+    <string name="laser_calibration_measure_height_desc">Carefully lower the Laser Module to the surface of your material and tap <b>Next</b>. With the material thickness, the machine will automatically calculate the height of the Laser Engraving/Cutting Platform.</string>
+    <string name="laser_calibration_coarse_tuning">Coarse Tuning</string>
+    <string name="laser_calibration_coarse_tuning_desc">Adjust the Laser Module\'s Z offset until the laser beam is focused into the smallest spot possible. Then, jog the Laser Module to work origin.</string>
+
+    <string name="laser_calibration_4axis_install_material_content">
+        Secure the material to the Chuck and leave no gap between their contact surfaces.
+    </string>
+    <string name="laser_calibration_4axis_install_material_tailstock_warning">Warning: Do not install the Tailstock yet, or the bit will bump into the Tailstock.</string>
+    <string name="laser_calibration_set_reference_points">Set Reference Points</string>
+    <string name="laser_calibration_4axis_coarse_turning_desc">
+        Put a piece of white paper on the top surface of the material. Adjust the height of the Laser Module until the laser beam is focused into the smallest spot. \n
+        \nIn the next step, use <b>X, Y, and B Offsets</b> to set work origin.
+    </string>
+    <string name="laser_calibration_4axis_measure_height">Carefully lower the Laser Module to material\'s top surface and tap <b>Next</b>. With the entered material diameter, the machine will automatically calculate the height of the B axis.</string>
+
+    <string name="laser_calibration_material_thickness">Material Thickness</string>
+    <string name="laser_calibration_set_material_thickness">Set Material Thickness</string>
+    <string name="laser_calibration_set_laser_focal_length">Set Laser Focal Length</string>
+
+    <string name="laser_calibration_modify">Adjust Laser Height</string>
+
+    <string name="laser_camera_calibration">Camera Calibration</string>
+    <string name="laser_camera_calibration_intro">Camera Calibration ensures the camera functions properly.</string>
+    <string name="laser_camera_calibration_step1_desc">
+        Fix a piece of blank white paper (not less than 150 × 150 mm) to the center of the Laser Engraving/Cutting Platform using the provided silicone plugs. The machine will cut a square on the paper to calibrate the camera parameters.
+    </string>
+    <string name="laser_10w_camera_calibnration_step1_desc">Fix a piece of blank A4 paper on the center of the platform. The machine will cut a square on the paper to calibrate the camera. Before tapping <b>Start</b>, make sure you have worn the <b>Laser Safety Goggles</b>.</string>
+    <string name="laser_camera_calibration_step2_desc">Do not move the paper during the process.</string>
+    <string name="laser_camera_calibration_step2_desc2">Processing Photo… %d/4</string>
+    <string name="laser_camera_light">Calibration Light</string>
+    <string name="laser_camera_light_desc">When toggled on, the machine will turn on the camera light automatically during <b>Laser Calibration</b> or <b>Camera Calibration</b>.</string>
+    <string name="laser_10w_camera_light_desc">When enabled, the machine will turn on the camera light automatically during <b>Camera Calibration</b>.</string>
+    <string name="laser_camera_alert_camera_not_connected">Camera is not connected!</string>
+
+    <!-- CNC -->
+    <string name="cnc_safety_goggles">CNC Safety Goggles</string>
+    <string name="cnc_tool_box">Toolbox</string>
+
+    <!-- CNC - Origin Assistant -->
+    <string name="cnc_origin_assistant">Origin Assistant</string>
+    <string name="cnc_origin_assistant_get_started">
+        Before proceeding to carve, you can use the Origin Assistant to set work origin, which will be stored in the system.
+        So in future carving sessions, as long as the dimensions of the material remain unchanged, you can select your files and start right away.
+    </string>
+    <string name="cnc_origin_assistant_material_settings">Material Settings</string>
+    <string name="cnc_origin_assistant_material_settings_length_desc">Length (mm)</string>
+    <string name="cnc_origin_assistant_material_settings_diameter_desc">Diameter (mm)</string>
+    <string name="cnc_origin_assistant_input_tip_empty">Value can not be empty.</string>
+    <string name="cnc_origin_assistant_input_tip_not_positive">Value must be positive.</string>
+    <string name="cnc_origin_assistant_install_material_title">Fix Material</string>
+    <string name="cnc_origin_assistant_install_material_content">
+        Secure the material to the Chuck and leave no gap between their contact surfaces. \n
+        \nDo not install the Tailstock yet.
+    </string>
+    <string name="cnc_origin_assistant_carving_tool">Carving Tool</string>
+    <string name="cnc_origin_assistant_carving_v_bit">Carving V-Bit</string>
+    <string name="cnc_origin_assistant_flat_end_mill">Flat End Mill</string>
+    <string name="cnc_origin_assistant_ball_end_mill">Ball End Mill</string>
+    <string name="cnc_origin_assistant_straight_groove_v_bit">Straight Groove V-bit</string>
+    <string name="cnc_origin_assistant_custom_bit">Custom Bit</string>
+    <string name="cnc_origin_assistant_set_carving_tool_desc">Select from the four bits, or choose a custom bit. Then attach it to the collet.</string>
+    <string name="cnc_origin_assistant_custom_bit_total_length_desc">Total Length (mm)</string>
+    <string name="cnc_origin_assistant_custom_bit_shank_diameter_desc">Shank Diameter (mm)</string>
+    <string name="cnc_origin_assistant_set_origin_intro_content">
+        Toolhead will move to near the material.
+        Follow the instructions to move the bit to the positions shown on the screen.
+        Then tap <b>Set</b> to confirm each coordinate.
+    </string>
+    <string name="cnc_origin_assistant_set_x1">Set X1</string>
+    <string name="cnc_origin_assistant_set_x2">Set X2</string>
+    <string name="cnc_origin_assistant_set_y">Set Y</string>
+    <string name="cnc_origin_assistant_set_z">Set Z</string>
+    <string name="cnc_origin_assistant_set_b">Set B</string>
+    <string name="cnc_origin_assistant_set_origin_back_notice">Leaving this page will cause you to lose unsaved work origin data. Are you sure you want to leave?</string>
+    <string name="cnc_origin_assistant_set_origin_complete">You have successfully completed the initial setup for rotary carving. Now you can choose a file to start making.</string>
+
+    <!--  Bit Assistant  -->
+    <string name="cnc_bit_assistant">Bit Assistant</string>
+    <string name="cnc_bit_assistant_intro_desc">
+        Bit Assistant is similar to a Tool Presetter. It guides you to manipulate the bits to touch the same spot of your choice, and the system will work out the Z offset.
+        Once you\'ve changed the bit, you can use previously set work origin and start carving right away. \n
+        \nNote: Upon finishing rough machining, keep the bit where it is, until the system prompts you to change it.
+    </string>
+    <string name="cnc_bit_assistant_bit_change_title">Bit Change</string>
+    <string name="cnc_bit_assistant_step2_intro_desc">
+        Now change the CNC bit to a new one.\n
+        \n
+        Manipulate the new CNC bit to slightly touch the same chosen spot by adjusting the Z Offset. Tap <b>Set</b>.
+    </string>
+    <string name="cnc_bit_assistant_complete_desc">Congratulations! You have completed the work origin setup for finish machining. Select your file on the Touchscreen, and you are ready to go.</string>
+
+
+    <!-- Page - Control -->
+    <string name="control_jog_mode">Jog Mode</string>
+    <string name="control_nozzle">Nozzle</string>
+    <string name="control_laser">Laser</string>
+    <string name="control_spindle">Spindle</string>
+    <string name="control_x">X</string>
+    <string name="control_y">Y</string>
+    <string name="control_z">Z</string>
+    <string name="control_b">B</string>
+    <string name="control_height">Height</string>
+    <string name="control_home">Home</string>
+    <string name="control_homing">Homing</string>
+    <string name="control_current_target_placeholder">0 / 0</string>
+    <string name="control_goto_origin">Go To Work Origin</string>
+    <string name="control_target_nozzle_temperature">Target Nozzle Temp.</string>
+    <string name="control_heated_bed_temperature">Heated Bed Temp.</string>
+
+    <!-- 3DP nozzle -->
+    <string name="control_filament">Filament</string>
+    <string name="control_load_filament">Load Filament</string>
+    <string name="control_load_filament_failed">Failed to load filament.</string>
+
+    <string name="control_heat_warning">Please set the nozzle temperature before changing filament. The nozzle will be heated to 200℃ by default.</string>
+
+    <string name="control_coordinate_panel_absolute_position">Machine Coordinates</string>
+    <string name="control_coordinate_panel_work_position">Work Coordinates</string>
+    <string name="control_coordinate_panel_unit">mm</string>
+    <string name="control_coordinate_panel_position_placeholder">0.00</string>
+
+    <string name="control_set_origin_panel_set">Set</string>
+    <string name="control_set_origin_panel_origin">Origin</string>
+
+    <string name="control_set_origin">Set Work Origin</string>
+    <string name="control_set_origin_x">Set X Origin</string>
+    <string name="control_set_origin_y">Set Y Origin</string>
+    <string name="control_set_origin_z">Set Z Origin</string>
+    <string name="control_set_origin_b">Set B Origin</string>
+    <string name="control_run_boundary">Run Boundary</string>
+
+    <string name="control_laser_status">Laser Status</string>
+
+    <string name="control_spindle_speed">Speed</string>
+    <string name="control_spindle_status">Spindle Status</string>
+
+    <!-- Settings -->
+    <string name="password_hint">Password</string>
+
+    <string name="settings_about_machine">About Machine</string>
+    <string name="settings_terms_and_conditions">Terms and Conditions</string>
+    <string name="settings_user_preference">User Preferences</string>
+    <string name="settings_firmware_update">Firmware Update</string>
+    <string name="settings_export_log">Export Log</string>
+
+    <string name="settings_snapmaker2_a150">Snapmaker 2.0 A150</string>
+    <string name="settings_snapmaker2_a250">Snapmaker 2.0 A250/A250T/F250</string>
+    <string name="settings_snapmaker2_a350">Snapmaker 2.0 A350/A350T/F350</string>
+    <string name="settings_product_name">Product Name</string>
+    <string name="settings_work_are">Work Area</string>
+    <string name="settings_firmware_version">Firmware Version</string>
+    <string name="settings_screen_version">Touchscreen Version</string>
+    <string name="settings_controller_version">Controller Version</string>
+    <string name="settings_ip_address">IP Address</string>
+    <string name="settings_network_not_connected">Not Connected</string>
+
+    <string name="settings_touchscreen">Touchscreen</string>
+    <string name="settings_resolution">Resolution</string>
+    <string name="settings_resolution_value">1280 × 720</string>
+    <string name="settings_display">Display</string>
+    <string name="settings_display_value">5 Inch IPS Touchscreen</string>
+    <string name="settings_core">Processor</string>
+    <string name="settings_core_value">Quad Core A7 CPU @1.1 GHz</string>
+    <string name="settings_os">OS</string>
+    <string name="settings_os_value">Android 7.1</string>
+
+    <string name="settings_advanced_settings">Advanced Settings</string>
+    <string name="settings_print_settings_3dp">3D Printing Settings</string>
+    <string name="settings_auto_calibration_desc">When <b>Auto Leveling</b> is off, you can go to <b>Calibration</b> to use <b>Manual Leveling</b>.</string>
+    <string name="settings_fast_calibration_desc">When <b>Fast Calibration</b> is off, the machine will start printing right away instead of running <b>Fast Calibration</b> before every print.</string>
+    <string name="settings_3dp_calibration_grid">Calibration Grid</string>
+    <string name="settings_3dp_calibration_points">Calibration Points</string>
+    <string name="settings_3dp_heated_leveling">Heated Leveling</string>
+    <string name="settings_3dp_heated_leveling_desc">When you enable <b>Heated Leveling</b>, the machine will heat the Heated Bed before the calibration.</string>
+    <string name="settings_advance_laser">Laser Settings</string>
+    <string name="settings_camera_calibration">Camera Calibration</string>
+    <string name="settings_advance_laser_10w">10W Laser Settings</string>
+    <string name="settings_laser_thickness_measure_calibration_title">Thickness Measurement Calibration</string>
+    <string name="settings_laser_thickness_measure_calibration_desc">In Auto Mode, if you find the material thickness measurement is inaccurate, you can do Thickness Measurement Calibration again.</string>
+    <string name="settings_laser_thickness_measure_calibration_page_desc">
+        Fix the Calibration Target on the <b>center</b> of the platform. The machine will do the calibration and measure the thickness of the Calibration Target to confirm if the calibration is successful.
+    </string>
+    <string name="settings_laser_thickness_measure_calibration_capturing">Capturing…</string>
+    <string name="settings_laser_thickness_measure_calibration_measuring">Measuring…</string>
+    <string name="settings_laser_measure_a4_thickness">Measure the thickness of the A4 paper</string>
+    <string name="settings_laser_measure_thickness">Measure Thickness</string>
+    <string name="settings_laser_confirm_red_dot_on_calibration_plate">Make sure the red dot is on the surface of the Calibration Target.</string>
+    <string name="settings_laser_processing_result">Processing the measurement result…</string>
+    <string name="settings_laser_measure_thickness_fail_desc">
+Please retry or quit the calibration.\n
+\n
+Possible causes:
+\n1. The red dot is not captured during the calibration
+\n2. The ambient light is too strong
+    </string>
+    <string name="guide_laser_measure_thickness_fail_desc">
+Please retry.\n
+\n
+Possible causes:
+\n1. The red dot is not captured during the calibration
+\n2. The ambient light is too strong
+    </string>
+    <string name="settings_laser_toolhead_focus_calibration_title">Toolhead Focus Calibration</string>
+    <string name="settings_laser_toolhead_focus_calibration_desc">If you have replaced the Toolhead, we suggest that you do Toolhead Focus Calibration again.</string>
+    <string name="settings_laser_toolhead_focus_calibration_page_desc">
+        Tap <b>Start</b>, and manually lower the Toolhead against the platform surface. Then tap <b>Complete</b>, the machine will do automatic focusing.
+    </string>
+    <string name="guide_laser_toolhead_focus_calibration_page_desc">
+        Tap <b>Start</b>, and manually lower the Toolhead against the platform surface. Then tap <b>Next</b>, the machine will do automatic focusing.
+    </string>
+    <string name="settings_laser_1st_calibration_point">The First Calibration Point</string>
+    <string name="settings_laser_2nd_calibration_point">The Second Calibration Point</string>
+    <string name="settings_laser_calibration_point_desc">Make sure the red dot is on the surface of the Calibration Target.</string>
+    <string name="settings_laser_process_capture_result">Processing the capture result…</string>
+    <string name="settings_laser_process_capture_result_success">Successful!</string>
+    <string name="settings_laser_process_capture_result_guide_success">You have completed the Thickness Measurement Calibration. </string>
+    <string name="settings_laser_process_capture_result_fail">Please retry or quit.</string>
+    <string name="guide_10w_laser_process_capture_result_fail">Please retry.</string>
+    <string name="settings_laser_thickness_calibration_complete">You have completed Thickness Measurement Calibration. Now you can use Auto Mode.</string>
+    <string name="settings_laser_touch_platform_title">Touch Platform</string>
+    <string name="settings_laser_10w_camera_light_desc">When toggled on, the machine will turn on the camera light automatically during Camera Calibration.</string>
+    <string name="settings_laser_10w_camera_touch_platform_desc">Manually lower the Toolhead against the platform surface with the Calibration Card. </string>
+
+    <string name="settings_laser_low_intensity_laser_power">Low-intensity laser Power</string>
+    
+    <string name="settings_export_log_done">Export successful.</string>
+    <string name="settings_export_log_failed">Failed to export logs. Make sure you have inserted a recognizable USB device.</string>
+
+    <string name="settings_quick_swap_status">Quick Swap Install Status</string>
+    <string name="settings_quick_swap_and_bracing_kit_status">Quick Swap / Bracing Kit Install Status</string>
+
+    <string name="settings_quick_swap_setup_title">The toolhead and the platform are installed with？</string>
+    <string name="settings_quick_swap_setup_desc">Select the installation status in strict accordance with whether the quick swap kit is installed. Failure to do so will result in abnormal operation.</string>
+    <string name="settings_quick_swap_setup_sub_title">The quick swap kit is:</string>
+    <string name="settings_quick_swap_setup_quick_swap_kit">Quick Swap Kit</string>
+    <string name="settings_quick_swap_setup_screws">Screws</string>
+    <string name="settings_quick_swap_setup_dont_ask_again_check_desc">Save and don’t ask again</string>
+    <string name="settings_quick_swap_setup_never_lets_create">Let’s Create!</string>
+
+    <string name="settings_bracing_kit_setup_title">The linear modules kit is?</string>
+    <string name="settings_bracing_kit_setup_desc">Select the installation status in strict accordance with whether the Bracing Kit is installed. Failure to do so will result in abnormal operation.</string>
+    <string name="settings_bracing_kit_setup_installed_with_bracing_kit">Installed with Bracing Kit</string>
+    <string name="settings_bracing_kit_setup_installed_without_bracing_kit">Installed without Bracing Kit</string>
+
+    <string name="settings_quick_swap_park_for_easy_swap">Park for Easy Swap</string>
+    <string name="settings_quick_swap_park_for_easy_swap_title">Park for Easy Swap</string>
+    <string name="settings_quick_swap_park_for_easy_swap_desc">
+        After you tap <b>Park</b>, the toolhead and the work platform will move to positions easy to swap or replace.
+        \n
+        \n<b>Note</b>: Before tapping, make sure there are no obstacles in the working area.
+    </string>
+    <string name="settings_quick_swap_park">Park</string>
+    <string name="settings_quick_swap_park_completed_title">Park Completed</string>
+    <string name="settings_quick_swap_park_completed_desc">Now you can shut down the machine and swap or replace the toolheads and work platforms.</string>
+
+    <string name="settings_choose_network">Choose a Network</string>
+
+    <!--  Update  -->
+    <string name="settings_firmware_check_for_update">Check for Updates</string>
+    <string name="settings_firmware_download_firmware">Download Firmware</string>
+    <string name="settings_firmware_update_now">Update Now</string>
+    <string name="settings_firmware_factory_reset">Reset to factory settings</string>
+    <string name="settings_firmware_dialog_checking_update">Checking for updates…</string>
+    <string name="settings_firmware_dialog_new_version_available">New Version Available</string>
+    <string name="settings_firmware_dialog_new_version_available_desc">Latest version is %s (%.1f MB)\n</string>
+    <string name="settings_firmware_dialog_later">Later</string>
+    <string name="settings_firmware_btn_download_firmware_desc">Download Update %.1f MB</string>
+    <string name="settings_firmware_warning_cancel_download">Are you sure you want to cancel the update?</string>
+    <string name="settings_firmware_cancel_update">Cancel Update</string>
+    <string name="settings_firmware_unstable_network_connection">Unstable network connection</string>
+
+    <string name="settings_firmware_change_logs_desc">For complete changelogs of Snapmaker firmware updates, please visit the following website:
+        https://forum.snapmaker.com/t/snapmaker-2-0-firmware-updates-and-downloads</string>
+    <string name="settings_firmware_change_logs_new_feature">New Feature</string>
+    <string name="settings_firmware_change_logs_bug_fixed">Bug Fixes</string>
+    <string name="settings_firmware_change_logs_improvements">Improvements</string>
+
+    <string name="settings_update_success">Update completed.</string>
+    <string name="settings_update_failed_file_not_found">Failed to open update file.</string>
+    <string name="settings_update_failed_file_parse_error">Failed to recognize update information from file.</string>
+    <string name="settings_update_failed">Update Failed.</string>
+    <string name="settings_update_open_file_failed">An error occurred when opening the update file</string>
+    <string name="settings_update_loading_update_file">Loading update file…</string>
+
+    <string name="settings_update_msg_updating_modules">Updating Modules…</string>
+    <string name="settings_update_msg_updating_controller">Updating Controller…</string>
+    <string name="settings_update_msg_updating_screen">Updating Touchscreen…</string>
+    <string name="settings_update_msg_finishing_up_controller_update">Finishing up Controller firmware update…</string>
+
+
+    <string name="settings_terms_content">
+    <b>Welcome to Snapmaker!</b>\n
+\nPlease read these Terms and Conditions carefully before using this product. Your access to and use of this product is conditioned on your acceptance of and compliance with these terms. These terms apply to all users who access or use this product.\n
+\nBy using this product, you agree to be bound by these terms. If you disagree with any part of the terms then you may not use this product.\n
+\nWe reserve the right, at our sole discretion, to modify or replace these terms at any time.\n
+\n<b>Privacy Policy</b>\n
+\n This Privacy Policy is updated on June 20, 2022. \n
+\n Thank you for choosing the products and services of Shenzhen Snapmaker Technologies Co., Ltd. (hereinafter referred to as “we” or “us”). We always value and respect your privacy. Therefore, the following privacy policy is formulated to state how we collect, use, and protect your personal information. \n
+\n<b>Collection of Personal Information</b>\n
+\n <b>After obtaining your consent, we will only collect the personal information we need, </b>including: \n
+\n 1. Machine name, model name, operating system status, and firmware version information, for purposes such as establishing telecommunication and updating firmware. \n
+\n 2. Connection status: hardware communication connection status and status of telecommunication with Snapmaker Luban, for the purpose of checking the connection status of the machine, and promptly reporting any exceptions (if any). \n
+\n 3. Screen operation information, for the purpose of recording your current location on the page and status, so as to help you quickly recover the operation to normal state when exceptions occur. \n
+\n 4. Firmware logs and error messages, which can be obtained by us only when you provide them on your own initiative. If you need to know your machine’s status, you can obtain the log file of the machine and send it to us by email, and we will check the machine’s status for you. \n
+\n 5. For the information we collect after you have chosen and expressly agreed to participate in the User Experience Improvement Program, please refer to the <b>User Experience Improvement Program</b>.\n
+\n 6. We use Google Analytics (Google Analytics complies with the <b>General Data Protection Regulation</b>) on our websites. Due to the IP anonymization function, we will not and cannot independently obtain or track your IP address, data, etc. \n
+\n <b>You may also choose not to provide the personal information we request you to provide. However, if you choose not to provide such personal information, we will not be able to provide you with our products or services. </b>\n
+\n<b>Use of Personal Information</b>\n
+\n We will only use your personal information if we have a lawful basis for doing so for the following purposes: \n
+\n 1. <b>Understanding user needs and improving our services. </b> We collect necessary personal information to support our services, and may use it for product or service improvement, fault analysis, problem diagnosis, notification of service changes, etc. \n
+\n 2. <b>Participating in the interactive functions of services. </b>\n
+\n 3. <b>Legal compliance. </b>\n
+\n We may also use your personal information for other purposes with your consent. We will only retain personal information for a period of time that meets the above-mentioned purposes and complies with the requirements of applicable laws and regulations. \n
+\n<b>Sharing of Personal Information</b>\n
+\n We will not share your personal information with other companies, organizations, or individuals unless we obtain your express consent. We may share your personal information with a third party to meet legal and regulatory requirements, to respond to requests from regulatory agencies, courts, or government agencies, or to protect our legal rights. \n
+
+\n<b>Protection of Personal Information</b>\n
+\n We use administrative, technical, and physical safeguards to protect your personal information. However, please understand that due to technical limitations and possible malicious means, even if we do our best to strengthen security measures, there may be unexpected information security risks, and we will continue to improve these security measures and do our best to keep your personal information secure at all times. \n
+\n<b>Changes to this Privacy Policy</b>\n
+\n We reserve the right to modify or update this Privacy Policy at any time, and will inform you of any changes to this Privacy Policy through this interface. \n
+\n<b>Contact Us</b>\n
+\n If you have any questions about this Privacy Policy, please contact us at support@snapmaker.com\n
+        \n<b>Disclaimer</b>\n
+\nPlease read and understand the user manual before using this product. Failure to follow operating instructions may result in personal injuries, inferior results or damage to the product. Always make sure that anyone who uses this product knows and understands the user manual and follows the operating instructions.\n
+\nAs the conditions or methods of assembling, handling, storage, use or disposal of this product are beyond our control. For this reason, we do not assume responsibility and expressly disclaim liability for loss, injuries, damage, or expense arising out of or in connection with the assembling, handling, storage, use or disposal of this product.\n
+\n
+</string>
+
+    <string name="settings_preference_analysis">Enable Anonymous Data Sharing</string>
+    <string name="settings_preference_analysis_desc">By default, Snapmaker collects anonymous usages of the machine.</string>
+
+    <string name="settings_air_purifier">Air Purifier Settings</string>
+    <string name="settings_advance_air_purifier_auto_turn_on">Auto Turn on</string>
+    <string name="settings_advance_air_purifier_auto_turn_on_desc">When toggled on, the Air Purifier will start working automatically when you begin a new session.</string>
+    <string name="settings_advance_air_purifier_auto_turn_off">Auto Turn off</string>
+    <string name="settings_advance_air_purifier_auto_turn_off_desc">When toggled on, the Air Purifier will keep running for 5 minutes upon finishing each session, and then automatically turn off.</string>
+
+
+    <string name="experiment_export_log">Export Log</string>
+    <string name="experiment_developer_mode_notice">Enter Developer Mode</string>
+
+    <!--  Remote  -->
+    <string name="remote_connect_request">Wi-Fi Connection Request</string>
+    <string name="remote_connect_request_desc">Snapmaker Luban is trying to connect to this machine. Would you like to connect?</string>
+    <string name="remote_disconnect_confirm">The print job is not finished yet. Disconnecting will stop the current print job.</string>
+    <string name="remote_print_job_not_finish_confirm">The machine has lost its connection with Luban. Only when you tap <b>Stop</b>, the current job will be terminated.</string>
+    <!-- Test -->
+
+    <!-- 10W laser -->
+    <string name="controller_laser_10w_safety_goggles_message">Ensure that you wear the Laser Safety Goggles while using the 10W Laser Module.</string>
+    <string name="controller_laser_power_tip">The laser power will be set minimum when you turn on the laser.</string>
+    <string name="guide_10w_laser_safety_instructions">Safety Notes</string>
+    <string name="guide_10w_laser_safety_instructions_content">
+        ● The 10W Laser Module is a Class 4 product.
+\n● Minors are only allowed to use the machine under adult supervision.
+\n● The 10W Laser Module must be used together with the Enclosure developed by Snapmaker.
+\n● All users and bystanders should wear the Laser Safety Goggles developed by Snapmaker and never look directly at the laser without protection.
+\n● Use an air purifier that can provide effective protection, for some materials can produce hazardous fumes or gases during laser processing.
+\n● Always power off the machine before performing maintenance or modifications.
+\n● Snapmaker does not assume responsibility for loss, injuries, damage, or expense arising from or in any way connected with the improper use of the 10W Laser Module.
+    </string>
+    <string name="guide_10w_laser_safety_instructions_confirm_desc">I have read and acknowledged all the safety notes above.</string>
+    <string name="guide_10w_laser_focus_calibration_content">Tap <b>Start</b>, and manually lower the Toolhead against the platform surface. Then tap <b>Next</b>, the machine will do automatic focusing.</string>
+    <string name="all_successful">Successful</string>
+    <string name="guide_10w_laser_thickness_measurement_calibration_successful">You have completed the Thickness Measurement Calibration. </string>
+    <string name="laser_10W_dialog_not_placed_correctly">Toolhead Not Installed Correctly</string>
+    <string name="laser_10W_dialog_not_placed_correctly_desc">The Toolhead is not vertically downward. Please adjust the Toolhead.</string>
+    <string name="laser_10W_dialog_temperature_too_high">Laser Overheat</string>
+    <string name="laser_10W_dialog_temperature_too_high_desc">The laser lifespan and performance might be affected. Please contact our Support.</string>
+    <string name="laser_10W_dialog_changer_header">Toolhead switching detected, it is recommended to redo <b>Camera Calibration</b>.\n
+        Whether you install or uninstall the Quick Swap Kit / Bracing Kit, redo all the calibrations of laser function in <b>Settings</b>.
+    </string>
+
+    <string name="guide_20w_laser_safety_instructions_content">
+        ● The 20W Laser Module is a Class 4 product.
+\n● Minors are only allowed to use the machine under adult supervision.
+\n● The 20W Laser Module must be used together with the Enclosure developed by Snapmaker.
+\n● All users and bystanders should wear the Laser Safety Goggles developed by Snapmaker and never look directly at the laser without protection.
+\n● Use an air purifier that can provide effective protection, for some materials can produce hazardous fumes or gases during laser processing.
+\n● Always power off the machine before performing maintenance or modifications.
+\n● Snapmaker does not assume responsibility for loss, injuries, damage, or expense arising from or in any way connected with the improper use of the 20W Laser Module.
+    </string>
+
+    <string name="guide_40w_laser_safety_instructions_content">
+        ● The 40W Laser Module is a Class 4 product.
+\n● Minors are only allowed to use the machine under adult supervision.
+\n● The 40W Laser Module must be used together with the Enclosure developed by Snapmaker.
+\n● All users and bystanders should wear the Laser Safety Goggles developed by Snapmaker and never look directly at the laser without protection.
+\n● Use an air purifier that can provide effective protection, for some materials can produce hazardous fumes or gases during laser processing.
+\n● Always power off the machine before performing maintenance or modifications.
+\n● Snapmaker does not assume responsibility for loss, injuries, damage, or expense arising from or in any way connected with the improper use of the 40W Laser Module.
+    </string>
+
+    <string name="guide_2w_laser_safety_instructions_content">
+        ● The 2W Laser Module is a Class 4 product.
+\n● Minors are only allowed to use the machine under adult supervision.
+\n● The 2W Laser Module must be used together with the Enclosure developed by Snapmaker.
+\n● All users and bystanders should wear the Laser Safety Goggles developed by Snapmaker and never look directly at the laser without protection.
+\n● Use an air purifier that can provide effective protection, for some materials can produce hazardous fumes or gases during laser processing.
+\n● Always power off the machine before performing maintenance or modifications.
+\n● Snapmaker does not assume responsibility for loss, injuries, damage, or expense arising from or in any way connected with the improper use of the 2W Laser Module.
+    </string>
+
+
+    <string name="calibration_heated_bed_leveling">Leveling</string>
+    <string name="calibration_z_height">Z Offset Calibration</string>
+    <string name="calibration_xy_offset">XY Offset Calibration</string>
+    <string name="calibration_sensor">Sensor Calibration</string>
+    <string name="calibration_model_check">Offset Calibration Check</string>
+    <string name="alert_bed_start_heating">The bed will be heated to 60℃ by default. You can slide the scale to adjust the temperature.</string>
+    <string name="leveling_heat_bed_title">Heat the bed</string>
+    <string name="all_heating">Heating...</string>
+    <string name="dual_extruder_auto_bed_leveling_title">Auto Bed Leveling</string>
+    <string name="leveling_heat_bed_caution_msg">Caution: The Bed is being heated. Please mind your hand.</string>
+    <string name="leveling_heat_bed_temp_tips">The reference temperature of the Heated Bed:\nPLA—60°C ABS—100°C</string>
+    <string name="leveling_bed_hot_caution_msg">Caution: The Heated Bed is hot. Please mind your hand!</string>
+    <string name="leveling_bed_clean_nozzle_content">Please clean the outer surface of both nozzles and make sure there is no residue.</string>
+    <string name="leveling_progress_desc">Progress: %1$d/%2$d</string>
+    <string name="dual_extruder_bed_leveling_complete">Leveled Successfully</string>
+    <string name="all_leveling">Leveling...</string>
+    <string name="leveling_stop_resetting_dialog_msg">Stop leveling...</string>
+    <string name="leveling_stop_leveling_dialog_msg">Are you sure to quit the leveling?</string>
+    <string name="leveling_manual_title">Manual Bed Leveling</string>
+    <string name="dual_extruder_bed_leveling_start_desc">By calibrating the Z offset at specific calibration points, the machine can make real-time compensations during printing to achieve leveling.</string>
+    <string name="all_leveling_mode">Mode</string>
+    <string name="dual_extruder_leveling_heat_or_not_title">Heated Leveling </string>
+    <string name="all_leveling_point_count">Calibration Points</string>
+    <string name="z_height_calibration_title">Z Offset Calibration</string>
+    <string name="z_height_calibration_start_desc">By calibrating the Z-axis distance (also called the Z offset) between nozzles and the heated bed, the two nozzles can print at the correct and consistent height.</string>
+    <string name="all_calibration_mode">Mode</string>
+    <string name="all_calibration_auto_title">Auto</string>
+    <string name="all_calibration_manual_title">Manual</string>
+    <string name="all_calibrating">Calibrating...</string>
+    <string name="calibration_auto_z_height_title">Auto Z Height Calibration</string>
+    <string name="calibration_z_height_complete">Leveled Successfully</string>
+    <string name="calibration_z_height_failed">Leveled failed</string>
+    <string name="calibration_z_height_manual_instruction_left_extruder">Calibrate the Z offset of the left nozzle with the calibration card.</string>
+    <string name="calibration_z_height_manual_instruction_right_extruder">Calibrate the Z offset of the right nozzle with the calibration card.</string>
+    <string name="calibration_z_height_manual_left_nozzle_title">Calibrate Z Offset—Nozzle L</string>
+    <string name="calibration_z_height_manual_right_nozzle_title">Calibrate Z Offset—Nozzle R</string>
+    <string name="calibration_manual_z_height_successful_title">Calibrated Successfully</string>
+    <string name="calibration_manual_z_height_successful_left_desc">Tap <b>Next</b> to calibrate the Z offset of the right nozzle.</string>
+
+
+    <!--  Guide 3DP Dual Extruder  -->
+    <string name="guide_3dp_dual_extruder_safety_notes_title">Safety Notes</string>
+    <string name="guide_3dp_dual_extruder_safety_instructions_content">
+        ● Do not touch the nozzle or Heated Bed when the machine is printing or heating.
+        \n● Always turn off the machine before maintenance or modifications.
+    </string>
+    <string name="guide_3dp_dual_extruder_get_started_title">Dual Extrusion Module Guide</string>
+    <string name="guide_3dp_dual_extruder_get_started_content">We will guide you through the basic calibrations for the machine to print properly.</string>
+    <string name="guide_3dp_dual_extruder_get_started_steps_title">Steps</string>
+    <string name="guide_3dp_dual_extruder_get_started_im_ready">I\'m ready!</string>
+    <string name="guide_3dp_dual_extruder_get_started_steps_content"><![CDATA[● Leveling & Z Offset Calibration]]>
+        \n
+        \n● XY Offset Calibration
+        \n
+        \n● Offset Calibration Check (skippable)
+    </string>
+
+    <string name="guide_3dp_dual_extruder_heated_leveling_clean_nozzle_content">Please clean the outer surface of both nozzles and make sure there is no residue.</string>
+
+    <string name="guide_3dp_dual_extruder_Bed_leveling_heating_title">Heat the Bed</string>
+    <string name="guide_3dp_dual_extruder_xy_calibration_start_title">XY Offset Calibration</string>
+    <string name="guide_3dp_dual_extruder_xy_calibration_start_desc">The machine will print two built-in calibration models (about 10 min),
+        with which you can calibrate the offset of the two nozzles in the X-axis and Y-axis orientations.
+        To ensure the success of the calibration, you need to load PLA filaments of distinct colors into the two nozzles.
+    </string>
+    <string name="guide_3dp_dual_extruder_xy_calibration_print_model_name">XY Calibration Print</string>
+    <string name="guide_3dp_dual_extruder_xy_calibration_print_dialog_filament_runout_desc">Filament has run out, please make sure filament was loaded and restart xy offset calibration again.</string>
+    <string name="guide_3dp_dual_extruder_xy_calibration_print_complete_title">Printing Completed</string>
+    <string name="guide_3dp_dual_extruder_xy_calibration_print_complete_desc">If the printing is successful (with the model complete and all the lines clear), tap <b>Next</b>.</string>
+    <string name="guide_3dp_dual_extruder_xy_calibration_print_complete_warn_tip">Be careful of the hot surface!</string>
+    <string name="guide_3dp_dual_extruder_xy_calibration_print_complete_print_again">Print Again</string>
+    <string name="guide_3dp_dual_extruder_xy_calibration_check_result_intro_title">Choose the Best Pair of Lines</string>
+    <string name="guide_3dp_dual_extruder_xy_calibration_check_result_intro_sub_title">Observe the Calibration Models</string>
+    <string name="guide_3dp_dual_extruder_xy_calibration_check_result_intro_desc">
+1. Find the best pair of lines (in which the top line is most horizontally centered on the bottom line) in the two models, respectively;
+\n2. Tap <b>Next</b> and choose on Touchscreen.
+    </string>
+    <string name="guide_3dp_dual_extruder_xy_calibration_check_result_title">Choose the Best Pair of Lines</string>
+    <string name="guide_3dp_dual_extruder_xy_calibration_check_result_x_sub_title">The X Model</string>
+    <string name="guide_3dp_dual_extruder_xy_calibration_check_result_x_desc">(The top line should be most horizontally centered on the bottom line)</string>
+    <string name="guide_3dp_dual_extruder_xy_calibration_check_result_y_sub_title">The Y Model</string>
+    <string name="guide_3dp_dual_extruder_xy_calibration_check_result_y_desc">(The top line should be most horizontally centered on the bottom line)</string>
+    <string name="guide_3dp_dual_extruder_xy_calibration_set_value_failed_desc">Set XY Calibration Offset failed.\nPlease contact our Support at support@snapmaker.com.</string>
+    <string name="guide_3dp_dual_extruder_complete_content">You have completed the Dual Extrusion Module Guide. Now let’s enjoy making!</string>
+
+    <string name="settings_wifi_connected_ap_info_ip_address">ip: </string>
+    <string name="settings_wifi_connected_ap_info_gateway">gateway: </string>
+    <string name="settings_wifi_connected_ap_info_netmask">netmask: </string>
+    <string name="settings_wifi_connected_ap_info_dns1">dns1: </string>
+    <string name="settings_wifi_connected_ap_info_dns2">dns2: </string>
+    <string name="settings_wifi_connected_ap_info_bandwidth_format">Down: %d Mbps Up: %d Mbps</string>
+    <string name="settings_wifi_connected_ap_info_internet_access">Internet access: </string>
+    <string name="settings_wifi_connected_ap_info_signal_strength">RSSI:</string>
+    
+    <string name="guide_40w_laser_pull_focus_lever_title">Focus Lever</string>
+    <string name="guide_40w_laser_pull_out_focus_lever_desc">Pull out and lock the focus lever.</string>
+    <string name="guide_40w_laser_pull_in_focus_lever_desc">Pull in and lock the focus lever.</string>
+
+    <string name="laser_40w_safety_goggles_message">Ensure that you wear the Laser Safety Goggles while using the 40W Laser Module.</string>
+    <string name="laser_20w_safety_goggles_message">Ensure that you wear the Laser Safety Goggles while using the 20W Laser Module.</string>
+    <string name="laser_2w_safety_goggles_message">Ensure that you wear the Laser Safety Goggles while using the 2W Laser Module.</string>
+
+    <string name="preview_laser_40w_prepare_print_safety_notice_title">Laser Will Be Turned On
+        \nKeep the machine attended!</string>
+    <string name="preview_laser_40w_prepare_print_safety_notice_desc">Ensure that the material has been fixed properly to the laser engraving and cutting platform.
+        \nEnsure that the Enclosure door is closed throughout the machining process.</string>
+
+    <string name="laser_calibration_40w_laser_touch_platform_complete_desc">You have successfully completed the Platform Height Calibration for Laser. Now you can start a laser job via inputting the material’s thickness.</string>
+    <string name="settings_laser_platform_height_calibration_title">Platform Height Calibration</string>
+    <string name="settings_laser_platorm_height_calibration_desc">The measurement allows the machine to automatically adjust the laser height based on the input material thickness in future processes.</string>
+
+    <string name="preview_laser_40w_prepare_low_lever_and_touch_platform_desc">Lower the focus lever to touch the calibration card until you feel slight resistance when moving the card.</string>
+    <string name="preview_laser_2w_prepare_low_lever_and_touch_platform_desc">Lower the focus lever to touch the calibration card until you feel slight resistance when moving the card.</string>
+
+    <string name="settings_advance_laser_20w">20W Laser Settings</string>
+    <string name="settings_advance_laser_40w">40W Laser Settings</string>
+    <string name="settings_advance_laser_40w_fire_sensor_sensitivity">Fire Sensor Sensitivity</string>
+    <string name="settings_advance_laser_40w_fire_sensor_sensitivity_pwm">Fire Sensor Sensitivity(PWM)</string>
+    <string name="settings_advance_laser_40w_fire_sensor_sensitivity_set_to_disable">Disable Fire Sensor</string>
+    <string name="dialog_laser_40w_fire_sensor_sensitivity_set_to_disable_desc">Disable fire sensor sensitivity will reset the sensitivity.\nThis action cannot be undone, do you want to continue?</string>
+    <string name="dialog_laser_40w_fire_sensor_sensitivity_set_to_disable_success">Disable Fire Sensor Success</string>
+    <string name="dialog_laser_40w_fire_sensor_sensitivity_set_to_disable_failed">Disable Fire Sensor Failed</string>
+    <string name="settings_advance_laser_40w_crossline_indicator_offset">Cross Line Indicator Offset</string>
+    
+    <string name="settings_advance_laser_40w_crossline_indicator_x_offset">X Offset</string>
+    <string name="settings_advance_laser_40w_crossline_indicator_y_offset">Y Offset</string>
+
+    <string name="controller_laser_20w_safety_goggles_message">Ensure that you wear the Laser Safety Goggles while using the 20W Laser Module.</string>
+    <string name="controller_laser_40w_safety_goggles_message">Ensure that you wear the Laser Safety Goggles while using the 40W Laser Module.</string>
+
+    <string name="dialog_40w_run_bounary_lift_up_warning_desc">When running boundary, the machine will be lifted 10mm to avoid interference, please pay attention to observe the result of running boundary as expected.</string>
+
+    <string name="preview_laser_40w_settings_laser_indicator_title">Run Boundary Mode</string>
+
+    <string name="settings_laser_40w_laser_indicator_mode_crossline">Crosshairs</string>
+    <string name="settings_laser_40w_laser_indicator_mode_laser_spot">Working Laser</string>
+
+    <string name="preview_laser_40w_settings_laser_indicator_desc">The machine will indicate the boundary position using either the crosshairs or the working laser in different modes.</string>
+
+    <string name="laser_40w_dialog_visible_frames_detected_title">Visible Flames Detected</string>
+    <string name="laser_40w_dialog_visible_frames_detected_desc">Visible flames have been detected during the laser machining process. Please handle it immediately! If the false alarm persists, you can disable Fire Sensor in <b>Settings</b>.</string>
+
+
+    <string name="settings_advance_laser_2w">2W Laser Settings</string>
+
+</resources>

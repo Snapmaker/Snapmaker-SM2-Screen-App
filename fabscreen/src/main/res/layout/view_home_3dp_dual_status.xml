@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/ll_3dp_dual_status"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:gravity="top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/all_dual_extrusion_module"
+                    android:textColor="@color/custom_grey_300"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:id="@+id/iv_dual_extruder_module_state"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="@drawable/ic_home_status_normal_10x10" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/tv_nozzle_model_l"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="L:"
+                    android:textColor="@color/custom_grey_300"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:id="@+id/iv_dual_extruder_l"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="@drawable/ic_home_status_normal_10x10" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/tv_nozzle_model_r"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="R:"
+                    android:textColor="@color/custom_grey_300"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:id="@+id/iv_dual_extruder_r"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="@drawable/ic_home_status_normal_10x10" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/print_heated_bed"
+                    android:textColor="@color/custom_grey_300"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:id="@+id/iv_dual_extruder_heated_bed"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="@drawable/ic_home_status_normal_10x10" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="30dp"
+            android:layout_height="1dp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/ll_dual_extruder_enclosure"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:visibility="gone"
+                tools:visibility="visible">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/all_enclosure"
+                    android:textColor="@color/custom_grey_300"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:id="@+id/iv_home_enclosure_status"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:background="@drawable/ic_home_status_abnormal_10x10" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_dual_extruder_rotary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:gravity="center_vertical"
+                android:visibility="gone"
+                tools:visibility="visible">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/all_rotary_module"
+                    android:textColor="@color/custom_grey_300"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:id="@+id/iv_home_rotary_status"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:background="@drawable/ic_home_status_abnormal_10x10" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_dual_extruder_e_stop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:gravity="center_vertical"
+                android:visibility="gone"
+                tools:visibility="visible">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/emergency_stop"
+                    android:textColor="@color/custom_grey_300"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:id="@+id/iv_home_emergency_stop_status"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:background="@drawable/ic_home_status_abnormal_10x10" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_dual_extruder_purifier"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:gravity="center_vertical"
+                android:visibility="gone"
+                tools:visibility="visible">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/all_air_purifier"
+                    android:textColor="@color/custom_grey_300"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:id="@+id/iv_home_air_purifier_status"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:background="@drawable/ic_home_status_abnormal_10x10" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_dual_extruder_quick_swap_kit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:gravity="center_vertical"
+                android:visibility="gone"
+                tools:visibility="visible">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/all_quick_swap_kit"
+                    android:textColor="@color/custom_grey_300"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:id="@+id/iv_home_quick_swap_status"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:background="@drawable/ic_home_status_normal_10x10" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_dual_extruder_bracing_kit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:gravity="center_vertical"
+                android:visibility="gone"
+                tools:visibility="visible">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/all_bracing_kit"
+                    android:textColor="@color/custom_grey_300"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:id="@+id/iv_home_bracing_kit_status"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:background="@drawable/ic_home_status_normal_10x10" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:text="@string/print_nozzle_temp"
+                android:textColor="@color/custom_grey_300"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_dual_extruder_temp_l"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/default_theme_title"
+                tools:text="L: 30℃" />
+
+            <TextView
+                android:id="@+id/tv_dual_extruder_temp_r"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:textColor="@color/default_theme_title"
+                tools:text="R: 30℃" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="55dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="23dp"
+            android:layout_marginEnd="23dp"
+            android:background="@color/default_theme_separator" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:text="@string/print_heated_bed_temp"
+                android:textColor="@color/custom_grey_300"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_dual_extruder_temp_heated_bed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/default_theme_title"
+                tools:text="30℃" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

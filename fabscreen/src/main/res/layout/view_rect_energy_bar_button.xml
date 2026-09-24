@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="1dp">
+
+        <View
+            android:id="@+id/btn_energy_bar_button"
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="5dp"
+            android:layout_centerInParent="true"
+            android:background="@color/custom_grey_700" />
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/view_bottom_bar_tab_separator"
+        android:layout_width="@dimen/separator"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:background="@color/default_theme_separator"
+        android:visibility="gone" />
+
+</RelativeLayout>

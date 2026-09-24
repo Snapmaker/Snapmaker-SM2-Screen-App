@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_4axis_set_origin_pager"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/default_theme_primary">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vp_widget_4axis_set_origin_pager"
+        android:layout_width="match_parent"
+        android:layout_height="105dp" />
+
+</RelativeLayout>

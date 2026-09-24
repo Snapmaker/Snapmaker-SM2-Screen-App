@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/widget_control_panel_xyz_axes"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_theme_primary"
+    android:paddingTop="@dimen/margin_layout_5"
+    android:paddingBottom="@dimen/margin_layout_5">
+
+    <co.ceryle.segmentedbutton.SegmentedButtonGroup
+        android:id="@+id/sbg_control_steps"
+        style="@style/AppTheme.SegmentedButtonGroup"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_segmented_button"
+        android:layout_marginStart="@dimen/margin_layout_20"
+        android:layout_marginEnd="@dimen/margin_layout_20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:sbg_position="0">
+
+        <co.ceryle.segmentedbutton.SegmentedButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:paddingTop="8dp"
+            android:text="@string/all_0_1mm"
+            android:textColor="@color/default_theme_desc1" />
+
+        <co.ceryle.segmentedbutton.SegmentedButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:paddingTop="8dp"
+            android:text="@string/all_1mm"
+            android:textColor="@color/default_theme_desc1" />
+
+        <co.ceryle.segmentedbutton.SegmentedButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:paddingTop="8dp"
+            android:text="@string/all_10mm"
+            android:textColor="@color/default_theme_desc1" />
+
+    </co.ceryle.segmentedbutton.SegmentedButtonGroup>
+
+    <!-- control panel: height expands to fill all height -->
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_layout_20"
+        android:layout_marginEnd="@dimen/margin_layout_20"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/sbg_control_steps">
+
+        <fabscreen.libraries.legacy.view.SteeringView
+            android:id="@+id/sv_control_panel_xy"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true" />
+
+        <Button
+            android:id="@+id/btn_control_panel_z_plus"
+            android:layout_width="@dimen/size_button_64"
+            android:layout_height="@dimen/size_button_64"
+            android:layout_alignTop="@id/sv_control_panel_xy"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/control_btn_up_background" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/btn_control_panel_z_plus"
+            android:layout_alignEnd="@id/btn_control_panel_z_plus"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/control_z"
+                android:textAlignment="center"
+                android:textColor="@color/default_theme_desc2"
+                android:textSize="@dimen/font_size_h3" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/all_offset"
+                android:textAlignment="center"
+                android:textColor="@color/default_theme_desc2"
+                android:textSize="@dimen/font_size_h6" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_control_panel_z_minus"
+            android:layout_width="@dimen/size_button_64"
+            android:layout_height="@dimen/size_button_64"
+            android:layout_alignBottom="@id/sv_control_panel_xy"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/control_btn_down_background" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

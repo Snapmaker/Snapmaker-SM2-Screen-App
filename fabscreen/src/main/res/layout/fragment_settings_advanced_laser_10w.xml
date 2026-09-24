@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/widget_top_bar" />
+    <!-- Light -->
+    <RelativeLayout
+        android:id="@+id/view_settings_advanced_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_layout_5"
+        android:layout_marginTop="@dimen/margin_layout_10"
+        android:layout_marginEnd="@dimen/margin_layout_5">
+
+        <Button
+            android:id="@+id/view_settings_advanced_light_background"
+            style="@style/AppTheme.Button"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_button_45"
+            android:background="@drawable/all_list_item_btn_background"
+            android:enabled="false"
+            android:paddingStart="@dimen/margin_layout_10"
+            android:paddingEnd="@dimen/margin_layout_10"
+            android:text="@string/laser_camera_light"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor="@color/default_theme_title"
+            android:textSize="@dimen/font_size_h5" />
+
+        <Button
+            android:id="@+id/btn_settings_advanced_light"
+            style="@style/AppTheme.Button"
+            android:layout_width="75dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="7.5dp"
+            android:layout_marginEnd="@dimen/margin_layout_10"
+            android:background="@drawable/all_btn_switch" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/view_settings_advanced_light_background"
+            android:layout_marginStart="@dimen/margin_layout_5"
+            android:layout_marginEnd="@dimen/margin_layout_5"
+            android:singleLine="false"
+            android:text="@string/laser_10w_camera_light_desc"
+            android:textColor="@color/default_theme_desc1"
+            android:textSize="@dimen/font_size_h6" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_settings_laser_camera_calibration"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_button_45"
+        android:layout_marginStart="@dimen/margin_layout_5"
+        android:layout_marginTop="@dimen/margin_layout_16"
+        android:layout_marginEnd="@dimen/margin_layout_5"
+        android:background="@drawable/all_list_item_btn_background"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/margin_layout_10"
+        android:paddingEnd="@dimen/margin_layout_10">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginEnd="@dimen/margin_layout_10"
+            android:src="@drawable/ic_settings_camera_calibration_20x20"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/laser_camera_calibration"
+            android:textColor="@color/default_theme_title"
+            android:textSize="@dimen/font_size_h5" />
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:src="@drawable/ic_all_right_arrow_18x18" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_settings_laser_thickness_measure_calibration"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_button_45"
+        android:layout_marginStart="@dimen/margin_layout_5"
+        android:layout_marginTop="@dimen/height_list_divider"
+        android:layout_marginEnd="@dimen/margin_layout_5"
+        android:background="@drawable/all_list_item_btn_background"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/margin_layout_10"
+        android:paddingEnd="@dimen/margin_layout_10">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginEnd="@dimen/margin_layout_10"
+            android:src="@drawable/ic_settings_laser_10w_thickness_20x20"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/settings_laser_thickness_measure_calibration_title"
+            android:textColor="@color/default_theme_title"
+            android:textSize="@dimen/font_size_h5" />
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:src="@drawable/ic_all_right_arrow_18x18" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_layout_10"
+        android:layout_marginTop="@dimen/margin_layout_5"
+        android:layout_marginEnd="@dimen/margin_layout_10"
+        android:text="@string/settings_laser_thickness_measure_calibration_desc"
+        android:textColor="@color/default_theme_desc1"
+        android:textSize="@dimen/font_size_h6" />
+
+    <LinearLayout
+        android:id="@+id/ll_settings_laser_toolhead_focus_calibration"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_button_45"
+        android:layout_marginStart="@dimen/margin_layout_5"
+        android:layout_marginTop="@dimen/margin_layout_16"
+        android:layout_marginEnd="@dimen/margin_layout_5"
+        android:background="@drawable/all_list_item_btn_background"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/margin_layout_10"
+        android:paddingEnd="@dimen/margin_layout_10">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginEnd="@dimen/margin_layout_10"
+            android:src="@drawable/ic_settings_laser_10w_toolhead_focus_20x20"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/settings_laser_toolhead_focus_calibration_title"
+            android:textColor="@color/default_theme_title"
+            android:textSize="@dimen/font_size_h5" />
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:src="@drawable/ic_all_right_arrow_18x18" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_layout_10"
+        android:layout_marginTop="@dimen/margin_layout_5"
+        android:layout_marginEnd="@dimen/margin_layout_10"
+        android:text="@string/settings_laser_toolhead_focus_calibration_desc"
+        android:textColor="@color/default_theme_desc1"
+        android:textSize="@dimen/font_size_h6" />
+
+    <LinearLayout
+        android:id="@+id/ll_settings_laser_shot_output_power"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_button_45"
+        android:layout_marginStart="@dimen/margin_layout_5"
+        android:layout_marginTop="@dimen/margin_layout_16"
+        android:layout_marginEnd="@dimen/margin_layout_5"
+        android:background="@drawable/all_list_item_btn_background"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/margin_layout_10"
+        android:paddingEnd="@dimen/margin_layout_10">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginEnd="@dimen/margin_layout_10"
+            android:src="@drawable/ic_settings_laser_focus_20x20"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/settings_laser_low_intensity_laser_power"
+            android:textColor="@color/default_theme_title"
+            android:textSize="@dimen/font_size_h5" />
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:src="@drawable/ic_all_right_arrow_18x18" />
+    </LinearLayout>
+
+</LinearLayout>

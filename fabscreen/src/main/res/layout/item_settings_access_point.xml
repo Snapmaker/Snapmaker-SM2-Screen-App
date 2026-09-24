@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/height_button_45"
+    android:background="@drawable/all_list_item_btn_background">
+
+    <ImageView
+        android:id="@+id/iv_settings_ap_item_connected"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/margin_layout_10"
+        android:layout_marginEnd="@dimen/margin_layout_5"
+        android:src="@drawable/ic_settings_wifi_selected_18x18"
+        android:visibility="invisible" />
+
+    <ProgressBar
+        android:id="@+id/pb_settings_ap_item_connecting"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/margin_layout_10"
+        android:layout_marginEnd="@dimen/margin_layout_5"
+        android:indeterminateTint="@color/default_theme_secondary"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tv_settings_ap_item_ssid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/iv_settings_ap_item_connected"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/margin_layout_5"
+        android:layout_marginEnd="@dimen/margin_layout_5"
+        android:textColor="@color/default_theme_title"
+        android:text="@string/placeholder"
+        android:textSize="@dimen/font_size_h5" />
+
+    <ImageView
+        android:id="@+id/iv_settings_ap_item_has_authentication"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/margin_layout_5"
+        android:layout_toStartOf="@id/iv_settings_ap_item_signal"
+        android:contentDescription="@string/placeholder"
+        android:src="@drawable/ic_settings_lock_20x20" />
+
+    <ImageView
+        android:id="@+id/iv_settings_ap_item_signal"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/margin_layout_10"
+        android:contentDescription="@string/placeholder"
+        android:src="@drawable/ic_settings_wifi_20x20" />
+
+    <ImageView
+        android:id="@+id/iv_settings_ap_item_info"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        android:layout_marginEnd="@dimen/margin_layout_10"
+        android:contentDescription="@string/placeholder"
+        android:src="@drawable/ic_settings_info_20x20" />
+
+</RelativeLayout>

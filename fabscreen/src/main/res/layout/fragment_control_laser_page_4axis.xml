@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/view_control_laser_page_4axis"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        layout="@layout/widget_coordinate_xyzb_gemini_panel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vp_control_4axis_panels"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/margin_layout_5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/widget_coordinate_xyzb_panel">
+
+        <include layout="@layout/widget_control_panel_xyz_axes_for_4axis" />
+
+        <include layout="@layout/widget_control_panel_b_axis" />
+
+    </androidx.viewpager.widget.ViewPager>
+
+    <!--  bottom dot indicator for ViewPager  -->
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tl_control_4axis_panel_indicator"
+        style="@style/AppTheme.DefaultPageIndicator"
+        app:layout_constraintBottom_toBottomOf="@id/vp_control_4axis_panels"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

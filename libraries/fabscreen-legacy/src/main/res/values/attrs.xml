@@ -1,0 +1,85 @@
+<resources>
+
+    <declare-styleable name="RulerView">
+        <attr name="rv_backgroundColor" format="color" />
+
+        <attr name="rv_longScaleHeight" format="reference|dimension" />
+        <attr name="rv_longScaleWidth" format="reference|dimension" />
+        <attr name="rv_longScaleColor" format="reference|color" />
+
+        <attr name="rv_shortScaleHeight" format="reference|dimension" />
+        <attr name="rv_shortScaleWidth" format="reference|dimension" />
+        <attr name="rv_shortScaleColor" format="reference|color" />
+
+        <attr name="rv_markerTextMargin" format="reference|dimension" />
+        <attr name="rv_markerTextSize" format="reference|dimension" />
+        <attr name="rv_markerTextColor" format="reference|color" />
+
+        <attr name="rv_indicatorColor" format="reference|color" />
+
+        <attr name="rv_minValue" format="float" />
+        <attr name="rv_maxValue" format="float" />
+        <attr name="rv_currentValue" format="float" />
+        <attr name="rv_unit" format="float" />
+        <attr name="rv_unitSpacing" format="reference|dimension" />
+        <attr name="rv_unitCountPerDivision" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="CircularProgressView">
+        <attr name="cpv_strokeWidth" format="reference|dimension" />
+        <attr name="cpv_backgroundColor" format="reference|color" />
+        <attr name="cpv_progressColor" format="reference|color" />
+        <attr name="cpv_fillInColor" format="reference|color" />
+        <attr name="cpv_frameColor" format="reference|color" />
+        <attr name="cpv_progressCircleColor" format="reference|color" />
+        <attr name="cpv_percentage" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="BubbleLayout">
+        <attr name="background_color" format="color" />
+        <attr name="shadow_color" format="color" />
+        <attr name="shadow_size" format="dimension" />
+        <attr name="radius" format="dimension" />
+        <attr name="direction" format="enum">
+            <enum name="left" value="1" />
+            <enum name="top" value="2" />
+            <enum name="right" value="3" />
+            <enum name="bottom" value="4" />
+        </attr>
+        <attr name="offset" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="ActionButton">
+        <attr name="ab_title" format="reference|string" />
+        <attr name="ab_titleScaleX" format="reference|float" />
+        <attr name="ab_text" format="reference|string" />
+        <attr name="ab_foreground" format="reference" />
+        <attr name="ab_size" format="enum">
+            <enum name="normal" value="0" />
+            <enum name="mini" value="1" />
+            <enum name="nano" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="SquareActionButton">
+        <attr name="sab_title" format="reference|string" />
+        <attr name="sab_text" format="reference|string" />
+        <attr name="sab_foreground" format="reference" />
+        <attr name="sab_size" format="enum">
+            <enum name="normal" value="0" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="ProgressButton">
+        <attr name="pb_progressStartColor" format="reference|color" />
+        <attr name="pb_progressEndColor" format="reference|color" />
+        <attr name="pb_background" format="reference" />
+        <attr name="pb_progressBackground" format="reference" />
+        <attr name="pb_progress" format="integer" />
+        <attr name="pb_radius" format="dimension" />
+        <attr name="pb_minProgress" format="integer" />
+        <attr name="pb_maxProgress" format="integer" />
+        <attr name="pb_progressMargin" format="reference|dimension" />
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/top_bar"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/height_top_bar"
+    android:background="@color/top_bar_background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/top_bar_back"
+            style="@style/AppTheme.Button"
+            android:layout_width="@dimen/height_top_bar"
+            android:layout_height="@dimen/height_top_bar"
+            android:background="@drawable/top_bar_back_background"
+            android:contentDescription="@string/todo" />
+
+        <TextView
+            android:id="@+id/top_bar_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toEndOf="@id/top_bar_back"
+            android:layout_toStartOf="@id/top_bar_info_placeholder"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textColor="@color/top_bar_title"
+            android:textSize="@dimen/font_size_h4"
+            tools:text="Title" />
+
+        <ImageButton
+            android:id="@+id/top_bar_info"
+            style="@style/AppTheme.Button"
+            android:layout_width="@dimen/height_top_bar"
+            android:layout_height="@dimen/height_top_bar"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/top_bar_info_background"
+            android:contentDescription="@string/placeholder"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_top_bar_info_48x48"
+            android:visibility="gone" />
+
+        <View
+            android:id="@+id/top_bar_info_placeholder"
+            android:layout_width="@dimen/height_top_bar"
+            android:layout_height="@dimen/height_top_bar"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="end"
+            android:visibility="invisible"/>
+    </RelativeLayout>
+
+</FrameLayout>
+

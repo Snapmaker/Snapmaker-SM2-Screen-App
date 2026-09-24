@@ -1,0 +1,43 @@
+package fabscreen.libraries.legacy.data.print;
+
+import java.util.HashSet;
+
+public enum PrintEventState {
+    REQUEST_START_SUCCESS,
+    REQUEST_START_FAILED,
+    REQUEST_PAUSE_SUCCESS,
+    REQUEST_PAUSE_FAILED,
+    REQUEST_RESUME_SUCCESS,
+    REQUEST_RESUME_FAILED,
+    REQUEST_POWER_LOSS_RECOVER_SUCCESS,
+    REQUEST_POWER_LOSS_RECOVER_FAILED,
+    REQUEST_STOP_SUCCESS,
+    REQUEST_STOP_FAILED,
+    PRINT_FINISH_SUCCESS,
+    PRINT_FINISH_FAILED,
+
+    // Paused by G-code M600
+    PRINT_PAUSED_TRIGGERED_BY_CONTROLLER,
+
+    // FDM
+    FDM_FILAMENT_RUN_OUT_PAUSED_TRIGGERED,
+    FDM_FILAMENT_RUN_OUT_CHANGING_FILAMENT,
+    FDM_FILAMENT_RUN_OUT_RECHECK_PENDING,
+
+    // ADDON - Enclosure
+    ENCLOSURE_DOOR_OPEN_PAUSED_TRIGGERED;
+
+    private HashSet<PrintEventState> OPERATION_FAILED_SET = new HashSet<PrintEventState>() {{
+       add(REQUEST_START_FAILED);
+       add(REQUEST_PAUSE_FAILED);
+       add(REQUEST_RESUME_FAILED);
+       add(REQUEST_STOP_FAILED);
+       add(REQUEST_POWER_LOSS_RECOVER_FAILED);
+       add(PRINT_FINISH_FAILED);
+    }};
+
+    public boolean isOperationFailed(PrintEventState state) {
+        return OPERATION_FAILED_SET.contains(state);
+    }
+
+}

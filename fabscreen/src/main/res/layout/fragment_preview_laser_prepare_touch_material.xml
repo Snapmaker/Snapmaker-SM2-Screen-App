@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_theme_background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <include layout="@layout/widget_top_bar" />
+
+    <!--  Tricky fix here, needs to refactor the parent layout. Prefer using ConstraintLayout!  -->
+    <RelativeLayout
+        android:layout_width="360dp"
+        android:layout_height="240dp"
+        android:layout_marginTop="@dimen/margin_layout_5"
+        android:background="@drawable/pic_laser_10w_touch_material_360x240">
+
+        <TextView
+            android:id="@+id/tv_toolhead_mask_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="@dimen/margin_layout_20"
+            android:layout_marginTop="@dimen/margin_layout_10"
+            android:layout_marginEnd="@dimen/margin_layout_20"
+            android:layout_marginBottom="@dimen/margin_layout_10"
+            android:gravity="center"
+            android:text="@string/preview_manual_touch_material_desc" />
+
+    </RelativeLayout>
+
+
+    <com.snapmaker.fabscreen.view.XYZControlPanel
+        android:id="@+id/xyz_panel_touch_material"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/margin_layout_5"
+        android:layout_marginBottom="@dimen/margin_layout_5"
+        android:layout_weight="1" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_button_70"
+        android:background="@color/default_theme_primary">
+
+        <Button
+            android:id="@+id/btn_touch_material_next"
+            style="@style/AppTheme.Button.BlueButton"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_button_45"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/margin_layout_20"
+            android:layout_marginEnd="@dimen/margin_layout_20"
+            android:text="@string/all_next" />
+    </FrameLayout>
+
+
+</LinearLayout>

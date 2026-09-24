@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_theme_background"
+    android:clickable="true"
+    android:focusable="true">
+
+    <include layout="@layout/widget_top_bar" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="@dimen/margin_layout_5"
+        android:layout_marginBottom="@dimen/margin_layout_5"
+        android:background="@color/default_theme_primary"
+        app:layout_constraintBottom_toTopOf="@id/view_calibration_control"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/top_bar">
+
+        <GridView
+            android:id="@+id/gv_calibration"
+            android:layout_width="280dp"
+            android:layout_height="280dp"
+            android:layout_marginStart="@dimen/margin_layout_40"
+            android:layout_marginTop="@dimen/margin_layout_5"
+            android:layout_marginEnd="@dimen/margin_layout_40"
+            android:layout_marginBottom="@dimen/margin_layout_10"
+            android:columnWidth="@dimen/margin_layout_40"
+            android:gravity="center"
+            android:listSelector="@color/transparent"
+            android:scrollbars="none"
+            android:stretchMode="none" />
+
+        <RelativeLayout
+            android:id="@+id/rl_calibration_panel_z_offset"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/default_theme_dark_mask"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/iv_calibration_panel_z_offset"
+                android:layout_width="240dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="85dp"
+                android:layout_centerHorizontal="true"
+                android:scaleType="center"
+                android:background="@drawable/pic_calibration_adjust_zoffset_240x80" />
+
+            <TextView
+                android:id="@+id/tv_calibration_panel_z_offset_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iv_calibration_panel_z_offset"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/margin_layout_5"
+                android:singleLine="true"
+                android:text="@string/calibration_dialog_z_offset_leveling_desc"
+                android:textAlignment="center"
+                android:textColor="@color/custom_grey_200"
+                android:textSize="@dimen/font_size_h5" />
+
+            <TextView
+                android:id="@+id/tv_calibration_z_offset_heated_bed_warning"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_calibration_panel_z_offset_desc"
+                android:layout_marginStart="@dimen/margin_layout_20"
+                android:layout_marginTop="@dimen/margin_layout_10"
+                android:layout_marginEnd="@dimen/margin_layout_20"
+                android:text="@string/calibration_dialog_z_offset_heated_bed_warning_desc"
+                android:textAlignment="center"
+                android:textColor="@color/custom_orange_300"
+                android:textSize="@dimen/font_size_h6"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/view_calibration_control"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/margin_layout_5"
+        android:layout_marginBottom="@dimen/margin_layout_5"
+        android:background="@color/default_theme_primary"
+        app:layout_constraintBottom_toTopOf="@id/view_calibration_buttons"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <include
+            layout="@layout/widget_calibration_control_panel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/view_calibration_buttons"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/default_theme_primary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+        <!-- Button text: -->
+        <!-- *********** Guide: Next -->
+        <!-- *********** Calibration(from launcher): Save -->
+        <!-- *********** Calibration(from preview): Complete(Finish?) -->
+        <Button
+            android:id="@+id/btn_calibration_save"
+            style="@style/AppTheme.Button.BlueButton"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_button_45"
+            android:layout_marginStart="@dimen/margin_layout_20"
+            android:layout_marginTop="@dimen/margin_layout_10"
+            android:layout_marginEnd="@dimen/margin_layout_20"
+            android:layout_marginBottom="@dimen/margin_layout_10"
+            android:text="@string/all_save" />
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

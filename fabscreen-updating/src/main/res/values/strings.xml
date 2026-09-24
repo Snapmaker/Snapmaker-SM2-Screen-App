@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Updating</string>
+
+    <string name="loading_content">Updating...</string>
+</resources>

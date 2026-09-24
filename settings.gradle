@@ -1,0 +1,4 @@
+include ':fabscreen'
+include ':fabscreen-updating'
+include ':libraries:fabscreen-legacy'
+include ':features:about'

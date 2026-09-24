@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Note: Looks like the outer most FrameLayout is useless, but it does! DO NOT remove it. -->
+
+    <RelativeLayout
+        android:layout_width="360dp"
+        android:layout_height="640dp"
+        android:background="@color/default_theme_background">
+
+        <ImageView
+            android:id="@+id/iv_dialog_icon"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="120dp"
+            android:layout_marginBottom="10dp"
+            android:contentDescription="@string/placeholder"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/tv_dialog_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_dialog_icon"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin_layout_20"
+            android:text="@string/all_warning"
+            android:textAlignment="center"
+            android:textColor="@color/default_theme_title"
+            android:textSize="@dimen/font_size_h3"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_dialog_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_dialog_title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="@dimen/margin_layout_40"
+            android:layout_marginTop="@dimen/margin_layout_20"
+            android:layout_marginEnd="@dimen/margin_layout_40"
+            android:layout_marginBottom="@dimen/margin_layout_20"
+            android:lineSpacingMultiplier="1.2"
+            android:singleLine="false"
+            android:textAlignment="center"
+            android:textColor="@color/default_theme_desc1"
+            android:textSize="@dimen/font_size_h5" />
+
+        <!-- buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_dialog_message"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="@dimen/margin_layout_20"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_dialog_positive"
+                style="@style/AppTheme.Button.BlueButton"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_button_45"
+                android:layout_marginStart="@dimen/margin_layout_40"
+                android:layout_marginEnd="@dimen/margin_layout_40"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/btn_dialog_negative"
+                style="@style/AppTheme.Button.DefaultButton"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_button_45"
+                android:layout_marginStart="@dimen/margin_layout_40"
+                android:layout_marginTop="@dimen/margin_layout_10"
+                android:layout_marginEnd="@dimen/margin_layout_40"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

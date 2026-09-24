@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- blue button: gradient blue rounded button, used for emphasis the action. -->
+    <item android:drawable="@drawable/all_button_round_blue_disabled" android:state_enabled="false" />
+    <item android:drawable="@drawable/all_button_round_blue_pressed" android:state_pressed="true" />
+    <item android:drawable="@drawable/all_button_round_blue_normal" />
+</selector>

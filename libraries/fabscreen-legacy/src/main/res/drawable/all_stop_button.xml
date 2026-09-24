@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- stop button: grey rounded button, used for stop the action. -->
+    <item android:drawable="@drawable/all_stop_button_disabled" android:state_enabled="false" />
+    <item android:drawable="@drawable/all_stop_button_pressed" android:state_pressed="true" />
+    <item android:drawable="@drawable/all_stop_button_normal" />
+</selector>

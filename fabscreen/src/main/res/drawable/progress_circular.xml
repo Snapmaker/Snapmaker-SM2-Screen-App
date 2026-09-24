@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:thickness="20dp"
+    android:shape="ring">
+    <solid android:color="@color/custom_grey_200"/>
+</shape>

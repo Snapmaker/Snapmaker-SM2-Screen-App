@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@color/default_theme_background"
+    android:orientation="vertical">
+
+    <include layout="@layout/widget_top_bar" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:src="@drawable/pic_laser_toolhead_focus_cailbration_360x240"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/btn_start_toolhead_focus_calibration_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/margin_layout_20"
+        android:layout_marginTop="@dimen/margin_layout_32"
+        android:layout_marginEnd="@dimen/margin_layout_20"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:text="@string/guide_laser_toolhead_focus_calibration_page_desc"
+        android:textColor="@color/grey_200"
+        android:textSize="@dimen/font_size_h5" />
+
+    <Button
+        android:id="@+id/btn_start_toolhead_focus_calibration"
+        style="@style/AppTheme.Button.BlueButton"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_button_45"
+        android:layout_marginStart="@dimen/margin_layout_40"
+        android:layout_marginEnd="@dimen/margin_layout_40"
+        android:layout_marginBottom="@dimen/margin_layout_20"
+        android:text="@string/all_next" />
+</LinearLayout>

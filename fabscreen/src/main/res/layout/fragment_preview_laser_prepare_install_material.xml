@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_theme_background"
+    android:clickable="true"
+    android:focusable="true">
+
+    <include layout="@layout/widget_top_bar" />
+
+    <RelativeLayout
+        android:id="@+id/view_laser_prepare_install_material_guide"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_marginTop="@dimen/margin_layout_10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/top_bar">
+
+        <ImageView
+            android:id="@+id/iv_prepare_install_material"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/pic_rotary_laser_install_material_360x240"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/view_laser_prepare_install_material_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/margin_layout_10"
+        android:layout_marginBottom="@dimen/margin_layout_10"
+        app:layout_constraintTop_toBottomOf="@id/view_laser_prepare_install_material_guide"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" >
+
+        <TextView
+            android:id="@+id/tv_laser_prepare_install_material_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_layout_20"
+            android:layout_marginTop="@dimen/margin_layout_20"
+            android:layout_marginEnd="@dimen/margin_layout_20"
+            android:text="@string/laser_calibration_4axis_install_material_content"
+            android:textAlignment="center"
+            android:textColor="@color/custom_grey_200"
+            android:textSize="@dimen/font_size_h5" />
+        
+        <TextView
+            android:id="@+id/tv_laser_prepare_install_material_tailstock_warning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_laser_prepare_install_material_content"
+            android:layout_marginStart="@dimen/margin_layout_20"
+            android:layout_marginTop="@dimen/margin_layout_20"
+            android:layout_marginEnd="@dimen/margin_layout_20"
+            android:visibility="gone"
+            android:text="@string/laser_calibration_4axis_install_material_tailstock_warning"
+            android:textAlignment="center"
+            android:textColor="@color/custom_orange_300"
+            android:textSize="@dimen/font_size_h5" />
+
+    </RelativeLayout>
+    <!-- buttons -->
+    <FrameLayout
+        android:id="@+id/view_preview_laser_install_material_buttons"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/default_theme_primary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/btn_preview_laser_install_material_next"
+            style="@style/AppTheme.Button.BlueButton"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_button_45"
+            android:layout_marginStart="@dimen/margin_layout_20"
+            android:layout_marginTop="@dimen/margin_layout_10"
+            android:layout_marginEnd="@dimen/margin_layout_20"
+            android:layout_marginBottom="@dimen/margin_layout_10"
+            android:text="@string/all_next" />
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

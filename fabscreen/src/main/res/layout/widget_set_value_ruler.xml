@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/widget_set_value_panel">
+
+    <TextView
+        android:id="@+id/tv_widget_set_value_ruler_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_layout_40"
+        android:text="@string/placeholder"
+        android:textColor="@color/default_theme_desc1"
+        android:textSize="@dimen/font_size_h3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/view_widget_set_value_ruler_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_layout_10"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_widget_set_value_ruler_title">
+
+        <TextView
+            android:id="@+id/tv_widget_set_value_ruler_value_current"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/all_0"
+            android:textColor="@color/default_theme_desc1"
+            android:textSize="@dimen/font_size_h1" />
+
+        <TextView
+            android:id="@+id/tv_widget_set_value_ruler_value_slash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/all_slash"
+            android:textColor="@color/default_theme_desc1"
+            android:textSize="@dimen/font_size_h1" />
+
+        <TextView
+            android:id="@+id/tv_widget_set_value_ruler_value_target"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/all_0"
+            android:textColor="@color/default_theme_title"
+            android:textSize="@dimen/font_size_h1" />
+
+        <TextView
+            android:id="@+id/tv_widget_set_value_ruler_value_unit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/all_unit_temperature"
+            android:textColor="@color/default_theme_title"
+            android:textSize="@dimen/font_size_h2" />
+
+    </LinearLayout>
+
+    <fabscreen.libraries.legacy.view.RulerView
+        android:id="@+id/rv_widget_set_value_ruler_ruler"
+        style="@style/AppTheme.RulerView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_layout_40"
+        android:layout_marginTop="@dimen/margin_layout_40"
+        android:layout_marginEnd="@dimen/margin_layout_40"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/view_widget_set_value_ruler_value"
+        app:rv_currentValue="0"
+        app:rv_maxValue="100"
+        app:rv_minValue="0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

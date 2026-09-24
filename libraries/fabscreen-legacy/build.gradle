@@ -1,0 +1,53 @@
+plugins {
+    id 'com.android.library'
+    id 'com.jakewharton.butterknife'
+}
+
+android {
+    defaultConfig {
+        ndk {
+            moduleName "serial_port"
+            abiFilters "armeabi-v7a", "x86"
+            ldLibs "log"
+        }
+    }
+
+    externalNativeBuild {
+        cmake {
+            path 'CMakeLists.txt'
+        }
+    }
+}
+
+dependencies {
+    implementation Libs.INSTANCE.junit
+    implementation Libs.INSTANCE.appCompat
+    implementation Libs.INSTANCE.constraintLayout
+    implementation Libs.INSTANCE.material
+    implementation Libs.INSTANCE.lifecycleViewModel
+    implementation Libs.INSTANCE.lifecycleJava8
+    implementation Libs.INSTANCE.rxjava
+    implementation Libs.INSTANCE.rxAndroid
+    implementation Libs.INSTANCE.autoDispose
+    implementation Libs.INSTANCE.autoDisposeLifecycle
+    implementation Libs.INSTANCE.autoDisposeArchComponents
+    implementation Libs.INSTANCE.androidxAnnotation
+    implementation Libs.INSTANCE.logger
+    implementation Libs.INSTANCE.okio
+    implementation platform(Libs.INSTANCE.firebaseBOM)
+    implementation Libs.INSTANCE.firebaseAnalytics
+    implementation Libs.INSTANCE.firebaseCrashlytics
+    implementation Libs.INSTANCE.retrofit
+    implementation Libs.INSTANCE.retrofitRxAdapter
+    implementation Libs.INSTANCE.retrofitGsonConverter
+    implementation Libs.INSTANCE.fileUpload
+    implementation Libs.INSTANCE.httpCore
+    implementation Libs.INSTANCE.andServerApi
+    annotationProcessor Libs.INSTANCE.andServerAnnotation
+    implementation Libs.INSTANCE.libaums
+    implementation Libs.INSTANCE.butterknife
+    annotationProcessor Libs.INSTANCE.butterknifeAnnotation
+    implementation Libs.INSTANCE.ARouter
+    annotationProcessor Libs.INSTANCE.ARouterAnnotation
+    implementation Libs.INSTANCE.segmentedButton
+}

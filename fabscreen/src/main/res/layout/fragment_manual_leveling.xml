@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        layout="@layout/widget_top_bar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/v_top_container"
+        android:layout_width="0dp"
+        android:layout_height="305dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/default_theme_primary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/top_bar" />
+
+    <View
+        android:id="@+id/v_mid_container"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/default_theme_primary"
+        app:layout_constraintBottom_toTopOf="@id/v_bottom_container"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/v_top_container" />
+
+    <View
+        android:id="@+id/v_bottom_container"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:background="@color/default_theme_primary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_leveling_img"
+        android:layout_width="240dp"
+        android:layout_height="160dp"
+        android:src="@drawable/pic_dual_extruder_bed_leveling"
+        app:layout_constraintEnd_toEndOf="@id/v_top_container"
+        app:layout_constraintStart_toStartOf="@id/v_top_container"
+        app:layout_constraintTop_toTopOf="@id/v_top_container" />
+
+    <TextView
+        android:id="@+id/tv_cur_work_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="#E9E9E9"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iv_leveling_img"
+        android:text="@string/leveling_manual_title" />
+
+    <TextView
+        android:id="@+id/tv_leveling_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textColor="#E9E9E9"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_cur_work_status"
+        tools:text="Progress: 23/25" />
+
+    <TextView
+        android:id="@+id/tv_caution_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:text="@string/leveling_bed_hot_caution_msg"
+        android:textColor="#F5853D"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_leveling_progress" />
+
+    <co.ceryle.segmentedbutton.SegmentedButtonGroup
+        android:id="@+id/sbg_step_width"
+        style="@style/AppTheme.SegmentedButtonGroup"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="15dp"
+        app:layout_constraintTop_toTopOf="@id/v_mid_container">
+
+        <co.ceryle.segmentedbutton.SegmentedButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="0.05 mm" />
+
+        <co.ceryle.segmentedbutton.SegmentedButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="0.1 mm" />
+
+        <co.ceryle.segmentedbutton.SegmentedButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="0.5 mm" />
+    </co.ceryle.segmentedbutton.SegmentedButtonGroup>
+
+    <Button
+        android:id="@+id/btn_up"
+        android:layout_width="86dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/control_btn_up_background"
+        app:layout_constraintStart_toStartOf="@id/v_mid_container"
+        app:layout_constraintTop_toBottomOf="@id/sbg_step_width" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/all_up"
+        app:layout_constraintEnd_toEndOf="@id/btn_up"
+        app:layout_constraintStart_toStartOf="@id/btn_up"
+        app:layout_constraintTop_toBottomOf="@id/btn_up" />
+
+    <Button
+        android:id="@+id/btn_down"
+        android:layout_width="86dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="34dp"
+        android:background="@drawable/control_btn_down_background"
+        app:layout_constraintEnd_toEndOf="@id/v_mid_container"
+        app:layout_constraintTop_toBottomOf="@id/sbg_step_width" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/all_down"
+        app:layout_constraintEnd_toEndOf="@id/btn_down"
+        app:layout_constraintStart_toStartOf="@id/btn_down"
+        app:layout_constraintTop_toBottomOf="@id/btn_down" />
+
+    <Button
+        android:id="@+id/btn_next"
+        style="@style/AppTheme.Button.DefaultButton2"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:enabled="false"
+        android:text="@string/all_next"
+        app:layout_constraintBottom_toBottomOf="@id/v_bottom_container"
+        app:layout_constraintEnd_toEndOf="@id/v_bottom_container"
+        app:layout_constraintStart_toStartOf="@id/v_bottom_container"
+        app:layout_constraintTop_toTopOf="@id/v_bottom_container" />
+</androidx.constraintlayout.widget.ConstraintLayout>

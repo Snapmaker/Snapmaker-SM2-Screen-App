@@ -1,0 +1,119 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+// Repositories:
+//  Use aliyun mirror of maven repos: https://maven.aliyun.com/mvn/guide
+buildscript {
+    repositories {
+        // public is combination of central and jcenter
+        maven { url 'https://maven.aliyun.com/repository/public' }
+        mavenLocal()
+        mavenCentral()
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        // google()
+        // jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.5.3'
+        classpath 'com.google.gms:google-services:4.3.3'
+
+        // https://firebase.google.com/support/release-notes/android#2021-05-11
+        // Caution: Crashlytics gradle has breaking change since 2021/05/11 updated, which needs to add compileOptions or set minSdkVersion up to 26.
+
+        // https://stackoverflow.com/questions/67499392/unable-to-sync-gradle-with-firebase-crashlytic-2-6-0-using-android-studio-4-2
+        // Crashlytics version up to 2.6.1 or above may cause some compatible problems with other plugins.
+        // Try using 2.4.1 instead to prevent gradle issues.
+        classpath 'com.google.firebase:firebase-crashlytics-gradle:2.4.1'
+
+        // plugin to use ButterKnife in a library
+        classpath 'com.jakewharton:butterknife-gradle-plugin:10.2.3'
+    }
+}
+
+allprojects {
+    repositories {
+        // public is combination of central and jcenter
+        maven { url 'https://maven.aliyun.com/repository/public' }
+        mavenLocal()
+        mavenCentral()
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        // google()
+        // jcenter()
+        maven { url "https://jitpack.io" }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+def static getBuildReleaseDate() {
+    return new Date().format("yyyy-MM-dd HH:mm:ss", TimeZone.getTimeZone("UTC"))
+}
+
+subprojects {
+    afterEvaluate { project ->
+        if (project.hasProperty("android")) {
+            android {
+                compileSdkVersion 28
+                // Assign ndk specific version for Repo CI.
+                ndkVersion "22.1.7171670"
+                defaultConfig {
+//                  applicationId "com.snapmaker.fabscreen"
+                    minSdkVersion 23
+                    //noinspection ExpiredTargetSdkVersion
+                    targetSdkVersion 28
+                    versionCode 1
+                    javaCompileOptions {
+                        annotationProcessorOptions {
+                            arguments = [AROUTER_MODULE_NAME: project.getName()]
+                        }
+                    }
+//        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+                    renderscriptTargetApi 19
+                    renderscriptSupportModeEnabled true
+                }
+
+                signingConfigs {
+                    release {
+                        def keystorePath = System.getenv('KEYSTORE_PATH') ?: project.findProperty('KEYSTORE_PATH')
+                        def keystorePassword = System.getenv('KEYSTORE_PASSWORD') ?: project.findProperty('KEYSTORE_PASSWORD')
+                        def keyAliasValue = System.getenv('KEY_ALIAS') ?: project.findProperty('KEY_ALIAS')
+                        def keyPasswordValue = System.getenv('KEY_PASSWORD') ?: project.findProperty('KEY_PASSWORD')
+                        if (keystorePath != null) {
+                            storeFile file(keystorePath)
+                            storePassword keystorePassword ?: ''
+                            keyAlias keyAliasValue ?: ''
+                            keyPassword keyPasswordValue ?: ''
+                        }
+                    }
+                }
+
+                // https://stackoverflow.com/questions/27977396/android-studio-duplicate-files-copied-in-apk-meta-inf-dependencies-when-compile
+                packagingOptions {
+                    exclude 'META-INF/proguard/androidx-annotations.pro'
+                }
+
+                compileOptions {
+                    sourceCompatibility JavaVersion.VERSION_1_8
+                    targetCompatibility JavaVersion.VERSION_1_8
+                }
+
+                lintOptions {
+                    abortOnError false
+                }
+
+                buildTypes {
+                    release {
+                        minifyEnabled false
+                        proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+                        signingConfig signingConfigs.debug
+                        defaultConfig {
+                            buildConfigField "String", "BUILD_RELEASE_DATE", "\"${getBuildReleaseDate()}(UTC)\""
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}

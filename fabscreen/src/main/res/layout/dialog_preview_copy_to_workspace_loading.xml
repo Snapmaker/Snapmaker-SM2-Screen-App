@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="@dimen/radius_8">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/default_theme_primary">
+
+        <androidx.core.widget.ContentLoadingProgressBar
+            android:id="@+id/clpb_dialog_preview_loading"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin_layout_40"
+            android:theme="@style/AppTheme.ContentLoadingProgressBar" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/clpb_dialog_preview_loading"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="@dimen/margin_layout_20"
+            android:layout_marginEnd="@dimen/margin_layout_20"
+            android:layout_marginTop="@dimen/margin_layout_5"
+            android:layout_marginBottom="@dimen/margin_layout_40"
+            android:text="@string/preview_preparing_workspace"
+            android:textAlignment="center"
+            android:textColor="@color/default_theme_title"
+            android:textSize="@dimen/font_size_h5" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

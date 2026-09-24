@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_theme_primary"
+    android:clickable="true"
+    android:focusable="true">
+
+    <include layout="@layout/widget_top_bar" />
+
+    <TextView
+        android:id="@+id/tv_factory_laser_indicator_power_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_layout_40"
+        android:textColor="@color/default_theme_title"
+        android:textSize="@dimen/font_size_h2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/top_bar"
+        tools:text="@string/placeholder" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/ll_laser_indicator_button_first_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_layout_40"
+        android:layout_marginTop="@dimen/margin_layout_32"
+        android:layout_marginEnd="@dimen/margin_layout_40"
+        android:orientation="horizontal"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/tv_factory_laser_indicator_power_value"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" >
+
+        <Button
+            android:id="@+id/btn_laser_indicator_power_1_percent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1%"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size_h2" />
+
+        <Button
+            android:id="@+id/btn_laser_indicator_power_1_5_percent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.5%"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size_h2" />
+
+        <Button
+            android:id="@+id/btn_laser_indicator_power_2_percent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2%"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size_h2" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/ll_laser_indicator_button_second_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_layout_40"
+        android:layout_marginTop="@dimen/margin_layout_10"
+        android:layout_marginEnd="@dimen/margin_layout_40"
+        android:orientation="horizontal"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/ll_laser_indicator_button_first_row"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" >
+
+        <Button
+            android:id="@+id/btn_laser_indicator_power_2_5_percent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2.5%"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size_h2" />
+
+        <Button
+            android:id="@+id/btn_laser_indicator_power_3_percent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3%"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size_h2" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <Button
+        android:id="@+id/btn_factory_set_laser_indicator_power"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_layout_20"
+        android:text="设置弱光"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_size_h2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ll_laser_indicator_button_second_row" />
+
+    <View
+        android:id="@+id/view_decoration"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="@dimen/margin_layout_20"
+        android:layout_marginTop="@dimen/margin_layout_20"
+        android:layout_marginEnd="@dimen/margin_layout_20"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_factory_set_laser_indicator_power" />
+
+    <TextView
+        android:id="@+id/tv_laser_indicator_power_request_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_layout_40"
+        android:layout_marginTop="@dimen/margin_layout_20"
+        android:text="查询:"
+        android:textAlignment="textStart"
+        android:textColor="@color/gradient_yellow_end"
+        android:textSize="@dimen/font_size_h2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/view_decoration" />
+
+    <TextView
+        android:id="@+id/tv_get_laser_indicator_power_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_layout_10"
+        android:layout_marginTop="@dimen/margin_layout_20"
+        android:text="N/A"
+        android:textAlignment="textStart"
+        android:textColor="@color/gradient_yellow_end"
+        android:textSize="@dimen/font_size_h2"
+        app:layout_constraintStart_toEndOf="@id/tv_laser_indicator_power_request_title"
+        app:layout_constraintTop_toBottomOf="@id/view_decoration" />
+
+    <ImageView
+        android:id="@+id/iv_control_laser_page_power"
+        android:layout_width="100dp"
+        android:layout_height="154dp"
+        android:layout_marginTop="@dimen/margin_layout_20"
+        android:layout_marginEnd="@dimen/margin_layout_20"
+        android:src="@drawable/ic_control_10w_laser_page_power_off"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/view_decoration" />
+
+    <Button
+        android:id="@+id/btn_control_10w_laser_page_power_switch"
+        style="@style/AppTheme.Button"
+        android:layout_width="75dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="@dimen/margin_layout_20"
+        android:background="@drawable/all_btn_switch"
+        app:layout_constraintEnd_toEndOf="@id/iv_control_laser_page_power"
+        app:layout_constraintStart_toStartOf="@id/iv_control_laser_page_power"
+        app:layout_constraintTop_toBottomOf="@id/iv_control_laser_page_power" />
+
+    <Button
+        android:id="@+id/btn_factory_get_laser_indicator_power"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_layout_40"
+        android:layout_marginTop="@dimen/margin_layout_40"
+        android:text="查询弱光"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_size_h2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_laser_indicator_power_request_title" />
+
+    <TextView
+        android:id="@+id/tv_laser_indicator_power_tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_layout_10"
+        android:layout_marginTop="@dimen/margin_layout_10"
+        android:text="设置弱光后\n需关闭重新打开验证弱光！"
+        android:textAlignment="textStart"
+        android:textColor="@color/gradient_red_start"
+        android:textSize="@dimen/font_size_h3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_factory_get_laser_indicator_power" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

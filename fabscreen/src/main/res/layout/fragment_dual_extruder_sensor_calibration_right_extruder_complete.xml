@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        layout="@layout/widget_top_bar_back_only"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/iv_calibrate_img"
+        android:layout_width="240dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="104dp"
+        android:src="@drawable/pic_calibration_dual_extruder_sensor_calibration_240x160"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_calibration_dual_extruder_fine_tune_complete_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/custom_grey_200"
+        android:textSize="@dimen/font_size_h4"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iv_calibrate_img"
+        tools:text="@string/calibration_dual_extruder_sensor_calibration_right_fine_tune_complete_title" />
+
+    <TextView
+        android:id="@+id/tv_calibration_dual_extruder_fine_tune_complete_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_layout_40"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="@dimen/margin_layout_40"
+        android:textColor="@color/custom_grey_200"
+        android:textSize="@dimen/font_size_h5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_calibration_dual_extruder_fine_tune_complete_title"
+        tools:text="@string/calibration_dual_extruder_sensor_calibration_right_fine_tune_complete_desc" />
+
+    <Button
+        android:id="@+id/btn_calibration_dual_extruder_fine_tune_result_complete"
+        style="@style/AppTheme.Button.BlueButton"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="90dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="@string/all_next" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

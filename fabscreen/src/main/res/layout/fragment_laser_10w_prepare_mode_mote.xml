@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <include layout="@layout/widget_top_bar_back_only" />
+
+    <ImageView
+        android:id="@+id/iv_prepare_mode"
+        android:layout_width="240dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="@dimen/margin_layout_32"
+        tools:ignore="ContentDescription"
+        tools:src="@drawable/pic_laser_10w_mode_auto_note_240x160" />
+
+    <TextView
+        android:id="@+id/tv_prepare_mode_note_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_layout_10"
+        android:textColor="@color/default_theme_title"
+        android:textSize="@dimen/font_size_h3"
+        android:textStyle="bold"
+        tools:text="@string/preview_auto_mode_note_title" />
+
+    <TextView
+        android:id="@+id/tv_prepare_mode_note_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_layout_20"
+        android:layout_marginTop="@dimen/margin_layout_10"
+        android:layout_marginEnd="@dimen/margin_layout_20"
+        android:gravity="center_horizontal"
+        android:textColor="@color/default_theme_desc1"
+        android:textSize="@dimen/font_size_h5"
+        tools:text="@string/preview_auto_mode_note_desc" />
+
+    <Button
+        android:id="@+id/btn_prepare_start_measure"
+        style="@style/AppTheme.Button.BlueButton"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_button_45"
+        android:layout_marginStart="@dimen/margin_layout_40"
+        android:layout_marginTop="@dimen/margin_layout_32"
+        android:layout_marginEnd="@dimen/margin_layout_40"
+        android:text="@string/all_start"
+        tools:ignore="TouchTargetSizeCheck" />
+</LinearLayout>

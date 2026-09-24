@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/btn_all_switch_on_100x40" android:state_activated="true" />
+    <item android:drawable="@drawable/btn_all_switch_off_100x40" />
+</selector>

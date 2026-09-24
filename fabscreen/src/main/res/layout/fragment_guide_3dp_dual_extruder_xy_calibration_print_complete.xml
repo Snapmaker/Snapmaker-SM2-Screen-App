@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_theme_background">
+
+    <include layout="@layout/widget_top_bar_back_only" />
+
+    <RelativeLayout
+        android:id="@+id/view_guide_dual_extruder_calibration_print_complete_pic"
+        android:layout_width="240dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="@dimen/margin_layout_50"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/top_bar">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/pic_3dp_dual_extruder_calibration_print_plate_240x120" />
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/pic_dual_extruder_xy_calibration_print_thumbnail_140x100" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/margin_layout_20"
+        android:layout_marginBottom="@dimen/margin_layout_20"
+        app:layout_constraintBottom_toTopOf="@id/view_guide_3dp_dual_extruder_xy_calibration_print_complete_buttons"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/view_guide_dual_extruder_calibration_print_complete_pic">
+
+        <TextView
+            android:id="@+id/tv_guide_3dp_dual_extruder_xy_calibration_print_complete_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="@dimen/margin_layout_40"
+            android:layout_marginTop="@dimen/margin_layout_10"
+            android:layout_marginEnd="@dimen/margin_layout_40"
+            android:text="@string/guide_3dp_dual_extruder_xy_calibration_print_complete_title"
+            android:textAlignment="center"
+            android:textColor="@color/default_theme_title"
+            android:textSize="@dimen/font_size_h3"
+            tool:text="Print Completed" />
+
+        <TextView
+            android:id="@+id/tv_guide_3dp_dual_extruder_xy_calibration_print_complete_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_guide_3dp_dual_extruder_xy_calibration_print_complete_title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="@dimen/margin_layout_40"
+            android:layout_marginTop="@dimen/margin_layout_5"
+            android:layout_marginEnd="@dimen/margin_layout_40"
+            android:text="@string/guide_3dp_dual_extruder_xy_calibration_print_complete_desc"
+            android:textAlignment="center"
+            android:textColor="@color/default_theme_desc1"
+            android:textSize="@dimen/font_size_h5"
+            tool:text="If the printing is successful (with the model complete and all the lines clear), tap Next." />
+
+        <TextView
+            android:id="@+id/tv_guide_3dp_dual_extruder_xy_calibration_print_complete_warn_tip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_guide_3dp_dual_extruder_xy_calibration_print_complete_desc"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="@dimen/margin_layout_40"
+            android:layout_marginTop="@dimen/margin_layout_20"
+            android:layout_marginEnd="@dimen/margin_layout_40"
+            android:text="@string/guide_3dp_dual_extruder_xy_calibration_print_complete_warn_tip"
+            android:textAlignment="center"
+            android:textColor="@color/custom_orange_300"
+            android:textSize="@dimen/font_size_h6"
+            tool:text="Be careful of the hot surface!" />
+
+    </RelativeLayout>
+
+    <!-- buttons -->
+    <RelativeLayout
+        android:id="@+id/view_guide_3dp_dual_extruder_xy_calibration_print_complete_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_marginBottom="@dimen/margin_layout_32"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/btn_guide_3dp_dual_extruder_xy_print_next"
+            style="@style/AppTheme.Button.BlueButton"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_button_45"
+            android:layout_marginStart="@dimen/margin_layout_40"
+            android:layout_marginEnd="@dimen/margin_layout_40"
+            android:text="@string/all_next" />
+
+        <Button
+            android:id="@+id/btn_guide_3dp_dual_extruder_xy_print_again"
+            style="@style/AppTheme.Button.SecondaryButton"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_button_45"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="@dimen/margin_layout_40"
+            android:layout_marginEnd="@dimen/margin_layout_40"
+            android:text="@string/guide_3dp_dual_extruder_xy_calibration_print_complete_print_again" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

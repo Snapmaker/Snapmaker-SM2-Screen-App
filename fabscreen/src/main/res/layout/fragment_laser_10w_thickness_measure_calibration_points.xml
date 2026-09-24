@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_theme_background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <include layout="@layout/widget_top_bar_back_only" />
+
+    <ImageView
+        android:id="@+id/iv_laser_10w_calibration_point_example"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:layout_marginTop="@dimen/margin_layout_16"
+        android:src="@drawable/pic_laser_10w_settings_1st_calibration_point_240x240"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/tv_laser_10w_calibration_point_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_layout_32"
+        android:text="@string/settings_laser_1st_calibration_point"
+        android:textColor="@color/grey_200"
+        android:textSize="@dimen/font_size_h3"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_layout_20"
+        android:layout_marginTop="@dimen/margin_layout_10"
+        android:layout_marginEnd="@dimen/margin_layout_20"
+        android:gravity="center_horizontal"
+        android:text="@string/settings_laser_confirm_red_dot_on_calibration_plate"
+        android:textColor="@color/grey_200"
+        android:textSize="@dimen/font_size_h5" />
+
+    <Button
+        android:id="@+id/btn_laser_10w_calibration_capture"
+        style="@style/AppTheme.Button.BlueButton"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_button_45"
+        android:layout_marginStart="@dimen/margin_layout_40"
+        android:layout_marginTop="@dimen/margin_layout_60"
+        android:layout_marginEnd="@dimen/margin_layout_40"
+        android:text="@string/all_capture" />
+</LinearLayout>
